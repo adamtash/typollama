@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>spelchek</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      background-color: #f9f9f9;
+      min-width: 300px;
+      min-height: 200px;
+      overflow: auto;
+    }
+    .container {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      flex: 1;
+      margin-top: 10px;
+    }
+    label {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 10px;
+    }
+    input[type="text"] {
+      width: 100%;
+      box-sizing: border-box;
+      padding: 8px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    button {
+      align-self: flex-end;
+      width: 100px;
+      padding: 10px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #45a049;
+    }
+    h1 {
+      margin: 0 0 20px 0;
+      font-size: 24px;
+      color: #333;
+      text-align: center;
+    }
+    .error-message {
+      color: #d32f2f;
+      background-color: #ffebee;
+      padding: 10px;
+      border-radius: 4px;
+      margin-bottom: 15px;
+      display: none;
+    }
+  </style>
+</head>
+<body>
+  <h1>Discord Spellchek Settings</h1>
+  <div id="errorContainer" class="error-message"></div>
+  <div class="container">
+    <label>
+      Ollama URL:
+      <input id="ollamaUrlInput" type="text" />
+    </label>
+    <label>
+      Model Name:
+      <input id="modelNameInput" type="text" />
+    </label>
+    <button id="saveSettings">Save</button>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>

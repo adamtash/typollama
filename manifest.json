@@ -1,0 +1,22 @@
+{
+    "manifest_version": 3,
+    "name": "spelchek",
+    "version": "1.0",
+    "description": "No more spelling mistakes!",
+    "permissions": ["activeTab", "scripting", "storage"],
+    "background": {"service_worker": "background.js"},
+    "content_scripts": [
+      {
+        "matches": ["<all_urls>"],
+        "js": ["content.js"],
+        "run_at": "document_end"
+      }
+    ],
+    "host_permissions": [
+      "https://api.ollama.ai/*",
+      "http://localhost:11434/api/*"
+    ],
+    "action": {
+      "default_popup": "popup.html"
+    }
+  }
