@@ -3,79 +3,194 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>spelchek</title>
+  <title>Typollama – AI Spell-Check & Text Processing</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
-      padding: 20px;
-      background-color: #f9f9f9;
-      min-width: 300px;
-      min-height: 200px;
-      overflow: auto;
+      font-family: 'Roboto', sans-serif; /* updated font */
+      padding: 30px;
+      background: linear-gradient(135deg, #f6f9fc, #e9eff5);
+      min-width: 480px;
+      min-height: 320px;
+      overflow-y: auto;
     }
     .container {
       display: flex;
       flex-direction: column;
-      gap: 15px;
-      flex: 1;
-      margin-top: 10px;
+      gap: 20px;
+      max-width: 500px;
+      margin: 0 auto;
     }
-    label {
-      display: flex;
-      flex-direction: column;
-      align-items: flex-start;
-      gap: 10px;
-    }
-    input[type="text"] {
+    input[type="text"], input[type="password"], textarea, select {
       width: 100%;
-      box-sizing: border-box;
-      padding: 8px;
+      padding: 10px;
       border: 1px solid #ccc;
-      border-radius: 4px;
+      border-radius: 6px;
+      box-sizing: border-box;
+      transition: border-color 0.3s;
+    }
+    input[type="text"]:focus, input[type="password"]:focus, textarea:focus, select:focus {
+      border-color: #4CAF50;
+      outline: none;
     }
     button {
-      align-self: flex-end;
-      width: 100px;
-      padding: 10px;
+      padding: 10px 15px;
       background-color: #4CAF50;
       color: white;
       border: none;
-      border-radius: 4px;
+      border-radius: 6px;
       cursor: pointer;
+      transition: background-color 0.3s, box-shadow 0.3s;
     }
-    button:hover {
-      background-color: #45a049;
+    button.reset-button {
+      margin-top: 10px; /* added spacing */
     }
-    h1 {
-      margin: 0 0 20px 0;
-      font-size: 24px;
-      color: #333;
+    h1, h2 {
       text-align: center;
+      color: #333;
     }
     .error-message {
+      display: none; /* added display none to hide by default */
       color: #d32f2f;
-      background-color: #ffebee;
-      padding: 10px;
+      background: #ffebee;
+      padding: 12px;
       border-radius: 4px;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+    .card {
+      background: #fff;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      border-radius: 10px;
+      padding: 30px;
+    }
+    .advanced-toggle {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background: transparent;
+      border: none;
+      color: #666;
+      cursor: pointer;
+      width: 100%;
+      padding: 10px 0;
+      font-size: 16px;
+      transition: color 0.3s;
+    }
+    .advanced-toggle:hover {
+      color: #333;
+    }
+    .advanced-toggle::after {
+      content: '▼';
+      font-size: 12px;
+      transition: transform 0.3s;
+    }
+    .advanced-toggle.collapsed::after {
+      transform: rotate(-90deg);
+    }
+    .advanced-content {
+      overflow: hidden;
+      max-height: 500px;
+      transition: max-height 0.3s ease-out;
+    }
+    .advanced-content.collapsed {
+      max-height: 0;
+    }
+    fieldset label {
+      display: block;
+      margin-bottom: 5px;
+    }
+    .github-link {
+      display: block;
+      text-align: center;
+      color: #666;
+      text-decoration: none;
+      font-size: 0.9rem;
       margin-bottom: 15px;
-      display: none;
+      transition: color 0.3s;
+    }
+    .github-link:hover {
+      color: #4CAF50;
     }
   </style>
 </head>
 <body>
-  <h1>Discord Spellchek Settings</h1>
-  <div id="errorContainer" class="error-message"></div>
-  <div class="container">
-    <label>
-      Ollama URL:
-      <input id="ollamaUrlInput" type="text" />
-    </label>
-    <label>
-      Model Name:
-      <input id="modelNameInput" type="text" />
-    </label>
-    <button id="saveSettings">Save</button>
+  <div class="card">
+    <div class="container">
+      <div style="text-align: center;">
+        <img src="images/icon.png" alt="Typollama Icon" style="width:50px; height:50px; vertical-align: middle;">
+        <span style="vertical-align: middle; font-size: 1.5rem; font-weight: 600; margin-left: 10px;">Typollama</span>
+      </div>
+      <h3 style="text-align: center; margin-top: 5px;">AI Spell-Check & Text Processing</h3>
+      <a href="https://github.com/adamtash/typollama" target="_blank" class="github-link">About & Documentation ↗</a>
+      <div id="errorContainer" class="error-message"></div>
+
+      <label>
+        AI Provider:
+        <select id="providerSelect">
+          <option value="ollama">Ollama</option>
+          <option value="openai">OpenAI</option>
+          <option value="lmstudio">LM Studio</option>
+        </select>
+      </label>
+      <label id="openAiKeyLabel" style="display: none;">
+        OpenAI API Key:
+        <input id="openAiKeyInput" type="password" />
+      </label>
+      <label id="ollamaUrlLabel">
+        Ollama URL:
+        <input id="ollamaUrlInput" type="text" />
+      </label>
+      <label id="lmstudioUrlLabel" style="display: none;">
+        LM Studio URL:
+        <input id="lmstudioUrlInput" type="text" />
+      </label>
+      <label>
+        Model Name:
+        <input id="modelNameInput" type="text" />
+        <label>
+          <button id="resetModel" class="reset-button" type="button" style="width: auto; background-color: #ff9800;">Reset</button>
+        </label>
+      </label>
+      
+      <div class="advanced-settings">
+        <button type="button" class="advanced-toggle collapsed" id="advancedToggle">
+          Advanced Settings
+        </button>
+        <div class="advanced-content collapsed" id="advancedContent">
+          <label>
+            System Prompt:
+            <textarea id="systemPromptInput" rows="4" style="width: 100%; resize: vertical;"></textarea>
+            <button id="resetPrompt" class="reset-button" type="button" style="width: auto; background-color: #ff9800;">Reset to Default</button>
+          </label>
+          <!-- Shortcut Mode selection -->
+          <fieldset>
+            <legend>Shortcut Mode</legend>
+            <label>
+              <input type="radio" name="shortcutMode" value="double_stroke" checked />
+              Double CTRL Stroke (Default)
+            </label>
+            <label>
+              <input type="radio" name="shortcutMode" value="custom" />
+              Custom Shortcut
+            </label>
+          </fieldset>
+          <!-- Custom Shortcut Recording -->
+          <label id="customShortcutLabel" style="display:none;">
+            Custom Shortcut:
+            <input id="customShortcutInput" type="text" readonly placeholder="Press 'Record' to capture" style="width:100%;"/>
+            <button id="recordShortcut" type="button" style="width: auto;">Record Shortcut</button>
+          </label>
+          <!-- Copy to Clipboard option remains unchanged -->
+          <label>
+            <input id="copyToClipboard" type="checkbox"/>
+            Copy result to clipboard only (no in-place edit)
+          </label>
+        </div>
+      </div>
+      
+      <button id="saveSettings">Save</button>
+    </div>
   </div>
-  <script src="popup.js"></script>
+  <script type="module" src="popup.js"></script>
 </body>
 </html>

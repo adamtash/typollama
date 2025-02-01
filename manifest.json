@@ -1,22 +1,41 @@
 {
     "manifest_version": 3,
-    "name": "spelchek",
+    "name": "Typollama – AI Spell-Check & Text Processing",
     "version": "1.0",
-    "description": "No more spelling mistakes!",
-    "permissions": ["activeTab", "scripting", "storage"],
-    "background": {"service_worker": "background.js"},
+    "description": "Boost your writing with Typollama – the ultimate AI-powered Chrome extension for spell-checking and custom text processing.",
+    "permissions": [
+        "storage"
+    ],
+    "optional_permissions": [
+        "clipboardWrite"
+    ],
+    "background": {
+        "service_worker": "background.js",
+        "type": "module"
+    },
     "content_scripts": [
       {
         "matches": ["<all_urls>"],
         "js": ["content.js"],
-        "run_at": "document_end"
+        "run_at": "document_end",
+        "all_frames": true
       }
     ],
     "host_permissions": [
-      "https://api.ollama.ai/*",
-      "http://localhost:11434/api/*"
+      "https://api.openai.com/v1/*",
+      "http://localhost:11434/*",
+      "http://localhost:1234/*"
     ],
+    "content_security_policy": {
+        "extension_pages": "script-src 'self'; object-src 'self'"
+    },
     "action": {
       "default_popup": "popup.html"
+    },
+    "icons": {
+      "16": "icons/icon16.png",
+      "32": "icons/icon32.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
     }
   }
