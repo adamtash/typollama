@@ -16,17 +16,13 @@
 
 ## 🤖 AI-Powered Writing Assistant
 
-Typollama is a powerful Chrome extension that instantly enhances text within any text box on any website. To enable this functionality, you must use a valid OpenAI API key or configure a local/remote server with Ollama or LM Studio.
+Typollama is a powerful Chrome extension that instantly enhances text within any text box on any website. To enable this functionality, you must use a valid OpenAI API key, configure a local/remote server with Ollama or LM Studio, or enable Chrome's built-in AI capabilities.
 
 ### Key Benefits
 - ✨ **Instant Text Enhancement** - Real-time spelling and grammar corrections
-- 🔄 **Multiple AI Options** - Choose between Ollama, OpenAI, or LM Studio
+- 🔄 **Multiple AI Options** - Choose between Chrome AI, Ollama, OpenAI, or LM Studio
 - ⚡ **Fast & Efficient** - Process text with just a double-press of CTRL
-- 🔒 **Privacy-Focused** - Local processing option available with Ollama and LM Studio
-
-### Coming Soon 🔜
-- 🌐 **Chrome AI API Support** - Native integration with Chrome's Built-in AI capabilities <sub>[Learn more](https://developer.chrome.com/docs/ai)</sub>
-- 💡 **Seamless Integration** - No external API keys or setup required with Chrome's built-in AI
+- 🔒 **Privacy-Focused** - Local processing option available with Ollama, LM Studio, or Chrome AI
 
 ## ✨ Features <a name="-features"></a>
 
@@ -36,6 +32,7 @@ Typollama is a powerful Chrome extension that instantly enhances text within any
 - **Context-Aware** - Maintains original meaning while enhancing text
 
 ### Flexible AI Integration
+- **Chrome AI** - Use Chrome's built-in AI capabilities (Preview)
 - **Local Processing** - Use Ollama or LM Studio for private, offline text processing
 - **Cloud Options** - Connect to OpenAI's powerful language models
 - **Custom System Prompts** - Transform the extension's behavior (under Advanced Settings):
@@ -49,12 +46,14 @@ Typollama is a powerful Chrome extension that instantly enhances text within any
 
 ### Settings Panel
 <div align="center">
-  <img src="images/popup-settings.png" alt="Typollama Settings Panel" width="400" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+  <img src="images/popup-settings-1.png" alt="Typollama Settings Panel" width="400" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+    <img src="images/popup-settings-2.png" alt="Typollama Settings Panel" width="400" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+      <img src="images/popup-settings-3.png" alt="Typollama Settings Panel" width="400" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
 </div>
 
 ### Live Demo
 <div align="center">
-  <img src="images/text-correction.gif" alt="Typollama Text Correction Demo" width="600" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+  <img src="images/text-correction-demo.gif" alt="Typollama Text Correction Demo" width="1200" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
 </div>
 
 ## 🚀 Installation <a name="-installation"></a>
@@ -73,6 +72,7 @@ git clone https://github.com/adamtash/typollama.git
 3. **Configure Settings**
 - Click the Typollama icon
 - Choose your preferred AI provider:
+  - **Chrome AI**: Enable feature flag at `chrome://flags/#prompt-api-for-gemini-nano`
   - **OpenAI**: Enter your API key
   - **Ollama** (Local/Remote): `http://localhost:11434`
   - **LM Studio** (Local/Remote): `http://localhost:1234`

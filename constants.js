@@ -4,3 +4,4 @@ export const DEFAULT_OLLAMA_MODEL = "llama3.2";
 export const DEFAULT_OLLAMA_URL = "http://localhost:11434";
 export const DEFAULT_LMSTUDIO_MODEL = "llama3.2";
 export const DEFAULT_LMSTUDIO_URL = "http://localhost:1234";
+export const CHROME_FLAG_URL = "https://developer.chrome.com/docs/ai/get-started#use_apis_on_localhost";

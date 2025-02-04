@@ -6,8 +6,8 @@
   <title>Typollama – AI Spell-Check & Text Processing</title>
   <style>
     body {
-      font-family: 'Roboto', sans-serif; /* updated font */
-      padding: 30px;
+      font-family: 'Roboto', sans-serif;
+      padding: 2px;
       background: linear-gradient(135deg, #f6f9fc, #e9eff5);
       min-width: 480px;
       min-height: 320px;
@@ -42,14 +42,14 @@
       transition: background-color 0.3s, box-shadow 0.3s;
     }
     button.reset-button {
-      margin-top: 10px; /* added spacing */
+      margin-top: 10px;
     }
     h1, h2 {
       text-align: center;
       color: #333;
     }
     .error-message {
-      display: none; /* added display none to hide by default */
+      display: none;
       color: #d32f2f;
       background: #ffebee;
       padding: 12px;
@@ -104,34 +104,66 @@
       text-align: center;
       color: #666;
       text-decoration: none;
-      font-size: 0.9rem;
-      margin-bottom: 15px;
+      font-size: 0.85rem;
+      margin-bottom: 12px;
       transition: color 0.3s;
     }
     .github-link:hover {
       color: #4CAF50;
+    }
+    .header {
+      text-align: center;
+      margin-bottom: 5px;
+    }
+    .icon {
+      width: 40px;
+      height: 40px;
+      vertical-align: middle;
+    }
+    .title {
+      font-size: 1.3rem;
+      font-weight: 600;
+      display: inline-block;
+      vertical-align: middle;
+      margin-left: 6px;
+    }
+    .btn-warning {
+      width: auto;
+      background-color: #ff9800;
+    }
+    .subheading {
+      text-align: center;
+      margin-top: 0;
+      margin-bottom: 6px;
+      font-size: 0.9rem;
+      color: #666;
     }
   </style>
 </head>
 <body>
   <div class="card">
     <div class="container">
-      <div style="text-align: center;">
-        <img src="images/icon.png" alt="Typollama Icon" style="width:50px; height:50px; vertical-align: middle;">
-        <span style="vertical-align: middle; font-size: 1.5rem; font-weight: 600; margin-left: 10px;">Typollama</span>
-      </div>
-      <h3 style="text-align: center; margin-top: 5px;">AI Spell-Check & Text Processing</h3>
+      <header class="header">
+        <img src="images/icon.png" alt="Typollama Icon" class="icon">
+        <h1 class="title">Typollama</h1>
+      </header>
+      <h3 class="subheading">AI Spell-Check & Text Processing</h3>
       <a href="https://github.com/adamtash/typollama" target="_blank" class="github-link">About & Documentation ↗</a>
       <div id="errorContainer" class="error-message"></div>
-
       <label>
         AI Provider:
         <select id="providerSelect">
           <option value="ollama">Ollama</option>
           <option value="openai">OpenAI</option>
           <option value="lmstudio">LM Studio</option>
+          <option value="chrome">Chrome AI (Preview)</option>
         </select>
       </label>
+      <div id="chromeAiNote" style="display:none; font-size: 0.8rem; margin-top: 5px;">
+        <i>Note: Chrome AI is a preview feature. To use it, you need to enable the feature flag in Chrome.
+          chrome://flags/#prompt-api-for-gemini-nano</i>
+        <a href="https://developer.chrome.com/docs/ai/get-started#use_apis_on_localhost" target="_blank">Enable Chrome AI feature flag</a>
+      </div>
       <label id="openAiKeyLabel" style="display: none;">
         OpenAI API Key:
         <input id="openAiKeyInput" type="password" />
@@ -144,14 +176,13 @@
         LM Studio URL:
         <input id="lmstudioUrlInput" type="text" />
       </label>
-      <label>
+      <label id="modelName">
         Model Name:
         <input id="modelNameInput" type="text" />
         <label>
-          <button id="resetModel" class="reset-button" type="button" style="width: auto; background-color: #ff9800;">Reset</button>
+          <button id="resetModel" class="reset-button btn-warning" type="button">Reset</button>
         </label>
       </label>
-      
       <div class="advanced-settings">
         <button type="button" class="advanced-toggle collapsed" id="advancedToggle">
           Advanced Settings
@@ -160,9 +191,8 @@
           <label>
             System Prompt:
             <textarea id="systemPromptInput" rows="4" style="width: 100%; resize: vertical;"></textarea>
-            <button id="resetPrompt" class="reset-button" type="button" style="width: auto; background-color: #ff9800;">Reset to Default</button>
+            <button id="resetPrompt" class="reset-button btn-warning" type="button">Reset to Default</button>
           </label>
-          <!-- Shortcut Mode selection -->
           <fieldset>
             <legend>Shortcut Mode</legend>
             <label>
@@ -174,20 +204,17 @@
               Custom Shortcut
             </label>
           </fieldset>
-          <!-- Custom Shortcut Recording -->
           <label id="customShortcutLabel" style="display:none;">
             Custom Shortcut:
             <input id="customShortcutInput" type="text" readonly placeholder="Press 'Record' to capture" style="width:100%;"/>
             <button id="recordShortcut" type="button" style="width: auto;">Record Shortcut</button>
           </label>
-          <!-- Copy to Clipboard option remains unchanged -->
           <label>
             <input id="copyToClipboard" type="checkbox"/>
             Copy result to clipboard only (no in-place edit)
           </label>
         </div>
       </div>
-      
       <button id="saveSettings">Save</button>
     </div>
   </div>
