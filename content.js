@@ -229,7 +229,7 @@ class TextProcessor {
             await this.setupStreamProcessing(port, text, this.promptType);
         } catch (error) {
              //Simplified error management
-            const errorMessage = error.message.includes("Extension context invalidated") ? "Extension reloaded or updated. Please refresh the page." : error.message;
+            const errorMessage = error.message.includes("Extension context invalidated") ? chrome.i18n.getMessage("extensionReloadedError") : error.message;
             this.showError(errorMessage);
 
         }
@@ -250,7 +250,7 @@ class TextProcessor {
 
     handleStreamResponse(response) {
         if (response.error) {
-            this.showError(response.error.message || response.message || "Unknown error");
+            this.showError(response.error.message || response.message || chrome.i18n.getMessage("unknownError"));
             return;
         }
 

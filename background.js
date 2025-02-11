@@ -5,17 +5,17 @@ import {
 chrome.runtime.onInstalled.addListener((details) => {
     chrome.contextMenus.create({
         id: "typollama-spellcheck",
-        title: "Spellcheck with Typollama",
+        title: chrome.i18n.getMessage("contextMenuSpellcheck"),
         contexts: ["editable"]
     });
     chrome.contextMenus.create({
         id: "typollama-proofread",
-        title: "Rewrite with Typollama",
+        title: chrome.i18n.getMessage("contextMenuProofread"),
         contexts: ["editable"]
     });
     chrome.contextMenus.create({
         id: "typollama-custom",
-        title: "Custom writing with Typollama",
+        title: chrome.i18n.getMessage("contextMenuCustom"),
         contexts: ["editable"]
     });
 
@@ -150,18 +150,18 @@ class ApiConfigManager {
         const provider = this.config.provider;
         const providerConfig = PROVIDER_CONFIGS[provider];
         if (providerConfig.requiresKey && !this.config[providerConfig.keyStorage]) {
-            throw new Error(`${provider} API key is required`);
+            throw new Error(`${provider} ${chrome.i18n.getMessage("apiKeyRequired")}`);
         }
         // Additional validation for URL-based providers
         if (provider === 'ollama' || provider === 'lmstudio') {
             const url = this.config[provider]?.url || providerConfig.defaultUrl;
             if (!url) {
-                throw new Error(`${provider} URL is required`);
+                throw new Error(`${provider} ${chrome.i18n.getMessage("urlRequired")}`);
             }
             try {
                 new URL(url); // This will throw an error if the URL is invalid
             } catch (error) {
-                throw new Error(`Invalid ${provider} URL: ${error.message}`);
+                throw new Error(chrome.i18n.getMessage("invalidUrl", [provider, error.message]));
             }
         }
     }
@@ -386,12 +386,12 @@ async function handleRequest(text, config, responseCallback, promptType = "spell
         let extraMessage = "";
         if (config.provider === "ollama") {
             if (error.message.includes("403")) {
-                extraMessage = " - Ollama requires additional access origins. See: https://github.com/ollama/ollama/blob/main/docs/faq.md#how-can-i-allow-additional-web-origins-to-access-ollama";
+                extraMessage = chrome.i18n.getMessage("ollama403Error");
             } else if (error.message.includes("Failed to fetch")) {
-                extraMessage = " - Ollama server is unreachable or not running";
+                extraMessage = chrome.i18n.getMessage("ollamaConnectionError");
             }
         } else if (error.message.includes("401")){
-            extraMessage = " - Unauthorized. Please check your API key."
+            extraMessage = chrome.i18n.getMessage("unauthorizedError")
         }
         const errorMsg = error.message + extraMessage;
         chrome.storage.local.set({ popupError: errorMsg });

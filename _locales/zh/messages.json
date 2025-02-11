@@ -1,0 +1,366 @@
+{
+    "extensionName": {
+      "message": "{{ Typollama – AI 拼写检查和文本处理 }}",
+      "description": "扩展程序的名称"
+    },
+    "extensionDescription": {
+      "message": "{{ 使用 Typollama 增强您的写作能力 – 一款 AI 驱动的 Chrome 扩展程序，用于拼写检查和高级文本处理。 }}",
+      "description": "扩展程序的描述"
+    },
+    "providerLabel": {
+      "message": "{{ 提供商： }}",
+      "description": "提供商选择标签"
+    },
+    "modelNameLabel": {
+      "message": "{{ 模型名称： }}",
+      "description": "模型名称输入标签"
+    },
+      "resetModelName": {
+      "message": "{{ 重置模型名称 }}",
+      "description": "重置模型名称的按钮文本"
+    },
+    "promptTypeLabel": {
+      "message": "{{ 提示类型： }}",
+      "description": "提示类型选择标签"
+    },
+    "systemPromptLabel": {
+      "message": "{{ 系统提示： }}",
+      "description": "系统提示输入标签"
+    },
+    "resetPrompt": {
+      "message": "{{ 重置提示 }}",
+      "description": "重置提示的按钮文本"
+    },
+    "shortcutModeLabel": {
+      "message": "{{ 快捷键模式： }}",
+      "description": "快捷键模式选择标签"
+    },
+    "recordShortcut": {
+      "message": "{{ 录制快捷键 }}",
+      "description": "录制快捷键的按钮文本"
+    },
+    "customShortcutLabel": {
+      "message": "{{ 自定义快捷键： }}",
+      "description": "自定义快捷键输入标签"
+    },
+    "copyToClipboardLabel": {
+      "message": "{{ 复制到剪贴板 }}",
+      "description": "复制到剪贴板选项的复选框标签"
+    },
+    "advancedSettingsLabel": {
+      "message": "{{ 高级设置 }}",
+      "description": "高级设置的切换文本"
+    },
+    "ollamaUrlLabel": {
+      "message": "{{ Ollama URL： }}",
+      "description": "Ollama URL 输入标签"
+    },
+    "resetOllamaUrl": {
+      "message": "{{ 重置 Ollama URL }}",
+      "description": "重置 Ollama URL 的按钮文本"
+    },
+    "lmstudioUrlLabel": {
+      "message": "{{ LM Studio URL： }}",
+      "description": "LM Studio URL 输入标签"
+    },
+    "resetLmstudioUrl": {
+      "message": "{{ 重置 LM Studio URL }}",
+      "description": "重置 LM Studio URL 的按钮文本"
+    },
+    "openAiKeyLabel": {
+      "message": "{{ OpenAI API 密钥： }}",
+      "description": "OpenAI API 密钥输入标签"
+    },
+    "anthropicKeyLabel": {
+      "message": "{{ Anthropic API 密钥： }}",
+      "description": "Anthropic API 密钥输入标签"
+    },
+    "geminiKeyLabel": {
+      "message": "{{ Gemini API 密钥： }}",
+      "description": "Gemini API 密钥输入标签"
+    },
+    "deepseekKeyLabel": {
+      "message": "{{ Deepseek API 密钥： }}",
+      "description": "Deepseek API 密钥输入标签"
+    },
+    "mistralKeyLabel": {
+      "message": "{{ Mistral API 密钥： }}",
+      "description": "Mistral API 密钥输入标签"
+    },
+    "perplexityKeyLabel": {
+      "message": "{{ Perplexity API 密钥： }}",
+      "description": "Perplexity API 密钥输入标签"
+    },
+    "ollamaDocs": {
+      "message": "{{ Ollama 文档 }}",
+      "description": "Ollama 文档的链接文本"
+    },
+    "openaiDocs": {
+      "message": "{{ OpenAI 文档 }}",
+      "description": "OpenAI 文档的链接文本"
+    },
+    "anthropicDocs": {
+      "message": "{{ Anthropic 文档 }}",
+      "description": "Anthropic 文档的链接文本"
+    },
+    "lmstudioDocs": {
+      "message": "{{ LM Studio 文档 }}",
+      "description": "LM Studio 文档的链接文本"
+    },
+    "geminiDocs": {
+      "message": "{{ Gemini 文档 }}",
+      "description": "Gemini 文档的链接文本"
+    },
+    "chromeDocs": {
+      "message": "{{ Chrome AI 文档 }}",
+      "description": "Chrome AI 文档的链接文本"
+    },
+    "deepseekDocs": {
+      "message": "{{ Deepseek 文档 }}",
+      "description": "Deepseek 文档的链接文本"
+    },
+    "mistralDocs": {
+      "message": "{{ Mistral 文档 }}",
+      "description": "Mistral 文档的链接文本"
+    },
+    "perplexityDocs": {
+      "message": "{{ Perplexity 文档 }}",
+      "description": "Perplexity 文档的链接文本"
+    },
+    "chromeAiNote": {
+      "message": "{{ 注意：Chrome AI 使用实验性功能，可能并非在所有地区都可用。 }}",
+      "description": "关于 Chrome AI 的说明"
+    },
+      "recordingPlaceholder": {
+      "message": "{{ 正在录制... 按键，按 Enter 键完成 }}",
+      "description": "快捷键录制的占位符文本"
+    },
+    "recordingCompletePlaceholder": {
+      "message": "{{ 录制完成 }}",
+      "description": "快捷键录制完成后的占位符文本"
+    },
+      "stopRecording": {
+      "message": "{{ 停止录制 }}",
+      "description": "停止录制按钮"
+    },
+      "contextMenuSpellcheck": {
+      "message": "{{ 使用 AI 进行拼写检查 }}",
+      "description": "拼写检查的上下文菜单项"
+    },
+    "contextMenuProofread": {
+      "message": "{{ 使用 AI 重写 }}",
+      "description": "校对的上下文菜单项"
+    },
+    "contextMenuCustom": {
+      "message": "{{ 使用 AI 自定义写作 }}",
+      "description": "自定义提示的上下文菜单项"
+    },
+    "apiKeyRequired": {
+      "message": "{{ 需要 API 密钥 }}",
+      "description": "缺少 API 密钥的错误消息"
+    },
+    "urlRequired": {
+      "message": "{{ 需要 URL }}",
+      "description": "缺少 URL 的错误消息"
+    },
+    "invalidUrl": {
+      "message": "{{ 无效的 {0} URL：{1} }}",
+      "description": "无效 URL 的错误消息",
+      "placeholders": {
+        "0": {
+          "content": "$1"
+        },
+        "1": {
+          "content": "$2"
+        }
+      }
+    },
+    "ollama403Error": {
+      "message": "{{  - Ollama 需要额外的访问来源。请参阅：https://github.com/ollama/ollama/blob/main/docs/faq.md#how-can-i-allow-additional-web-origins-to-access-ollama }}",
+      "description": "Ollama 403 错误的错误消息"
+    },
+    "ollamaConnectionError": {
+      "message": "{{  - 无法访问 Ollama 服务器或服务器未运行 }}",
+      "description": "Ollama 连接错误的错误消息"
+    },
+    "unauthorizedError": {
+      "message": "{{  - 未经授权。请检查您的 API 密钥。 }}",
+      "description": "未经授权的 API 访问的错误消息"
+    },
+      "extensionReloadedError": {
+          "message": "{{ 扩展程序已重新加载或更新。请刷新页面。 }}",
+          "description": "扩展程序重新加载的错误"
+      },
+      "unknownError": {
+          "message": "{{ 未知错误 }}",
+          "description": "通用错误"
+      },
+    "aiSpellcheckTitle": {
+      "message": "{{ AI 拼写检查和文本处理 }}",
+      "description": "扩展程序的主标题"
+    },
+    "aboutDocumentation": {
+      "message": "{{ 关于 & 文档 ↗ }}",
+      "description": "文档链接"
+    },
+    "writingToolsTitle": {
+      "message": "{{ 写作工具 }}",
+      "description": "写作工具部分的标题"
+    },
+    "spellcheckOption": {
+      "message": "{{ 拼写检查 }}",
+      "description": "拼写检查模式的选项"
+    },
+    "proofreadOption": {
+      "message": "{{ 重写 }}",
+      "description": "校对模式的选项"
+    },
+    "customAiEditorOption": {
+      "message": "{{ 自定义 AI 编辑器 }}",
+      "description": "自定义 AI 编辑器模式的选项"
+    },
+    "doubleCtrlStroke": {
+      "message": "{{ 双击 CTRL 键 }}",
+      "description": "双击 CTRL 键快捷键的标签"
+    },
+    "tripleCtrlStroke": {
+      "message": "{{ 三击 CTRL 键 }}",
+      "description": "三击 CTRL 键快捷键的标签"
+    },
+    "quadrupleCtrlStroke": {
+      "message": "{{ 四击 CTRL 键 }}",
+      "description": "四击 CTRL 键快捷键的标签"
+    },
+    "customShortcutKey": {
+      "message": "{{ 自定义快捷键 }}",
+      "description": "自定义快捷键选项的标签"
+    },
+    "ollamaDocsLink": {
+      "message": "{{ Ollama 文档 ↗ }}",
+      "description": "Ollama 文档的链接"
+    },
+    "openaiDocsLink": {
+      "message": "{{ OpenAI 文档 ↗ }}",
+      "description": "OpenAI 文档的链接"
+    },
+    "anthropicDocsLink": {
+      "message": "{{ 获取 Claude API 密钥 ↗ }}",
+      "description": "获取 Anthropic API 密钥的链接"
+    },
+    "lmstudioDocsLink": {
+      "message": "{{ LM Studio 文档 ↗ }}",
+      "description": "LM Studio 文档的链接"
+    },
+    "geminiDocsLink": {
+      "message": "{{ 获取您的免费 Google Gemini API 密钥 ↗ }}",
+      "description": "获取 Gemini API 密钥的链接"
+    },
+    "deepseekDocsLink": {
+      "message": "{{ 获取 DeepSeek API 密钥 ↗ }}",
+      "description": "获取 DeepSeek API 密钥的链接"
+    },
+    "mistralDocsLink": {
+      "message": "{{ 获取 Mistral API 密钥 ↗ }}",
+      "description": "获取 Mistral API 密钥的链接"
+    },
+    "perplexityDocsLink": {
+      "message": "{{ 获取 Perplexity API 密钥 ↗ }}",
+      "description": "获取 Perplexity API 密钥的链接"
+    },
+    "chromeDocsLink": {
+      "message": "{{ Chrome AI 文档 ↗ }}",
+      "description": "Chrome AI 文档的链接"
+    },
+    "chromeAiNoteText": {
+      "message": "{{ 注意：Chrome AI 是一项预览功能。要使用它，您需要在 Chrome 中启用功能标志： }}",
+      "description": "关于 Chrome AI 预览功能的说明"
+    },
+    "chromeAiEnableLink": {
+      "message": "{{ 启用 Chrome AI 功能标志 }}",
+      "description": "启用 Chrome AI 功能标志的链接"
+    },
+    "openAiKeyPlaceholder": {
+      "message": "{{ OpenAI API 密钥 }}",
+      "description": "OpenAI API 密钥输入的占位符"
+    },
+    "anthropicKeyPlaceholder": {
+      "message": "{{ Anthropic API 密钥 }}",
+      "description": "Anthropic API 密钥输入的占位符"
+    },
+    "geminiKeyPlaceholder": {
+      "message": "{{ Google API 密钥 }}",
+      "description": "Gemini API 密钥输入的占位符"
+    },
+    "deepseekKeyPlaceholder": {
+      "message": "{{ DeepSeek API 密钥 }}",
+      "description": "DeepSeek API 密钥输入的占位符"
+    },
+    "mistralKeyPlaceholder": {
+      "message": "{{ Mistral AI API 密钥 }}",
+      "description": "Mistral AI API 密钥输入的占位符"
+    },
+    "perplexityKeyPlaceholder": {
+      "message": "{{ Perplexity AI API 密钥 }}",
+      "description": "Perplexity AI API 密钥输入的占位符"
+    },
+    "ollamaUrlPlaceholder": {
+      "message": "{{ Ollama URL }}",
+      "description": "Ollama URL 输入的占位符"
+    },
+    "lmstudioUrlPlaceholder": {
+      "message": "{{ LM Studio URL }}",
+      "description": "LM Studio URL 输入的占位符"
+    },
+    "modelNamePlaceholder": {
+      "message": "{{ 模型名称 }}",
+      "description": "模型名称输入的占位符"
+    },
+    "resetButton": {
+      "message": "{{ 重置 }}",
+      "description": "重置按钮的文本"
+    },
+    "customShortcutPlaceholder": {
+      "message": "{{ 按“录制”进行捕获 }}",
+      "description": "自定义快捷键输入的占位符"
+    },
+    "systemPromptPlaceholder": {
+      "message": "{{ 系统提示 }}",
+      "description": "系统提示输入的占位符"
+    },
+    "ollamaProvider": {
+      "message": "{{ Ollama }}",
+      "description": "Ollama 提供商的名称"
+    },
+    "openaiProvider": {
+      "message": "{{ OpenAI }}",
+      "description": "OpenAI 提供商的名称"
+    },
+    "anthropicProvider": {
+      "message": "{{ Anthropic Claude }}",
+      "description": "Anthropic 提供商的名称"
+    },
+    "lmstudioProvider": {
+      "message": "{{ LM Studio }}",
+      "description": "LM Studio 提供商的名称"
+    },
+    "geminiProvider": {
+      "message": "{{ Google Gemini }}",
+      "description": "Google Gemini 提供商的名称"
+    },
+    "deepseekProvider": {
+      "message": "{{ DeepSeek }}",
+      "description": "DeepSeek 提供商的名称"
+    },
+    "mistralProvider": {
+      "message": "{{ Mistral AI }}",
+      "description": "Mistral 提供商的名称"
+    },
+    "perplexityProvider": {
+      "message": "{{ Perplexity AI }}",
+      "description": "Perplexity 提供商的名称"
+    },
+    "chromeProvider": {
+      "message": "{{ Chrome AI (预览版) }}",
+      "description": "Chrome AI 提供商的名称"
+    }
+  }

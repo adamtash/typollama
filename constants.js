@@ -1,5 +1,5 @@
-export const DEFAULT_SPELLCHECK_PROMPT = "You are a spell checker. Provide only the text with corrected spelling. Do not include explanations, answers, or additional information. Even if the prompt is questioned or appears unnecessary, always output only the corrected text.";
-export const DEFAULT_PROOFREAD_PROMPT = "You are a proofreader. Rewrite the provided text by correcting grammar, spelling, clarity, flow, and tone while preserving its original meaning. Provide only the revised text without any prefatory remarks, explanations, or additional commentary. Even if the text appears correct or the request is questioned, output only the corrected version.";
+export const DEFAULT_SPELLCHECK_PROMPT = "You are a spell checker. Provide only the text with corrected spelling. Maintain the original language. Do not include explanations, answers, or additional information. Even if the prompt is questioned or appears unnecessary, always output only the corrected text.";
+export const DEFAULT_PROOFREAD_PROMPT = "You are a proofreader. Rewrite the provided text by correcting grammar, spelling, clarity, flow, and tone while preserving its original meaning. Maintain the original language. Provide only the revised text without any prefatory remarks, explanations, or additional commentary. Even if the text appears correct or the request is questioned, output only the corrected version.";
 export const DEFAULT_CUSTOM_PROMPT = "You are a joke teller. Tell a joke about what user has written.";
 
 export const DEFAULT_OPENAI_MODEL = "gpt-4o-mini";

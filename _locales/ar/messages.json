@@ -1,0 +1,366 @@
+{
+  "extensionName": {
+    "message": "Typollama - مدقق إملائي بالذكاء الاصطناعي ومعالجة النصوص",
+    "description": "اسم الامتداد"
+  },
+  "extensionDescription": {
+    "message": "عزز كتابتك باستخدام Typollama - امتداد Chrome مدعوم بالذكاء الاصطناعي لتدقيق إملائي ومعالجة نصوص متقدمة.",
+    "description": "وصف الامتداد"
+  },
+  "providerLabel": {
+    "message": "المزود:",
+    "description": "تسمية لاختيار المزود"
+  },
+  "modelNameLabel": {
+    "message": "اسم النموذج:",
+    "description": "تسمية لإدخال اسم النموذج"
+  },
+  "resetModelName": {
+    "message": "إعادة تعيين اسم النموذج",
+    "description": "نص زر إعادة تعيين اسم النموذج"
+  },
+  "promptTypeLabel": {
+    "message": "نوع الموجه:",
+    "description": "تسمية لاختيار نوع الموجه"
+  },
+  "systemPromptLabel": {
+    "message": "موجه النظام:",
+    "description": "تسمية لإدخال موجه النظام"
+  },
+  "resetPrompt": {
+    "message": "إعادة تعيين الموجه",
+    "description": "نص زر إعادة تعيين الموجه"
+  },
+  "shortcutModeLabel": {
+    "message": "وضع الاختصار:",
+    "description": "تسمية لاختيار وضع الاختصار"
+  },
+  "recordShortcut": {
+    "message": "تسجيل الاختصار",
+    "description": "نص زر تسجيل الاختصار"
+  },
+  "customShortcutLabel": {
+    "message": "اختصار مخصص:",
+    "description": "تسمية لإدخال الاختصار المخصص"
+  },
+  "copyToClipboardLabel": {
+    "message": "نسخ إلى الحافظة",
+    "description": "تسمية مربع الاختيار لخيار النسخ إلى الحافظة"
+  },
+  "advancedSettingsLabel": {
+    "message": "إعدادات متقدمة",
+    "description": "تبديل نص للإعدادات المتقدمة"
+  },
+  "ollamaUrlLabel": {
+    "message": "عنوان URL الخاص بـ Ollama:",
+    "description": "تسمية لإدخال عنوان URL الخاص بـ Ollama"
+  },
+  "resetOllamaUrl": {
+    "message": "إعادة تعيين عنوان URL الخاص بـ Ollama",
+    "description": "نص زر إعادة تعيين عنوان URL الخاص بـ Ollama"
+  },
+  "lmstudioUrlLabel": {
+    "message": "عنوان URL الخاص بـ LM Studio:",
+    "description": "تسمية لإدخال عنوان URL الخاص بـ LM Studio"
+  },
+  "resetLmstudioUrl": {
+    "message": "إعادة تعيين عنوان URL الخاص بـ LM Studio",
+    "description": "نص زر إعادة تعيين عنوان URL الخاص بـ LM Studio"
+  },
+  "openAiKeyLabel": {
+    "message": "مفتاح واجهة برمجة تطبيقات OpenAI:",
+    "description": "تسمية لإدخال مفتاح واجهة برمجة تطبيقات OpenAI"
+  },
+  "anthropicKeyLabel": {
+    "message": "مفتاح واجهة برمجة تطبيقات Anthropic:",
+    "description": "تسمية لإدخال مفتاح واجهة برمجة تطبيقات Anthropic"
+  },
+  "geminiKeyLabel": {
+    "message": "مفتاح واجهة برمجة تطبيقات Gemini:",
+    "description": "تسمية لإدخال مفتاح واجهة برمجة تطبيقات Gemini"
+  },
+  "deepseekKeyLabel": {
+    "message": "مفتاح واجهة برمجة تطبيقات Deepseek:",
+    "description": "تسمية لإدخال مفتاح واجهة برمجة تطبيقات Deepseek"
+  },
+  "mistralKeyLabel": {
+    "message": "مفتاح واجهة برمجة تطبيقات Mistral:",
+    "description": "تسمية لإدخال مفتاح واجهة برمجة تطبيقات Mistral"
+  },
+  "perplexityKeyLabel": {
+    "message": "مفتاح واجهة برمجة تطبيقات Perplexity:",
+    "description": "تسمية لإدخال مفتاح واجهة برمجة تطبيقات Perplexity"
+  },
+  "ollamaDocs": {
+    "message": "وثائق Ollama",
+    "description": "نص الرابط لوثائق Ollama"
+  },
+  "openaiDocs": {
+    "message": "وثائق OpenAI",
+    "description": "نص الرابط لوثائق OpenAI"
+  },
+  "anthropicDocs": {
+    "message": "وثائق Anthropic",
+    "description": "نص الرابط لوثائق Anthropic"
+  },
+  "lmstudioDocs": {
+    "message": "وثائق LM Studio",
+    "description": "نص الرابط لوثائق LM Studio"
+  },
+  "geminiDocs": {
+    "message": "وثائق Gemini",
+    "description": "نص الرابط لوثائق Gemini"
+  },
+  "chromeDocs": {
+    "message": "وثائق Chrome AI",
+    "description": "نص الرابط لوثائق Chrome AI"
+  },
+  "deepseekDocs": {
+    "message": "وثائق Deepseek",
+    "description": "نص الرابط لوثائق Deepseek"
+  },
+  "mistralDocs": {
+    "message": "وثائق Mistral",
+    "description": "نص الرابط لوثائق Mistral"
+  },
+  "perplexityDocs": {
+    "message": "وثائق Perplexity",
+    "description": "نص الرابط لوثائق Perplexity"
+  },
+  "chromeAiNote": {
+    "message": "ملاحظة: يستخدم Chrome AI ميزات تجريبية وقد لا يكون متاحًا في جميع المناطق.",
+    "description": "ملاحظة حول Chrome AI"
+  },
+  "recordingPlaceholder": {
+    "message": "جارٍ التسجيل... اضغط على المفاتيح، ثم أنهِ بـ Enter",
+    "description": "نص العنصر النائب لتسجيل الاختصار"
+  },
+  "recordingCompletePlaceholder": {
+    "message": "اكتمل التسجيل",
+    "description": "نص العنصر النائب بعد تسجيل الاختصار"
+  },
+  "stopRecording": {
+    "message": "إيقاف التسجيل",
+    "description": "زر إيقاف التسجيل"
+  },
+  "contextMenuSpellcheck": {
+    "message": "تدقيق إملائي بالذكاء الاصطناعي",
+    "description": "عنصر قائمة السياق للتدقيق الإملائي"
+  },
+  "contextMenuProofread": {
+    "message": "إعادة كتابة بالذكاء الاصطناعي",
+    "description": "عنصر قائمة السياق للتدقيق اللغوي"
+  },
+  "contextMenuCustom": {
+    "message": "كتابة مخصصة بالذكاء الاصطناعي",
+    "description": "عنصر قائمة السياق للموجه المخصص"
+  },
+  "apiKeyRequired": {
+    "message": "مفتاح API مطلوب",
+    "description": "رسالة خطأ لمفتاح API المفقود"
+  },
+  "urlRequired": {
+    "message": "عنوان URL مطلوب",
+    "description": "رسالة خطأ لعنوان URL المفقود"
+  },
+  "invalidUrl": {
+    "message": "عنوان URL غير صالح لـ {0}: {1}",
+    "description": "رسالة خطأ لعنوان URL غير صالح",
+    "placeholders": {
+      "0": {
+        "content": "$1"
+      },
+      "1": {
+        "content": "$2"
+      }
+    }
+  },
+  "ollama403Error": {
+    "message": " - يتطلب Ollama أصول وصول إضافية. راجع: https://github.com/ollama/ollama/blob/main/docs/faq.md#how-can-i-allow-additional-web-origins-to-access-ollama",
+    "description": "رسالة خطأ لخطأ Ollama 403"
+  },
+  "ollamaConnectionError": {
+    "message": " - خادم Ollama غير قابل للوصول أو غير قيد التشغيل",
+    "description": "رسالة خطأ لخطأ اتصال Ollama"
+  },
+  "unauthorizedError": {
+    "message": " - غير مصرح به. يرجى التحقق من مفتاح API الخاص بك.",
+    "description": "رسالة خطأ للوصول غير المصرح به إلى API"
+  },
+  "extensionReloadedError": {
+    "message": "تمت إعادة تحميل الامتداد أو تحديثه. يرجى تحديث الصفحة.",
+    "description": "خطأ لإعادة تحميل الامتداد"
+  },
+  "unknownError": {
+    "message": "خطأ غير معروف",
+    "description": "خطأ عام"
+  },
+  "aiSpellcheckTitle": {
+    "message": "تدقيق إملائي بالذكاء الاصطناعي ومعالجة النصوص",
+    "description": "العنوان الرئيسي للامتداد"
+  },
+  "aboutDocumentation": {
+    "message": "حول & الوثائق ↗",
+    "description": "رابط إلى الوثائق"
+  },
+  "writingToolsTitle": {
+    "message": "أدوات الكتابة",
+    "description": "عنوان قسم أدوات الكتابة"
+  },
+  "spellcheckOption": {
+    "message": "تدقيق إملائي",
+    "description": "خيار لوضع التدقيق الإملائي"
+  },
+  "proofreadOption": {
+    "message": "إعادة كتابة",
+    "description": "خيار لوضع التدقيق اللغوي"
+  },
+  "customAiEditorOption": {
+    "message": "محرر الذكاء الاصطناعي المخصص",
+    "description": "خيار لوضع محرر الذكاء الاصطناعي المخصص"
+  },
+  "doubleCtrlStroke": {
+    "message": "ضربة CTRL مزدوجة",
+    "description": "تسمية لاختصار الضربة المزدوجة CTRL"
+  },
+  "tripleCtrlStroke": {
+    "message": "ضربة CTRL ثلاثية",
+    "description": "تسمية لاختصار الضربة الثلاثية CTRL"
+  },
+  "quadrupleCtrlStroke": {
+    "message": "ضربة CTRL رباعية",
+    "description": "تسمية لاختصار الضربة الرباعية CTRL"
+  },
+  "customShortcutKey": {
+    "message": "مفتاح الاختصار المخصص",
+    "description": "تسمية لخيار مفتاح الاختصار المخصص"
+  },
+  "ollamaDocsLink": {
+    "message": "وثائق Ollama ↗",
+    "description": "رابط إلى وثائق Ollama"
+  },
+  "openaiDocsLink": {
+    "message": "وثائق OpenAI ↗",
+    "description": "رابط إلى وثائق OpenAI"
+  },
+  "anthropicDocsLink": {
+    "message": "احصل على مفتاح Claude API ↗",
+    "description": "رابط للحصول على مفتاح Anthropic API"
+  },
+  "lmstudioDocsLink": {
+    "message": "وثائق LM Studio ↗",
+    "description": "رابط إلى وثائق LM Studio"
+  },
+  "geminiDocsLink": {
+    "message": "احصل على مفتاح Google Gemini API المجاني ↗",
+    "description": "رابط للحصول على مفتاح Gemini API"
+  },
+  "deepseekDocsLink": {
+    "message": "احصل على مفتاح DeepSeek API ↗",
+    "description": "رابط للحصول على مفتاح DeepSeek API"
+  },
+  "mistralDocsLink": {
+    "message": "احصل على مفتاح Mistral API ↗",
+    "description": "رابط للحصول على مفتاح Mistral API"
+  },
+  "perplexityDocsLink": {
+    "message": "احصل على مفتاح Perplexity API ↗",
+    "description": "رابط للحصول على مفتاح Perplexity API"
+  },
+  "chromeDocsLink": {
+    "message": "وثائق Chrome AI ↗",
+    "description": "رابط إلى وثائق Chrome AI"
+  },
+  "chromeAiNoteText": {
+    "message": "ملاحظة: Chrome AI هي ميزة معاينة. لاستخدامها، تحتاج إلى تمكين علامة الميزة في Chrome:",
+    "description": "ملاحظة حول ميزة معاينة Chrome AI"
+  },
+  "chromeAiEnableLink": {
+    "message": "تمكين علامة ميزة Chrome AI",
+    "description": "رابط لتمكين علامة ميزة Chrome AI"
+  },
+  "openAiKeyPlaceholder": {
+    "message": "مفتاح OpenAI API",
+    "description": "عنصر نائب لإدخال مفتاح OpenAI API"
+  },
+  "anthropicKeyPlaceholder": {
+    "message": "مفتاح Anthropic API",
+    "description": "عنصر نائب لإدخال مفتاح Anthropic API"
+  },
+  "geminiKeyPlaceholder": {
+    "message": "مفتاح Google API",
+    "description": "عنصر نائب لإدخال مفتاح Gemini API"
+  },
+  "deepseekKeyPlaceholder": {
+    "message": "مفتاح DeepSeek API",
+    "description": "عنصر نائب لإدخال مفتاح DeepSeek API"
+  },
+  "mistralKeyPlaceholder": {
+    "message": "مفتاح Mistral AI API",
+    "description": "عنصر نائب لإدخال مفتاح Mistral AI API"
+  },
+  "perplexityKeyPlaceholder": {
+    "message": "مفتاح Perplexity AI API",
+    "description": "عنصر نائب لإدخال مفتاح Perplexity AI API"
+  },
+  "ollamaUrlPlaceholder": {
+    "message": "عنوان URL الخاص بـ Ollama",
+    "description": "عنصر نائب لإدخال عنوان URL الخاص بـ Ollama"
+  },
+  "lmstudioUrlPlaceholder": {
+    "message": "عنوان URL الخاص بـ LM Studio",
+    "description": "عنصر نائب لإدخال عنوان URL الخاص بـ LM Studio"
+  },
+  "modelNamePlaceholder": {
+    "message": "اسم النموذج",
+    "description": "عنصر نائب لإدخال اسم النموذج"
+  },
+  "resetButton": {
+    "message": "إعادة تعيين",
+    "description": "نص لأزرار إعادة التعيين"
+  },
+  "customShortcutPlaceholder": {
+    "message": "اضغط على 'تسجيل' لالتقاط",
+    "description": "عنصر نائب لإدخال الاختصار المخصص"
+  },
+  "systemPromptPlaceholder": {
+    "message": "موجه النظام",
+    "description": "عنصر نائب لإدخال موجه النظام"
+  },
+  "ollamaProvider": {
+    "message": "Ollama",
+    "description": "اسم مزود Ollama"
+  },
+  "openaiProvider": {
+    "message": "OpenAI",
+    "description": "اسم مزود OpenAI"
+  },
+  "anthropicProvider": {
+    "message": "Anthropic Claude",
+    "description": "اسم مزود Anthropic"
+  },
+  "lmstudioProvider": {
+    "message": "LM Studio",
+    "description": "اسم مزود LM Studio"
+  },
+  "geminiProvider": {
+    "message": "Google Gemini",
+    "description": "اسم مزود Google Gemini"
+  },
+  "deepseekProvider": {
+    "message": "DeepSeek",
+    "description": "اسم مزود DeepSeek"
+  },
+  "mistralProvider": {
+    "message": "Mistral AI",
+    "description": "اسم مزود Mistral"
+  },
+  "perplexityProvider": {
+    "message": "Perplexity AI",
+    "description": "اسم مزود Perplexity"
+  },
+  "chromeProvider": {
+    "message": "Chrome AI (معاينة)",
+    "description": "اسم مزود Chrome AI"
+  }
+} 

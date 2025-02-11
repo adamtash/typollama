@@ -22,7 +22,10 @@ function updateResetButtonVisibility() {
 }
 
 function getDefaultModelName(provider) {
-  return PROVIDER_CONFIGS[provider]?.defaultModel || "";
+  if (PROVIDER_CONFIGS[provider]) {
+    return PROVIDER_CONFIGS[provider].defaultModel;
+  }
+  return "";
 }
 
 async function loadEncryptedKeys() {
@@ -123,7 +126,56 @@ async function updateProviderSelection() {
   }
 }
 
+// Update the setI18nAttributes function to handle more element types
+function setI18nAttributes() {
+  if (typeof chrome.i18n === 'undefined') {
+    console.warn('chrome.i18n API is not available.');
+    return;
+  }
+
+  const elements = document.querySelectorAll('[data-i18n], [data-i18n-placeholder]');
+  elements.forEach(element => {
+    // Handle regular text content
+    const messageKey = element.getAttribute('data-i18n');
+    if (messageKey) {
+      const message = chrome.i18n.getMessage(messageKey) || 
+                     chrome.i18n.getMessage(messageKey, [], { locale: 'en' });
+
+      switch (element.tagName.toLowerCase()) {
+        case 'input':
+          if (element.type === 'text' || element.type === 'password') {
+            element.placeholder = message;
+          }
+          break;
+        case 'option':
+          element.textContent = message;
+          break;
+        case 'title':
+          document.title = message;
+          break;
+        default:
+          element.textContent = message;
+      }
+    }
+
+    // Handle placeholders
+    const placeholderKey = element.getAttribute('data-i18n-placeholder');
+    if (placeholderKey) {
+      const placeholder = chrome.i18n.getMessage(placeholderKey) || 
+                         chrome.i18n.getMessage(placeholderKey, [], { locale: 'en' });
+      element.placeholder = placeholder;
+    }
+  });
+}
+
+// Update the initialization to ensure translations are applied
 (async function initSettings() {
+  // Set the lang attribute of the <html> element
+  document.documentElement.lang = chrome.i18n.getUILanguage();
+  
+  // Apply translations before showing the UI
+  setI18nAttributes();
+  
   await updateProviderSelection();
   await populateSettings();
   handleProviderChange();
@@ -451,8 +503,8 @@ function setupShortcutRecording() {
 
   function finishRecording() {
     document.removeEventListener("keydown", keyHandler);
-    recordBtn.textContent = "Record Shortcut";
-    customInput.placeholder = "Recording complete";
+    recordBtn.textContent = chrome.i18n.getMessage("recordShortcut");
+    customInput.placeholder = chrome.i18n.getMessage("recordingCompletePlaceholder");
     const promptType = el("promptTypeSelect").value;
     const shortcut = recordedKeys.join(" + ");
 
@@ -473,8 +525,8 @@ function setupShortcutRecording() {
       isRecording = true;
       recordedKeys = [];
       customInput.value = "";
-      customInput.placeholder = "Recording... press keys, finish with Enter";
-      recordBtn.textContent = "Stop Recording";
+      customInput.placeholder = chrome.i18n.getMessage("recordingPlaceholder");
+      recordBtn.textContent = chrome.i18n.getMessage("stopRecording");
       document.addEventListener("keydown", keyHandler);
     } else {
       finishRecording();

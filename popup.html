@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Typollama – AI Spell-Check & Text Processing</title>
+  <title data-i18n="extensionName"></title>
   <link rel="stylesheet" href="styles.css">
 </head>
 
@@ -15,124 +15,119 @@
         <img src="images/icon.png" alt="Typollama Icon" class="icon">
         <h1 class="title">Typollama</h1>
       </header>
-      <h3 class="subheading">AI Spell-Check & Text Processing</h3>
-      <a href="https://github.com/adamtash/typollama" target="_blank" class="github-link">About & Documentation ↗</a>
+      <h3 class="subheading" data-i18n="aiSpellcheckTitle">AI Spell-Check & Text Processing</h3>
+      <a href="https://github.com/adamtash/typollama" target="_blank" class="github-link" data-i18n="aboutDocumentation">About & Documentation ↗</a>
       <div id="errorContainer" class="error-message"></div>
-      <label>
-        AI Provider:
-
-        <select id="providerSelect">
-          <option value="ollama">Ollama</option>
-          <option value="openai">OpenAI</option>
-          <option value="anthropic">Anthropic Claude</option>
-          <option value="lmstudio">LM Studio</option>
-          <option value="gemini">Google Gemini</option>
-          <option value="deepseek">DeepSeek</option>
-          <option value="mistral">Mistral AI</option>
-          <option value="perplexity">Perplexity AI</option>
-          <option value="chrome">Chrome AI (Preview)</option>
-        </select>
-        <div id="providerDocs">
-          <div id="ollamaDocs" style="display:none;">
-            <a href="https://github.com/ollama/ollama" target="_blank">Ollama Documentation ↗</a>
-          </div>
-          <div id="openaiDocs" style="display:none;">
-            <a href="https://platform.openai.com/docs" target="_blank">OpenAI Documentation ↗</a>
-          </div>
-          <div id="anthropicDocs" style="display:none;">
-            <a href="https://console.anthropic.com/settings/keys" target="_blank">Get Claude API Key ↗</a>
-          </div>
-          <div id="lmstudioDocs" style="display:none;">
-            <a href="https://lmstudio.ai/docs" target="_blank">LM Studio Documentation ↗</a>
-          </div>
-          <div id="geminiDocs" style="display:none;">
-            <a href="https://aistudio.google.com/app/apikey" target="_blank">Get your FREE Google Gemini API Key ↗</a>
-          </div>
-          <div id="deepseekDocs" style="display:none;">
-            <a href="https://platform.deepseek.com/api_keys" target="_blank">Get DeepSeek API Key ↗</a>
-          </div>
-          <div id="mistralDocs" style="display:none;">
-            <a href="https://console.mistral.ai/api-keys/" target="_blank">Get Mistral API Key ↗</a>
-          </div>
-          <div id="perplexityDocs" style="display:none;">
-            <a href="https://www.perplexity.ai/settings/api" target="_blank">Get Perplexity API Key ↗</a>
-          </div>
-          <div id="chromeDocs" style="display:none;">
-            <a href="https://developer.chrome.com/docs/ai/get-started" target="_blank">Chrome AI Documentation ↗</a>
-          </div>
+      <label for="providerSelect" data-i18n="providerLabel"></label>
+      <select id="providerSelect">
+        <option value="ollama" data-i18n="ollamaProvider">Ollama</option>
+        <option value="openai" data-i18n="openaiProvider">OpenAI</option>
+        <option value="anthropic" data-i18n="anthropicProvider">Anthropic Claude</option>
+        <option value="lmstudio" data-i18n="lmstudioProvider">LM Studio</option>
+        <option value="gemini" data-i18n="geminiProvider">Google Gemini</option>
+        <option value="deepseek" data-i18n="deepseekProvider">DeepSeek</option>
+        <option value="mistral" data-i18n="mistralProvider">Mistral AI</option>
+        <option value="perplexity" data-i18n="perplexityProvider">Perplexity AI</option>
+        <option value="chrome" data-i18n="chromeProvider">Chrome AI (Preview)</option>
+      </select>
+      <div id="providerDocs">
+        <div id="ollamaDocs" style="display:none;">
+          <a href="https://github.com/ollama/ollama" target="_blank" data-i18n="ollamaDocsLink">Ollama Documentation ↗</a>
         </div>
-      </label>
+        <div id="openaiDocs" style="display:none;">
+          <a href="https://platform.openai.com/docs" target="_blank" data-i18n="openaiDocsLink">OpenAI Documentation ↗</a>
+        </div>
+        <div id="anthropicDocs" style="display:none;">
+          <a href="https://console.anthropic.com/settings/keys" target="_blank" data-i18n="anthropicDocsLink">Get Claude API Key ↗</a>
+        </div>
+        <div id="lmstudioDocs" style="display:none;">
+          <a href="https://lmstudio.ai/docs" target="_blank" data-i18n="lmstudioDocsLink">LM Studio Documentation ↗</a>
+        </div>
+        <div id="geminiDocs" style="display:none;">
+          <a href="https://aistudio.google.com/app/apikey" target="_blank" data-i18n="geminiDocsLink">Get your FREE Google Gemini API Key ↗</a>
+        </div>
+        <div id="deepseekDocs" style="display:none;">
+          <a href="https://platform.deepseek.com/api_keys" target="_blank" data-i18n="deepseekDocsLink">Get DeepSeek API Key ↗</a>
+        </div>
+        <div id="mistralDocs" style="display:none;">
+          <a href="https://console.mistral.ai/api-keys/" target="_blank" data-i18n="mistralDocsLink">Get Mistral API Key ↗</a>
+        </div>
+        <div id="perplexityDocs" style="display:none;">
+          <a href="https://www.perplexity.ai/settings/api" target="_blank" data-i18n="perplexityDocsLink">Get Perplexity API Key ↗</a>
+        </div>
+        <div id="chromeDocs" style="display:none;">
+          <a href="https://developer.chrome.com/docs/ai/get-started" target="_blank" data-i18n="chromeDocsLink">Chrome AI Documentation ↗</a>
+        </div>
+      </div>
       <div id="chromeAiNote" style="display:none; font-size: 0.8rem; margin-top: 5px;">
-        <i>Note: Chrome AI is a preview feature. To use it, you need to enable the feature flag in Chrome:</i>
+        <i data-i18n="chromeAiNoteText">Note: Chrome AI is a preview feature. To use it, you need to enable the feature flag in Chrome:</i>
         <br>
-        <a href="chrome://flags/#prompt-api-for-gemini-nano" target="_blank">Enable Chrome AI feature flag</a>
+        <a href="chrome://flags/#prompt-api-for-gemini-nano" target="_blank" data-i18n="chromeAiEnableLink">Enable Chrome AI feature flag</a>
       </div>
       <div class="provider-group">
-        <input id="openAiKeyInput" type="password" placeholder="OpenAI API Key" style="display: none;" />
-        <input id="anthropicKeyInput" type="password" placeholder="Anthropic API Key" style="display: none;" />
-        <input id="geminiKeyInput" type="password" placeholder="Google API Key" style="display: none;" />
-        <input id="deepseekKeyInput" type="password" placeholder="DeepSeek API Key" style="display: none;" />
-        <input id="mistralKeyInput" type="password" placeholder="Mistral AI API Key" style="display: none;" />
-        <input id="perplexityKeyInput" type="password" placeholder="Perplexity AI API Key" style="display: none;" />
+        <input id="openAiKeyInput" type="password" placeholder="OpenAI API Key" style="display: none;" data-i18n-placeholder="openAiKeyPlaceholder" />
+        <input id="anthropicKeyInput" type="password" placeholder="Anthropic API Key" style="display: none;" data-i18n-placeholder="anthropicKeyPlaceholder" />
+        <input id="geminiKeyInput" type="password" placeholder="Google API Key" style="display: none;" data-i18n-placeholder="geminiKeyPlaceholder" />
+        <input id="deepseekKeyInput" type="password" placeholder="DeepSeek API Key" style="display: none;" data-i18n-placeholder="deepseekKeyPlaceholder" />
+        <input id="mistralKeyInput" type="password" placeholder="Mistral AI API Key" style="display: none;" data-i18n-placeholder="mistralKeyPlaceholder" />
+        <input id="perplexityKeyInput" type="password" placeholder="Perplexity AI API Key" style="display: none;" data-i18n-placeholder="perplexityKeyPlaceholder" />
         <div class="url-input-container">
           <div class="input-with-reset">
-            <input id="ollamaUrlInput" type="text" placeholder="Ollama URL" />
-            <button id="resetOllamaUrl" class="reset-button" type="button" style="display: none;">Reset</button>
+            <input id="ollamaUrlInput" type="text" placeholder="Ollama URL" data-i18n-placeholder="ollamaUrlPlaceholder" />
+            <button id="resetOllamaUrl" class="reset-button" type="button" style="display: none;" data-i18n="resetButton">Reset</button>
           </div>
           <div class="input-with-reset" style="display: none;">
-            <input id="lmstudioUrlInput" type="text" placeholder="LM Studio URL" />
-            <button id="resetLmstudioUrl" class="reset-button" type="button" style="display: none;">Reset</button>
+            <input id="lmstudioUrlInput" type="text" placeholder="LM Studio URL" data-i18n-placeholder="lmstudioUrlPlaceholder" />
+            <button id="resetLmstudioUrl" class="reset-button" type="button" style="display: none;" data-i18n="resetButton">Reset</button>
           </div>
         </div>
-        <label id="modelNameLabel" for="modelNameInput">Model Name:</label>
+        <label id="modelNameLabel" for="modelNameInput" data-i18n="modelNameLabel">Model Name:</label>
         <div>
           <div class="input-with-reset">
-            <input id="modelNameInput" type="text" placeholder="Model Name" />
-            <button id="resetModelName" class="reset-button" type="button" style="display: none;">Reset</button>
+            <input id="modelNameInput" type="text" placeholder="Model Name" data-i18n-placeholder="modelNamePlaceholder" />
+            <button id="resetModelName" class="reset-button" type="button" style="display: none;" data-i18n="resetButton">Reset</button>
           </div>
         </div>
       </div>
       <div class="advanced-settings">
-        <button type="button" class="advanced-toggle collapsed" id="advancedToggle">
+        <button type="button" class="advanced-toggle collapsed" id="advancedToggle" data-i18n="advancedSettingsLabel">
           Advanced Settings
         </button>
         <div class="advanced-content collapsed" id="advancedContent">
-          <!-- Prompt Settings Group -->
           <div class="prompt-settings-group">
-            <h3>Writing Tools</h3>
+            <h3 data-i18n="writingToolsTitle">Writing Tools</h3>
             <div>
               <select id="promptTypeSelect">
-                <option value="spellcheck">Spellcheck</option>
-                <option value="proofread">Rewrite</option>
-                <option value="custom">Custom AI Editor</option>
+                <option value="spellcheck" data-i18n="spellcheckOption">Spellcheck</option>
+                <option value="proofread" data-i18n="proofreadOption">Rewrite</option>
+                <option value="custom" data-i18n="customAiEditorOption">Custom AI Editor</option>
               </select>
             </div>
 
             <div>
               <textarea id="systemPromptInput" rows="8" placeholder="System Prompt"
                 style="width: 100%; resize: vertical;"></textarea>
-              <button id="resetPrompt" class="reset-button" type="button" style="display: none;">Reset</button>
+              <button id="resetPrompt" class="reset-button" type="button" data-i18n="resetButton" style="display: none;">Reset</button>
             </div>
 
-            <!-- Rewritten Shortcut Section -->
             <fieldset id="shortcutModeFieldset">
-              <legend>Shortcut Mode</legend>
+              <legend data-i18n="shortcutModeLabel">Shortcut Mode</legend>
               <div class="shortcut-radio-group">
                 <label>
                   <input type="radio" name="shortcutMode" value="double_stroke" data-prompt-type="spellcheck" />
-                  Double CTRL Stroke
+                  <span data-i18n="doubleCtrlStroke">Double CTRL Stroke</span>
                 </label>
                 <label>
                   <input type="radio" name="shortcutMode" value="triple_stroke" data-prompt-type="proofread" />
-                  Triple CTRL Stroke
+                  <span data-i18n="tripleCtrlStroke">Triple CTRL Stroke</span>
                 </label>
                 <label>
                   <input type="radio" name="shortcutMode" value="quadruple_stroke" data-prompt-type="custom" />
-                  Quadruple CTRL Stroke
+                  <span data-i18n="quadrupleCtrlStroke">Quadruple CTRL Stroke</span>
                 </label>
                 <label>
                   <input type="radio" name="shortcutMode" value="custom" data-prompt-type="spellcheck" />
-                  Custom Shortcut Key
+                  <span data-i18n="customShortcutKey">Custom Shortcut Key</span>
                 </label>
               </div>
             </fieldset>
@@ -142,14 +137,10 @@
                 style="width:100%;" />
               <button id="recordShortcut" type="button" style="width: auto;">Record Shortcut</button>
             </label>
-            <!-- End Rewritten Shortcut Section -->
-
           </div>
-          <!-- End Prompt Settings Group -->
-
           <label>
             <input id="copyToClipboard" type="checkbox" />
-            Copy result to clipboard only (no in-place edit)
+            <span data-i18n="copyToClipboardLabel">Copy result to clipboard only (no in-place edit)</span>
           </label>
         </div>
       </div>

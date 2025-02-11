@@ -1,8 +1,8 @@
 {
     "manifest_version": 3,
-    "name": "Typollama – AI Spell-Check & Text Processing",
+    "name": "__MSG_extensionName__",
     "version": "1.1",
-    "description": "Enhance your writing with Typollama – an AI-powered Chrome extension for spell-checking and advanced text processing.",
+    "description": "__MSG_extensionDescription__",
     "permissions": [
         "storage",
         "contextMenus"
@@ -43,5 +43,6 @@
       "32": "icons/icon32.png",
       "48": "icons/icon48.png",
       "128": "icons/icon128.png"
-    }
+    },
+    "default_locale": "en"
   }

@@ -1,0 +1,366 @@
+{
+  "extensionName": {
+    "message": "Typollama – Yapay Zeka Yazım Denetimi ve Metin İşleme",
+    "description": "Uzantının adı"
+  },
+  "extensionDescription": {
+    "message": "Typollama ile yazınızı geliştirin – yapay zeka destekli yazım denetimi ve gelişmiş metin işleme Chrome uzantısı.",
+    "description": "Uzantının açıklaması"
+  },
+  "providerLabel": {
+    "message": "YZ Sağlayıcı:",
+    "description": "Sağlayıcı seçimi için etiket"
+  },
+  "modelNameLabel": {
+    "message": "Model Adı:",
+    "description": "Model adı girişi için etiket"
+  },
+    "resetModelName": {
+    "message": "Sıfırla",
+    "description": "Model adını sıfırlamak için düğme metni"
+  },
+  "promptTypeLabel": {
+    "message": "İstem Türü:",
+    "description": "İstem türü seçimi için etiket"
+  },
+  "systemPromptLabel": {
+    "message": "Sistem İstemi:",
+    "description": "Sistem istemi girişi için etiket"
+  },
+  "resetPrompt": {
+    "message": "İstemi Sıfırla",
+    "description": "İstemi sıfırlamak için düğme metni"
+  },
+  "shortcutModeLabel": {
+    "message": "Kısayol Modu:",
+    "description": "Kısayol modu seçimi için etiket"
+  },
+  "recordShortcut": {
+    "message": "Kısayol Kaydet",
+    "description": "Kısayol kaydetmek için düğme metni"
+  },
+  "customShortcutLabel": {
+    "message": "Özel Kısayol:",
+    "description": "Özel kısayol girişi için etiket"
+  },
+  "copyToClipboardLabel": {
+    "message": "Panoya Kopyala",
+    "description": "Panoya kopyala seçeneği için onay kutusu etiketi"
+  },
+  "advancedSettingsLabel": {
+    "message": "Gelişmiş Ayarlar",
+    "description": "Gelişmiş ayarlar için geçiş metni"
+  },
+  "ollamaUrlLabel": {
+    "message": "Ollama URL:",
+    "description": "Ollama URL girişi için etiket"
+  },
+  "resetOllamaUrl": {
+    "message": "Sıfırla",
+    "description": "Ollama URL'sini sıfırlamak için düğme metni"
+  },
+  "lmstudioUrlLabel": {
+    "message": "LM Studio URL:",
+    "description": "LM Studio URL girişi için etiket"
+  },
+  "resetLmstudioUrl": {
+    "message": "Sıfırla",
+    "description": "LM Studio URL'sini sıfırlamak için düğme metni"
+  },
+  "openAiKeyLabel": {
+    "message": "OpenAI API Anahtarı:",
+    "description": "OpenAI API Anahtarı girişi için etiket"
+  },
+  "anthropicKeyLabel": {
+    "message": "Anthropic API Anahtarı:",
+    "description": "Anthropic API Anahtarı girişi için etiket"
+  },
+  "geminiKeyLabel": {
+    "message": "Gemini API Anahtarı:",
+    "description": "Gemini API Anahtarı girişi için etiket"
+  },
+  "deepseekKeyLabel": {
+    "message": "Deepseek API Anahtarı:",
+    "description": "Deepseek API Anahtarı girişi için etiket"
+  },
+  "mistralKeyLabel": {
+    "message": "Mistral API Anahtarı:",
+    "description": "Mistral API Anahtarı girişi için etiket"
+  },
+  "perplexityKeyLabel": {
+    "message": "Perplexity API Anahtarı:",
+    "description": "Perplexity API Anahtarı girişi için etiket"
+  },
+  "ollamaDocs": {
+    "message": "Ollama Belgeleri",
+    "description": "Ollama belgeleri için bağlantı metni"
+  },
+  "openaiDocs": {
+    "message": "OpenAI Belgeleri",
+    "description": "OpenAI belgeleri için bağlantı metni"
+  },
+  "anthropicDocs": {
+    "message": "Anthropic Belgeleri",
+    "description": "Anthropic belgeleri için bağlantı metni"
+  },
+  "lmstudioDocs": {
+    "message": "LM Studio Belgeleri",
+    "description": "LM Studio belgeleri için bağlantı metni"
+  },
+  "geminiDocs": {
+    "message": "Gemini Belgeleri",
+    "description": "Gemini belgeleri için bağlantı metni"
+  },
+  "chromeDocs": {
+    "message": "Chrome AI Belgeleri",
+    "description": "Chrome AI belgeleri için bağlantı metni"
+  },
+  "deepseekDocs": {
+    "message": "Deepseek Belgeleri",
+    "description": "Deepseek belgeleri için bağlantı metni"
+  },
+  "mistralDocs": {
+    "message": "Mistral Belgeleri",
+    "description": "Mistral belgeleri için bağlantı metni"
+  },
+  "perplexityDocs": {
+    "message": "Perplexity Belgeleri",
+    "description": "Perplexity belgeleri için bağlantı metni"
+  },
+  "chromeAiNote": {
+    "message": "Not: Chrome AI deneysel özellikler kullanır ve tüm bölgelerde kullanılamayabilir.",
+    "description": "Chrome AI hakkında not"
+  },
+  "recordingPlaceholder": {
+    "message": "Kaydediliyor... tuşlara basın, Enter ile bitirin",
+    "description": "Kısayol kaydı için yer tutucu metin"
+  },
+  "recordingCompletePlaceholder": {
+    "message": "Kayıt tamamlandı",
+    "description": "Kısayol kaydından sonra yer tutucu metin"
+  },
+    "stopRecording": {
+    "message": "Kaydı Durdur",
+    "description": "Kayıt durdurma butonu"
+  },
+  "contextMenuSpellcheck": {
+    "message": "Yapay Zeka ile Yazım Denetimi",
+    "description": "Yazım denetimi için içerik menüsü öğesi"
+  },
+  "contextMenuProofread": {
+    "message": "Yapay Zeka ile Yeniden Yaz",
+    "description": "Yeniden yazma için içerik menüsü öğesi"
+  },
+  "contextMenuCustom": {
+    "message": "Yapay Zeka ile Özel Yazma",
+    "description": "Özel istem için içerik menüsü öğesi"
+  },
+  "apiKeyRequired": {
+    "message": "API anahtarı gerekli",
+    "description": "Eksik API anahtarı için hata mesajı"
+  },
+  "urlRequired": {
+    "message": "URL gerekli",
+    "description": "Eksik URL için hata mesajı"
+  },
+  "invalidUrl": {
+    "message": "Geçersiz {0} URL'si: {1}",
+    "description": "Geçersiz URL için hata mesajı",
+    "placeholders": {
+      "0": {
+        "content": "$1"
+      },
+      "1": {
+        "content": "$2"
+      }
+    }
+  },
+  "ollama403Error": {
+    "message": " - Ollama ek erişim kaynakları gerektirir.  Bakınız: https://github.com/ollama/ollama/blob/main/docs/faq.md#how-can-i-allow-additional-web-origins-to-access-ollama",
+    "description": "Ollama 403 hatası için hata mesajı"
+  },
+  "ollamaConnectionError": {
+    "message": " - Ollama sunucusuna ulaşılamıyor veya çalışmıyor",
+    "description": "Ollama bağlantı hatası için hata mesajı"
+  },
+  "unauthorizedError": {
+    "message": " - Yetkisiz. Lütfen API anahtarınızı kontrol edin.",
+    "description": "Yetkisiz API erişimi için hata mesajı"
+  },
+    "extensionReloadedError": {
+        "message": "Uzantı yeniden yüklendi veya güncellendi. Lütfen sayfayı yenileyin.",
+        "description": "Uzantı yeniden yükleme hatası"
+    },
+    "unknownError": {
+        "message": "Bilinmeyen hata",
+        "description": "Bilinmeyen hata"
+    },
+  "aiSpellcheckTitle": {
+    "message": "Typollama – YZ Yazım Denetimi ve Metin İşleme",
+    "description": "Uzantının ana başlığı"
+  },
+  "aboutDocumentation": {
+    "message": "Hakkında & Belgeler ↗",
+    "description": "Belgelere bağlantı"
+  },
+  "writingToolsTitle": {
+    "message": "Yazma Araçları",
+    "description": "Yazma araçları bölümü için başlık"
+  },
+  "spellcheckOption": {
+    "message": "Yazım Denetimi",
+    "description": "Yazım denetimi modu için seçenek"
+  },
+  "proofreadOption": {
+    "message": "Yeniden Yaz",
+    "description": "Düzeltme modu için seçenek"
+  },
+  "customAiEditorOption": {
+    "message": "Özel YZ Düzenleyici",
+    "description": "Özel YZ düzenleyici modu için seçenek"
+  },
+  "doubleCtrlStroke": {
+    "message": "Çift CTRL Vuruşu",
+    "description": "Çift CTRL vuruşu kısayolu için etiket"
+  },
+  "tripleCtrlStroke": {
+    "message": "Üçlü CTRL Vuruşu",
+    "description": "Üçlü CTRL vuruşu kısayolu için etiket"
+  },
+  "quadrupleCtrlStroke": {
+    "message": "Dörtlü CTRL Vuruşu",
+    "description": "Dörtlü CTRL vuruşu kısayolu için etiket"
+  },
+  "customShortcutKey": {
+    "message": "Özel Kısayol Tuşu",
+    "description": "Özel kısayol tuşu seçeneği için etiket"
+  },
+  "ollamaDocsLink": {
+    "message": "Ollama Belgeleri ↗",
+    "description": "Ollama belgelerine bağlantı"
+  },
+  "openaiDocsLink": {
+    "message": "OpenAI Belgeleri ↗",
+    "description": "OpenAI belgelerine bağlantı"
+  },
+  "anthropicDocsLink": {
+    "message": "Claude API Anahtarı Alın ↗",
+    "description": "Anthropic API anahtarı almak için bağlantı"
+  },
+  "lmstudioDocsLink": {
+    "message": "LM Studio Belgeleri ↗",
+    "description": "LM Studio belgelerine bağlantı"
+  },
+  "geminiDocsLink": {
+    "message": "ÜCRETSİZ Google Gemini API Anahtarınızı Alın ↗",
+    "description": "Gemini API anahtarı almak için bağlantı"
+  },
+  "deepseekDocsLink": {
+    "message": "DeepSeek API Anahtarı Alın ↗",
+    "description": "DeepSeek API anahtarı almak için bağlantı"
+  },
+  "mistralDocsLink": {
+    "message": "Mistral API Anahtarı Alın ↗",
+    "description": "Mistral API anahtarı almak için bağlantı"
+  },
+  "perplexityDocsLink": {
+    "message": "Perplexity API Anahtarı Alın ↗",
+    "description": "Perplexity API anahtarı almak için bağlantı"
+  },
+  "chromeDocsLink": {
+    "message": "Chrome AI Belgeleri ↗",
+    "description": "Chrome AI belgelerine bağlantı"
+  },
+  "chromeAiNoteText": {
+    "message": "Not: Chrome AI bir önizleme özelliğidir. Kullanmak için Chrome'da özellik işaretini etkinleştirmeniz gerekir:",
+    "description": "Chrome AI önizleme özelliği hakkında not"
+  },
+  "chromeAiEnableLink": {
+    "message": "Chrome AI özellik işaretini etkinleştirin",
+    "description": "Chrome AI özellik işaretini etkinleştirmek için bağlantı"
+  },
+  "openAiKeyPlaceholder": {
+    "message": "OpenAI API Anahtarı",
+    "description": "OpenAI API anahtarı girişi için yer tutucu"
+  },
+  "anthropicKeyPlaceholder": {
+    "message": "Anthropic API Anahtarı",
+    "description": "Anthropic API anahtarı girişi için yer tutucu"
+  },
+  "geminiKeyPlaceholder": {
+    "message": "Google API Anahtarı",
+    "description": "Gemini API anahtarı girişi için yer tutucu"
+  },
+  "deepseekKeyPlaceholder": {
+    "message": "DeepSeek API Anahtarı",
+    "description": "DeepSeek API anahtarı girişi için yer tutucu"
+  },
+  "mistralKeyPlaceholder": {
+    "message": "Mistral AI API Anahtarı",
+    "description": "Mistral AI API anahtarı girişi için yer tutucu"
+  },
+  "perplexityKeyPlaceholder": {
+    "message": "Perplexity AI API Anahtarı",
+    "description": "Perplexity AI API anahtarı girişi için yer tutucu"
+  },
+  "ollamaUrlPlaceholder": {
+    "message": "Ollama URL",
+    "description": "Ollama URL girişi için yer tutucu"
+  },
+  "lmstudioUrlPlaceholder": {
+    "message": "LM Studio URL",
+    "description": "LM Studio URL girişi için yer tutucu"
+  },
+  "modelNamePlaceholder": {
+    "message": "Model Adı",
+    "description": "Model adı girişi için yer tutucu"
+  },
+  "resetButton": {
+    "message": "Sıfırla",
+    "description": "Sıfırlama düğmeleri için metin"
+  },
+  "customShortcutPlaceholder": {
+    "message": "'Kaydet'e basarak yakalayın",
+    "description": "Özel kısayol girişi için yer tutucu"
+  },
+  "systemPromptPlaceholder": {
+    "message": "Sistem İstemi",
+    "description": "Sistem istemi girişi için yer tutucu"
+  },
+  "ollamaProvider": {
+    "message": "Ollama",
+    "description": "Ollama sağlayıcısının adı"
+  },
+  "openaiProvider": {
+    "message": "OpenAI",
+    "description": "OpenAI sağlayıcısının adı"
+  },
+  "anthropicProvider": {
+    "message": "Anthropic Claude",
+    "description": "Anthropic sağlayıcısının adı"
+  },
+  "lmstudioProvider": {
+    "message": "LM Studio",
+    "description": "LM Studio sağlayıcısının adı"
+  },
+  "geminiProvider": {
+    "message": "Google Gemini",
+    "description": "Google Gemini sağlayıcısının adı"
+  },
+  "deepseekProvider": {
+    "message": "DeepSeek",
+    "description": "DeepSeek sağlayıcısının adı"
+  },
+  "mistralProvider": {
+    "message": "Mistral AI",
+    "description": "Mistral sağlayıcısının adı"
+  },
+  "perplexityProvider": {
+    "message": "Perplexity AI",
+    "description": "Perplexity sağlayıcısının adı"
+  },
+  "chromeProvider": {
+    "message": "Chrome AI (Önizleme)",
+    "description": "Chrome AI sağlayıcısının adı"
+  }
+}

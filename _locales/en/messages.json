@@ -1,0 +1,366 @@
+{
+  "extensionName": {
+    "message": "Typollama – AI Spell-Check & Text Processing",
+    "description": "Name of the extension"
+  },
+  "extensionDescription": {
+    "message": "Enhance your writing with Typollama – an AI-powered Chrome extension for spell-checking and advanced text processing.",
+    "description": "Description of the extension"
+  },
+  "providerLabel": {
+    "message": "Provider:",
+    "description": "Label for provider selection"
+  },
+  "modelNameLabel": {
+    "message": "Model Name:",
+    "description": "Label for model name input"
+  },
+    "resetModelName": {
+    "message": "Reset Model Name",
+    "description": "Button text to reset model name"
+  },
+  "promptTypeLabel": {
+    "message": "Prompt Type:",
+    "description": "Label for prompt type selection"
+  },
+  "systemPromptLabel": {
+    "message": "System Prompt:",
+    "description": "Label for system prompt input"
+  },
+  "resetPrompt": {
+    "message": "Reset Prompt",
+    "description": "Button text to reset prompt"
+  },
+  "shortcutModeLabel": {
+    "message": "Shortcut Mode:",
+    "description": "Label for shortcut mode selection"
+  },
+  "recordShortcut": {
+    "message": "Record Shortcut",
+    "description": "Button text to record shortcut"
+  },
+  "customShortcutLabel": {
+    "message": "Custom Shortcut:",
+    "description": "Label for custom shortcut input"
+  },
+  "copyToClipboardLabel": {
+    "message": "Copy to Clipboard",
+    "description": "Checkbox label for copy to clipboard option"
+  },
+  "advancedSettingsLabel": {
+    "message": "Advanced Settings",
+    "description": "Toggle text for advanced settings"
+  },
+  "ollamaUrlLabel": {
+    "message": "Ollama URL:",
+    "description": "Label for Ollama URL input"
+  },
+  "resetOllamaUrl": {
+    "message": "Reset Ollama URL",
+    "description": "Button text to reset Ollama URL"
+  },
+  "lmstudioUrlLabel": {
+    "message": "LM Studio URL:",
+    "description": "Label for LM Studio URL input"
+  },
+  "resetLmstudioUrl": {
+    "message": "Reset LM Studio URL",
+    "description": "Button text to reset LM Studio URL"
+  },
+  "openAiKeyLabel": {
+    "message": "OpenAI API Key:",
+    "description": "Label for OpenAI API Key input"
+  },
+  "anthropicKeyLabel": {
+    "message": "Anthropic API Key:",
+    "description": "Label for Anthropic API Key input"
+  },
+  "geminiKeyLabel": {
+    "message": "Gemini API Key:",
+    "description": "Label for Gemini API Key input"
+  },
+  "deepseekKeyLabel": {
+    "message": "Deepseek API Key:",
+    "description": "Label for Deepseek API Key input"
+  },
+  "mistralKeyLabel": {
+    "message": "Mistral API Key:",
+    "description": "Label for Mistral API Key input"
+  },
+  "perplexityKeyLabel": {
+    "message": "Perplexity API Key:",
+    "description": "Label for Perplexity API Key input"
+  },
+  "ollamaDocs": {
+    "message": "Ollama Documentation",
+    "description": "Link text for Ollama documentation"
+  },
+  "openaiDocs": {
+    "message": "OpenAI Documentation",
+    "description": "Link text for OpenAI documentation"
+  },
+  "anthropicDocs": {
+    "message": "Anthropic Documentation",
+    "description": "Link text for Anthropic documentation"
+  },
+  "lmstudioDocs": {
+    "message": "LM Studio Documentation",
+    "description": "Link text for LM Studio documentation"
+  },
+  "geminiDocs": {
+    "message": "Gemini Documentation",
+    "description": "Link text for Gemini documentation"
+  },
+  "chromeDocs": {
+    "message": "Chrome AI Documentation",
+    "description": "Link text for Chrome AI documentation"
+  },
+  "deepseekDocs": {
+    "message": "Deepseek Documentation",
+    "description": "Link text for Deepseek documentation"
+  },
+  "mistralDocs": {
+    "message": "Mistral Documentation",
+    "description": "Link text for Mistral documentation"
+  },
+  "perplexityDocs": {
+    "message": "Perplexity Documentation",
+    "description": "Link text for Perplexity documentation"
+  },
+  "chromeAiNote": {
+    "message": "Note: Chrome AI uses experimental features and may not be available in all regions.",
+    "description": "Note about Chrome AI"
+  },
+    "recordingPlaceholder": {
+    "message": "Recording... press keys, finish with Enter",
+    "description": "Placeholder text for shortcut recording"
+  },
+  "recordingCompletePlaceholder": {
+    "message": "Recording complete",
+    "description": "Placeholder text after shortcut recording"
+  },
+    "stopRecording": {
+    "message": "Stop Recording",
+    "description": "Stop recording button"
+  },
+    "contextMenuSpellcheck": {
+    "message": "Spellcheck with AI",
+    "description": "Context menu item for spellcheck"
+  },
+  "contextMenuProofread": {
+    "message": "Rewrite with AI",
+    "description": "Context menu item for proofread"
+  },
+  "contextMenuCustom": {
+    "message": "Custom writing with AI",
+    "description": "Context menu item for custom prompt"
+  },
+  "apiKeyRequired": {
+    "message": "API key is required",
+    "description": "Error message for missing API key"
+  },
+  "urlRequired": {
+    "message": "URL is required",
+    "description": "Error message for missing URL"
+  },
+  "invalidUrl": {
+    "message": "Invalid {0} URL: {1}",
+    "description": "Error message for invalid URL",
+    "placeholders": {
+      "0": {
+        "content": "$1"
+      },
+      "1": {
+        "content": "$2"
+      }
+    }
+  },
+  "ollama403Error": {
+    "message": " - Ollama requires additional access origins. See: https://github.com/ollama/ollama/blob/main/docs/faq.md#how-can-i-allow-additional-web-origins-to-access-ollama",
+    "description": "Error message for Ollama 403 error"
+  },
+  "ollamaConnectionError": {
+    "message": " - Ollama server is unreachable or not running",
+    "description": "Error message for Ollama connection error"
+  },
+  "unauthorizedError": {
+    "message": " - Unauthorized. Please check your API key.",
+    "description": "Error message for unauthorized API access"
+  },
+    "extensionReloadedError": {
+        "message": "Extension reloaded or updated. Please refresh the page.",
+        "description": "Error for extension reload"
+    },
+    "unknownError": {
+        "message": "Unknown error",
+        "description": "Generic error"
+    },
+  "aiSpellcheckTitle": {
+    "message": "AI Spell-Check & Text Processing",
+    "description": "Main title of the extension"
+  },
+  "aboutDocumentation": {
+    "message": "About & Documentation ↗",
+    "description": "Link to documentation"
+  },
+  "writingToolsTitle": {
+    "message": "Writing Tools",
+    "description": "Title for writing tools section"
+  },
+  "spellcheckOption": {
+    "message": "Spellcheck",
+    "description": "Option for spellcheck mode"
+  },
+  "proofreadOption": {
+    "message": "Rewrite",
+    "description": "Option for proofread mode"
+  },
+  "customAiEditorOption": {
+    "message": "Custom AI Editor",
+    "description": "Option for custom AI editor mode"
+  },
+  "doubleCtrlStroke": {
+    "message": "Double CTRL Stroke",
+    "description": "Label for double CTRL stroke shortcut"
+  },
+  "tripleCtrlStroke": {
+    "message": "Triple CTRL Stroke",
+    "description": "Label for triple CTRL stroke shortcut"
+  },
+  "quadrupleCtrlStroke": {
+    "message": "Quadruple CTRL Stroke",
+    "description": "Label for quadruple CTRL stroke shortcut"
+  },
+  "customShortcutKey": {
+    "message": "Custom Shortcut Key",
+    "description": "Label for custom shortcut key option"
+  },
+  "ollamaDocsLink": {
+    "message": "Ollama Documentation ↗",
+    "description": "Link to Ollama documentation"
+  },
+  "openaiDocsLink": {
+    "message": "OpenAI Documentation ↗",
+    "description": "Link to OpenAI documentation"
+  },
+  "anthropicDocsLink": {
+    "message": "Get Claude API Key ↗",
+    "description": "Link to get Anthropic API key"
+  },
+  "lmstudioDocsLink": {
+    "message": "LM Studio Documentation ↗",
+    "description": "Link to LM Studio documentation"
+  },
+  "geminiDocsLink": {
+    "message": "Get your FREE Google Gemini API Key ↗",
+    "description": "Link to get Gemini API key"
+  },
+  "deepseekDocsLink": {
+    "message": "Get DeepSeek API Key ↗",
+    "description": "Link to get DeepSeek API key"
+  },
+  "mistralDocsLink": {
+    "message": "Get Mistral API Key ↗",
+    "description": "Link to get Mistral API key"
+  },
+  "perplexityDocsLink": {
+    "message": "Get Perplexity API Key ↗",
+    "description": "Link to get Perplexity API key"
+  },
+  "chromeDocsLink": {
+    "message": "Chrome AI Documentation ↗",
+    "description": "Link to Chrome AI documentation"
+  },
+  "chromeAiNoteText": {
+    "message": "Note: Chrome AI is a preview feature. To use it, you need to enable the feature flag in Chrome:",
+    "description": "Note about Chrome AI preview feature"
+  },
+  "chromeAiEnableLink": {
+    "message": "Enable Chrome AI feature flag",
+    "description": "Link to enable Chrome AI feature flag"
+  },
+  "openAiKeyPlaceholder": {
+    "message": "OpenAI API Key",
+    "description": "Placeholder for OpenAI API key input"
+  },
+  "anthropicKeyPlaceholder": {
+    "message": "Anthropic API Key",
+    "description": "Placeholder for Anthropic API key input"
+  },
+  "geminiKeyPlaceholder": {
+    "message": "Google API Key",
+    "description": "Placeholder for Gemini API key input"
+  },
+  "deepseekKeyPlaceholder": {
+    "message": "DeepSeek API Key",
+    "description": "Placeholder for DeepSeek API key input"
+  },
+  "mistralKeyPlaceholder": {
+    "message": "Mistral AI API Key",
+    "description": "Placeholder for Mistral API key input"
+  },
+  "perplexityKeyPlaceholder": {
+    "message": "Perplexity AI API Key",
+    "description": "Placeholder for Perplexity API key input"
+  },
+  "ollamaUrlPlaceholder": {
+    "message": "Ollama URL",
+    "description": "Placeholder for Ollama URL input"
+  },
+  "lmstudioUrlPlaceholder": {
+    "message": "LM Studio URL",
+    "description": "Placeholder for LM Studio URL input"
+  },
+  "modelNamePlaceholder": {
+    "message": "Model Name",
+    "description": "Placeholder for model name input"
+  },
+  "resetButton": {
+    "message": "Reset",
+    "description": "Text for reset buttons"
+  },
+  "customShortcutPlaceholder": {
+    "message": "Press 'Record' to capture",
+    "description": "Placeholder for custom shortcut input"
+  },
+  "systemPromptPlaceholder": {
+    "message": "System Prompt",
+    "description": "Placeholder for system prompt input"
+  },
+  "ollamaProvider": {
+    "message": "Ollama",
+    "description": "Name of Ollama provider"
+  },
+  "openaiProvider": {
+    "message": "OpenAI",
+    "description": "Name of OpenAI provider"
+  },
+  "anthropicProvider": {
+    "message": "Anthropic Claude",
+    "description": "Name of Anthropic provider"
+  },
+  "lmstudioProvider": {
+    "message": "LM Studio",
+    "description": "Name of LM Studio provider"
+  },
+  "geminiProvider": {
+    "message": "Google Gemini",
+    "description": "Name of Google Gemini provider"
+  },
+  "deepseekProvider": {
+    "message": "DeepSeek",
+    "description": "Name of DeepSeek provider"
+  },
+  "mistralProvider": {
+    "message": "Mistral AI",
+    "description": "Name of Mistral provider"
+  },
+  "perplexityProvider": {
+    "message": "Perplexity AI",
+    "description": "Name of Perplexity provider"
+  },
+  "chromeProvider": {
+    "message": "Chrome AI (Preview)",
+    "description": "Name of Chrome AI provider"
+  }
+} 
