@@ -1,0 +1,263 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  padding: 2px;
+  background: linear-gradient(135deg, #f6f9fc, #e9eff5);
+  min-width: 480px;
+  min-height: 320px;
+  overflow-y: auto;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.provider-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+input[type="text"],
+input[type="password"],
+textarea,
+select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-sizing: border-box;
+  transition: border-color 0.3s;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus,
+textarea:focus,
+select:focus {
+  border-color: #4CAF50;
+  outline: none;
+}
+
+button {
+  padding: 10px 15px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+button.reset-button {
+  padding: 4px 8px;
+  background-color: transparent;
+  color: #666;
+  border: 1px solid #ccc;
+  font-size: 0.8rem;
+  width: auto;
+  margin-left: auto;
+  display: inline-flex;
+  align-items: center;
+}
+
+button.reset-button:hover {
+  opacity: 1;
+  /* Fully opaque on hover */
+  color: #ddd;
+  /* Slightly darker grey on hover - improved readability */
+}
+
+h1,
+h2 {
+  text-align: center;
+  color: #333;
+}
+
+.error-message {
+  /*display: none; Removed display:none */
+  color: #d32f2f;
+  background: #ffebee;
+  padding: 12px;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.card {
+  background: #fff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 30px;
+}
+
+.advanced-toggle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: transparent;
+  border: none;
+  color: #666;
+  cursor: pointer;
+  width: 100%;
+  padding: 10px 0;
+  font-size: 16px;
+  transition: color 0.3s;
+}
+
+.advanced-toggle:hover {
+  color: #333;
+}
+
+.advanced-toggle::after {
+  content: '▼';
+  font-size: 12px;
+  transition: transform 0.3s;
+}
+
+.advanced-toggle.collapsed::after {
+  transform: rotate(-90deg);
+}
+
+.advanced-content {
+  overflow: hidden;
+  max-height: 500px;
+  transition: max-height 0.3s ease-out;
+}
+
+.advanced-content.collapsed {
+  max-height: 0;
+}
+
+fieldset label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.github-link {
+  display: block;
+  text-align: center;
+  color: #666;
+  text-decoration: none;
+  font-size: 0.85rem;
+  margin-bottom: 12px;
+  transition: color 0.3s;
+}
+
+.github-link:hover {
+  color: #4CAF50;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.icon {
+  width: 40px;
+  height: 40px;
+  vertical-align: middle;
+}
+
+.title {
+  font-size: 1.3rem;
+  font-weight: 600;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 6px;
+}
+
+.subheading {
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 6px;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.model-input-container {
+  position: relative;
+}
+
+/* New container for URL inputs */
+.url-input-container {
+  /* position: relative;  No longer needed on url-input-container */
+}
+
+/* New styles for prompt settings group */
+.prompt-settings-group {
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  /* Space between groups */
+  background-color: #f9f9f9;
+}
+
+.prompt-settings-group h3 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  color: #555;
+  font-size: 1.1rem;
+}
+
+.prompt-settings-group>div {
+  margin-bottom: 10px;
+  /* Consistent spacing within the group */
+}
+
+/* No changes needed in styles.css, but if you want to adjust spacing or appearance of the new shortcut section, you can add styles here */
+
+.reset-button {
+  background-color: transparent;
+  color: #aaa;
+  /* Light grey color */
+  border: none;
+  cursor: pointer;
+  font-size: 0.8em;
+  padding: 0;
+  vertical-align: baseline;
+  /* Align with text baseline */
+  opacity: 0.7;
+  /* Slightly transparent */
+  transition: opacity 0.3s ease;
+  /* Smooth transition for hover effect */
+  margin-left: 5px;
+  /* Add default margin for buttons outside input-with-reset */
+}
+
+.reset-button:hover {
+  opacity: 1;
+  /* Fully opaque on hover */
+  color: #ddd;
+  /* Slightly darker grey on hover - improved readability */
+}
+
+.reset-button:focus {
+  outline: none;
+  /* Remove focus outline if you prefer */
+}
+
+.input-with-reset {
+  position: relative;
+  /* For positioning reset button */
+  display: flex;
+  /* To keep input and button in line */
+  align-items: center;
+  /* Vertically align items */
+}
+
+.input-with-reset > .reset-button {
+  position: absolute;
+  /* Position inside input-with-reset */
+  right: 5px;
+  /* Adjust as needed */
+  top: 50%;
+  /* Vertically center */
+  transform: translateY(-50%);
+  /* Fine-tune vertical centering */
+  margin-left: 0;
+  /* Remove default margin for buttons inside input-with-reset */
+}

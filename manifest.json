@@ -1,10 +1,11 @@
 {
     "manifest_version": 3,
     "name": "Typollama – AI Spell-Check & Text Processing",
-    "version": "1.0",
-    "description": "Boost your writing with Typollama – the ultimate AI-powered Chrome extension for spell-checking and custom text processing.",
+    "version": "1.1",
+    "description": "Enhance your writing with Typollama – an AI-powered Chrome extension for spell-checking and advanced text processing.",
     "permissions": [
-        "storage"
+        "storage",
+        "contextMenus"
     ],
     "optional_permissions": [
         "clipboardWrite"
@@ -23,8 +24,13 @@
     ],
     "host_permissions": [
       "https://api.openai.com/v1/*",
+      "https://api.anthropic.com/*",
+      "https://generativelanguage.googleapis.com/*",
       "http://localhost:11434/*",
-      "http://localhost:1234/*"
+      "http://localhost:1234/*",
+      "https://api.deepseek.com/*",
+      "https://api.mistral.ai/*",
+      "https://api.perplexity.ai/*"
     ],
     "content_security_policy": {
         "extension_pages": "script-src 'self'; object-src 'self'"

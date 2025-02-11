@@ -1,6 +1,6 @@
 # Terms of Service
 
-Last updated: 2025-02-03
+Last updated: 2025-02-11
 
 ## 1. Acceptance of Terms
 
@@ -8,7 +8,7 @@ By using Typollama ("the Extension"), you agree to these Terms of Service. If yo
 
 ## 2. Description of Service
 
-Typollama is a Chrome extension that provides AI-powered spell-checking and text processing capabilities using various AI providers (Ollama, OpenAI, or LM Studio).
+Typollama is a Chrome extension that provides AI-powered spell-checking and text processing capabilities using various AI providers (Ollama, OpenAI, LM Studio, DeepSeek, Mistral, Perplexity, Google's Generative Language API, Anthropic's Claude API).
 
 ## 3. Privacy & Data Collection
 
@@ -33,9 +33,16 @@ Users are responsible for:
 ## 5. Third-Party Services
 
 The Extension integrates with third-party AI providers:
+- OpenAI API
 - Ollama
-- OpenAI
 - LM Studio
+- DeepSeek
+- Mistral
+- Perplexity
+- Google's Generative Language API
+- Anthropic's Claude API
+
+These services are used to process text based on user settings.
 
 Users must comply with these services' respective terms of use.
 

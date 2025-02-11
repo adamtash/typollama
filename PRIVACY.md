@@ -1,6 +1,6 @@
 # Privacy Policy
 
-Last Updated: 2025-02-03
+Last Updated: 2025-02-11
 
 ## Overview
 
@@ -34,6 +34,13 @@ The Extension can integrate with:
 - OpenAI API
 - Ollama
 - LM Studio
+- DeepSeek
+- Mistral
+- Perplexity
+- Google's Generative Language API
+- Anthropic's Claude API
+
+These services are used to process text based on user settings.
 
 Each service has its own privacy policy and terms of service.
 
