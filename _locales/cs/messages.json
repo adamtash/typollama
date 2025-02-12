@@ -1,0 +1,314 @@
+{
+  "extensionName": {
+    "message": "Typollama – AI Kontrola pravopisu a zpracování textu",
+    "description": "Název rozšíření"
+  },
+  "extensionDescription": {
+    "message": "Vylepšete své psaní s Typollama – rozšířením prohlížeče Chrome poháněným umělou inteligencí pro kontrolu pravopisu a pokročilé zpracování textu.",
+    "description": "Popis rozšíření"
+  },
+  "providerLabel": {
+    "message": "Poskytovatel:",
+    "description": "Popisek pro výběr poskytovatele"
+  },
+  "modelNameLabel": {
+    "message": "Název modelu:",
+    "description": "Popisek pro vstup názvu modelu"
+  },
+    "resetModelName": {
+    "message": "Resetovat název modelu",
+    "description": "Text tlačítka pro resetování názvu modelu"
+  },
+  "promptTypeLabel": {
+    "message": "Typ výzvy:",
+    "description": "Popisek pro výběr typu výzvy"
+  },
+  "systemPromptLabel": {
+    "message": "Systémová výzva:",
+    "description": "Popisek pro vstup systémové výzvy"
+  },
+  "resetPrompt": {
+    "message": "Resetovat výzvu",
+    "description": "Text tlačítka pro resetování výzvy"
+  },
+  "shortcutModeLabel": {
+    "message": "Režim zkratky:",
+    "description": "Popisek pro výběr režimu zkratky"
+  },
+  "recordShortcut": {
+    "message": "Nahrát zkratku",
+    "description": "Text tlačítka pro nahrání zkratky"
+  },
+  "customShortcutLabel": {
+    "message": "Vlastní zkratka:",
+    "description": "Popisek pro vstup vlastní zkratky"
+  },
+  "copyToClipboardLabel": {
+    "message": "Kopírovat do schránky",
+    "description": "Popisek zaškrtávacího políčka pro možnost kopírování do schránky"
+  },
+  "advancedSettingsLabel": {
+    "message": "Pokročilá nastavení",
+    "description": "Popisek sekce pokročilých nastavení"
+  },
+  "resetButton": {
+    "message": "Resetovat",
+    "description": "Text pro tlačítka resetování"
+  },
+  "customShortcutPlaceholder": {
+    "message": "Stiskněte 'Nahrát' pro zachycení",
+    "description": "Zástupný text pro vstup vlastní zkratky"
+  },
+  "systemPromptPlaceholder": {
+    "message": "Systémová výzva",
+    "description": "Zástupný text pro vstup systémové výzvy"
+  },
+  "ollamaProvider": {
+    "message": "Ollama",
+    "description": "Název poskytovatele Ollama"
+  },
+  "openaiProvider": {
+    "message": "OpenAI",
+    "description": "Název poskytovatele OpenAI"
+  },
+  "anthropicProvider": {
+    "message": "Anthropic Claude",
+    "description": "Název poskytovatele Anthropic"
+  },
+  "lmstudioProvider": {
+    "message": "LM Studio",
+    "description": "Název poskytovatele LM Studio"
+  },
+  "geminiProvider": {
+    "message": "Google Gemini",
+    "description": "Název poskytovatele Google Gemini"
+  },
+  "deepseekProvider": {
+    "message": "DeepSeek",
+    "description": "Název poskytovatele DeepSeek"
+  },
+  "mistralProvider": {
+    "message": "Mistral AI",
+    "description": "Název poskytovatele Mistral"
+  },
+  "perplexityProvider": {
+    "message": "Perplexity AI",
+    "description": "Název poskytovatele Perplexity"
+  },
+  "chromeProvider": {
+    "message": "Chrome AI (Náhled)",
+    "description": "Název poskytovatele Chrome AI"
+  },
+  "apiKeyLabel": {
+    "message": "Klíč API:",
+    "description": "Popisek pro vstup klíče API"
+  },
+  "apiBaseUrlLabel": {
+    "message": "Základní URL API:",
+    "description": "Popisek pro vstup základní URL API"
+  },
+  "resetApiKey": {
+    "message": "Resetovat klíč API",
+    "description": "Text tlačítka pro resetování klíče API"
+  },
+  "resetApiBaseUrl": {
+    "message": "Resetovat základní URL API",
+    "description": "Text tlačítka pro resetování základní URL API"
+  },
+  "apiKeyPlaceholder": {
+    "message": "Váš klíč API",
+    "description": "Zástupný text pro vstup klíče API"
+  },
+  "apiBaseUrlPlaceholder": {
+    "message": "Vlastní základní URL API",
+    "description": "Zástupný text pro vstup základní URL API"
+  },
+  "temperatureLabel": {
+    "message": "Teplota:",
+    "description": "Popisek pro posuvník teploty"
+  },
+  "topPLabel": {
+    "message": "Top P:",
+    "description": "Popisek pro posuvník Top P"
+  },
+  "frequencyPenaltyLabel": {
+    "message": "Frekvenční penalizace:",
+    "description": "Popisek pro posuvník frekvenční penalizace"
+  },
+  "presencePenaltyLabel": {
+    "message": "Penalizace přítomnosti:",
+    "description": "Popisek pro posuvník penalizace přítomnosti"
+  },
+  "temperatureSliderMin": {
+    "message": "0",
+    "description": "Minimální hodnota posuvníku teploty"
+  },
+  "temperatureSliderMax": {
+    "message": "2",
+    "description": "Maximální hodnota posuvníku teploty"
+  },
+  "topPSliderMin": {
+    "message": "0",
+    "description": "Minimální hodnota posuvníku Top P"
+  },
+  "topPSliderMax": {
+    "message": "1",
+    "description": "Maximální hodnota posuvníku Top P"
+  },
+  "frequencyPenaltySliderMin": {
+    "message": "-2",
+    "description": "Minimální hodnota posuvníku frekvenční penalizace"
+  },
+  "frequencyPenaltySliderMax": {
+    "message": "2",
+    "description": "Maximální hodnota posuvníku frekvenční penalizace"
+  },
+  "presencePenaltySliderMin": {
+    "message": "-2",
+    "description": "Minimální hodnota posuvníku penalizace přítomnosti"
+  },
+  "presencePenaltySliderMax": {
+    "message": "2",
+    "description": "Maximální hodnota posuvníku penalizace přítomnosti"
+  },
+  "autoDetectProvider": {
+    "message": "Automatická detekce poskytovatele",
+    "description": "Možnost automatické detekce poskytovatele"
+  },
+  "contextMenuLabel": {
+    "message": "Typollama",
+    "description": "Popisek kontextového menu"
+  },
+  "checkSpellingLabel": {
+    "message": "Zkontrolovat pravopis",
+    "description": "Položka kontextového menu pro kontrolu pravopisu"
+  },
+  "grammarCheckLabel": {
+    "message": "Zkontrolovat gramatiku",
+    "description": "Položka kontextového menu pro kontrolu gramatiky"
+  },
+  "improveWritingLabel": {
+    "message": "Vylepšit psaní",
+    "description": "Položka kontextového menu pro vylepšení psaní"
+  },
+  "loadingText": {
+    "message": "Načítání...",
+    "description": "Text načítání"
+  },
+  "errorText": {
+    "message": "Chyba, zkuste to prosím později.",
+    "description": "Text chyby"
+  },
+  "noTextSelected": {
+    "message": "Nebyl vybrán žádný text.",
+    "description": "Text chyby, když není vybrán žádný text"
+  },
+  "optionsPageTitle": {
+    "message": "Možnosti Typollama",
+    "description": "Název stránky s možnostmi"
+  },
+  "generalSettingsSection": {
+    "message": "Obecná nastavení",
+    "description": "Nadpis sekce obecných nastavení"
+  },
+  "providerSettingsSection": {
+    "message": "Nastavení poskytovatele",
+    "description": "Nadpis sekce nastavení poskytovatele"
+  },
+  "shortcutSettingsSection": {
+    "message": "Nastavení zkratek",
+    "description": "Nadpis sekce nastavení zkratek"
+  },
+  "languageSettingsSection": {
+    "message": "Nastavení jazyka",
+    "description": "Nadpis sekce nastavení jazyka"
+  },
+  "appearanceSettingsSection": {
+    "message": "Nastavení vzhledu",
+    "description": "Nadpis sekce nastavení vzhledu"
+  },
+  "aboutSection": {
+    "message": "O aplikaci",
+    "description": "Nadpis sekce o aplikaci"
+  },
+  "versionLabel": {
+    "message": "Verze:",
+    "description": "Popisek verze rozšíření"
+  },
+  "authorLabel": {
+    "message": "Autor:",
+    "description": "Popisek autora rozšíření"
+  },
+  "githubLink": {
+    "message": "Stránka GitHub",
+    "description": "Text odkazu na GitHub"
+  },
+  "feedbackLink": {
+    "message": "Poslat zpětnou vazbu",
+    "description": "Text odkazu na zpětnou vazbu"
+  },
+  "privacyPolicyLink": {
+    "message": "Zásady ochrany osobních údajů",
+    "description": "Text odkazu na zásady ochrany osobních údajů"
+  },
+  "donateLink": {
+    "message": "Darovat",
+    "description": "Text odkazu na darování"
+  },
+  "modelSettingsLabel": {
+    "message": "Nastavení modelu",
+    "description": "Popisek sekce nastavení modelu"
+  },
+  "parameterSettingsLabel": {
+    "message": "Nastavení parametrů",
+    "description": "Popisek sekce nastavení parametrů"
+  },
+  "advancedProviderSettingsLabel": {
+    "message": "Pokročilá nastavení poskytovatele",
+    "description": "Popisek sekce pokročilých nastavení poskytovatele"
+  },
+  "promptSettingsLabel": {
+    "message": "Nastavení výzev",
+    "description": "Popisek sekce nastavení výzev"
+  },
+  "shortcutSettingsNote": {
+    "message": "Některé zkratky mohou být rezervovány vaším operačním systémem a nemusí být možné je přepsat.",
+    "description": "Poznámka k nastavení zkratek"
+  },
+  "apiKeySettingsNote": {
+    "message": "Pokud není nastaven klíč API, Typollama použije veřejný klíč API, který může mít omezení rychlosti.",
+    "description": "Poznámka k nastavení klíče API"
+  },
+  "apiBaseUrlSettingsNote": {
+    "message": "Změňte základní URL API pro vlastní server nebo proxy API.",
+    "description": "Poznámka k nastavení základní URL API"
+  },
+  "promptTypeNote": {
+    "message": "Vyberte typ výzvy pro optimalizaci výsledků pro různé úkoly.",
+    "description": "Poznámka k typu výzvy"
+  },
+  "systemPromptNote": {
+    "message": "Systémová výzva nastavuje kontext a řídí chování AI.",
+    "description": "Poznámka k systémové výzvě"
+  },
+  "shortcutModeNote": {
+    "message": "Vyberte, jak zkratka aktivuje rozšíření.",
+    "description": "Poznámka k režimu zkratek"
+  },
+  "copyToClipboardNote": {
+    "message": "Automaticky kopírovat výsledky do schránky po zpracování.",
+    "description": "Poznámka k možnosti kopírování do schránky"
+  },
+  "resetSettingsNote": {
+    "message": "Resetovat všechna nastavení Typollama na výchozí.",
+    "description": "Poznámka k tlačítku resetování nastavení"
+  },
+  "resetConfirmation": {
+    "message": "Opravdu chcete resetovat všechna nastavení na výchozí?",
+    "description": "Potvrzení resetování nastavení"
+  },
+  "resetSettingsButton": {
+    "message": "Resetovat nastavení",
+    "description": "Text tlačítka resetování nastavení"
+  }
+} 

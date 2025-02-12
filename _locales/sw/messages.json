@@ -1,0 +1,314 @@
+{
+  "extensionName": {
+    "message": "Typollama – Ukaguzi wa Tahajia wa AI na Uchakataji wa Maandishi",
+    "description": "Jina la kiendelezi"
+  },
+  "extensionDescription": {
+    "message": "Boresha uandishi wako kwa Typollama – kiendelezi cha Chrome kinachoendeshwa na AI kwa ukaguzi wa tahajia na uchakataji wa maandishi wa hali ya juu.",
+    "description": "Maelezo ya kiendelezi"
+  },
+  "providerLabel": {
+    "message": "Mtoa huduma:",
+    "description": "Lebo ya uteuzi wa mtoa huduma"
+  },
+  "modelNameLabel": {
+    "message": "Jina la mfumo:",
+    "description": "Lebo ya ingizo la jina la mfumo"
+  },
+  "resetModelName": {
+    "message": "Weka upya Jina la Mfumo",
+    "description": "Maandishi ya kitufe cha kuweka upya jina la mfumo"
+  },
+  "promptTypeLabel": {
+    "message": "Aina ya kidokezo:",
+    "description": "Lebo ya uteuzi wa aina ya kidokezo"
+  },
+  "systemPromptLabel": {
+    "message": "Kidokezo cha mfumo:",
+    "description": "Lebo ya ingizo la kidokezo cha mfumo"
+  },
+  "resetPrompt": {
+    "message": "Weka upya Kidokezo",
+    "description": "Maandishi ya kitufe cha kuweka upya kidokezo"
+  },
+  "shortcutModeLabel": {
+    "message": "Hali ya njia ya mkato:",
+    "description": "Lebo ya uteuzi wa hali ya njia ya mkato"
+  },
+  "recordShortcut": {
+    "message": "Rekodi njia ya mkato",
+    "description": "Maandishi ya kitufe cha kurekodi njia ya mkato"
+  },
+  "customShortcutLabel": {
+    "message": "Njia ya mkato maalum:",
+    "description": "Lebo ya ingizo la njia ya mkato maalum"
+  },
+  "copyToClipboardLabel": {
+    "message": "Nakili kwenye ubao wa kunakili",
+    "description": "Lebo ya kisanduku cha kuteua kwa chaguo la kunakili kwenye ubao wa kunakili"
+  },
+  "advancedSettingsLabel": {
+    "message": "Mipangilio ya hali ya juu",
+    "description": "Lebo ya sehemu ya mipangilio ya hali ya juu"
+  },
+  "resetButton": {
+    "message": "Weka upya",
+    "description": "Maandishi ya vitufe vya kuweka upya"
+  },
+  "customShortcutPlaceholder": {
+    "message": "Bonyeza 'Rekodi' ili kunasa",
+    "description": "Kishika nafasi cha ingizo la njia ya mkato maalum"
+  },
+  "systemPromptPlaceholder": {
+    "message": "Kidokezo cha mfumo",
+    "description": "Kishika nafasi cha ingizo la kidokezo cha mfumo"
+  },
+  "ollamaProvider": {
+    "message": "Ollama",
+    "description": "Jina la mtoa huduma wa Ollama"
+  },
+  "openaiProvider": {
+    "message": "OpenAI",
+    "description": "Jina la mtoa huduma wa OpenAI"
+  },
+  "anthropicProvider": {
+    "message": "Anthropic Claude",
+    "description": "Jina la mtoa huduma wa Anthropic"
+  },
+  "lmstudioProvider": {
+    "message": "LM Studio",
+    "description": "Jina la mtoa huduma wa LM Studio"
+  },
+  "geminiProvider": {
+    "message": "Google Gemini",
+    "description": "Jina la mtoa huduma wa Google Gemini"
+  },
+  "deepseekProvider": {
+    "message": "DeepSeek",
+    "description": "Jina la mtoa huduma wa DeepSeek"
+  },
+  "mistralProvider": {
+    "message": "Mistral AI",
+    "description": "Jina la mtoa huduma wa Mistral"
+  },
+  "perplexityProvider": {
+    "message": "Perplexity AI",
+    "description": "Jina la mtoa huduma wa Perplexity"
+  },
+  "chromeProvider": {
+    "message": "Chrome AI (Onyesho la awali)",
+    "description": "Jina la mtoa huduma wa Chrome AI"
+  },
+  "apiKeyLabel": {
+    "message": "Ufunguo wa API:",
+    "description": "Lebo ya ingizo la ufunguo wa API"
+  },
+  "apiBaseUrlLabel": {
+    "message": "URL ya Msingi ya API:",
+    "description": "Lebo ya ingizo la URL ya msingi ya API"
+  },
+  "resetApiKey": {
+    "message": "Weka upya Ufunguo wa API",
+    "description": "Maandishi ya kitufe cha kuweka upya ufunguo wa API"
+  },
+  "resetApiBaseUrl": {
+    "message": "Weka upya URL ya Msingi ya API",
+    "description": "Maandishi ya kitufe cha kuweka upya URL ya msingi ya API"
+  },
+  "apiKeyPlaceholder": {
+    "message": "Ufunguo wako wa API",
+    "description": "Kishika nafasi cha ingizo la ufunguo wa API"
+  },
+  "apiBaseUrlPlaceholder": {
+    "message": "URL ya Msingi ya API maalum",
+    "description": "Kishika nafasi cha ingizo la URL ya msingi ya API"
+  },
+  "temperatureLabel": {
+    "message": "Halijoto:",
+    "description": "Lebo ya kitelezi cha halijoto"
+  },
+  "topPLabel": {
+    "message": "Juu P:",
+    "description": "Lebo ya kitelezi cha Juu P"
+  },
+  "frequencyPenaltyLabel": {
+    "message": "Adhabu ya Marudio:",
+    "description": "Lebo ya kitelezi cha Adhabu ya Marudio"
+  },
+  "presencePenaltyLabel": {
+    "message": "Adhabu ya Uwepo:",
+    "description": "Lebo ya kitelezi cha Adhabu ya Uwepo"
+  },
+  "temperatureSliderMin": {
+    "message": "0",
+    "description": "Kiwango cha chini cha kitelezi cha halijoto"
+  },
+  "temperatureSliderMax": {
+    "message": "2",
+    "description": "Kiwango cha juu cha kitelezi cha halijoto"
+  },
+  "topPSliderMin": {
+    "message": "0",
+    "description": "Kiwango cha chini cha kitelezi cha Juu P"
+  },
+  "topPSliderMax": {
+    "message": "1",
+    "description": "Kiwango cha juu cha kitelezi cha Juu P"
+  },
+  "frequencyPenaltySliderMin": {
+    "message": "-2",
+    "description": "Kiwango cha chini cha kitelezi cha Adhabu ya Marudio"
+  },
+  "frequencyPenaltySliderMax": {
+    "message": "2",
+    "description": "Kiwango cha juu cha kitelezi cha Adhabu ya Marudio"
+  },
+  "presencePenaltySliderMin": {
+    "message": "-2",
+    "description": "Kiwango cha chini cha kitelezi cha Adhabu ya Uwepo"
+  },
+  "presencePenaltySliderMax": {
+    "message": "2",
+    "description": "Kiwango cha juu cha kitelezi cha Adhabu ya Uwepo"
+  },
+  "autoDetectProvider": {
+    "message": "Tambua Mtoa Huduma Kiotomatiki",
+    "description": "Chaguo la kutambua mtoa huduma kiotomatiki"
+  },
+  "contextMenuLabel": {
+    "message": "Typollama",
+    "description": "Lebo ya menyu ya muktadha"
+  },
+  "checkSpellingLabel": {
+    "message": "Angalia Tahajia",
+    "description": "Lebo ya kipengee cha menyu ya muktadha kwa ajili ya kuangalia tahajia"
+  },
+  "grammarCheckLabel": {
+    "message": "Angalia Sarufi",
+    "description": "Lebo ya kipengee cha menyu ya muktadha kwa ajili ya kuangalia sarufi"
+  },
+  "improveWritingLabel": {
+    "message": "Boresha Uandishi",
+    "description": "Lebo ya kipengee cha menyu ya muktadha kwa ajili ya kuboresha uandishi"
+  },
+  "loadingText": {
+    "message": "Inapakia...",
+    "description": "Maandishi ya kupakia"
+  },
+  "errorText": {
+    "message": "Hitilafu, jaribu tena baadaye.",
+    "description": "Maandishi ya hitilafu"
+  },
+  "noTextSelected": {
+    "message": "Hakuna maandishi yaliyochaguliwa.",
+    "description": "Maandishi ya hitilafu wakati hakuna maandishi yaliyochaguliwa"
+  },
+  "optionsPageTitle": {
+    "message": "Chaguo za Typollama",
+    "description": "Kichwa cha ukurasa wa chaguo"
+  },
+  "generalSettingsSection": {
+    "message": "Mipangilio ya Jumla",
+    "description": "Kichwa cha sehemu ya mipangilio ya jumla"
+  },
+  "providerSettingsSection": {
+    "message": "Mipangilio ya Mtoa Huduma",
+    "description": "Kichwa cha sehemu ya mipangilio ya mtoa huduma"
+  },
+  "shortcutSettingsSection": {
+    "message": "Mipangilio ya Njia ya Mkato",
+    "description": "Kichwa cha sehemu ya mipangilio ya njia ya mkato"
+  },
+  "languageSettingsSection": {
+    "message": "Mipangilio ya Lugha",
+    "description": "Kichwa cha sehemu ya mipangilio ya lugha"
+  },
+  "appearanceSettingsSection": {
+    "message": "Mipangilio ya Mwonekano",
+    "description": "Kichwa cha sehemu ya mipangilio ya mwonekano"
+  },
+  "aboutSection": {
+    "message": "Kuhusu",
+    "description": "Kichwa cha sehemu ya kuhusu"
+  },
+  "versionLabel": {
+    "message": "Toleo:",
+    "description": "Lebo ya toleo la kiendelezi"
+  },
+  "authorLabel": {
+    "message": "Mwandishi:",
+    "description": "Lebo ya mwandishi wa kiendelezi"
+  },
+  "githubLink": {
+    "message": "Ukurasa wa GitHub",
+    "description": "Maandishi ya kiungo cha GitHub"
+  },
+  "feedbackLink": {
+    "message": "Toa Maoni",
+    "description": "Maandishi ya kiungo cha maoni"
+  },
+  "privacyPolicyLink": {
+    "message": "Sera ya Faragha",
+    "description": "Maandishi ya kiungo cha sera ya faragha"
+  },
+  "donateLink": {
+    "message": "Changia",
+    "description": "Maandishi ya kiungo cha kuchangia"
+  },
+  "modelSettingsLabel": {
+    "message": "Mipangilio ya Mfumo",
+    "description": "Lebo ya sehemu ya mipangilio ya mfumo"
+  },
+  "parameterSettingsLabel": {
+    "message": "Mipangilio ya Parameta",
+    "description": "Lebo ya sehemu ya mipangilio ya parameta"
+  },
+  "advancedProviderSettingsLabel": {
+    "message": "Mipangilio ya Kina ya Mtoa Huduma",
+    "description": "Lebo ya sehemu ya mipangilio ya kina ya mtoa huduma"
+  },
+  "promptSettingsLabel": {
+    "message": "Mipangilio ya Kidokezo",
+    "description": "Lebo ya sehemu ya mipangilio ya kidokezo"
+  },
+  "shortcutSettingsNote": {
+    "message": "Baadhi ya njia za mkato zinaweza kuwa zimehifadhiwa na mfumo wako wa uendeshaji na haziwezi kuandikwa tena.",
+    "description": "Kumbuka kuhusu mipangilio ya njia ya mkato"
+  },
+  "apiKeySettingsNote": {
+    "message": "Ikiwa ufunguo wa API haujawekwa, Typollama itatumia ufunguo wa API wa umma, ambao unaweza kuwa na kikomo cha kiwango.",
+    "description": "Kumbuka kuhusu mipangilio ya ufunguo wa API"
+  },
+  "apiBaseUrlSettingsNote": {
+    "message": "Badilisha URL ya msingi ya API kwa seva maalum au seva mbadala ya API.",
+    "description": "Kumbuka kuhusu mipangilio ya URL ya msingi ya API"
+  },
+  "promptTypeNote": {
+    "message": "Chagua aina ya kidokezo ili kuboresha matokeo kwa kazi tofauti.",
+    "description": "Kumbuka kuhusu aina ya kidokezo"
+  },
+  "systemPromptNote": {
+    "message": "Kidokezo cha mfumo huweka muktadha na kuongoza tabia ya AI.",
+    "description": "Kumbuka kuhusu kidokezo cha mfumo"
+  },
+  "shortcutModeNote": {
+    "message": "Chagua jinsi njia ya mkato inavyoanzisha kiendelezi.",
+    "description": "Kumbuka kuhusu hali ya njia ya mkato"
+  },
+  "copyToClipboardNote": {
+    "message": "Nakili matokeo kwenye ubao wa kunakili kiotomatiki baada ya kuchakata.",
+    "description": "Kumbuka kuhusu chaguo la kunakili kwenye ubao wa kunakili"
+  },
+  "resetSettingsNote": {
+    "message": "Weka upya mipangilio yote ya Typollama kuwa chaguo-msingi.",
+    "description": "Kumbuka kuhusu kitufe cha kuweka upya mipangilio"
+  },
+  "resetConfirmation": {
+    "message": "Je, una uhakika unataka kuweka upya mipangilio yote kuwa chaguo-msingi?",
+    "description": "Uthibitisho wa kuweka upya mipangilio"
+  },
+  "resetSettingsButton": {
+    "message": "Weka upya Mipangilio",
+    "description": "Maandishi ya kitufe cha kuweka upya mipangilio"
+  }
+} 

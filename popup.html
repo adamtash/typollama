@@ -18,18 +18,20 @@
       <h3 class="subheading" data-i18n="aiSpellcheckTitle">AI Spell-Check & Text Processing</h3>
       <a href="https://github.com/adamtash/typollama" target="_blank" class="github-link" data-i18n="aboutDocumentation">About & Documentation ↗</a>
       <div id="errorContainer" class="error-message"></div>
-      <label for="providerSelect" data-i18n="providerLabel"></label>
-      <select id="providerSelect">
-        <option value="ollama" data-i18n="ollamaProvider">Ollama</option>
-        <option value="openai" data-i18n="openaiProvider">OpenAI</option>
-        <option value="anthropic" data-i18n="anthropicProvider">Anthropic Claude</option>
-        <option value="lmstudio" data-i18n="lmstudioProvider">LM Studio</option>
-        <option value="gemini" data-i18n="geminiProvider">Google Gemini</option>
-        <option value="deepseek" data-i18n="deepseekProvider">DeepSeek</option>
-        <option value="mistral" data-i18n="mistralProvider">Mistral AI</option>
-        <option value="perplexity" data-i18n="perplexityProvider">Perplexity AI</option>
-        <option value="chrome" data-i18n="chromeProvider">Chrome AI (Preview)</option>
-      </select>
+      <div class="provider-select-wrapper">
+        <label for="providerSelect" data-i18n="providerLabel"></label>
+        <select id="providerSelect">
+          <option value="ollama" data-i18n="ollamaProvider">Ollama</option>
+          <option value="openai" data-i18n="openaiProvider">OpenAI</option>
+          <option value="anthropic" data-i18n="anthropicProvider">Anthropic Claude</option>
+          <option value="lmstudio" data-i18n="lmstudioProvider">LM Studio</option>
+          <option value="gemini" data-i18n="geminiProvider">Google Gemini</option>
+          <option value="deepseek" data-i18n="deepseekProvider">DeepSeek</option>
+          <option value="mistral" data-i18n="mistralProvider">Mistral AI</option>
+          <option value="perplexity" data-i18n="perplexityProvider">Perplexity AI</option>
+          <option value="chrome" data-i18n="chromeProvider">Chrome AI (Preview)</option>
+        </select>
+      </div>
       <div id="providerDocs">
         <div id="ollamaDocs" style="display:none;">
           <a href="https://github.com/ollama/ollama" target="_blank" data-i18n="ollamaDocsLink">Ollama Documentation ↗</a>

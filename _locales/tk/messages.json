@@ -1,0 +1,314 @@
+{
+  "extensionName": {
+    "message": "Typollama – AI орфографияны barlamak we teksti işleýiş",
+    "description": "Giňeltmäniň ady"
+  },
+  "extensionDescription": {
+    "message": "Typollama bilen ýazuwyňyzy gowulaşdyryň – orfoografiýany barlamak we ösen teksti işlemek üçin AI güýçlendirilen Chrome giňeltmesi.",
+    "description": "Giňeltmäniň beýany"
+  },
+  "providerLabel": {
+    "message": "Üpjün ediji:",
+    "description": "Üpjün edijini saýlamak üçin bellik"
+  },
+  "modelNameLabel": {
+    "message": "Model ady:",
+    "description": "Model adyny girizmek üçin bellik"
+  },
+    "resetModelName": {
+    "message": "Model adyny täzeden düzüň",
+    "description": "Model adyny täzeden düzmek üçin düwmäniň teksti"
+  },
+  "promptTypeLabel": {
+    "message": "Prompt görnüşi:",
+    "description": "Prompt görnüşini saýlamak üçin bellik"
+  },
+  "systemPromptLabel": {
+    "message": "Ulgam prompdy:",
+    "description": "Ulgam prompdyny girizmek üçin bellik"
+  },
+  "resetPrompt": {
+    "message": "Promptny täzeden düzüň",
+    "description": "Promptny täzeden düzmek üçin düwmäniň teksti"
+  },
+  "shortcutModeLabel": {
+    "message": "Gysga ýol režimi:",
+    "description": "Gysga ýol režimini saýlamak üçin bellik"
+  },
+  "recordShortcut": {
+    "message": "Gysga ýoly ýazyň",
+    "description": "Gysga ýoly ýazmak üçin düwmäniň teksti"
+  },
+  "customShortcutLabel": {
+    "message": "Adaty gysga ýol:",
+    "description": "Adaty gysga ýoly girizmek üçin bellik"
+  },
+  "copyToClipboardLabel": {
+    "message": "Bufer obmenine göçüriň",
+    "description": "Bufer obmenine göçürmek üçin barlag gutusynyň belligi"
+  },
+  "advancedSettingsLabel": {
+    "message": "Giňişleýin sazlamalar",
+    "description": "Giňişleýin sazlamalar bölüminiň belligi"
+  },
+  "resetButton": {
+    "message": "Täzeden düzmek",
+    "description": "Täzeden düzmek düwmeleriniň teksti"
+  },
+  "customShortcutPlaceholder": {
+    "message": "Tutmak üçin 'Ýazgy et' düwmesine basyň",
+    "description": "Adaty gysga ýoly girizmek üçin ýerleşdiriji"
+  },
+  "systemPromptPlaceholder": {
+    "message": "Ulgam prompdy",
+    "description": "Ulgam prompdyny girizmek üçin ýerleşdiriji"
+  },
+  "ollamaProvider": {
+    "message": "Ollama",
+    "description": "Ollama üpjün edijisiniň ady"
+  },
+  "openaiProvider": {
+    "message": "OpenAI",
+    "description": "OpenAI üpjün edijisiniň ady"
+  },
+  "anthropicProvider": {
+    "message": "Anthropic Claude",
+    "description": "Antropik üpjün edijiniň ady"
+  },
+  "lmstudioProvider": {
+    "message": "LM Studio",
+    "description": "LM Studio üpjün edijisiniň ady"
+  },
+  "geminiProvider": {
+    "message": "Google Gemini",
+    "description": "Google Gemini üpjün edijisiniň ady"
+  },
+  "deepseekProvider": {
+    "message": "DeepSeek",
+    "description": "DeepSeek üpjün edijisiniň ady"
+  },
+  "mistralProvider": {
+    "message": "Mistral AI",
+    "description": "Mistral üpjün edijisiniň ady"
+  },
+  "perplexityProvider": {
+    "message": "Perplexity AI",
+    "description": "Perplexity üpjün edijisiniň ady"
+  },
+  "chromeProvider": {
+    "message": "Chrome AI (Deslap)",
+    "description": "Chrome AI üpjün edijisiniň ady"
+  },
+  "apiKeyLabel": {
+    "message": "API açary:",
+    "description": "API açaryny girizmek üçin bellik"
+  },
+  "apiBaseUrlLabel": {
+    "message": "API esas URL-i:",
+    "description": "API esas URL-ini girizmek üçin bellik"
+  },
+  "resetApiKey": {
+    "message": "API açaryny täzeden düzüň",
+    "description": "API açaryny täzeden düzmek üçin düwmäniň teksti"
+  },
+  "resetApiBaseUrl": {
+    "message": "API esas URL-ini täzeden düzüň",
+    "description": "API esas URL-ini täzeden düzmek üçin düwmäniň teksti"
+  },
+  "apiKeyPlaceholder": {
+    "message": "API açaryňyz",
+    "description": "API açaryny girizmek üçin ýerleşdiriji"
+  },
+  "apiBaseUrlPlaceholder": {
+    "message": "Adaty API esas URL-i",
+    "description": "Adaty API esas URL-ini girizmek üçin ýerleşdiriji"
+  },
+  "temperatureLabel": {
+    "message": "Temperaturasy:",
+    "description": "Temperatura süýrüjisi üçin bellik"
+  },
+  "topPLabel": {
+    "message": "Top P:",
+    "description": "Top P süýrüjisi üçin bellik"
+  },
+  "frequencyPenaltyLabel": {
+    "message": "Ýygylyk jerimesi:",
+    "description": "Ýygylyk jerimesi süýrüjisi üçin bellik"
+  },
+  "presencePenaltyLabel": {
+    "message": "Gatnaşyk jerimesi:",
+    "description": "Gatnaşyk jerimesi süýrüjisi üçin bellik"
+  },
+  "temperatureSliderMin": {
+    "message": "0",
+    "description": "Temperatura süýrüjisiniň iň pes bahasy"
+  },
+  "temperatureSliderMax": {
+    "message": "2",
+    "description": "Temperatura süýrüjisiniň iň ýokary bahasy"
+  },
+  "topPSliderMin": {
+    "message": "0",
+    "description": "Top P süýrüjisiniň iň pes bahasy"
+  },
+  "topPSliderMax": {
+    "message": "1",
+    "description": "Top P süýrüjisiniň iň ýokary bahasy"
+  },
+  "frequencyPenaltySliderMin": {
+    "message": "-2",
+    "description": "Ýygylyk jerimesi süýrüjisiniň iň pes bahasy"
+  },
+  "frequencyPenaltySliderMax": {
+    "message": "2",
+    "description": "Ýygylyk jerimesi süýrüjisiniň iň ýokary bahasy"
+  },
+  "presencePenaltySliderMin": {
+    "message": "-2",
+    "description": "Gatnaşyk jerimesi süýrüjisiniň iň pes bahasy"
+  },
+  "presencePenaltySliderMax": {
+    "message": "2",
+    "description": "Gatnaşyk jerimesi süýrüjisiniň iň ýokary bahasy"
+  },
+  "autoDetectProvider": {
+    "message": "Üpjün edijini awtomatiki ýagdaýda anyklaň",
+    "description": "Üpjün edijini awtomatiki ýagdaýda anyklamak üçin saýlaw"
+  },
+  "contextMenuLabel": {
+    "message": "Typollama",
+    "description": "Kontekst menýusynyň belligi"
+  },
+  "checkSpellingLabel": {
+    "message": "Orfoografiýany barlaň",
+    "description": "Orfoografiýany barlamak üçin kontekst menýusynyň elementi"
+  },
+  "grammarCheckLabel": {
+    "message": "Grammatikany barlaň",
+    "description": "Grammatikany barlamak üçin kontekst menýusynyň elementi"
+  },
+  "improveWritingLabel": {
+    "message": "Ýazuwy gowulaşdyryň",
+    "description": "Ýazuwy gowulaşdyrmak üçin kontekst menýusynyň elementi"
+  },
+  "loadingText": {
+    "message": "Ýüklenýär...",
+    "description": "Ýüklemek teksti"
+  },
+  "errorText": {
+    "message": "Säwlik, soňrak gaýtadan synanyşyň.",
+    "description": "Säwlik teksti"
+  },
+  "noTextSelected": {
+    "message": "Hiç hili tekst saýlanmady.",
+    "description": "Tekst saýlanmadyk ýagdaýynda säwlik teksti"
+  },
+  "optionsPageTitle": {
+    "message": "Typollama sazlanylmasy",
+    "description": "Sazlama sahypasynyň ady"
+  },
+  "generalSettingsSection": {
+    "message": "Esasy sazlamalar",
+    "description": "Esasy sazlamalar bölüminiň ady"
+  },
+  "providerSettingsSection": {
+    "message": "Üpjün ediji sazlamalary",
+    "description": "Üpjün ediji sazlamalary bölüminiň ady"
+  },
+  "shortcutSettingsSection": {
+    "message": "Gysga ýol sazlamalary",
+    "description": "Gysga ýol sazlamalary bölüminiň ady"
+  },
+  "languageSettingsSection": {
+    "message": "Dil sazlamalary",
+    "description": "Dil sazlamalary bölüminiň ady"
+  },
+  "appearanceSettingsSection": {
+    "message": "Görünüş sazlamalary",
+    "description": "Görünüş sazlamalary bölüminiň ady"
+  },
+  "aboutSection": {
+    "message": "Hakynda",
+    "description": "Hakynda bölüminiň ady"
+  },
+  "versionLabel": {
+    "message": "Wersiýa:",
+    "description": "Giňeltmäniň wersiýasynyň belligi"
+  },
+  "authorLabel": {
+    "message": "Awtor:",
+    "description": "Giňeltmäniň awtorynyň belligi"
+  },
+  "githubLink": {
+    "message": "GitHub sahypasy",
+    "description": "GitHub baglanyşygynyň teksti"
+  },
+  "feedbackLink": {
+    "message": "Teswir iberiň",
+    "description": "Teswir baglanyşygynyň teksti"
+  },
+  "privacyPolicyLink": {
+    "message": "Gizlinlik syýasaty",
+    "description": "Gizlinlik syýasaty baglanyşygynyň teksti"
+  },
+  "donateLink": {
+    "message": "Haýyr-sahawat ediň",
+    "description": "Haýyr-sahawat baglanyşygynyň teksti"
+  },
+  "modelSettingsLabel": {
+    "message": "Model sazlamalary",
+    "description": "Model sazlamalary bölüminiň belligi"
+  },
+  "parameterSettingsLabel": {
+    "message": "Parametr sazlamalary",
+    "description": "Parametr sazlamalary bölüminiň belligi"
+  },
+  "advancedProviderSettingsLabel": {
+    "message": "Üpjün edijiniň ösen sazlamalary",
+    "description": "Üpjün edijiniň ösen sazlamalary bölüminiň belligi"
+  },
+  "promptSettingsLabel": {
+    "message": "Prompt sazlamalary",
+    "description": "Prompt sazlamalary bölüminiň belligi"
+  },
+  "shortcutSettingsNote": {
+    "message": "Käbir gysga ýollar siziň operasiýa ulgamyňyz tarapyndan saklanyp bilner we olary täzeden ýazyp bolmaz.",
+    "description": "Gysga ýol sazlamalary barada bellik"
+  },
+  "apiKeySettingsNote": {
+    "message": "API açary goýulmadyk bolsa, Typollama derejesi çäklendirilen bolup biljek köpçülikleýin API açaryny ulanar.",
+    "description": "API açary sazlamalary barada bellik"
+  },
+  "apiBaseUrlSettingsNote": {
+    "message": "Adaty serwer ýa-da API proksi üçin API esas URL-ini üýtgediň.",
+    "description": "API esas URL-i sazlamalary barada bellik"
+  },
+  "promptTypeNote": {
+    "message": "Dürli wezipeler üçin netijeleri optimizirlemek üçin prompt görnüşini saýlaň.",
+    "description": "Prompt görnüşi barada bellik"
+  },
+  "systemPromptNote": {
+    "message": "Ulgam prompdy konteksti kesgitleýär we AI-niň özüni alyp barşyny gönükdirýär.",
+    "description": "Ulgam prompdy barada bellik"
+  },
+  "shortcutModeNote": {
+    "message": "Gysga ýoluň giňeltmäni nädip işe girizýändigini saýlaň.",
+    "description": "Gysga ýol režimi barada bellik"
+  },
+  "copyToClipboardNote": {
+    "message": "Işläp bolandan soň netijeleri awtomatiki usulda bufer obmenine göçüriň.",
+    "description": "Bufer obmenine göçürmek saýlawy barada bellik"
+  },
+  "resetSettingsNote": {
+    "message": "Typollamanyň ähli sazlamalaryny deslapky ýagdaýa getir.",
+    "description": "Sazlamalary täzeden düzmek düwmesi barada bellik"
+  },
+  "resetConfirmation": {
+    "message": "Hakykatdanam ähli sazlamalary deslapky ýagdaýa getirmek isleýärsiňizmi?",
+    "description": "Sazlamalary täzeden düzmegi tassyklamak"
+  },
+  "resetSettingsButton": {
+    "message": "Sazlamalary täzeden düzüň",
+    "description": "Sazlamalary täzeden düzmek düwmäsiniň teksti"
+  }
+} 
