@@ -56,7 +56,7 @@ class InputHandler {
         });
     }
      isValidTarget(target) {
-        if (!target) return false; // Check for null target
+        if (!target) return false; 
         const tagName = target.tagName.toUpperCase();
         return InputHandler.SUPPORTED_INPUTS.includes(tagName) &&
                (tagName !== 'INPUT' || target.type === "text") ||

@@ -1,0 +1,366 @@
+{
+  "extensionName": {
+    "message": "Typollama – AI Перевірка правопису та обробка тексту",
+    "description": "Назва розширення"
+  },
+  "extensionDescription": {
+    "message": "Покращіть своє письмо за допомогою Typollama – розширення Chrome на основі штучного інтелекту для перевірки правопису та розширеної обробки тексту.",
+    "description": "Опис розширення"
+  },
+  "providerLabel": {
+    "message": "Постачальник:",
+    "description": "Мітка для вибору постачальника"
+  },
+  "modelNameLabel": {
+    "message": "Назва моделі:",
+    "description": "Мітка для введення назви моделі"
+  },
+    "resetModelName": {
+    "message": "Скинути назву моделі",
+    "description": "Текст кнопки для скидання назви моделі"
+  },
+  "promptTypeLabel": {
+    "message": "Тип підказки:",
+    "description": "Мітка для вибору типу підказки"
+  },
+  "systemPromptLabel": {
+    "message": "Системна підказка:",
+    "description": "Мітка для введення системної підказки"
+  },
+  "resetPrompt": {
+    "message": "Скинути підказку",
+    "description": "Текст кнопки для скидання підказки"
+  },
+  "shortcutModeLabel": {
+    "message": "Режим швидкого доступу:",
+    "description": "Мітка для вибору режиму швидкого доступу"
+  },
+  "recordShortcut": {
+    "message": "Записати швидкий доступ",
+    "description": "Текст кнопки для запису швидкого доступу"
+  },
+  "customShortcutLabel": {
+    "message": "Власний швидкий доступ:",
+    "description": "Мітка для введення власного швидкого доступу"
+  },
+  "copyToClipboardLabel": {
+    "message": "Копіювати в буфер обміну",
+    "description": "Мітка прапорця для опції копіювання в буфер обміну"
+  },
+  "advancedSettingsLabel": {
+    "message": "Розширені налаштування",
+    "description": "Текст перемикача для розширених налаштувань"
+  },
+  "ollamaUrlLabel": {
+    "message": "URL Ollama:",
+    "description": "Мітка для введення URL Ollama"
+  },
+  "resetOllamaUrl": {
+    "message": "Скинути URL Ollama",
+    "description": "Текст кнопки для скидання URL Ollama"
+  },
+  "lmstudioUrlLabel": {
+    "message": "URL LM Studio:",
+    "description": "Мітка для введення URL LM Studio"
+  },
+  "resetLmstudioUrl": {
+    "message": "Скинути URL LM Studio",
+    "description": "Текст кнопки для скидання URL LM Studio"
+  },
+  "openAiKeyLabel": {
+    "message": "Ключ API OpenAI:",
+    "description": "Мітка для введення ключа API OpenAI"
+  },
+  "anthropicKeyLabel": {
+    "message": "Ключ API Anthropic:",
+    "description": "Мітка для введення ключа API Anthropic"
+  },
+  "geminiKeyLabel": {
+    "message": "Ключ API Gemini:",
+    "description": "Мітка для введення ключа API Gemini"
+  },
+  "deepseekKeyLabel": {
+    "message": "Ключ API Deepseek:",
+    "description": "Мітка для введення ключа API Deepseek"
+  },
+  "mistralKeyLabel": {
+    "message": "Ключ API Mistral:",
+    "description": "Мітка для введення ключа API Mistral"
+  },
+  "perplexityKeyLabel": {
+    "message": "Ключ API Perplexity:",
+    "description": "Мітка для введення ключа API Perplexity"
+  },
+  "ollamaDocs": {
+    "message": "Документація Ollama",
+    "description": "Текст посилання на документацію Ollama"
+  },
+  "openaiDocs": {
+    "message": "Документація OpenAI",
+    "description": "Текст посилання на документацію OpenAI"
+  },
+  "anthropicDocs": {
+    "message": "Документація Anthropic",
+    "description": "Текст посилання на документацію Anthropic"
+  },
+  "lmstudioDocs": {
+    "message": "Документація LM Studio",
+    "description": "Текст посилання на документацію LM Studio"
+  },
+  "geminiDocs": {
+    "message": "Документація Gemini",
+    "description": "Текст посилання на документацію Gemini"
+  },
+  "chromeDocs": {
+    "message": "Документація Chrome AI",
+    "description": "Текст посилання на документацію Chrome AI"
+  },
+  "deepseekDocs": {
+    "message": "Документація Deepseek",
+    "description": "Текст посилання на документацію Deepseek"
+  },
+  "mistralDocs": {
+    "message": "Документація Mistral",
+    "description": "Текст посилання на документацію Mistral"
+  },
+  "perplexityDocs": {
+    "message": "Документація Perplexity",
+    "description": "Текст посилання на документацію Perplexity"
+  },
+  "chromeAiNote": {
+    "message": "Примітка: Chrome AI використовує експериментальні функції і може бути недоступним у всіх регіонах.",
+    "description": "Примітка про Chrome AI"
+  },
+    "recordingPlaceholder": {
+    "message": "Запис... Натисніть клавіші, завершіть Enter",
+    "description": "Текст-заповнювач для запису швидкого доступу"
+  },
+  "recordingCompletePlaceholder": {
+    "message": "Запис завершено",
+    "description": "Текст-заповнювач після запису швидкого доступу"
+  },
+    "stopRecording": {
+    "message": "Зупинити запис",
+    "description": "Кнопка для зупинки запису"
+  },
+    "contextMenuSpellcheck": {
+    "message": "Перевірити правопис за допомогою AI",
+    "description": "Пункт контекстного меню для перевірки правопису"
+  },
+  "contextMenuProofread": {
+    "message": "Переписати за допомогою AI",
+    "description": "Пункт контекстного меню для вичитування"
+  },
+  "contextMenuCustom": {
+    "message": "Власне написання за допомогою AI",
+    "description": "Пункт контекстного меню для власної підказки"
+  },
+  "apiKeyRequired": {
+    "message": "Потрібен ключ API",
+    "description": "Повідомлення про помилку, коли відсутній ключ API"
+  },
+  "urlRequired": {
+    "message": "Потрібен URL",
+    "description": "Повідомлення про помилку, коли відсутній URL"
+  },
+  "invalidUrl": {
+    "message": "Недійсний URL {0}: {1}",
+    "description": "Повідомлення про помилку для недійсного URL",
+    "placeholders": {
+      "0": {
+        "content": "$1"
+      },
+      "1": {
+        "content": "$2"
+      }
+    }
+  },
+  "ollama403Error": {
+    "message": " - Ollama вимагає додаткових джерел доступу. Див.: https://github.com/ollama/ollama/blob/main/docs/faq.md#how-can-i-allow-additional-web-origins-to-access-ollama",
+    "description": "Повідомлення про помилку для помилки 403 Ollama"
+  },
+  "ollamaConnectionError": {
+    "message": " - Сервер Ollama недоступний або не працює",
+    "description": "Повідомлення про помилку для помилки з'єднання Ollama"
+  },
+  "unauthorizedError": {
+    "message": " - Не авторизовано. Перевірте свій ключ API.",
+    "description": "Повідомлення про помилку для неавторизованого доступу до API"
+  },
+    "extensionReloadedError": {
+        "message": "Розширення перезавантажено або оновлено. Будь ласка, оновіть сторінку.",
+        "description": "Помилка перезавантаження розширення"
+    },
+    "unknownError": {
+        "message": "Невідома помилка",
+        "description": "Загальна помилка"
+    },
+  "aiSpellcheckTitle": {
+    "message": "AI Перевірка правопису та обробка тексту",
+    "description": "Головний заголовок розширення"
+  },
+  "aboutDocumentation": {
+    "message": "Про програму та документація ↗",
+    "description": "Посилання на документацію"
+  },
+  "writingToolsTitle": {
+    "message": "Інструменти для письма",
+    "description": "Заголовок розділу інструментів для письма"
+  },
+  "spellcheckOption": {
+    "message": "Перевірка правопису",
+    "description": "Опція для режиму перевірки правопису"
+  },
+  "proofreadOption": {
+    "message": "Переписати",
+    "description": "Опція для режиму вичитування"
+  },
+  "customAiEditorOption": {
+    "message": "Власний редактор AI",
+    "description": "Опція для режиму власного редактора AI"
+  },
+  "doubleCtrlStroke": {
+    "message": "Подвійне натискання CTRL",
+    "description": "Мітка для швидкого доступу подвійним натисканням CTRL"
+  },
+  "tripleCtrlStroke": {
+    "message": "Потрійне натискання CTRL",
+    "description": "Мітка для швидкого доступу потрійним натисканням CTRL"
+  },
+  "quadrupleCtrlStroke": {
+    "message": "Чотириразове натискання CTRL",
+    "description": "Мітка для швидкого доступу чотириразовим натисканням CTRL"
+  },
+  "customShortcutKey": {
+    "message": "Власна клавіша швидкого доступу",
+    "description": "Мітка для опції власної клавіші швидкого доступу"
+  },
+  "ollamaDocsLink": {
+    "message": "Документація Ollama ↗",
+    "description": "Посилання на документацію Ollama"
+  },
+  "openaiDocsLink": {
+    "message": "Документація OpenAI ↗",
+    "description": "Посилання на документацію OpenAI"
+  },
+  "anthropicDocsLink": {
+    "message": "Отримайте ключ API Claude ↗",
+    "description": "Посилання для отримання ключа API Anthropic"
+  },
+  "lmstudioDocsLink": {
+    "message": "Документація LM Studio ↗",
+    "description": "Посилання на документацію LM Studio"
+  },
+  "geminiDocsLink": {
+    "message": "Отримайте свій безкоштовний ключ Google Gemini API ↗",
+    "description": "Посилання для отримання ключа API Gemini"
+  },
+  "deepseekDocsLink": {
+    "message": "Отримайте ключ API DeepSeek ↗",
+    "description": "Посилання для отримання ключа API DeepSeek"
+  },
+  "mistralDocsLink": {
+    "message": "Отримайте ключ API Mistral ↗",
+    "description": "Посилання для отримання ключа API Mistral"
+  },
+  "perplexityDocsLink": {
+    "message": "Отримайте ключ API Perplexity ↗",
+    "description": "Посилання для отримання ключа API Perplexity"
+  },
+  "chromeDocsLink": {
+    "message": "Документація Chrome AI ↗",
+    "description": "Посилання на документацію Chrome AI"
+  },
+  "chromeAiNoteText": {
+    "message": "Примітка: Chrome AI – це функція попереднього перегляду. Щоб використовувати її, вам потрібно увімкнути прапорець функції в Chrome:",
+    "description": "Примітка про функцію попереднього перегляду Chrome AI"
+  },
+  "chromeAiEnableLink": {
+    "message": "Увімкнути прапорець функції Chrome AI",
+    "description": "Посилання для увімкнення прапорця функції Chrome AI"
+  },
+  "openAiKeyPlaceholder": {
+    "message": "Ключ API OpenAI",
+    "description": "Заповнювач для введення ключа API OpenAI"
+  },
+  "anthropicKeyPlaceholder": {
+    "message": "Ключ API Anthropic",
+    "description": "Заповнювач для введення ключа API Anthropic"
+  },
+  "geminiKeyPlaceholder": {
+    "message": "Ключ API Google",
+    "description": "Заповнювач для введення ключа API Gemini"
+  },
+  "deepseekKeyPlaceholder": {
+    "message": "Ключ API DeepSeek",
+    "description": "Заповнювач для введення ключа API DeepSeek"
+  },
+  "mistralKeyPlaceholder": {
+    "message": "Ключ API Mistral AI",
+    "description": "Заповнювач для введення ключа API Mistral AI"
+  },
+  "perplexityKeyPlaceholder": {
+    "message": "Ключ API Perplexity AI",
+    "description": "Заповнювач для введення ключа API Perplexity AI"
+  },
+  "ollamaUrlPlaceholder": {
+    "message": "URL Ollama",
+    "description": "Заповнювач для введення URL Ollama"
+  },
+  "lmstudioUrlPlaceholder": {
+    "message": "URL LM Studio",
+    "description": "Заповнювач для введення URL LM Studio"
+  },
+  "modelNamePlaceholder": {
+    "message": "Назва моделі",
+    "description": "Заповнювач для введення назви моделі"
+  },
+  "resetButton": {
+    "message": "Скинути",
+    "description": "Текст для кнопок скидання"
+  },
+  "customShortcutPlaceholder": {
+    "message": "Натисніть 'Записати', щоб захопити",
+    "description": "Заповнювач для введення власного швидкого доступу"
+  },
+  "systemPromptPlaceholder": {
+    "message": "Системна підказка",
+    "description": "Заповнювач для введення системної підказки"
+  },
+  "ollamaProvider": {
+    "message": "Ollama",
+    "description": "Назва постачальника Ollama"
+  },
+  "openaiProvider": {
+    "message": "OpenAI",
+    "description": "Назва постачальника OpenAI"
+  },
+  "anthropicProvider": {
+    "message": "Anthropic Claude",
+    "description": "Назва постачальника Anthropic"
+  },
+  "lmstudioProvider": {
+    "message": "LM Studio",
+    "description": "Назва постачальника LM Studio"
+  },
+  "geminiProvider": {
+    "message": "Google Gemini",
+    "description": "Назва постачальника Google Gemini"
+  },
+  "deepseekProvider": {
+    "message": "DeepSeek",
+    "description": "Назва постачальника DeepSeek"
+  },
+  "mistralProvider": {
+    "message": "Mistral AI",
+    "description": "Назва постачальника Mistral"
+  },
+  "perplexityProvider": {
+    "message": "Perplexity AI",
+    "description": "Назва постачальника Perplexity"
+  },
+  "chromeProvider": {
+    "message": "Chrome AI (попередній перегляд)",
+    "description": "Назва постачальника Chrome AI"
+  }
+} 

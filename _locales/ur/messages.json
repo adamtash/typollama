@@ -1,0 +1,366 @@
+{
+  "extensionName": {
+    "message": "Typollama – اے آئی ہجے چیک اور ٹیکسٹ پروسیسنگ",
+    "description": "ایکسٹینشن کا نام"
+  },
+  "extensionDescription": {
+    "message": "Typollama کے ساتھ اپنی تحریر کو بہتر بنائیں – ہجے کی جانچ اور جدید ٹیکسٹ پروسیسنگ کے لیے ایک AI سے چلنے والا Chrome ایکسٹینشن۔",
+    "description": "ایکسٹینشن کی تفصیل"
+  },
+  "providerLabel": {
+    "message": "فراہم کنندہ:",
+    "description": "فراہم کنندہ کے انتخاب کے لیے لیبل"
+  },
+  "modelNameLabel": {
+    "message": "ماڈل کا نام:",
+    "description": "ماڈل کے نام کے ان پٹ کے لیے لیبل"
+  },
+    "resetModelName": {
+    "message": "ماڈل کا نام ری سیٹ کریں",
+    "description": "ماڈل کا نام ری سیٹ کرنے کے لیے بٹن ٹیکسٹ"
+  },
+  "promptTypeLabel": {
+    "message": "پراپٹ کی قسم:",
+    "description": "پراپٹ کی قسم کے انتخاب کے لیے لیبل"
+  },
+  "systemPromptLabel": {
+    "message": "سسٹم پراپٹ:",
+    "description": "سسٹم پراپٹ ان پٹ کے لیے لیبل"
+  },
+  "resetPrompt": {
+    "message": "پراپٹ ری سیٹ کریں",
+    "description": "پراپٹ ری سیٹ کرنے کے لیے بٹن ٹیکسٹ"
+  },
+  "shortcutModeLabel": {
+    "message": "شارٹ کٹ موڈ:",
+    "description": "شارٹ کٹ موڈ کے انتخاب کے لیے لیبل"
+  },
+  "recordShortcut": {
+    "message": "شارٹ کٹ ریکارڈ کریں",
+    "description": "شارٹ کٹ ریکارڈ کرنے کے لیے بٹن ٹیکسٹ"
+  },
+  "customShortcutLabel": {
+    "message": "کسٹم شارٹ کٹ:",
+    "description": "کسٹم شارٹ کٹ ان پٹ کے لیے لیبل"
+  },
+  "copyToClipboardLabel": {
+    "message": "کلپ بورڈ پر کاپی کریں",
+    "description": "کلپ بورڈ پر کاپی کرنے کے آپشن کے لیے چیک باکس لیبل"
+  },
+  "advancedSettingsLabel": {
+    "message": "اعلی ترتیبات",
+    "description": "اعلی ترتیبات کے لیے ٹوگل ٹیکسٹ"
+  },
+  "ollamaUrlLabel": {
+    "message": "Ollama URL:",
+    "description": "Ollama URL ان پٹ کے لیے لیبل"
+  },
+  "resetOllamaUrl": {
+    "message": "Ollama URL ری سیٹ کریں",
+    "description": "Ollama URL ری سیٹ کرنے کے لیے بٹن ٹیکسٹ"
+  },
+  "lmstudioUrlLabel": {
+    "message": "LM Studio URL:",
+    "description": "LM Studio URL ان پٹ کے لیے لیبل"
+  },
+  "resetLmstudioUrl": {
+    "message": "LM Studio URL ری سیٹ کریں",
+    "description": "LM Studio URL ری سیٹ کرنے کے لیے بٹن ٹیکسٹ"
+  },
+  "openAiKeyLabel": {
+    "message": "OpenAI API کلید:",
+    "description": "OpenAI API کلید ان پٹ کے لیے لیبل"
+  },
+  "anthropicKeyLabel": {
+    "message": "Anthropic API کلید:",
+    "description": "Anthropic API کلید ان پٹ کے لیے لیبل"
+  },
+  "geminiKeyLabel": {
+    "message": "Gemini API کلید:",
+    "description": "Gemini API کلید ان پٹ کے لیے لیبل"
+  },
+  "deepseekKeyLabel": {
+    "message": "Deepseek API کلید:",
+    "description": "Deepseek API کلید ان پٹ کے لیے لیبل"
+  },
+  "mistralKeyLabel": {
+    "message": "Mistral API کلید:",
+    "description": "Mistral API کلید ان پٹ کے لیے لیبل"
+  },
+  "perplexityKeyLabel": {
+    "message": "Perplexity API کلید:",
+    "description": "Perplexity API کلید ان پٹ کے لیے لیبل"
+  },
+  "ollamaDocs": {
+    "message": "Ollama دستاویزات",
+    "description": "Ollama دستاویزات کے لیے لنک ٹیکسٹ"
+  },
+  "openaiDocs": {
+    "message": "OpenAI دستاویزات",
+    "description": "OpenAI دستاویزات کے لیے لنک ٹیکسٹ"
+  },
+  "anthropicDocs": {
+    "message": "Anthropic دستاویزات",
+    "description": "Anthropic دستاویزات کے لیے لنک ٹیکسٹ"
+  },
+  "lmstudioDocs": {
+    "message": "LM Studio دستاویزات",
+    "description": "LM Studio دستاویزات کے لیے لنک ٹیکسٹ"
+  },
+  "geminiDocs": {
+    "message": "Gemini دستاویزات",
+    "description": "Gemini دستاویزات کے لیے لنک ٹیکسٹ"
+  },
+  "chromeDocs": {
+    "message": "Chrome AI دستاویزات",
+    "description": "Chrome AI دستاویزات کے لیے لنک ٹیکسٹ"
+  },
+  "deepseekDocs": {
+    "message": "Deepseek دستاویزات",
+    "description": "Deepseek دستاویزات کے لیے لنک ٹیکسٹ"
+  },
+  "mistralDocs": {
+    "message": "Mistral دستاویزات",
+    "description": "Mistral دستاویزات کے لیے لنک ٹیکسٹ"
+  },
+  "perplexityDocs": {
+    "message": "Perplexity دستاویزات",
+    "description": "Perplexity دستاویزات کے لیے لنک ٹیکسٹ"
+  },
+  "chromeAiNote": {
+    "message": "نوٹ: Chrome AI تجرباتی خصوصیات استعمال کرتا ہے اور یہ تمام علاقوں میں دستیاب نہیں ہو سکتا ہے۔",
+    "description": "Chrome AI کے بارے میں نوٹ"
+  },
+    "recordingPlaceholder": {
+    "message": "ریکارڈنگ... کیز دبائیں، Enter کے ساتھ ختم کریں",
+    "description": "شارٹ کٹ ریکارڈنگ کے لیے پلیس ہولڈر ٹیکسٹ"
+  },
+  "recordingCompletePlaceholder": {
+    "message": "ریکارڈنگ مکمل",
+    "description": "شارٹ کٹ ریکارڈنگ کے بعد پلیس ہولڈر ٹیکسٹ"
+  },
+    "stopRecording": {
+    "message": "ریکارڈنگ بند کریں",
+    "description": "ریکارڈنگ بند کرنے کا بٹن"
+  },
+    "contextMenuSpellcheck": {
+    "message": "AI کے ساتھ ہجے چیک کریں",
+    "description": "ہجے چیک کے لیے سیاق و سباق مینو آئٹم"
+  },
+  "contextMenuProofread": {
+    "message": "AI کے ساتھ دوبارہ لکھیں",
+    "description": "پروف ریڈ کے لیے سیاق و سباق مینو آئٹم"
+  },
+  "contextMenuCustom": {
+    "message": "AI کے ساتھ کسٹم تحریر",
+    "description": "کسٹم پراپٹ کے لیے سیاق و سباق مینو آئٹم"
+  },
+  "apiKeyRequired": {
+    "message": "API کلید درکار ہے",
+    "description": "API کلید غائب ہونے پر ایرر میسج"
+  },
+  "urlRequired": {
+    "message": "URL درکار ہے",
+    "description": "URL غائب ہونے پر ایرر میسج"
+  },
+  "invalidUrl": {
+    "message": "غلط {0} URL: {1}",
+    "description": "غلط URL کے لیے ایرر میسج",
+    "placeholders": {
+      "0": {
+        "content": "$1"
+      },
+      "1": {
+        "content": "$2"
+      }
+    }
+  },
+  "ollama403Error": {
+    "message": " - Ollama کو اضافی رسائی کے ماخذ کی ضرورت ہے۔ دیکھیں: https://github.com/ollama/ollama/blob/main/docs/faq.md#how-can-i-allow-additional-web-origins-to-access-ollama",
+    "description": "Ollama 403 ایرر کے لیے ایرر میسج"
+  },
+  "ollamaConnectionError": {
+    "message": " - Ollama سرور ناقابل رسائی ہے یا چل نہیں رہا ہے",
+    "description": "Ollama کنکشن ایرر کے لیے ایرر میسج"
+  },
+  "unauthorizedError": {
+    "message": " - غیر مجاز۔ براہ کرم اپنی API کلید چیک کریں۔",
+    "description": "غیر مجاز API رسائی کے لیے ایرر میسج"
+  },
+    "extensionReloadedError": {
+        "message": "ایکسٹینشن دوبارہ لوڈ یا اپ ڈیٹ ہو گیا۔ براہ کرم صفحہ ریفریش کریں۔",
+        "description": "ایکسٹینشن ری لوڈ کے لیے ایرر"
+    },
+    "unknownError": {
+        "message": "نامعلوم ایرر",
+        "description": "عام ایرر"
+    },
+  "aiSpellcheckTitle": {
+    "message": "AI ہجے چیک اور ٹیکسٹ پروسیسنگ",
+    "description": "ایکسٹینشن کا مرکزی عنوان"
+  },
+  "aboutDocumentation": {
+    "message": "کے بارے میں اور دستاویزات ↗",
+    "description": "دستاویزات کا لنک"
+  },
+  "writingToolsTitle": {
+    "message": "تحریری ٹولز",
+    "description": "تحریری ٹولز سیکشن کے لیے عنوان"
+  },
+  "spellcheckOption": {
+    "message": "ہجے چیک کریں",
+    "description": "ہجے چیک موڈ کے لیے آپشن"
+  },
+  "proofreadOption": {
+    "message": "دوبارہ لکھیں",
+    "description": "پروف ریڈ موڈ کے لیے آپشن"
+  },
+  "customAiEditorOption": {
+    "message": "کسٹم AI ایڈیٹر",
+    "description": "کسٹم AI ایڈیٹر موڈ کے لیے آپشن"
+  },
+  "doubleCtrlStroke": {
+    "message": "ڈبل CTRL اسٹروک",
+    "description": "ڈبل CTRL اسٹروک شارٹ کٹ کے لیے لیبل"
+  },
+  "tripleCtrlStroke": {
+    "message": "ٹرپل CTRL اسٹروک",
+    "description": "ٹرپل CTRL اسٹروک شارٹ کٹ کے لیے لیبل"
+  },
+  "quadrupleCtrlStroke": {
+    "message": "کواڈرپل CTRL اسٹروک",
+    "description": "کواڈرپل CTRL اسٹروک شارٹ کٹ کے لیے لیبل"
+  },
+  "customShortcutKey": {
+    "message": "کسٹم شارٹ کٹ کلید",
+    "description": "کسٹم شارٹ کٹ کلید آپشن کے لیے لیبل"
+  },
+  "ollamaDocsLink": {
+    "message": "Ollama دستاویزات ↗",
+    "description": "Ollama دستاویزات کا لنک"
+  },
+  "openaiDocsLink": {
+    "message": "OpenAI دستاویزات ↗",
+    "description": "OpenAI دستاویزات کا لنک"
+  },
+  "anthropicDocsLink": {
+    "message": "Claude API کلید حاصل کریں ↗",
+    "description": "Anthropic API کلید حاصل کرنے کا لنک"
+  },
+  "lmstudioDocsLink": {
+    "message": "LM Studio دستاویزات ↗",
+    "description": "LM Studio دستاویزات کا لنک"
+  },
+  "geminiDocsLink": {
+    "message": "اپنی مفت Google Gemini API کلید حاصل کریں ↗",
+    "description": "Gemini API کلید حاصل کرنے کا لنک"
+  },
+  "deepseekDocsLink": {
+    "message": "DeepSeek API کلید حاصل کریں ↗",
+    "description": "DeepSeek API کلید حاصل کرنے کا لنک"
+  },
+  "mistralDocsLink": {
+    "message": "Mistral API کلید حاصل کریں ↗",
+    "description": "Mistral API کلید حاصل کرنے کا لنک"
+  },
+  "perplexityDocsLink": {
+    "message": "Perplexity API کلید حاصل کریں ↗",
+    "description": "Perplexity API کلید حاصل کرنے کا لنک"
+  },
+  "chromeDocsLink": {
+    "message": "Chrome AI دستاویزات ↗",
+    "description": "Chrome AI دستاویزات کا لنک"
+  },
+  "chromeAiNoteText": {
+    "message": "نوٹ: Chrome AI ایک پیش نظارہ خصوصیت ہے۔ اسے استعمال کرنے کے لیے، آپ کو Chrome میں فیچر فلیگ کو فعال کرنے کی ضرورت ہے:",
+    "description": "Chrome AI پیش نظارہ خصوصیت کے بارے میں نوٹ"
+  },
+  "chromeAiEnableLink": {
+    "message": "Chrome AI فیچر فلیگ کو فعال کریں",
+    "description": "Chrome AI فیچر فلیگ کو فعال کرنے کا لنک"
+  },
+  "openAiKeyPlaceholder": {
+    "message": "OpenAI API کلید",
+    "description": "OpenAI API کلید ان پٹ کے لیے پلیس ہولڈر"
+  },
+  "anthropicKeyPlaceholder": {
+    "message": "Anthropic API کلید",
+    "description": "Anthropic API کلید ان پٹ کے لیے پلیس ہولڈر"
+  },
+  "geminiKeyPlaceholder": {
+    "message": "Google API کلید",
+    "description": "Gemini API کلید ان پٹ کے لیے پلیس ہولڈر"
+  },
+  "deepseekKeyPlaceholder": {
+    "message": "DeepSeek API کلید",
+    "description": "DeepSeek API کلید ان پٹ کے لیے پلیس ہولڈر"
+  },
+  "mistralKeyPlaceholder": {
+    "message": "Mistral AI API کلید",
+    "description": "Mistral AI API کلید ان پٹ کے لیے پلیس ہولڈر"
+  },
+  "perplexityKeyPlaceholder": {
+    "message": "Perplexity AI API کلید",
+    "description": "Perplexity AI API کلید ان پٹ کے لیے پلیس ہولڈر"
+  },
+  "ollamaUrlPlaceholder": {
+    "message": "Ollama URL",
+    "description": "Ollama URL ان پٹ کے لیے پلیس ہولڈر"
+  },
+  "lmstudioUrlPlaceholder": {
+    "message": "LM Studio URL",
+    "description": "LM Studio URL ان پٹ کے لیے پلیس ہولڈر"
+  },
+  "modelNamePlaceholder": {
+    "message": "ماڈل کا نام",
+    "description": "ماڈل کا نام ان پٹ کے لیے پلیس ہولڈر"
+  },
+  "resetButton": {
+    "message": "ری سیٹ",
+    "description": "ری سیٹ بٹنوں کے لیے ٹیکسٹ"
+  },
+  "customShortcutPlaceholder": {
+    "message": "کیپچر کرنے کے لیے 'ریکارڈ' دبائیں",
+    "description": "کسٹم شارٹ کٹ ان پٹ کے لیے پلیس ہولڈر"
+  },
+  "systemPromptPlaceholder": {
+    "message": "سسٹم پراپٹ",
+    "description": "سسٹم پراپٹ ان پٹ کے لیے پلیس ہولڈر"
+  },
+  "ollamaProvider": {
+    "message": "Ollama",
+    "description": "Ollama فراہم کنندہ کا نام"
+  },
+  "openaiProvider": {
+    "message": "OpenAI",
+    "description": "OpenAI فراہم کنندہ کا نام"
+  },
+  "anthropicProvider": {
+    "message": "Anthropic Claude",
+    "description": "Anthropic فراہم کنندہ کا نام"
+  },
+  "lmstudioProvider": {
+    "message": "LM Studio",
+    "description": "LM Studio فراہم کنندہ کا نام"
+  },
+  "geminiProvider": {
+    "message": "Google Gemini",
+    "description": "Google Gemini فراہم کنندہ کا نام"
+  },
+  "deepseekProvider": {
+    "message": "DeepSeek",
+    "description": "DeepSeek فراہم کنندہ کا نام"
+  },
+  "mistralProvider": {
+    "message": "Mistral AI",
+    "description": "Mistral فراہم کنندہ کا نام"
+  },
+  "perplexityProvider": {
+    "message": "Perplexity AI",
+    "description": "Perplexity فراہم کنندہ کا نام"
+  },
+  "chromeProvider": {
+    "message": "Chrome AI (پیش نظارہ)",
+    "description": "Chrome AI فراہم کنندہ کا نام"
+  }
+} 

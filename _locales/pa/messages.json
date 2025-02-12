@@ -1,0 +1,366 @@
+{
+  "extensionName": {
+    "message": "Typollama – AI ਸਪੈਲ-ਚੈੱਕ ਅਤੇ ਟੈਕਸਟ ਪ੍ਰੋਸੈਸਿੰਗ",
+    "description": "ਐਕਸਟੈਂਸ਼ਨ ਦਾ ਨਾਮ"
+  },
+  "extensionDescription": {
+    "message": "Typollama ਨਾਲ ਆਪਣੀ ਲਿਖਾਈ ਨੂੰ ਬਿਹਤਰ ਬਣਾਓ – ਸਪੈਲ-ਚੈਕਿੰਗ ਅਤੇ ਐਡਵਾਂਸਡ ਟੈਕਸਟ ਪ੍ਰੋਸੈਸਿੰਗ ਲਈ ਇੱਕ AI-ਪਾਵਰਡ Chrome ਐਕਸਟੈਂਸ਼ਨ।",
+    "description": "ਐਕਸਟੈਂਸ਼ਨ ਦਾ ਵੇਰਵਾ"
+  },
+  "providerLabel": {
+    "message": "ਪ੍ਰਦਾਤਾ:",
+    "description": "ਪ੍ਰਦਾਤਾ ਚੋਣ ਲਈ ਲੇਬਲ"
+  },
+  "modelNameLabel": {
+    "message": "ਮਾਡਲ ਦਾ ਨਾਮ:",
+    "description": "ਮਾਡਲ ਨਾਮ ਇਨਪੁਟ ਲਈ ਲੇਬਲ"
+  },
+    "resetModelName": {
+    "message": "ਮਾਡਲ ਦਾ ਨਾਮ ਰੀਸੈਟ ਕਰੋ",
+    "description": "ਮਾਡਲ ਦਾ ਨਾਮ ਰੀਸੈਟ ਕਰਨ ਲਈ ਬਟਨ ਟੈਕਸਟ"
+  },
+  "promptTypeLabel": {
+    "message": "ਪ੍ਰੋਂਪਟ ਕਿਸਮ:",
+    "description": "ਪ੍ਰੋਂਪਟ ਕਿਸਮ ਚੋਣ ਲਈ ਲੇਬਲ"
+  },
+  "systemPromptLabel": {
+    "message": "ਸਿਸਟਮ ਪ੍ਰੋਂਪਟ:",
+    "description": "ਸਿਸਟਮ ਪ੍ਰੋਂਪਟ ਇਨਪੁਟ ਲਈ ਲੇਬਲ"
+  },
+  "resetPrompt": {
+    "message": "ਪ੍ਰੋਂਪਟ ਰੀਸੈਟ ਕਰੋ",
+    "description": "ਪ੍ਰੋਂਪਟ ਰੀਸੈਟ ਕਰਨ ਲਈ ਬਟਨ ਟੈਕਸਟ"
+  },
+  "shortcutModeLabel": {
+    "message": "ਸ਼ਾਰਟਕੱਟ ਮੋਡ:",
+    "description": "ਸ਼ਾਰਟਕੱਟ ਮੋਡ ਚੋਣ ਲਈ ਲੇਬਲ"
+  },
+  "recordShortcut": {
+    "message": "ਸ਼ਾਰਟਕੱਟ ਰਿਕਾਰਡ ਕਰੋ",
+    "description": "ਸ਼ਾਰਟਕੱਟ ਰਿਕਾਰਡ ਕਰਨ ਲਈ ਬਟਨ ਟੈਕਸਟ"
+  },
+  "customShortcutLabel": {
+    "message": "ਕਸਟਮ ਸ਼ਾਰਟਕੱਟ:",
+    "description": "ਕਸਟਮ ਸ਼ਾਰਟਕੱਟ ਇਨਪੁਟ ਲਈ ਲੇਬਲ"
+  },
+  "copyToClipboardLabel": {
+    "message": "ਕਲਿੱਪਬੋਰਡ 'ਤੇ ਕਾਪੀ ਕਰੋ",
+    "description": "ਕਲਿੱਪਬੋਰਡ 'ਤੇ ਕਾਪੀ ਕਰਨ ਦੇ ਵਿਕਲਪ ਲਈ ਚੈੱਕਬਾਕਸ ਲੇਬਲ"
+  },
+  "advancedSettingsLabel": {
+    "message": "ਐਡਵਾਂਸਡ ਸੈਟਿੰਗਾਂ",
+    "description": "ਐਡਵਾਂਸਡ ਸੈਟਿੰਗਾਂ ਲਈ ਟੌਗਲ ਟੈਕਸਟ"
+  },
+  "ollamaUrlLabel": {
+    "message": "Ollama URL:",
+    "description": "Ollama URL ਇਨਪੁਟ ਲਈ ਲੇਬਲ"
+  },
+  "resetOllamaUrl": {
+    "message": "Ollama URL ਰੀਸੈਟ ਕਰੋ",
+    "description": "Ollama URL ਰੀਸੈਟ ਕਰਨ ਲਈ ਬਟਨ ਟੈਕਸਟ"
+  },
+  "lmstudioUrlLabel": {
+    "message": "LM Studio URL:",
+    "description": "LM Studio URL ਇਨਪੁਟ ਲਈ ਲੇਬਲ"
+  },
+  "resetLmstudioUrl": {
+    "message": "LM Studio URL ਰੀਸੈਟ ਕਰੋ",
+    "description": "LM Studio URL ਰੀਸੈਟ ਕਰਨ ਲਈ ਬਟਨ ਟੈਕਸਟ"
+  },
+  "openAiKeyLabel": {
+    "message": "OpenAI API ਕੁੰਜੀ:",
+    "description": "OpenAI API ਕੁੰਜੀ ਇਨਪੁਟ ਲਈ ਲੇਬਲ"
+  },
+  "anthropicKeyLabel": {
+    "message": "Anthropic API ਕੁੰਜੀ:",
+    "description": "Anthropic API ਕੁੰਜੀ ਇਨਪੁਟ ਲਈ ਲੇਬਲ"
+  },
+  "geminiKeyLabel": {
+    "message": "Gemini API ਕੁੰਜੀ:",
+    "description": "Gemini API ਕੁੰਜੀ ਇਨਪੁਟ ਲਈ ਲੇਬਲ"
+  },
+  "deepseekKeyLabel": {
+    "message": "Deepseek API ਕੁੰਜੀ:",
+    "description": "Deepseek API ਕੁੰਜੀ ਇਨਪੁਟ ਲਈ ਲੇਬਲ"
+  },
+  "mistralKeyLabel": {
+    "message": "Mistral API ਕੁੰਜੀ:",
+    "description": "Mistral API ਕੁੰਜੀ ਇਨਪੁਟ ਲਈ ਲੇਬਲ"
+  },
+  "perplexityKeyLabel": {
+    "message": "Perplexity API ਕੁੰਜੀ:",
+    "description": "Perplexity API ਕੁੰਜੀ ਇਨਪੁਟ ਲਈ ਲੇਬਲ"
+  },
+  "ollamaDocs": {
+    "message": "Ollama ਦਸਤਾਵੇਜ਼",
+    "description": "Ollama ਦਸਤਾਵੇਜ਼ ਲਈ ਲਿੰਕ ਟੈਕਸਟ"
+  },
+  "openaiDocs": {
+    "message": "OpenAI ਦਸਤਾਵੇਜ਼",
+    "description": "OpenAI ਦਸਤਾਵੇਜ਼ ਲਈ ਲਿੰਕ ਟੈਕਸਟ"
+  },
+  "anthropicDocs": {
+    "message": "Anthropic ਦਸਤਾਵੇਜ਼",
+    "description": "Anthropic ਦਸਤਾਵੇਜ਼ ਲਈ ਲਿੰਕ ਟੈਕਸਟ"
+  },
+  "lmstudioDocs": {
+    "message": "LM Studio ਦਸਤਾਵੇਜ਼",
+    "description": "LM Studio ਦਸਤਾਵੇਜ਼ ਲਈ ਲਿੰਕ ਟੈਕਸਟ"
+  },
+  "geminiDocs": {
+    "message": "Gemini ਦਸਤਾਵੇਜ਼",
+    "description": "Gemini ਦਸਤਾਵੇਜ਼ ਲਈ ਲਿੰਕ ਟੈਕਸਟ"
+  },
+  "chromeDocs": {
+    "message": "Chrome AI ਦਸਤਾਵੇਜ਼",
+    "description": "Chrome AI ਦਸਤਾਵੇਜ਼ ਲਈ ਲਿੰਕ ਟੈਕਸਟ"
+  },
+  "deepseekDocs": {
+    "message": "Deepseek ਦਸਤਾਵੇਜ਼",
+    "description": "Deepseek ਦਸਤਾਵੇਜ਼ ਲਈ ਲਿੰਕ ਟੈਕਸਟ"
+  },
+  "mistralDocs": {
+    "message": "Mistral ਦਸਤਾਵੇਜ਼",
+    "description": "Mistral ਦਸਤਾਵੇਜ਼ ਲਈ ਲਿੰਕ ਟੈਕਸਟ"
+  },
+  "perplexityDocs": {
+    "message": "Perplexity ਦਸਤਾਵੇਜ਼",
+    "description": "Perplexity ਦਸਤਾਵੇਜ਼ ਲਈ ਲਿੰਕ ਟੈਕਸਟ"
+  },
+  "chromeAiNote": {
+    "message": "ਨੋਟ: Chrome AI ਪ੍ਰਯੋਗਾਤਮਕ ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ ਦੀ ਵਰਤੋਂ ਕਰਦਾ ਹੈ ਅਤੇ ਇਹ ਸਾਰੇ ਖੇਤਰਾਂ ਵਿੱਚ ਉਪਲਬਧ ਨਹੀਂ ਹੋ ਸਕਦਾ ਹੈ।",
+    "description": "Chrome AI ਬਾਰੇ ਨੋਟ"
+  },
+    "recordingPlaceholder": {
+    "message": "ਰਿਕਾਰਡਿੰਗ... ਕੁੰਜੀਆਂ ਦਬਾਓ, ਐਂਟਰ ਨਾਲ ਖਤਮ ਕਰੋ",
+    "description": "ਸ਼ਾਰਟਕੱਟ ਰਿਕਾਰਡਿੰਗ ਲਈ ਪਲੇਸਹੋਲਡਰ ਟੈਕਸਟ"
+  },
+  "recordingCompletePlaceholder": {
+    "message": "ਰਿਕਾਰਡਿੰਗ ਪੂਰੀ ਹੋਈ",
+    "description": "ਸ਼ਾਰਟਕੱਟ ਰਿਕਾਰਡਿੰਗ ਤੋਂ ਬਾਅਦ ਪਲੇਸਹੋਲਡਰ ਟੈਕਸਟ"
+  },
+    "stopRecording": {
+    "message": "ਰਿਕਾਰਡਿੰਗ ਬੰਦ ਕਰੋ",
+    "description": "ਰਿਕਾਰਡਿੰਗ ਬੰਦ ਕਰਨ ਲਈ ਬਟਨ"
+  },
+    "contextMenuSpellcheck": {
+    "message": "AI ਨਾਲ ਸਪੈਲਚੈੱਕ ਕਰੋ",
+    "description": "ਸਪੈਲਚੈੱਕ ਲਈ ਸੰਦਰਭ ਮੀਨੂ ਆਈਟਮ"
+  },
+  "contextMenuProofread": {
+    "message": "AI ਨਾਲ ਦੁਬਾਰਾ ਲਿਖੋ",
+    "description": "ਪਰੂਫਰੀਡ ਲਈ ਸੰਦਰਭ ਮੀਨੂ ਆਈਟਮ"
+  },
+  "contextMenuCustom": {
+    "message": "AI ਨਾਲ ਕਸਟਮ ਲਿਖਾਈ",
+    "description": "ਕਸਟਮ ਪ੍ਰੋਂਪਟ ਲਈ ਸੰਦਰਭ ਮੀਨੂ ਆਈਟਮ"
+  },
+  "apiKeyRequired": {
+    "message": "API ਕੁੰਜੀ ਲੋੜੀਂਦੀ ਹੈ",
+    "description": "API ਕੁੰਜੀ ਗੁੰਮ ਹੋਣ 'ਤੇ ਗਲਤੀ ਸੁਨੇਹਾ"
+  },
+  "urlRequired": {
+    "message": "URL ਲੋੜੀਂਦਾ ਹੈ",
+    "description": "URL ਗੁੰਮ ਹੋਣ 'ਤੇ ਗਲਤੀ ਸੁਨੇਹਾ"
+  },
+  "invalidUrl": {
+    "message": "ਗਲਤ {0} URL: {1}",
+    "description": "ਗਲਤ URL ਲਈ ਗਲਤੀ ਸੁਨੇਹਾ",
+    "placeholders": {
+      "0": {
+        "content": "$1"
+      },
+      "1": {
+        "content": "$2"
+      }
+    }
+  },
+  "ollama403Error": {
+    "message": " - Ollama ਨੂੰ ਵਾਧੂ ਐਕਸੈਸ ਓਰੀਜਿਨਾਂ ਦੀ ਲੋੜ ਹੈ। ਦੇਖੋ: https://github.com/ollama/ollama/blob/main/docs/faq.md#how-can-i-allow-additional-web-origins-to-access-ollama",
+    "description": "Ollama 403 ਗਲਤੀ ਲਈ ਗਲਤੀ ਸੁਨੇਹਾ"
+  },
+  "ollamaConnectionError": {
+    "message": " - Ollama ਸਰਵਰ ਅਪਹੁੰਚ ਹੈ ਜਾਂ ਚੱਲ ਨਹੀਂ ਰਿਹਾ ਹੈ",
+    "description": "Ollama ਕਨੈਕਸ਼ਨ ਗਲਤੀ ਲਈ ਗਲਤੀ ਸੁਨੇਹਾ"
+  },
+  "unauthorizedError": {
+    "message": " - ਅਣਅਧਿਕਾਰਤ। ਕਿਰਪਾ ਕਰਕੇ ਆਪਣੀ API ਕੁੰਜੀ ਜਾਂਚੋ।",
+    "description": "ਅਣਅਧਿਕਾਰਤ API ਐਕਸੈਸ ਲਈ ਗਲਤੀ ਸੁਨੇਹਾ"
+  },
+    "extensionReloadedError": {
+        "message": "ਐਕਸਟੈਂਸ਼ਨ ਮੁੜ ਲੋਡ ਜਾਂ ਅੱਪਡੇਟ ਕੀਤੀ ਗਈ। ਕਿਰਪਾ ਕਰਕੇ ਪੰਨੇ ਨੂੰ ਰੀਫ੍ਰੈਸ਼ ਕਰੋ।",
+        "description": "ਐਕਸਟੈਂਸ਼ਨ ਰੀਲੋਡ ਲਈ ਗਲਤੀ"
+    },
+    "unknownError": {
+        "message": "ਅਣਜਾਣ ਗਲਤੀ",
+        "description": "ਆਮ ਗਲਤੀ"
+    },
+  "aiSpellcheckTitle": {
+    "message": "AI ਸਪੈਲ-ਚੈੱਕ ਅਤੇ ਟੈਕਸਟ ਪ੍ਰੋਸੈਸਿੰਗ",
+    "description": "ਐਕਸਟੈਂਸ਼ਨ ਦਾ ਮੁੱਖ ਸਿਰਲੇਖ"
+  },
+  "aboutDocumentation": {
+    "message": "ਬਾਰੇ ਅਤੇ ਦਸਤਾਵੇਜ਼ ↗",
+    "description": "ਦਸਤਾਵੇਜ਼ ਦਾ ਲਿੰਕ"
+  },
+  "writingToolsTitle": {
+    "message": "ਲਿਖਣ ਦੇ ਟੂਲ",
+    "description": "ਲਿਖਣ ਦੇ ਟੂਲ ਸੈਕਸ਼ਨ ਲਈ ਸਿਰਲੇਖ"
+  },
+  "spellcheckOption": {
+    "message": "ਸਪੈਲਚੈੱਕ",
+    "description": "ਸਪੈਲਚੈੱਕ ਮੋਡ ਲਈ ਵਿਕਲਪ"
+  },
+  "proofreadOption": {
+    "message": "ਦੁਬਾਰਾ ਲਿਖੋ",
+    "description": "ਪਰੂਫਰੀਡ ਮੋਡ ਲਈ ਵਿਕਲਪ"
+  },
+  "customAiEditorOption": {
+    "message": "ਕਸਟਮ AI ਐਡੀਟਰ",
+    "description": "ਕਸਟਮ AI ਐਡੀਟਰ ਮੋਡ ਲਈ ਵਿਕਲਪ"
+  },
+  "doubleCtrlStroke": {
+    "message": "ਡਬਲ CTRL ਸਟ੍ਰੋਕ",
+    "description": "ਡਬਲ CTRL ਸਟ੍ਰੋਕ ਸ਼ਾਰਟਕੱਟ ਲਈ ਲੇਬਲ"
+  },
+  "tripleCtrlStroke": {
+    "message": "ਟ੍ਰਿਪਲ CTRL ਸਟ੍ਰੋਕ",
+    "description": "ਟ੍ਰਿਪਲ CTRL ਸਟ੍ਰੋਕ ਸ਼ਾਰਟਕੱਟ ਲਈ ਲੇਬਲ"
+  },
+  "quadrupleCtrlStroke": {
+    "message": "ਕਵਾਡਰਪਲ CTRL ਸਟ੍ਰੋਕ",
+    "description": "ਕਵਾਡਰਪਲ CTRL ਸਟ੍ਰੋਕ ਸ਼ਾਰਟਕੱਟ ਲਈ ਲੇਬਲ"
+  },
+  "customShortcutKey": {
+    "message": "ਕਸਟਮ ਸ਼ਾਰਟਕੱਟ ਕੁੰਜੀ",
+    "description": "ਕਸਟਮ ਸ਼ਾਰਟਕੱਟ ਕੁੰਜੀ ਵਿਕਲਪ ਲਈ ਲੇਬਲ"
+  },
+  "ollamaDocsLink": {
+    "message": "Ollama ਦਸਤਾਵੇਜ਼ ↗",
+    "description": "Ollama ਦਸਤਾਵੇਜ਼ ਦਾ ਲਿੰਕ"
+  },
+  "openaiDocsLink": {
+    "message": "OpenAI ਦਸਤਾਵੇਜ਼ ↗",
+    "description": "OpenAI ਦਸਤਾਵੇਜ਼ ਦਾ ਲਿੰਕ"
+  },
+  "anthropicDocsLink": {
+    "message": "Claude API ਕੁੰਜੀ ਪ੍ਰਾਪਤ ਕਰੋ ↗",
+    "description": "Anthropic API ਕੁੰਜੀ ਪ੍ਰਾਪਤ ਕਰਨ ਲਈ ਲਿੰਕ"
+  },
+  "lmstudioDocsLink": {
+    "message": "LM Studio ਦਸਤਾਵੇਜ਼ ↗",
+    "description": "LM Studio ਦਸਤਾਵੇਜ਼ ਦਾ ਲਿੰਕ"
+  },
+  "geminiDocsLink": {
+    "message": "ਆਪਣੀ ਮੁਫ਼ਤ Google Gemini API ਕੁੰਜੀ ਪ੍ਰਾਪਤ ਕਰੋ ↗",
+    "description": "Gemini API ਕੁੰਜੀ ਪ੍ਰਾਪਤ ਕਰਨ ਲਈ ਲਿੰਕ"
+  },
+  "deepseekDocsLink": {
+    "message": "DeepSeek API ਕੁੰਜੀ ਪ੍ਰਾਪਤ ਕਰੋ ↗",
+    "description": "DeepSeek API ਕੁੰਜੀ ਪ੍ਰਾਪਤ ਕਰਨ ਲਈ ਲਿੰਕ"
+  },
+  "mistralDocsLink": {
+    "message": "Mistral API ਕੁੰਜੀ ਪ੍ਰਾਪਤ ਕਰੋ ↗",
+    "description": "Mistral API ਕੁੰਜੀ ਪ੍ਰਾਪਤ ਕਰਨ ਲਈ ਲਿੰਕ"
+  },
+  "perplexityDocsLink": {
+    "message": "Perplexity API ਕੁੰਜੀ ਪ੍ਰਾਪਤ ਕਰੋ ↗",
+    "description": "Perplexity API ਕੁੰਜੀ ਪ੍ਰਾਪਤ ਕਰਨ ਲਈ ਲਿੰਕ"
+  },
+  "chromeDocsLink": {
+    "message": "Chrome AI ਦਸਤਾਵੇਜ਼ ↗",
+    "description": "Chrome AI ਦਸਤਾਵੇਜ਼ ਦਾ ਲਿੰਕ"
+  },
+  "chromeAiNoteText": {
+    "message": "ਨੋਟ: Chrome AI ਇੱਕ ਪ੍ਰੀਵਿਊ ਵਿਸ਼ੇਸ਼ਤਾ ਹੈ। ਇਸਦੀ ਵਰਤੋਂ ਕਰਨ ਲਈ, ਤੁਹਾਨੂੰ Chrome ਵਿੱਚ ਵਿਸ਼ੇਸ਼ਤਾ ਫਲੈਗ ਨੂੰ ਸਮਰੱਥ ਕਰਨਾ ਹੋਵੇਗਾ:",
+    "description": "Chrome AI ਪ੍ਰੀਵਿਊ ਵਿਸ਼ੇਸ਼ਤਾ ਬਾਰੇ ਨੋਟ"
+  },
+  "chromeAiEnableLink": {
+    "message": "Chrome AI ਵਿਸ਼ੇਸ਼ਤਾ ਫਲੈਗ ਨੂੰ ਸਮਰੱਥ ਕਰੋ",
+    "description": "Chrome AI ਵਿਸ਼ੇਸ਼ਤਾ ਫਲੈਗ ਨੂੰ ਸਮਰੱਥ ਕਰਨ ਲਈ ਲਿੰਕ"
+  },
+  "openAiKeyPlaceholder": {
+    "message": "OpenAI API ਕੁੰਜੀ",
+    "description": "OpenAI API ਕੁੰਜੀ ਇਨਪੁਟ ਲਈ ਪਲੇਸਹੋਲਡਰ"
+  },
+  "anthropicKeyPlaceholder": {
+    "message": "Anthropic API ਕੁੰਜੀ",
+    "description": "Anthropic API ਕੁੰਜੀ ਇਨਪੁਟ ਲਈ ਪਲੇਸਹੋਲਡਰ"
+  },
+  "geminiKeyPlaceholder": {
+    "message": "Google API ਕੁੰਜੀ",
+    "description": "Gemini API ਕੁੰਜੀ ਇਨਪੁਟ ਲਈ ਪਲੇਸਹੋਲਡਰ"
+  },
+  "deepseekKeyPlaceholder": {
+    "message": "DeepSeek API ਕੁੰਜੀ",
+    "description": "DeepSeek API ਕੁੰਜੀ ਇਨਪੁਟ ਲਈ ਪਲੇਸਹੋਲਡਰ"
+  },
+  "mistralKeyPlaceholder": {
+    "message": "Mistral AI API ਕੁੰਜੀ",
+    "description": "Mistral AI API ਕੁੰਜੀ ਇਨਪੁਟ ਲਈ ਪਲੇਸਹੋਲਡਰ"
+  },
+  "perplexityKeyPlaceholder": {
+    "message": "Perplexity AI API ਕੁੰਜੀ",
+    "description": "Perplexity AI API ਕੁੰਜੀ ਇਨਪੁਟ ਲਈ ਪਲੇਸਹੋਲਡਰ"
+  },
+  "ollamaUrlPlaceholder": {
+    "message": "Ollama URL",
+    "description": "Ollama URL ਇਨਪੁਟ ਲਈ ਪਲੇਸਹੋਲਡਰ"
+  },
+  "lmstudioUrlPlaceholder": {
+    "message": "LM Studio URL",
+    "description": "LM Studio URL ਇਨਪੁਟ ਲਈ ਪਲੇਸਹੋਲਡਰ"
+  },
+  "modelNamePlaceholder": {
+    "message": "ਮਾਡਲ ਦਾ ਨਾਮ",
+    "description": "ਮਾਡਲ ਦਾ ਨਾਮ ਇਨਪੁਟ ਲਈ ਪਲੇਸਹੋਲਡਰ"
+  },
+  "resetButton": {
+    "message": "ਰੀਸੈਟ",
+    "description": "ਰੀਸੈਟ ਬਟਨਾਂ ਲਈ ਟੈਕਸਟ"
+  },
+  "customShortcutPlaceholder": {
+    "message": "ਕੈਪਚਰ ਕਰਨ ਲਈ 'ਰਿਕਾਰਡ' ਦਬਾਓ",
+    "description": "ਕਸਟਮ ਸ਼ਾਰਟਕੱਟ ਇਨਪੁਟ ਲਈ ਪਲੇਸਹੋਲਡਰ"
+  },
+  "systemPromptPlaceholder": {
+    "message": "ਸਿਸਟਮ ਪ੍ਰੋਂਪਟ",
+    "description": "ਸਿਸਟਮ ਪ੍ਰੋਂਪਟ ਇਨਪੁਟ ਲਈ ਪਲੇਸਹੋਲਡਰ"
+  },
+  "ollamaProvider": {
+    "message": "Ollama",
+    "description": "Ollama ਪ੍ਰਦਾਤਾ ਦਾ ਨਾਮ"
+  },
+  "openaiProvider": {
+    "message": "OpenAI",
+    "description": "OpenAI ਪ੍ਰਦਾਤਾ ਦਾ ਨਾਮ"
+  },
+  "anthropicProvider": {
+    "message": "Anthropic Claude",
+    "description": "Anthropic ਪ੍ਰਦਾਤਾ ਦਾ ਨਾਮ"
+  },
+  "lmstudioProvider": {
+    "message": "LM Studio",
+    "description": "LM Studio ਪ੍ਰਦਾਤਾ ਦਾ ਨਾਮ"
+  },
+  "geminiProvider": {
+    "message": "Google Gemini",
+    "description": "Google Gemini ਪ੍ਰਦਾਤਾ ਦਾ ਨਾਮ"
+  },
+  "deepseekProvider": {
+    "message": "DeepSeek",
+    "description": "DeepSeek ਪ੍ਰਦਾਤਾ ਦਾ ਨਾਮ"
+  },
+  "mistralProvider": {
+    "message": "Mistral AI",
+    "description": "Mistral ਪ੍ਰਦਾਤਾ ਦਾ ਨਾਮ"
+  },
+  "perplexityProvider": {
+    "message": "Perplexity AI",
+    "description": "Perplexity ਪ੍ਰਦਾਤਾ ਦਾ ਨਾਮ"
+  },
+  "chromeProvider": {
+    "message": "Chrome AI (ਪ੍ਰੀਵਿਊ)",
+    "description": "Chrome AI ਪ੍ਰਦਾਤਾ ਦਾ ਨਾਮ"
+  }
+} 

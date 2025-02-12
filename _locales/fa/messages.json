@@ -1,0 +1,314 @@
+{
+  "extensionName": {
+    "message": "Typollama – بررسی املای هوش مصنوعی و پردازش متن",
+    "description": "نام افزونه"
+  },
+  "extensionDescription": {
+    "message": "نوشتن خود را با Typollama بهبود بخشید - یک افزونه کروم مبتنی بر هوش مصنوعی برای بررسی املا و پردازش متن پیشرفته.",
+    "description": "توضیحات افزونه"
+  },
+  "providerLabel": {
+    "message": "ارائه دهنده:",
+    "description": "برچسب برای انتخاب ارائه دهنده"
+  },
+  "modelNameLabel": {
+    "message": "نام مدل:",
+    "description": "برچسب برای ورودی نام مدل"
+  },
+    "resetModelName": {
+    "message": "بازنشانی نام مدل",
+    "description": "متن دکمه برای بازنشانی نام مدل"
+  },
+  "promptTypeLabel": {
+    "message": "نوع اعلان:",
+    "description": "برچسب برای انتخاب نوع اعلان"
+  },
+  "systemPromptLabel": {
+    "message": "اعلان سیستم:",
+    "description": "برچسب برای ورودی اعلان سیستم"
+  },
+  "resetPrompt": {
+    "message": "بازنشانی اعلان",
+    "description": "متن دکمه برای بازنشانی اعلان"
+  },
+  "shortcutModeLabel": {
+    "message": "حالت میانبر:",
+    "description": "برچسب برای انتخاب حالت میانبر"
+  },
+  "recordShortcut": {
+    "message": "ضبط میانبر",
+    "description": "متن دکمه برای ضبط میانبر"
+  },
+  "customShortcutLabel": {
+    "message": "میانبر سفارشی:",
+    "description": "برچسب برای ورودی میانبر سفارشی"
+  },
+  "copyToClipboardLabel": {
+    "message": "کپی به کلیپ بورد",
+    "description": "برچسب چک باکس برای گزینه کپی به کلیپ بورد"
+  },
+  "advancedSettingsLabel": {
+    "message": "تنظیمات پیشرفته",
+    "description": "برچسب بخش تنظیمات پیشرفته"
+  },
+  "resetButton": {
+    "message": "بازنشانی",
+    "description": "متن برای دکمه های بازنشانی"
+  },
+  "customShortcutPlaceholder": {
+    "message": "برای گرفتن، 'ضبط' را فشار دهید",
+    "description": "مکان نگهدار برای ورودی میانبر سفارشی"
+  },
+  "systemPromptPlaceholder": {
+    "message": "اعلان سیستم",
+    "description": "مکان نگهدار برای ورودی اعلان سیستم"
+  },
+  "ollamaProvider": {
+    "message": "Ollama",
+    "description": "نام ارائه دهنده Ollama"
+  },
+  "openaiProvider": {
+    "message": "OpenAI",
+    "description": "نام ارائه دهنده OpenAI"
+  },
+  "anthropicProvider": {
+    "message": "Anthropic Claude",
+    "description": "نام ارائه دهنده Anthropic"
+  },
+  "lmstudioProvider": {
+    "message": "LM Studio",
+    "description": "نام ارائه دهنده LM Studio"
+  },
+  "geminiProvider": {
+    "message": "Google Gemini",
+    "description": "نام ارائه دهنده Google Gemini"
+  },
+  "deepseekProvider": {
+    "message": "DeepSeek",
+    "description": "نام ارائه دهنده DeepSeek"
+  },
+  "mistralProvider": {
+    "message": "Mistral AI",
+    "description": "نام ارائه دهنده Mistral"
+  },
+  "perplexityProvider": {
+    "message": "Perplexity AI",
+    "description": "نام ارائه دهنده Perplexity"
+  },
+  "chromeProvider": {
+    "message": "Chrome AI (پیش نمایش)",
+    "description": "نام ارائه دهنده Chrome AI"
+  },
+  "apiKeyLabel": {
+    "message": "کلید API:",
+    "description": "برچسب برای ورودی کلید API"
+  },
+  "apiBaseUrlLabel": {
+    "message": "URL پایه API:",
+    "description": "برچسب برای ورودی URL پایه API"
+  },
+  "resetApiKey": {
+    "message": "بازنشانی کلید API",
+    "description": "متن دکمه برای بازنشانی کلید API"
+  },
+  "resetApiBaseUrl": {
+    "message": "بازنشانی URL پایه API",
+    "description": "متن دکمه برای بازنشانی URL پایه API"
+  },
+  "apiKeyPlaceholder": {
+    "message": "کلید API شما",
+    "description": "مکان نگهدار برای ورودی کلید API"
+  },
+  "apiBaseUrlPlaceholder": {
+    "message": "URL پایه API سفارشی",
+    "description": "مکان نگهدار برای ورودی URL پایه API"
+  },
+  "temperatureLabel": {
+    "message": "دما:",
+    "description": "برچسب برای لغزنده دما"
+  },
+  "topPLabel": {
+    "message": "بالا P:",
+    "description": "برچسب برای لغزنده بالا P"
+  },
+  "frequencyPenaltyLabel": {
+    "message": "جریمه تکرار:",
+    "description": "برچسب برای لغزنده جریمه تکرار"
+  },
+  "presencePenaltyLabel": {
+    "message": "جریمه حضور:",
+    "description": "برچسب برای لغزنده جریمه حضور"
+  },
+  "temperatureSliderMin": {
+    "message": "0",
+    "description": "حداقل مقدار لغزنده دما"
+  },
+  "temperatureSliderMax": {
+    "message": "2",
+    "description": "حداکثر مقدار لغزنده دما"
+  },
+  "topPSliderMin": {
+    "message": "0",
+    "description": "حداقل مقدار لغزنده بالا P"
+  },
+  "topPSliderMax": {
+    "message": "1",
+    "description": "حداکثر مقدار لغزنده بالا P"
+  },
+  "frequencyPenaltySliderMin": {
+    "message": "-2",
+    "description": "حداقل مقدار لغزنده جریمه تکرار"
+  },
+  "frequencyPenaltySliderMax": {
+    "message": "2",
+    "description": "حداکثر مقدار لغزنده جریمه تکرار"
+  },
+  "presencePenaltySliderMin": {
+    "message": "-2",
+    "description": "حداقل مقدار لغزنده جریمه حضور"
+  },
+  "presencePenaltySliderMax": {
+    "message": "2",
+    "description": "حداکثر مقدار لغزنده جریمه حضور"
+  },
+  "autoDetectProvider": {
+    "message": "تشخیص خودکار ارائه دهنده",
+    "description": "گزینه ای برای تشخیص خودکار ارائه دهنده"
+  },
+  "contextMenuLabel": {
+    "message": "Typollama",
+    "description": "برچسب منوی زمینه"
+  },
+  "checkSpellingLabel": {
+    "message": "بررسی املا",
+    "description": "مورد منوی زمینه برای بررسی املا"
+  },
+  "grammarCheckLabel": {
+    "message": "بررسی گرامر",
+    "description": "مورد منوی زمینه برای بررسی گرامر"
+  },
+  "improveWritingLabel": {
+    "message": "بهبود نوشتن",
+    "description": "مورد منوی زمینه برای بهبود نوشتن"
+  },
+  "loadingText": {
+    "message": "در حال بارگذاری...",
+    "description": "متن بارگذاری"
+  },
+  "errorText": {
+    "message": "خطا، لطفاً بعداً دوباره امتحان کنید.",
+    "description": "متن خطا"
+  },
+  "noTextSelected": {
+    "message": "هیچ متنی انتخاب نشده است.",
+    "description": "متن خطا زمانی که هیچ متنی انتخاب نشده است"
+  },
+  "optionsPageTitle": {
+    "message": "گزینه های Typollama",
+    "description": "عنوان صفحه گزینه ها"
+  },
+  "generalSettingsSection": {
+    "message": "تنظیمات عمومی",
+    "description": "عنوان بخش تنظیمات عمومی"
+  },
+  "providerSettingsSection": {
+    "message": "تنظیمات ارائه دهنده",
+    "description": "عنوان بخش تنظیمات ارائه دهنده"
+  },
+  "shortcutSettingsSection": {
+    "message": "تنظیمات میانبر",
+    "description": "عنوان بخش تنظیمات میانبر"
+  },
+  "languageSettingsSection": {
+    "message": "تنظیمات زبان",
+    "description": "عنوان بخش تنظیمات زبان"
+  },
+  "appearanceSettingsSection": {
+    "message": "تنظیمات ظاهر",
+    "description": "عنوان بخش تنظیمات ظاهر"
+  },
+  "aboutSection": {
+    "message": "درباره",
+    "description": "عنوان بخش درباره"
+  },
+  "versionLabel": {
+    "message": "نسخه:",
+    "description": "برچسب نسخه افزونه"
+  },
+  "authorLabel": {
+    "message": "نویسنده:",
+    "description": "برچسب نویسنده افزونه"
+  },
+  "githubLink": {
+    "message": "صفحه GitHub",
+    "description": "متن لینک GitHub"
+  },
+  "feedbackLink": {
+    "message": "ارسال بازخورد",
+    "description": "متن لینک بازخورد"
+  },
+  "privacyPolicyLink": {
+    "message": "سیاست حفظ حریم خصوصی",
+    "description": "متن لینک سیاست حفظ حریم خصوصی"
+  },
+  "donateLink": {
+    "message": "اهدای کمک مالی",
+    "description": "متن لینک اهدای کمک مالی"
+  },
+  "modelSettingsLabel": {
+    "message": "تنظیمات مدل",
+    "description": "برچسب بخش تنظیمات مدل"
+  },
+  "parameterSettingsLabel": {
+    "message": "تنظیمات پارامتر",
+    "description": "برچسب بخش تنظیمات پارامتر"
+  },
+  "advancedProviderSettingsLabel": {
+    "message": "تنظیمات پیشرفته ارائه دهنده",
+    "description": "برچسب بخش تنظیمات پیشرفته ارائه دهنده"
+  },
+  "promptSettingsLabel": {
+    "message": "تنظیمات اعلان",
+    "description": "برچسب بخش تنظیمات اعلان"
+  },
+  "shortcutSettingsNote": {
+    "message": "برخی از میانبرها ممکن است توسط سیستم عامل شما رزرو شده باشند و قابل بازنویسی نباشند.",
+    "description": "یادداشت در مورد تنظیمات میانبر"
+  },
+  "apiKeySettingsNote": {
+    "message": "اگر کلید API تنظیم نشده باشد، Typollama از یک کلید API عمومی استفاده می کند که ممکن است محدودیت نرخ داشته باشد.",
+    "description": "یادداشت در مورد تنظیمات کلید API"
+  },
+  "apiBaseUrlSettingsNote": {
+    "message": "URL پایه API را برای یک سرور سفارشی یا پروکسی API تغییر دهید.",
+    "description": "یادداشت در مورد تنظیمات URL پایه API"
+  },
+  "promptTypeNote": {
+    "message": "نوع اعلان را برای بهینه سازی نتایج برای وظایف مختلف انتخاب کنید.",
+    "description": "یادداشت در مورد نوع اعلان"
+  },
+  "systemPromptNote": {
+    "message": "اعلان سیستم زمینه را تنظیم می کند و رفتار هوش مصنوعی را هدایت می کند.",
+    "description": "یادداشت در مورد اعلان سیستم"
+  },
+  "shortcutModeNote": {
+    "message": "نحوه فعال کردن افزونه توسط میانبر را انتخاب کنید.",
+    "description": "یادداشت در مورد حالت میانبر"
+  },
+  "copyToClipboardNote": {
+    "message": "پس از پردازش، نتایج را به طور خودکار در کلیپ بورد کپی کنید.",
+    "description": "یادداشت در مورد گزینه کپی به کلیپ بورد"
+  },
+  "resetSettingsNote": {
+    "message": "بازنشانی تمام تنظیمات Typollama به حالت پیش فرض.",
+    "description": "یادداشت در مورد دکمه بازنشانی تنظیمات"
+  },
+  "resetConfirmation": {
+    "message": "آیا مطمئن هستید که می خواهید همه تنظیمات را به حالت پیش فرض بازنشانی کنید؟",
+    "description": "تأیید بازنشانی تنظیمات"
+  },
+  "resetSettingsButton": {
+    "message": "بازنشانی تنظیمات",
+    "description": "متن دکمه بازنشانی تنظیمات"
+  }
+} 

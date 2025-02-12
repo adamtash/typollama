@@ -1,0 +1,366 @@
+{
+  "extensionName": {
+    "message": "Typollama – AI ตรวจสอบการสะกดและประมวลผลข้อความ",
+    "description": "ชื่อส่วนขยาย"
+  },
+  "extensionDescription": {
+    "message": "ปรับปรุงการเขียนของคุณด้วย Typollama – ส่วนขยาย Chrome ที่ขับเคลื่อนด้วย AI สำหรับการตรวจสอบการสะกดและประมวลผลข้อความขั้นสูง",
+    "description": "คำอธิบายส่วนขยาย"
+  },
+  "providerLabel": {
+    "message": "ผู้ให้บริการ:",
+    "description": "ป้ายกำกับสำหรับการเลือกผู้ให้บริการ"
+  },
+  "modelNameLabel": {
+    "message": "ชื่อโมเดล:",
+    "description": "ป้ายกำกับสำหรับการป้อนชื่อโมเดล"
+  },
+    "resetModelName": {
+    "message": "รีเซ็ตชื่อโมเดล",
+    "description": "ข้อความปุ่มเพื่อรีเซ็ตชื่อโมเดล"
+  },
+  "promptTypeLabel": {
+    "message": "ประเภทพรอมต์:",
+    "description": "ป้ายกำกับสำหรับการเลือกประเภทพรอมต์"
+  },
+  "systemPromptLabel": {
+    "message": "พรอมต์ระบบ:",
+    "description": "ป้ายกำกับสำหรับการป้อนพรอมต์ระบบ"
+  },
+  "resetPrompt": {
+    "message": "รีเซ็ตพรอมต์",
+    "description": "ข้อความปุ่มเพื่อรีเซ็ตพรอมต์"
+  },
+  "shortcutModeLabel": {
+    "message": "โหมดทางลัด:",
+    "description": "ป้ายกำกับสำหรับการเลือกโหมดทางลัด"
+  },
+  "recordShortcut": {
+    "message": "บันทึกทางลัด",
+    "description": "ข้อความปุ่มเพื่อบันทึกทางลัด"
+  },
+  "customShortcutLabel": {
+    "message": "ทางลัดที่กำหนดเอง:",
+    "description": "ป้ายกำกับสำหรับการป้อนทางลัดที่กำหนดเอง"
+  },
+  "copyToClipboardLabel": {
+    "message": "คัดลอกไปยังคลิปบอร์ด",
+    "description": "ป้ายกำกับช่องทำเครื่องหมายสำหรับตัวเลือกคัดลอกไปยังคลิปบอร์ด"
+  },
+  "advancedSettingsLabel": {
+    "message": "การตั้งค่าขั้นสูง",
+    "description": "ข้อความสลับสำหรับการตั้งค่าขั้นสูง"
+  },
+  "ollamaUrlLabel": {
+    "message": "URL Ollama:",
+    "description": "ป้ายกำกับสำหรับการป้อน URL Ollama"
+  },
+  "resetOllamaUrl": {
+    "message": "รีเซ็ต URL Ollama",
+    "description": "ข้อความปุ่มเพื่อรีเซ็ต URL Ollama"
+  },
+  "lmstudioUrlLabel": {
+    "message": "URL LM Studio:",
+    "description": "ป้ายกำกับสำหรับการป้อน URL LM Studio"
+  },
+  "resetLmstudioUrl": {
+    "message": "รีเซ็ต URL LM Studio",
+    "description": "ข้อความปุ่มเพื่อรีเซ็ต URL LM Studio"
+  },
+  "openAiKeyLabel": {
+    "message": "คีย์ API OpenAI:",
+    "description": "ป้ายกำกับสำหรับการป้อนคีย์ API OpenAI"
+  },
+  "anthropicKeyLabel": {
+    "message": "คีย์ API Anthropic:",
+    "description": "ป้ายกำกับสำหรับการป้อนคีย์ API Anthropic"
+  },
+  "geminiKeyLabel": {
+    "message": "คีย์ API Gemini:",
+    "description": "ป้ายกำกับสำหรับการป้อนคีย์ API Gemini"
+  },
+  "deepseekKeyLabel": {
+    "message": "คีย์ API Deepseek:",
+    "description": "ป้ายกำกับสำหรับการป้อนคีย์ API Deepseek"
+  },
+  "mistralKeyLabel": {
+    "message": "คีย์ API Mistral:",
+    "description": "ป้ายกำกับสำหรับการป้อนคีย์ API Mistral"
+  },
+  "perplexityKeyLabel": {
+    "message": "คีย์ API Perplexity:",
+    "description": "ป้ายกำกับสำหรับการป้อนคีย์ API Perplexity"
+  },
+  "ollamaDocs": {
+    "message": "เอกสารประกอบ Ollama",
+    "description": "ข้อความลิงก์ไปยังเอกสารประกอบ Ollama"
+  },
+  "openaiDocs": {
+    "message": "เอกสารประกอบ OpenAI",
+    "description": "ข้อความลิงก์ไปยังเอกสารประกอบ OpenAI"
+  },
+  "anthropicDocs": {
+    "message": "เอกสารประกอบ Anthropic",
+    "description": "ข้อความลิงก์ไปยังเอกสารประกอบ Anthropic"
+  },
+  "lmstudioDocs": {
+    "message": "เอกสารประกอบ LM Studio",
+    "description": "ข้อความลิงก์ไปยังเอกสารประกอบ LM Studio"
+  },
+  "geminiDocs": {
+    "message": "เอกสารประกอบ Gemini",
+    "description": "ข้อความลิงก์ไปยังเอกสารประกอบ Gemini"
+  },
+  "chromeDocs": {
+    "message": "เอกสารประกอบ Chrome AI",
+    "description": "ข้อความลิงก์ไปยังเอกสารประกอบ Chrome AI"
+  },
+  "deepseekDocs": {
+    "message": "เอกสารประกอบ Deepseek",
+    "description": "ข้อความลิงก์ไปยังเอกสารประกอบ Deepseek"
+  },
+  "mistralDocs": {
+    "message": "เอกสารประกอบ Mistral",
+    "description": "ข้อความลิงก์ไปยังเอกสารประกอบ Mistral"
+  },
+  "perplexityDocs": {
+    "message": "เอกสารประกอบ Perplexity",
+    "description": "ข้อความลิงก์ไปยังเอกสารประกอบ Perplexity"
+  },
+  "chromeAiNote": {
+    "message": "หมายเหตุ: Chrome AI ใช้คุณสมบัติทดลองและอาจไม่พร้อมใช้งานในทุกภูมิภาค",
+    "description": "หมายเหตุเกี่ยวกับ Chrome AI"
+  },
+    "recordingPlaceholder": {
+    "message": "กำลังบันทึก... กดปุ่มต่างๆ สิ้นสุดด้วย Enter",
+    "description": "ข้อความตัวยึดสำหรับการบันทึกทางลัด"
+  },
+  "recordingCompletePlaceholder": {
+    "message": "บันทึกเสร็จสมบูรณ์",
+    "description": "ข้อความตัวยึดหลังจากการบันทึกทางลัด"
+  },
+    "stopRecording": {
+    "message": "หยุดการบันทึก",
+    "description": "ปุ่มเพื่อหยุดการบันทึก"
+  },
+    "contextMenuSpellcheck": {
+    "message": "ตรวจสอบการสะกดด้วย AI",
+    "description": "รายการเมนูบริบทสำหรับการตรวจสอบการสะกด"
+  },
+  "contextMenuProofread": {
+    "message": "พิสูจน์อักษรด้วย AI",
+    "description": "รายการเมนูบริบทสำหรับการพิสูจน์อักษร"
+  },
+  "contextMenuCustom": {
+    "message": "การเขียนแบบกำหนดเองด้วย AI",
+    "description": "รายการเมนูบริบทสำหรับพรอมต์แบบกำหนดเอง"
+  },
+  "apiKeyRequired": {
+    "message": "ต้องมีคีย์ API",
+    "description": "ข้อความแสดงข้อผิดพลาดเมื่อไม่มีคีย์ API"
+  },
+  "urlRequired": {
+    "message": "ต้องมี URL",
+    "description": "ข้อความแสดงข้อผิดพลาดเมื่อไม่มี URL"
+  },
+  "invalidUrl": {
+    "message": "URL {0} ไม่ถูกต้อง: {1}",
+    "description": "ข้อความแสดงข้อผิดพลาดสำหรับ URL ที่ไม่ถูกต้อง",
+    "placeholders": {
+      "0": {
+        "content": "$1"
+      },
+      "1": {
+        "content": "$2"
+      }
+    }
+  },
+  "ollama403Error": {
+    "message": " - Ollama ต้องการแหล่งที่มาของการเข้าถึงเพิ่มเติม ดู: https://github.com/ollama/ollama/blob/main/docs/faq.md#how-can-i-allow-additional-web-origins-to-access-ollama",
+    "description": "ข้อความแสดงข้อผิดพลาดสำหรับข้อผิดพลาด 403 ของ Ollama"
+  },
+  "ollamaConnectionError": {
+    "message": " - เซิร์ฟเวอร์ Ollama ไม่สามารถเข้าถึงได้หรือไม่ได้ทำงาน",
+    "description": "ข้อความแสดงข้อผิดพลาดสำหรับข้อผิดพลาดในการเชื่อมต่อ Ollama"
+  },
+  "unauthorizedError": {
+    "message": " - ไม่ได้รับอนุญาต โปรดตรวจสอบคีย์ API ของคุณ",
+    "description": "ข้อความแสดงข้อผิดพลาดสำหรับการเข้าถึง API ที่ไม่ได้รับอนุญาต"
+  },
+    "extensionReloadedError": {
+        "message": "ส่วนขยายถูกโหลดซ้ำหรืออัปเดต โปรดรีเฟรชหน้า",
+        "description": "ข้อผิดพลาดในการโหลดซ้ำส่วนขยาย"
+    },
+    "unknownError": {
+        "message": "ข้อผิดพลาดที่ไม่รู้จัก",
+        "description": "ข้อผิดพลาดทั่วไป"
+    },
+  "aiSpellcheckTitle": {
+    "message": "AI ตรวจสอบการสะกดและประมวลผลข้อความ",
+    "description": "ชื่อเรื่องหลักของส่วนขยาย"
+  },
+  "aboutDocumentation": {
+    "message": "เกี่ยวกับและเอกสารประกอบ ↗",
+    "description": "ลิงก์ไปยังเอกสารประกอบ"
+  },
+  "writingToolsTitle": {
+    "message": "เครื่องมือการเขียน",
+    "description": "ชื่อเรื่องสำหรับส่วนเครื่องมือการเขียน"
+  },
+  "spellcheckOption": {
+    "message": "ตรวจสอบการสะกด",
+    "description": "ตัวเลือกสำหรับโหมดตรวจสอบการสะกด"
+  },
+  "proofreadOption": {
+    "message": "พิสูจน์อักษร",
+    "description": "ตัวเลือกสำหรับโหมดพิสูจน์อักษร"
+  },
+  "customAiEditorOption": {
+    "message": "โปรแกรมแก้ไข AI แบบกำหนดเอง",
+    "description": "ตัวเลือกสำหรับโหมดโปรแกรมแก้ไข AI แบบกำหนดเอง"
+  },
+  "doubleCtrlStroke": {
+    "message": "ดับเบิล CTRL Stroke",
+    "description": "ป้ายกำกับสำหรับทางลัดดับเบิล CTRL Stroke"
+  },
+  "tripleCtrlStroke": {
+    "message": "ทริปเปิล CTRL Stroke",
+    "description": "ป้ายกำกับสำหรับทางลัดทริปเปิล CTRL Stroke"
+  },
+  "quadrupleCtrlStroke": {
+    "message": "ควอดรูเปิล CTRL Stroke",
+    "description": "ป้ายกำกับสำหรับทางลัดควอดรูเปิล CTRL Stroke"
+  },
+  "customShortcutKey": {
+    "message": "ปุ่มทางลัดแบบกำหนดเอง",
+    "description": "ป้ายกำกับสำหรับตัวเลือกปุ่มทางลัดแบบกำหนดเอง"
+  },
+  "ollamaDocsLink": {
+    "message": "เอกสารประกอบ Ollama ↗",
+    "description": "ลิงก์ไปยังเอกสารประกอบ Ollama"
+  },
+  "openaiDocsLink": {
+    "message": "เอกสารประกอบ OpenAI ↗",
+    "description": "ลิงก์ไปยังเอกสารประกอบ OpenAI"
+  },
+  "anthropicDocsLink": {
+    "message": "รับคีย์ API Claude ↗",
+    "description": "ลิงก์เพื่อรับคีย์ API Anthropic"
+  },
+  "lmstudioDocsLink": {
+    "message": "เอกสารประกอบ LM Studio ↗",
+    "description": "ลิงก์ไปยังเอกสารประกอบ LM Studio"
+  },
+  "geminiDocsLink": {
+    "message": "รับคีย์ Google Gemini API ฟรีของคุณ ↗",
+    "description": "ลิงก์เพื่อรับคีย์ API Gemini"
+  },
+  "deepseekDocsLink": {
+    "message": "รับคีย์ API DeepSeek ↗",
+    "description": "ลิงก์เพื่อรับคีย์ API DeepSeek"
+  },
+  "mistralDocsLink": {
+    "message": "รับคีย์ API Mistral ↗",
+    "description": "ลิงก์เพื่อรับคีย์ API Mistral"
+  },
+  "perplexityDocsLink": {
+    "message": "รับคีย์ API Perplexity ↗",
+    "description": "ลิงก์เพื่อรับคีย์ API Perplexity"
+  },
+  "chromeDocsLink": {
+    "message": "เอกสารประกอบ Chrome AI ↗",
+    "description": "ลิงก์ไปยังเอกสารประกอบ Chrome AI"
+  },
+  "chromeAiNoteText": {
+    "message": "หมายเหตุ: Chrome AI เป็นคุณสมบัติแสดงตัวอย่าง หากต้องการใช้คุณสมบัตินี้ คุณจะต้องเปิดใช้งานแฟล็กคุณสมบัติใน Chrome:",
+    "description": "หมายเหตุเกี่ยวกับคุณสมบัติแสดงตัวอย่าง Chrome AI"
+  },
+  "chromeAiEnableLink": {
+    "message": "เปิดใช้งานแฟล็กคุณสมบัติ Chrome AI",
+    "description": "ลิงก์เพื่อเปิดใช้งานแฟล็กคุณสมบัติ Chrome AI"
+  },
+  "openAiKeyPlaceholder": {
+    "message": "คีย์ API OpenAI",
+    "description": "ตัวยึดสำหรับการป้อนคีย์ API OpenAI"
+  },
+  "anthropicKeyPlaceholder": {
+    "message": "คีย์ API Anthropic",
+    "description": "ตัวยึดสำหรับการป้อนคีย์ API Anthropic"
+  },
+  "geminiKeyPlaceholder": {
+    "message": "คีย์ API Google",
+    "description": "ตัวยึดสำหรับการป้อนคีย์ API Gemini"
+  },
+  "deepseekKeyPlaceholder": {
+    "message": "คีย์ API DeepSeek",
+    "description": "ตัวยึดสำหรับการป้อนคีย์ API DeepSeek"
+  },
+  "mistralKeyPlaceholder": {
+    "message": "คีย์ API Mistral AI",
+    "description": "ตัวยึดสำหรับการป้อนคีย์ API Mistral AI"
+  },
+  "perplexityKeyPlaceholder": {
+    "message": "คีย์ API Perplexity AI",
+    "description": "ตัวยึดสำหรับการป้อนคีย์ API Perplexity AI"
+  },
+  "ollamaUrlPlaceholder": {
+    "message": "URL Ollama",
+    "description": "ตัวยึดสำหรับการป้อน URL Ollama"
+  },
+  "lmstudioUrlPlaceholder": {
+    "message": "URL LM Studio",
+    "description": "ตัวยึดสำหรับการป้อน URL LM Studio"
+  },
+  "modelNamePlaceholder": {
+    "message": "ชื่อโมเดล",
+    "description": "ตัวยึดสำหรับการป้อนชื่อโมเดล"
+  },
+  "resetButton": {
+    "message": "รีเซ็ต",
+    "description": "ข้อความสำหรับปุ่มรีเซ็ต"
+  },
+  "customShortcutPlaceholder": {
+    "message": "กด 'บันทึก' เพื่อจับภาพ",
+    "description": "ตัวยึดสำหรับการป้อนทางลัดแบบกำหนดเอง"
+  },
+  "systemPromptPlaceholder": {
+    "message": "พรอมต์ระบบ",
+    "description": "ตัวยึดสำหรับการป้อนพรอมต์ระบบ"
+  },
+  "ollamaProvider": {
+    "message": "Ollama",
+    "description": "ชื่อผู้ให้บริการ Ollama"
+  },
+  "openaiProvider": {
+    "message": "OpenAI",
+    "description": "ชื่อผู้ให้บริการ OpenAI"
+  },
+  "anthropicProvider": {
+    "message": "Anthropic Claude",
+    "description": "ชื่อผู้ให้บริการ Anthropic"
+  },
+  "lmstudioProvider": {
+    "message": "LM Studio",
+    "description": "ชื่อผู้ให้บริการ LM Studio"
+  },
+  "geminiProvider": {
+    "message": "Google Gemini",
+    "description": "ชื่อผู้ให้บริการ Google Gemini"
+  },
+  "deepseekProvider": {
+    "message": "DeepSeek",
+    "description": "ชื่อผู้ให้บริการ DeepSeek"
+  },
+  "mistralProvider": {
+    "message": "Mistral AI",
+    "description": "ชื่อผู้ให้บริการ Mistral"
+  },
+  "perplexityProvider": {
+    "message": "Perplexity AI",
+    "description": "ชื่อผู้ให้บริการ Perplexity"
+  },
+  "chromeProvider": {
+    "message": "Chrome AI (ตัวอย่าง)",
+    "description": "ชื่อผู้ให้บริการ Chrome AI"
+  }
+} 

@@ -1,0 +1,366 @@
+{
+  "extensionName": {
+    "message": "Typollama – בדיקת איות ועיבוד טקסט באמצעות AI",
+    "description": "שם התוסף"
+  },
+  "extensionDescription": {
+    "message": "שפר את הכתיבה שלך עם Typollama – תוסף Chrome מבוסס AI לבדיקת איות ועיבוד טקסט מתקדם.",
+    "description": "תיאור התוסף"
+  },
+  "providerLabel": {
+    "message": "ספק:",
+    "description": "תווית לבחירת ספק"
+  },
+  "modelNameLabel": {
+    "message": "שם מודל:",
+    "description": "תווית לקלט שם מודל"
+  },
+    "resetModelName": {
+    "message": "אפס שם מודל",
+    "description": "טקסט כפתור לאיפוס שם מודל"
+  },
+  "promptTypeLabel": {
+    "message": "סוג הנחיה:",
+    "description": "תווית לבחירת סוג הנחיה"
+  },
+  "systemPromptLabel": {
+    "message": "הנחיית מערכת:",
+    "description": "תווית לקלט הנחיית מערכת"
+  },
+  "resetPrompt": {
+    "message": "אפס הנחיה",
+    "description": "טקסט כפתור לאיפוס הנחיה"
+  },
+  "shortcutModeLabel": {
+    "message": "מצב קיצור דרך:",
+    "description": "תווית לבחירת מצב קיצור דרך"
+  },
+  "recordShortcut": {
+    "message": "הקלט קיצור דרך",
+    "description": "טקסט כפתור להקלטת קיצור דרך"
+  },
+  "customShortcutLabel": {
+    "message": "קיצור דרך מותאם אישית:",
+    "description": "תווית לקלט קיצור דרך מותאם אישית"
+  },
+  "copyToClipboardLabel": {
+    "message": "העתק ללוח",
+    "description": "תווית תיבת סימון לאפשרות העתקה ללוח"
+  },
+  "advancedSettingsLabel": {
+    "message": "הגדרות מתקדמות",
+    "description": "טקסט החלפה להגדרות מתקדמות"
+  },
+  "ollamaUrlLabel": {
+    "message": "כתובת URL של Ollama:",
+    "description": "תווית לקלט כתובת URL של Ollama"
+  },
+  "resetOllamaUrl": {
+    "message": "אפס כתובת URL של Ollama",
+    "description": "טקסט כפתור לאיפוס כתובת URL של Ollama"
+  },
+  "lmstudioUrlLabel": {
+    "message": "כתובת URL של LM Studio:",
+    "description": "תווית לקלט כתובת URL של LM Studio"
+  },
+  "resetLmstudioUrl": {
+    "message": "אפס כתובת URL של LM Studio",
+    "description": "טקסט כפתור לאיפוס כתובת URL של LM Studio"
+  },
+  "openAiKeyLabel": {
+    "message": "מפתח API של OpenAI:",
+    "description": "תווית לקלט מפתח API של OpenAI"
+  },
+  "anthropicKeyLabel": {
+    "message": "מפתח API של Anthropic:",
+    "description": "תווית לקלט מפתח API של Anthropic"
+  },
+  "geminiKeyLabel": {
+    "message": "מפתח API של Gemini:",
+    "description": "תווית לקלט מפתח API של Gemini"
+  },
+  "deepseekKeyLabel": {
+    "message": "מפתח API של Deepseek:",
+    "description": "תווית לקלט מפתח API של Deepseek"
+  },
+  "mistralKeyLabel": {
+    "message": "מפתח API של Mistral:",
+    "description": "תווית לקלט מפתח API של Mistral"
+  },
+  "perplexityKeyLabel": {
+    "message": "מפתח API של Perplexity:",
+    "description": "תווית לקלט מפתח API של Perplexity"
+  },
+  "ollamaDocs": {
+    "message": "תיעוד Ollama",
+    "description": "טקסט קישור לתיעוד Ollama"
+  },
+  "openaiDocs": {
+    "message": "תיעוד OpenAI",
+    "description": "טקסט קישור לתיעוד OpenAI"
+  },
+  "anthropicDocs": {
+    "message": "תיעוד Anthropic",
+    "description": "טקסט קישור לתיעוד Anthropic"
+  },
+  "lmstudioDocs": {
+    "message": "תיעוד LM Studio",
+    "description": "טקסט קישור לתיעוד LM Studio"
+  },
+  "geminiDocs": {
+    "message": "תיעוד Gemini",
+    "description": "טקסט קישור לתיעוד Gemini"
+  },
+  "chromeDocs": {
+    "message": "תיעוד Chrome AI",
+    "description": "טקסט קישור לתיעוד Chrome AI"
+  },
+  "deepseekDocs": {
+    "message": "תיעוד Deepseek",
+    "description": "טקסט קישור לתיעוד Deepseek"
+  },
+  "mistralDocs": {
+    "message": "תיעוד Mistral",
+    "description": "טקסט קישור לתיעוד Mistral"
+  },
+  "perplexityDocs": {
+    "message": "תיעוד Perplexity",
+    "description": "טקסט קישור לתיעוד Perplexity"
+  },
+  "chromeAiNote": {
+    "message": "הערה: Chrome AI משתמש בתכונות ניסיוניות וייתכן שלא יהיה זמין בכל האזורים.",
+    "description": "הערה על Chrome AI"
+  },
+    "recordingPlaceholder": {
+    "message": "מקליט... הקש על מקשים, סיים עם Enter",
+    "description": "טקסט מציין מיקום להקלטת קיצור דרך"
+  },
+  "recordingCompletePlaceholder": {
+    "message": "ההקלטה הושלמה",
+    "description": "טקסט מציין מיקום לאחר הקלטת קיצור דרך"
+  },
+    "stopRecording": {
+    "message": "עצור הקלטה",
+    "description": "כפתור לעצירת הקלטה"
+  },
+    "contextMenuSpellcheck": {
+    "message": "בדיקת איות עם AI",
+    "description": "פריט תפריט הקשר לבדיקת איות"
+  },
+  "contextMenuProofread": {
+    "message": "הגהה עם AI",
+    "description": "פריט תפריט הקשר להגהה"
+  },
+  "contextMenuCustom": {
+    "message": "כתיבה מותאמת אישית עם AI",
+    "description": "פריט תפריט הקשר להנחיה מותאמת אישית"
+  },
+  "apiKeyRequired": {
+    "message": "נדרש מפתח API",
+    "description": "הודעת שגיאה כאשר מפתח API חסר"
+  },
+  "urlRequired": {
+    "message": "נדרש URL",
+    "description": "הודעת שגיאה כאשר URL חסר"
+  },
+  "invalidUrl": {
+    "message": "כתובת URL {0} לא חוקית: {1}",
+    "description": "הודעת שגיאה עבור כתובת URL לא חוקית",
+    "placeholders": {
+      "0": {
+        "content": "$1"
+      },
+      "1": {
+        "content": "$2"
+      }
+    }
+  },
+  "ollama403Error": {
+    "message": " - Ollama דורש מקורות גישה נוספים. ראה: https://github.com/ollama/ollama/blob/main/docs/faq.md#how-can-i-allow-additional-web-origins-to-access-ollama",
+    "description": "הודעת שגיאה עבור שגיאת 403 של Ollama"
+  },
+  "ollamaConnectionError": {
+    "message": " - שרת Ollama אינו נגיש או לא פועל",
+    "description": "הודעת שגיאה עבור שגיאת חיבור Ollama"
+  },
+  "unauthorizedError": {
+    "message": " - לא מורשה. אנא בדוק את מפתח ה-API שלך.",
+    "description": "הודעת שגיאה עבור גישה לא מורשית ל-API"
+  },
+    "extensionReloadedError": {
+        "message": "התוסף נטען מחדש או עודכן. נא רענן את הדף.",
+        "description": "שגיאת טעינה מחדש של התוסף"
+    },
+    "unknownError": {
+        "message": "שגיאה לא ידועה",
+        "description": "שגיאה כללית"
+    },
+  "aiSpellcheckTitle": {
+    "message": "בדיקת איות ועיבוד טקסט באמצעות AI",
+    "description": "כותרת ראשית של התוסף"
+  },
+  "aboutDocumentation": {
+    "message": "אודות ותיעוד ↗",
+    "description": "קישור לתיעוד"
+  },
+  "writingToolsTitle": {
+    "message": "כלי כתיבה",
+    "description": "כותרת עבור סעיף כלי הכתיבה"
+  },
+  "spellcheckOption": {
+    "message": "בדיקת איות",
+    "description": "אפשרות למצב בדיקת איות"
+  },
+  "proofreadOption": {
+    "message": "הגהה",
+    "description": "אפשרות למצב הגהה"
+  },
+  "customAiEditorOption": {
+    "message": "עורך AI מותאם אישית",
+    "description": "אפשרות למצב עורך AI מותאם אישית"
+  },
+  "doubleCtrlStroke": {
+    "message": "הקשה כפולה על CTRL",
+    "description": "תווית עבור קיצור דרך של הקשה כפולה על CTRL"
+  },
+  "tripleCtrlStroke": {
+    "message": "הקשה משולשת על CTRL",
+    "description": "תווית עבור קיצור דרך של הקשה משולשת על CTRL"
+  },
+  "quadrupleCtrlStroke": {
+    "message": "הקשה מרובעת על CTRL",
+    "description": "תווית עבור קיצור דרך של הקשה מרובעת על CTRL"
+  },
+  "customShortcutKey": {
+    "message": "מקש קיצור דרך מותאם אישית",
+    "description": "תווית עבור אפשרות מקש קיצור דרך מותאם אישית"
+  },
+  "ollamaDocsLink": {
+    "message": "תיעוד Ollama ↗",
+    "description": "קישור לתיעוד Ollama"
+  },
+  "openaiDocsLink": {
+    "message": "תיעוד OpenAI ↗",
+    "description": "קישור לתיעוד OpenAI"
+  },
+  "anthropicDocsLink": {
+    "message": "קבל מפתח API של Claude ↗",
+    "description": "קישור לקבלת מפתח API של Anthropic"
+  },
+  "lmstudioDocsLink": {
+    "message": "תיעוד LM Studio ↗",
+    "description": "קישור לתיעוד LM Studio"
+  },
+  "geminiDocsLink": {
+    "message": "קבל את מפתח ה-Google Gemini API החינמי שלך ↗",
+    "description": "קישור לקבלת מפתח API של Gemini"
+  },
+  "deepseekDocsLink": {
+    "message": "קבל מפתח API של DeepSeek ↗",
+    "description": "קישור לקבלת מפתח API של DeepSeek"
+  },
+  "mistralDocsLink": {
+    "message": "קבל מפתח API של Mistral ↗",
+    "description": "קישור לקבלת מפתח API של Mistral"
+  },
+  "perplexityDocsLink": {
+    "message": "קבל מפתח API של Perplexity ↗",
+    "description": "קישור לקבלת מפתח API של Perplexity"
+  },
+  "chromeDocsLink": {
+    "message": "תיעוד Chrome AI ↗",
+    "description": "קישור לתיעוד Chrome AI"
+  },
+  "chromeAiNoteText": {
+    "message": "הערה: Chrome AI הוא תכונת תצוגה מקדימה. כדי להשתמש בו, עליך להפעיל את דגל התכונה ב-Chrome:",
+    "description": "הערה על תכונת התצוגה המקדימה של Chrome AI"
+  },
+  "chromeAiEnableLink": {
+    "message": "הפעל את דגל התכונה של Chrome AI",
+    "description": "קישור להפעלת דגל התכונה של Chrome AI"
+  },
+  "openAiKeyPlaceholder": {
+    "message": "מפתח API של OpenAI",
+    "description": "מציין מיקום לקלט מפתח API של OpenAI"
+  },
+  "anthropicKeyPlaceholder": {
+    "message": "מפתח API של Anthropic",
+    "description": "מציין מיקום לקלט מפתח API של Anthropic"
+  },
+  "geminiKeyPlaceholder": {
+    "message": "מפתח API של Google",
+    "description": "מציין מיקום לקלט מפתח API של Gemini"
+  },
+  "deepseekKeyPlaceholder": {
+    "message": "מפתח API של DeepSeek",
+    "description": "מציין מיקום לקלט מפתח API של DeepSeek"
+  },
+  "mistralKeyPlaceholder": {
+    "message": "מפתח API של Mistral AI",
+    "description": "מציין מיקום לקלט מפתח API של Mistral AI"
+  },
+  "perplexityKeyPlaceholder": {
+    "message": "מפתח API של Perplexity AI",
+    "description": "מציין מיקום לקלט מפתח API של Perplexity AI"
+  },
+  "ollamaUrlPlaceholder": {
+    "message": "כתובת URL של Ollama",
+    "description": "מציין מיקום לקלט כתובת URL של Ollama"
+  },
+  "lmstudioUrlPlaceholder": {
+    "message": "כתובת URL של LM Studio",
+    "description": "מציין מיקום לקלט כתובת URL של LM Studio"
+  },
+  "modelNamePlaceholder": {
+    "message": "שם מודל",
+    "description": "מציין מיקום לקלט שם מודל"
+  },
+  "resetButton": {
+    "message": "אפס",
+    "description": "טקסט עבור כפתורי איפוס"
+  },
+  "customShortcutPlaceholder": {
+    "message": "הקש 'הקלט' כדי ללכוד",
+    "description": "מציין מיקום לקלט קיצור דרך מותאם אישית"
+  },
+  "systemPromptPlaceholder": {
+    "message": "הנחיית מערכת",
+    "description": "מציין מיקום לקלט הנחיית מערכת"
+  },
+  "ollamaProvider": {
+    "message": "Ollama",
+    "description": "שם ספק Ollama"
+  },
+  "openaiProvider": {
+    "message": "OpenAI",
+    "description": "שם ספק OpenAI"
+  },
+  "anthropicProvider": {
+    "message": "Anthropic Claude",
+    "description": "שם ספק Anthropic"
+  },
+  "lmstudioProvider": {
+    "message": "LM Studio",
+    "description": "שם ספק LM Studio"
+  },
+  "geminiProvider": {
+    "message": "Google Gemini",
+    "description": "שם ספק Google Gemini"
+  },
+  "deepseekProvider": {
+    "message": "DeepSeek",
+    "description": "שם ספק DeepSeek"
+  },
+  "mistralProvider": {
+    "message": "Mistral AI",
+    "description": "שם ספק Mistral"
+  },
+  "perplexityProvider": {
+    "message": "Perplexity AI",
+    "description": "שם ספק Perplexity"
+  },
+  "chromeProvider": {
+    "message": "Chrome AI (תצוגה מקדימה)",
+    "description": "שם ספק Chrome AI"
+  }
+} 

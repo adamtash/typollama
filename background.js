@@ -23,11 +23,9 @@ chrome.runtime.onInstalled.addListener((details) => {
         chrome.tabs.create({ url: "https://github.com/adamtash/typollama?tab=readme-ov-file#-ai-powered-writing-assistant" });
     }
 
-    // Initialize default settings on install
-    chrome.storage.sync.get(null).then(items => { // Get all settings
+    chrome.storage.sync.get(null).then(items => { 
         const changes = {};
 
-        // Initialize provider-specific settings
         for (const provider in PROVIDER_CONFIGS) {
             if (PROVIDER_CONFIGS[provider].requiresKey && !items[provider]?.model) {
                 changes[provider] = { model: PROVIDER_CONFIGS[provider].defaultModel };
@@ -76,9 +74,9 @@ class StreamHandler {
     processChunk(value, provider, callback) {
         this.buffer += this.decoder.decode(value, { stream: true });
         const lines = this.buffer.split('\n');
-        this.buffer = lines.pop() || ''; // Keep any incomplete line
+        this.buffer = lines.pop() || ''; 
         for (const line of lines) {
-            if (!line.trim()) continue; // Skip empty lines
+            if (!line.trim()) continue; 
             try {
                 const content = this.parseLine(line, provider);
                 if (content) callback({ chunk: content, done: false });
@@ -117,7 +115,6 @@ class StreamHandler {
                     if (line.startsWith('data: ')) {
                         const data = line.slice(6);
                         const parsedData = JSON.parse(data);
-                        // Ensure all necessary properties exist before accessing
                         return parsedData?.candidates?.[0]?.content?.parts?.[0]?.text || null;
                     }
                     return null;
@@ -171,9 +168,8 @@ class ApiConfigManager {
         const providerConfig = PROVIDER_CONFIGS[provider] || {};
         let headers = { "Content-Type": "application/json" };
         let chosenModel = providerConfig.defaultModel || "";
-        let apiUrl = ""; // Initialize apiUrl
+        let apiUrl = ""; 
 
-        // Determine chosenModel *before* constructing apiUrl
         if (provider === "anthropic") {
             chosenModel = this.config.anthropic?.model || chosenModel;
         } else if (provider === "openai") {
@@ -188,26 +184,25 @@ class ApiConfigManager {
             chosenModel = this.config.mistral?.model || chosenModel;
         } else if (provider === "perplexity") {
             chosenModel = this.config.perplexity?.model || chosenModel;
-        } else { // Default: ollama
+        } else { 
             chosenModel = this.config.ollama?.model || chosenModel;
         }
 
-        // Now construct apiUrl based on the chosen model and provider
         if (provider === "anthropic") {
             apiUrl = providerConfig.apiUrl;
             headers = {
                 "Content-Type": "application/json",
                 "x-api-key": this.config.anthropicKey,
                 "anthropic-version": "2023-06-01",
-                "anthropic-dangerous-direct-browser-access": "true" // Consider removing in production
+                "anthropic-dangerous-direct-browser-access": "true" 
             };
         } else if (provider === "openai") {
-            apiUrl = providerConfig.apiUrl(this.config); // Use function call
+            apiUrl = providerConfig.apiUrl(this.config); 
             headers["Authorization"] = `Bearer ${this.config.openAiKey}`;
         } else if (provider === "lmstudio") {
-            apiUrl = providerConfig.apiUrl(this.config); // Use function call
+            apiUrl = providerConfig.apiUrl(this.config); 
         } else if (provider === "gemini") {
-            apiUrl = providerConfig.apiUrl({ ...this.config, gemini: { ...this.config.gemini, model: chosenModel } }); // Pass chosenModel
+            apiUrl = providerConfig.apiUrl({ ...this.config, gemini: { ...this.config.gemini, model: chosenModel } }); 
         } else if (provider === "deepseek") {
             apiUrl = providerConfig.apiUrl(this.config);
             headers["Authorization"] = `Bearer ${this.config.deepseekKey}`;
@@ -217,8 +212,8 @@ class ApiConfigManager {
         } else if (provider === "perplexity") {
             apiUrl = providerConfig.apiUrl(this.config);
             headers["Authorization"] = `Bearer ${this.config.perplexityKey}`;
-        } else { // Default: ollama
-            apiUrl = providerConfig.apiUrl(this.config); // Use function call
+        } else { 
+            apiUrl = providerConfig.apiUrl(this.config); 
         }
         return { apiUrl, headers, chosenModel };
     }
@@ -248,12 +243,10 @@ class ApiConfigManager {
         }
 
         const result = await response.json();
-        // Ensure all necessary properties exist before accessing
         if (result?.candidates && result.candidates[0]?.content && result.candidates[0].content.parts && result.candidates[0].content.parts[0]) {
             return { chunk: result.candidates[0].content.parts[0].text, done: true };
         } else {
-            // Handle cases where the response structure is unexpected
-            return { chunk: "", done: true, error: true, message: "Unexpected response structure from Gemini API" }; // Or throw an error
+            return { chunk: "", done: true, error: true, message: "Unexpected response structure from Gemini API" }; 
         }
     }
 
@@ -263,13 +256,11 @@ class ApiConfigManager {
                 model: chosenModel,
                 messages: [
                     { role: "user", content: text },
-                    { role: "system", content: systemPrompt } //System prompt added here
+                    { role: "system", content: systemPrompt } 
                 ],
-                stream: true,
-                max_tokens: 1024, //Added max tokens
+                stream: true
             };
         }
-        // Gemini is handled separately in handleGeminiRequest
 
         return {
             model: chosenModel,
@@ -282,12 +273,10 @@ class ApiConfigManager {
     }
 }
 
-// Retrieves configuration, decrypts API keys, and returns a config object.
 async function getConfig() {
-    const syncConfig = await chrome.storage.sync.get(null); // Get all sync settings
+    const syncConfig = await chrome.storage.sync.get(null); 
     const localConfig = await chrome.storage.local.get(["openAiKey", "anthropicKey", "geminiKey", "deepseekKey", "mistralKey", "perplexityKey"]);
 
-    // Decrypt API keys in parallel
     const [decryptedOpenAiKey, decryptedAnthropicKey, decryptedGeminiKey, decryptedDeepseekKey, decryptedMistralKey, decryptedPerplexityKey] = await Promise.all([
         localConfig.openAiKey ? decryptData(localConfig.openAiKey) : "",
         localConfig.anthropicKey ? decryptData(localConfig.anthropicKey) : "",
@@ -352,7 +341,7 @@ async function handleRequest(text, config, responseCallback, promptType = "spell
         if (config.provider === "gemini") {
             const result = await configManager.handleGeminiRequest(text, systemPrompt, headers, apiUrl);
             responseCallback(result);
-            return; // Important: Return after handling Gemini
+            return; 
         }
 
         const streamHandler = new StreamHandler();
@@ -373,16 +362,15 @@ async function handleRequest(text, config, responseCallback, promptType = "spell
         for await (const chunk of streamHandler.generateChunks(reader)) {
             streamHandler.processChunk(chunk, config.provider, responseCallback);
         }
-        // Final processing of any remaining buffered data:
         if (streamHandler.buffer) {
            responseCallback({ chunk: streamHandler.buffer, done: false });
         }
 
         chrome.storage.local.remove('popupError');
-        responseCallback({ done: true }); // Signal completion
+        responseCallback({ done: true }); 
 
     } catch (error) {
-        console.error('Request error:', error);  // Use console.error for errors
+        console.error('Request error:', error);  
         let extraMessage = "";
         if (config.provider === "ollama") {
             if (error.message.includes("403")) {
@@ -400,14 +388,13 @@ async function handleRequest(text, config, responseCallback, promptType = "spell
     }
 }
 
-// Encryption utility functions (moved outside of any class)
 async function getEncryptionKey() {
     let storedKey = await chrome.storage.local.get(['encKey']);
     if (storedKey.encKey) {
         const keyBuffer = Uint8Array.from(JSON.parse(storedKey.encKey)).buffer;
         return await crypto.subtle.importKey("raw", keyBuffer, "AES-GCM", false, ["encrypt", "decrypt"]);
     } else {
-        throw new Error("Encryption key not available"); // No need to generate here
+        throw new Error("Encryption key not available");
     }
 }
 
@@ -420,13 +407,11 @@ async function decryptData(encrypted) {
     return new TextDecoder().decode(decryptedBuffer);
 }
 
-// Message listener for direct requests
 chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
     getConfig().then(config => handleRequest(request.text, config, sendResponse, request.promptType));
-    return true; // Keep the message channel open for async response
+    return true; 
 });
 
-// Message listener for streaming requests (using ports)
 chrome.runtime.onConnect.addListener((port) => {
     if (port.name !== "streamTypos") return;
     port.onMessage.addListener((request) => {
@@ -437,7 +422,6 @@ chrome.runtime.onConnect.addListener((port) => {
                 } catch (e) {
                     console.error("Port may be disconnected:", e);
                 }
-                // Disconnect port after sending 'done' or 'error' message
                 if (message.done || message.error) {
                     port.disconnect();
                 }

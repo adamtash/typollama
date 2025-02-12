@@ -126,7 +126,6 @@ async function updateProviderSelection() {
   }
 }
 
-// Update the setI18nAttributes function to handle more element types
 function setI18nAttributes() {
   if (typeof chrome.i18n === 'undefined') {
     console.warn('chrome.i18n API is not available.');
@@ -135,11 +134,10 @@ function setI18nAttributes() {
 
   const elements = document.querySelectorAll('[data-i18n], [data-i18n-placeholder]');
   elements.forEach(element => {
-    // Handle regular text content
     const messageKey = element.getAttribute('data-i18n');
     if (messageKey) {
-      const message = chrome.i18n.getMessage(messageKey) || 
-                     chrome.i18n.getMessage(messageKey, [], { locale: 'en' });
+      const message = chrome.i18n.getMessage(messageKey) ||
+        chrome.i18n.getMessage(messageKey, [], { locale: 'en' });
 
       switch (element.tagName.toLowerCase()) {
         case 'input':
@@ -158,24 +156,20 @@ function setI18nAttributes() {
       }
     }
 
-    // Handle placeholders
     const placeholderKey = element.getAttribute('data-i18n-placeholder');
     if (placeholderKey) {
-      const placeholder = chrome.i18n.getMessage(placeholderKey) || 
-                         chrome.i18n.getMessage(placeholderKey, [], { locale: 'en' });
+      const placeholder = chrome.i18n.getMessage(placeholderKey) ||
+        chrome.i18n.getMessage(placeholderKey, [], { locale: 'en' });
       element.placeholder = placeholder;
     }
   });
 }
 
-// Update the initialization to ensure translations are applied
 (async function initSettings() {
-  // Set the lang attribute of the <html> element
   document.documentElement.lang = chrome.i18n.getUILanguage();
-  
-  // Apply translations before showing the UI
+
   setI18nAttributes();
-  
+
   await updateProviderSelection();
   await populateSettings();
   handleProviderChange();
@@ -351,6 +345,12 @@ async function autoSaveSettings() {
     settings.lmstudio = { model: modelName, url: lmstudioUrl };
   } else if (provider === 'chrome') {
     settings.chrome = { model: modelName };
+  } else if (provider === 'deepseek') {
+    settings.deepseek = { model: modelName };
+  } else if (provider === 'mistral') {
+    settings.mistral = { model: modelName };
+  } else if (provider === 'perplexity') {
+    settings.perplexity = { model: modelName };
   }
   const promptType = el("promptTypeSelect").value;
   if (promptType === "proofread") {
@@ -428,15 +428,27 @@ function setupEventListeners() {
     "ollamaUrlInput",
     "lmstudioUrlInput",
     "copyToClipboard",
-    "modelNameInput",
+    "modelNameInput"
+  ];
+  autoSaveInputIds.forEach(id => el(id)?.addEventListener("change", debouncedAutoSave));
+
+  // Add separate listeners for API key inputs
+  const apiKeyInputs = [
     "openAiKeyInput",
     "anthropicKeyInput",
     "geminiKeyInput",
     "deepseekKeyInput",
     "mistralKeyInput",
-    "perplexityKeyInput",
+    "perplexityKeyInput"
   ];
-  autoSaveInputIds.forEach(id => el(id)?.addEventListener("change", debouncedAutoSave));
+
+  apiKeyInputs.forEach(id => {
+    const element = el(id);
+    if (element) {
+      element.addEventListener("input", debouncedAutoSave);
+      element.addEventListener("blur", debouncedAutoSave);
+    }
+  });
 
   el("advancedToggle").addEventListener("click", (event) => {
     const content = el("advancedContent");

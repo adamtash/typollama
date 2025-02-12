@@ -1,0 +1,366 @@
+{
+  "extensionName": {
+    "message": "Typollama – এআই বানান-পরীক্ষা ও টেক্সট প্রসেসিং",
+    "description": "এক্সটেনশনের নাম"
+  },
+  "extensionDescription": {
+    "message": "Typollama-এর সাথে আপনার লেখাকে উন্নত করুন – বানান-পরীক্ষা এবং উন্নত টেক্সট প্রসেসিং-এর জন্য একটি এআই-চালিত Chrome এক্সটেনশন।",
+    "description": "এক্সটেনশনের বিবরণ"
+  },
+  "providerLabel": {
+    "message": "প্রদানকারী:",
+    "description": "প্রদানকারী নির্বাচনের জন্য লেবেল"
+  },
+  "modelNameLabel": {
+    "message": "মডেলের নাম:",
+    "description": "মডেলের নাম ইনপুটের জন্য লেবেল"
+  },
+    "resetModelName": {
+    "message": "মডেলের নাম রিসেট করুন",
+    "description": "মডেলের নাম রিসেট করার জন্য বোতাম টেক্সট"
+  },
+  "promptTypeLabel": {
+    "message": "প্রম্পট প্রকার:",
+    "description": "প্রম্পট প্রকার নির্বাচনের জন্য লেবেল"
+  },
+  "systemPromptLabel": {
+    "message": "সিস্টেম প্রম্পট:",
+    "description": "সিস্টেম প্রম্পট ইনপুটের জন্য লেবেল"
+  },
+  "resetPrompt": {
+    "message": "প্রম্পট রিসেট করুন",
+    "description": "প্রম্পট রিসেট করার জন্য বোতাম টেক্সট"
+  },
+  "shortcutModeLabel": {
+    "message": "শর্টকাট মোড:",
+    "description": "শর্টকাট মোড নির্বাচনের জন্য লেবেল"
+  },
+  "recordShortcut": {
+    "message": "শর্টকাট রেকর্ড করুন",
+    "description": "শর্টকাট রেকর্ড করার জন্য বোতাম টেক্সট"
+  },
+  "customShortcutLabel": {
+    "message": "কাস্টম শর্টকাট:",
+    "description": "কাস্টম শর্টকাট ইনপুটের জন্য লেবেল"
+  },
+  "copyToClipboardLabel": {
+    "message": "ক্লিপবোর্ডে কপি করুন",
+    "description": "ক্লিপবোর্ডে কপি করার বিকল্পের জন্য চেকবক্স লেবেল"
+  },
+  "advancedSettingsLabel": {
+    "message": "উন্নত সেটিংস",
+    "description": "উন্নত সেটিংসের জন্য টগল টেক্সট"
+  },
+  "ollamaUrlLabel": {
+    "message": "Ollama URL:",
+    "description": "Ollama URL ইনপুটের জন্য লেবেল"
+  },
+  "resetOllamaUrl": {
+    "message": "Ollama URL রিসেট করুন",
+    "description": "Ollama URL রিসেট করার জন্য বোতাম টেক্সট"
+  },
+  "lmstudioUrlLabel": {
+    "message": "LM Studio URL:",
+    "description": "LM Studio URL ইনপুটের জন্য লেবেল"
+  },
+  "resetLmstudioUrl": {
+    "message": "LM Studio URL রিসেট করুন",
+    "description": "LM Studio URL রিসেট করার জন্য বোতাম টেক্সট"
+  },
+  "openAiKeyLabel": {
+    "message": "OpenAI API কী:",
+    "description": "OpenAI API কী ইনপুটের জন্য লেবেল"
+  },
+  "anthropicKeyLabel": {
+    "message": "Anthropic API কী:",
+    "description": "Anthropic API কী ইনপুটের জন্য লেবেল"
+  },
+  "geminiKeyLabel": {
+    "message": "Gemini API কী:",
+    "description": "Gemini API কী ইনপুটের জন্য লেবেল"
+  },
+  "deepseekKeyLabel": {
+    "message": "Deepseek API কী:",
+    "description": "Deepseek API কী ইনপুটের জন্য লেবেল"
+  },
+  "mistralKeyLabel": {
+    "message": "Mistral API কী:",
+    "description": "Mistral API কী ইনপুটের জন্য লেবেল"
+  },
+  "perplexityKeyLabel": {
+    "message": "Perplexity API কী:",
+    "description": "Perplexity API কী ইনপুটের জন্য লেবেল"
+  },
+  "ollamaDocs": {
+    "message": "Ollama ডকুমেন্টেশন",
+    "description": "Ollama ডকুমেন্টেশনের জন্য লিঙ্ক টেক্সট"
+  },
+  "openaiDocs": {
+    "message": "OpenAI ডকুমেন্টেশন",
+    "description": "OpenAI ডকুমেন্টেশনের জন্য লিঙ্ক টেক্সট"
+  },
+  "anthropicDocs": {
+    "message": "Anthropic ডকুমেন্টেশন",
+    "description": "Anthropic ডকুমেন্টেশনের জন্য লিঙ্ক টেক্সট"
+  },
+  "lmstudioDocs": {
+    "message": "LM Studio ডকুমেন্টেশন",
+    "description": "LM Studio ডকুমেন্টেশনের জন্য লিঙ্ক টেক্সট"
+  },
+  "geminiDocs": {
+    "message": "Gemini ডকুমেন্টেশন",
+    "description": "Gemini ডকুমেন্টেশনের জন্য লিঙ্ক টেক্সট"
+  },
+  "chromeDocs": {
+    "message": "Chrome AI ডকুমেন্টেশন",
+    "description": "Chrome AI ডকুমেন্টেশনের জন্য লিঙ্ক টেক্সট"
+  },
+  "deepseekDocs": {
+    "message": "Deepseek ডকুমেন্টেশন",
+    "description": "Deepseek ডকুমেন্টেশনের জন্য লিঙ্ক টেক্সট"
+  },
+  "mistralDocs": {
+    "message": "Mistral ডকুমেন্টেশন",
+    "description": "Mistral ডকুমেন্টেশনের জন্য লিঙ্ক টেক্সট"
+  },
+  "perplexityDocs": {
+    "message": "Perplexity ডকুমেন্টেশন",
+    "description": "Perplexity ডকুমেন্টেশনের জন্য লিঙ্ক টেক্সট"
+  },
+  "chromeAiNote": {
+    "message": "নোট: Chrome AI পরীক্ষামূলক বৈশিষ্ট্য ব্যবহার করে এবং এটি সব অঞ্চলে উপলব্ধ নাও হতে পারে।",
+    "description": "Chrome AI সম্পর্কে নোট"
+  },
+    "recordingPlaceholder": {
+    "message": "রেকর্ডিং... কী টিপুন, এন্টার দিয়ে শেষ করুন",
+    "description": "শর্টকাট রেকর্ডিংয়ের জন্য প্লেসহোল্ডার টেক্সট"
+  },
+  "recordingCompletePlaceholder": {
+    "message": "রেকর্ডিং সম্পূর্ণ",
+    "description": "শর্টকাট রেকর্ডিংয়ের পরে প্লেসহোল্ডার টেক্সট"
+  },
+    "stopRecording": {
+    "message": "রেকর্ডিং বন্ধ করুন",
+    "description": "রেকর্ডিং বন্ধ করার বোতাম"
+  },
+    "contextMenuSpellcheck": {
+    "message": "এআই দিয়ে বানান-পরীক্ষা করুন",
+    "description": "বানান-পরীক্ষার জন্য কনটেক্সট মেনু আইটেম"
+  },
+  "contextMenuProofread": {
+    "message": "এআই দিয়ে পুনরায় লিখুন",
+    "description": "প্রুফরিডের জন্য কনটেক্সট মেনু আইটেম"
+  },
+  "contextMenuCustom": {
+    "message": "এআই দিয়ে কাস্টম লেখা",
+    "description": "কাস্টম প্রম্পটের জন্য কনটেক্সট মেনু আইটেম"
+  },
+  "apiKeyRequired": {
+    "message": "API কী আবশ্যক",
+    "description": "API কী না থাকার জন্য ত্রুটি বার্তা"
+  },
+  "urlRequired": {
+    "message": "URL আবশ্যক",
+    "description": "URL না থাকার জন্য ত্রুটি বার্তা"
+  },
+  "invalidUrl": {
+    "message": "অবৈধ {0} URL: {1}",
+    "description": "অবৈধ URL-এর জন্য ত্রুটি বার্তা",
+    "placeholders": {
+      "0": {
+        "content": "$1"
+      },
+      "1": {
+        "content": "$2"
+      }
+    }
+  },
+  "ollama403Error": {
+    "message": " - Ollama-র অতিরিক্ত অ্যাক্সেস অরিজিন প্রয়োজন। দেখুন: https://github.com/ollama/ollama/blob/main/docs/faq.md#how-can-i-allow-additional-web-origins-to-access-ollama",
+    "description": "Ollama 403 ত্রুটির জন্য ত্রুটি বার্তা"
+  },
+  "ollamaConnectionError": {
+    "message": " - Ollama সার্ভার নাগালের বাইরে বা চলছে না",
+    "description": "Ollama সংযোগ ত্রুটির জন্য ত্রুটি বার্তা"
+  },
+  "unauthorizedError": {
+    "message": " - অননুমোদিত। অনুগ্রহ করে আপনার API কী পরীক্ষা করুন।",
+    "description": "অননুমোদিত API অ্যাক্সেসের জন্য ত্রুটি বার্তা"
+  },
+    "extensionReloadedError": {
+        "message": "এক্সটেনশন পুনরায় লোড বা আপডেট করা হয়েছে। অনুগ্রহ করে পৃষ্ঠাটি রিফ্রেশ করুন।",
+        "description": "এক্সটেনশন রিলোডের জন্য ত্রুটি"
+    },
+    "unknownError": {
+        "message": "অজানা ত্রুটি",
+        "description": "সাধারণ ত্রুটি"
+    },
+  "aiSpellcheckTitle": {
+    "message": "এআই বানান-পরীক্ষা ও টেক্সট প্রসেসিং",
+    "description": "এক্সটেনশনের প্রধান শিরোনাম"
+  },
+  "aboutDocumentation": {
+    "message": "সম্পর্কে ও ডকুমেন্টেশন ↗",
+    "description": "ডকুমেন্টেশনের লিঙ্ক"
+  },
+  "writingToolsTitle": {
+    "message": "লেখার সরঞ্জাম",
+    "description": "লেখার সরঞ্জাম বিভাগের জন্য শিরোনাম"
+  },
+  "spellcheckOption": {
+    "message": "বানান-পরীক্ষা",
+    "description": "বানান-পরীক্ষা মোডের জন্য বিকল্প"
+  },
+  "proofreadOption": {
+    "message": "পুনরায় লিখুন",
+    "description": "প্রুফরিড মোডের জন্য বিকল্প"
+  },
+  "customAiEditorOption": {
+    "message": "কাস্টম এআই এডিটর",
+    "description": "কাস্টম এআই এডিটর মোডের জন্য বিকল্প"
+  },
+  "doubleCtrlStroke": {
+    "message": "ডাবল CTRL স্ট্রোক",
+    "description": "ডাবল CTRL স্ট্রোক শর্টকাটের জন্য লেবেল"
+  },
+  "tripleCtrlStroke": {
+    "message": "ট্রিপল CTRL স্ট্রোক",
+    "description": "ট্রিপল CTRL স্ট্রোক শর্টকাটের জন্য লেবেল"
+  },
+  "quadrupleCtrlStroke": {
+    "message": "কোয়াড্রপল CTRL স্ট্রোক",
+    "description": "কোয়াড্রপল CTRL স্ট্রোক শর্টকাটের জন্য লেবেল"
+  },
+  "customShortcutKey": {
+    "message": "কাস্টম শর্টকাট কী",
+    "description": "কাস্টম শর্টকাট কী বিকল্পের জন্য লেবেল"
+  },
+  "ollamaDocsLink": {
+    "message": "Ollama ডকুমেন্টেশন ↗",
+    "description": "Ollama ডকুমেন্টেশনের লিঙ্ক"
+  },
+  "openaiDocsLink": {
+    "message": "OpenAI ডকুমেন্টেশন ↗",
+    "description": "OpenAI ডকুমেন্টেশনের লিঙ্ক"
+  },
+  "anthropicDocsLink": {
+    "message": "Claude API কী পান ↗",
+    "description": "Anthropic API কী পাওয়ার লিঙ্ক"
+  },
+  "lmstudioDocsLink": {
+    "message": "LM Studio ডকুমেন্টেশন ↗",
+    "description": "LM Studio ডকুমেন্টেশনের লিঙ্ক"
+  },
+  "geminiDocsLink": {
+    "message": "আপনার বিনামূল্যে Google Gemini API কী পান ↗",
+    "description": "Gemini API কী পাওয়ার লিঙ্ক"
+  },
+  "deepseekDocsLink": {
+    "message": "DeepSeek API কী পান ↗",
+    "description": "DeepSeek API কী পাওয়ার লিঙ্ক"
+  },
+  "mistralDocsLink": {
+    "message": "Mistral API কী পান ↗",
+    "description": "Mistral API কী পাওয়ার লিঙ্ক"
+  },
+  "perplexityDocsLink": {
+    "message": "Perplexity API কী পান ↗",
+    "description": "Perplexity API কী পাওয়ার লিঙ্ক"
+  },
+  "chromeDocsLink": {
+    "message": "Chrome AI ডকুমেন্টেশন ↗",
+    "description": "Chrome AI ডকুমেন্টেশনের লিঙ্ক"
+  },
+  "chromeAiNoteText": {
+    "message": "নোট: Chrome AI একটি প্রিভিউ বৈশিষ্ট্য। এটি ব্যবহার করতে, আপনাকে Chrome-এ বৈশিষ্ট্য ফ্ল্যাগ সক্ষম করতে হবে:",
+    "description": "Chrome AI প্রিভিউ বৈশিষ্ট্য সম্পর্কে নোট"
+  },
+  "chromeAiEnableLink": {
+    "message": "Chrome AI বৈশিষ্ট্য ফ্ল্যাগ সক্ষম করুন",
+    "description": "Chrome AI বৈশিষ্ট্য ফ্ল্যাগ সক্ষম করার লিঙ্ক"
+  },
+  "openAiKeyPlaceholder": {
+    "message": "OpenAI API কী",
+    "description": "OpenAI API কী ইনপুটের জন্য প্লেসহোল্ডার"
+  },
+  "anthropicKeyPlaceholder": {
+    "message": "Anthropic API কী",
+    "description": "Anthropic API কী ইনপুটের জন্য প্লেসহোল্ডার"
+  },
+  "geminiKeyPlaceholder": {
+    "message": "Google API কী",
+    "description": "Gemini API কী ইনপুটের জন্য প্লেসহোল্ডার"
+  },
+  "deepseekKeyPlaceholder": {
+    "message": "DeepSeek API কী",
+    "description": "DeepSeek API কী ইনপুটের জন্য প্লেসহোল্ডার"
+  },
+  "mistralKeyPlaceholder": {
+    "message": "Mistral AI API কী",
+    "description": "Mistral AI API কী ইনপুটের জন্য প্লেসহোল্ডার"
+  },
+  "perplexityKeyPlaceholder": {
+    "message": "Perplexity AI API কী",
+    "description": "Perplexity AI API কী ইনপুটের জন্য প্লেসহোল্ডার"
+  },
+  "ollamaUrlPlaceholder": {
+    "message": "Ollama URL",
+    "description": "Ollama URL ইনপুটের জন্য প্লেসহোল্ডার"
+  },
+  "lmstudioUrlPlaceholder": {
+    "message": "LM Studio URL",
+    "description": "LM Studio URL ইনপুটের জন্য প্লেসহোল্ডার"
+  },
+  "modelNamePlaceholder": {
+    "message": "মডেলের নাম",
+    "description": "মডেলের নাম ইনপুটের জন্য প্লেসহোল্ডার"
+  },
+  "resetButton": {
+    "message": "রিসেট",
+    "description": "রিসেট বোতামের জন্য টেক্সট"
+  },
+  "customShortcutPlaceholder": {
+    "message": "'রেকর্ড' চাপুন ক্যাপচার করতে",
+    "description": "কাস্টম শর্টকাট ইনপুটের জন্য প্লেসহোল্ডার"
+  },
+  "systemPromptPlaceholder": {
+    "message": "সিস্টেম প্রম্পট",
+    "description": "সিস্টেম প্রম্পট ইনপুটের জন্য প্লেসহোল্ডার"
+  },
+  "ollamaProvider": {
+    "message": "Ollama",
+    "description": "Ollama প্রদানকারীর নাম"
+  },
+  "openaiProvider": {
+    "message": "OpenAI",
+    "description": "OpenAI প্রদানকারীর নাম"
+  },
+  "anthropicProvider": {
+    "message": "Anthropic Claude",
+    "description": "Anthropic প্রদানকারীর নাম"
+  },
+  "lmstudioProvider": {
+    "message": "LM Studio",
+    "description": "LM Studio প্রদানকারীর নাম"
+  },
+  "geminiProvider": {
+    "message": "Google Gemini",
+    "description": "Google Gemini প্রদানকারীর নাম"
+  },
+  "deepseekProvider": {
+    "message": "DeepSeek",
+    "description": "DeepSeek প্রদানকারীর নাম"
+  },
+  "mistralProvider": {
+    "message": "Mistral AI",
+    "description": "Mistral প্রদানকারীর নাম"
+  },
+  "perplexityProvider": {
+    "message": "Perplexity AI",
+    "description": "Perplexity প্রদানকারীর নাম"
+  },
+  "chromeProvider": {
+    "message": "Chrome AI (প্রিভিউ)",
+    "description": "Chrome AI প্রদানকারীর নাম"
+  }
+} 

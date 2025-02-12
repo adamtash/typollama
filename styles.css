@@ -10,7 +10,6 @@ body {
 .container {
   display: flex;
   flex-direction: column;
-  gap: 20px;
   max-width: 500px;
   margin: 0 auto;
 }
@@ -65,9 +64,7 @@ button.reset-button {
 
 button.reset-button:hover {
   opacity: 1;
-  /* Fully opaque on hover */
   color: #ddd;
-  /* Slightly darker grey on hover - improved readability */
 }
 
 h1,
@@ -77,7 +74,6 @@ h2 {
 }
 
 .error-message {
-  /*display: none; Removed display:none */
   color: #d32f2f;
   background: #ffebee;
   padding: 12px;
@@ -181,12 +177,9 @@ fieldset label {
   position: relative;
 }
 
-/* New container for URL inputs */
 .url-input-container {
-  /* position: relative;  No longer needed on url-input-container */
 }
 
-/* New styles for prompt settings group */
 .prompt-settings-group {
   border: 1px solid #ddd;
   padding: 15px;
@@ -205,59 +198,40 @@ fieldset label {
 
 .prompt-settings-group>div {
   margin-bottom: 10px;
-  /* Consistent spacing within the group */
 }
-
-/* No changes needed in styles.css, but if you want to adjust spacing or appearance of the new shortcut section, you can add styles here */
 
 .reset-button {
   background-color: transparent;
   color: #aaa;
-  /* Light grey color */
   border: none;
   cursor: pointer;
   font-size: 0.8em;
   padding: 0;
   vertical-align: baseline;
-  /* Align with text baseline */
   opacity: 0.7;
-  /* Slightly transparent */
   transition: opacity 0.3s ease;
-  /* Smooth transition for hover effect */
   margin-left: 5px;
-  /* Add default margin for buttons outside input-with-reset */
 }
 
 .reset-button:hover {
   opacity: 1;
-  /* Fully opaque on hover */
   color: #ddd;
-  /* Slightly darker grey on hover - improved readability */
 }
 
 .reset-button:focus {
   outline: none;
-  /* Remove focus outline if you prefer */
 }
 
 .input-with-reset {
   position: relative;
-  /* For positioning reset button */
   display: flex;
-  /* To keep input and button in line */
   align-items: center;
-  /* Vertically align items */
 }
 
 .input-with-reset > .reset-button {
   position: absolute;
-  /* Position inside input-with-reset */
   right: 5px;
-  /* Adjust as needed */
   top: 50%;
-  /* Vertically center */
   transform: translateY(-50%);
-  /* Fine-tune vertical centering */
   margin-left: 0;
-  /* Remove default margin for buttons inside input-with-reset */
 }

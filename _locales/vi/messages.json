@@ -1,0 +1,366 @@
+{
+  "extensionName": {
+    "message": "Typollama – AI Kiểm tra chính tả & Xử lý văn bản",
+    "description": "Tên tiện ích mở rộng"
+  },
+  "extensionDescription": {
+    "message": "Nâng cao khả năng viết của bạn với Typollama – một tiện ích mở rộng Chrome được hỗ trợ bởi AI để kiểm tra chính tả và xử lý văn bản nâng cao.",
+    "description": "Mô tả tiện ích mở rộng"
+  },
+  "providerLabel": {
+    "message": "Nhà cung cấp:",
+    "description": "Nhãn cho lựa chọn nhà cung cấp"
+  },
+  "modelNameLabel": {
+    "message": "Tên mô hình:",
+    "description": "Nhãn cho đầu vào tên mô hình"
+  },
+    "resetModelName": {
+    "message": "Đặt lại tên mô hình",
+    "description": "Văn bản nút để đặt lại tên mô hình"
+  },
+  "promptTypeLabel": {
+    "message": "Loại lời nhắc:",
+    "description": "Nhãn cho lựa chọn loại lời nhắc"
+  },
+  "systemPromptLabel": {
+    "message": "Lời nhắc hệ thống:",
+    "description": "Nhãn cho đầu vào lời nhắc hệ thống"
+  },
+  "resetPrompt": {
+    "message": "Đặt lại lời nhắc",
+    "description": "Văn bản nút để đặt lại lời nhắc"
+  },
+  "shortcutModeLabel": {
+    "message": "Chế độ phím tắt:",
+    "description": "Nhãn cho lựa chọn chế độ phím tắt"
+  },
+  "recordShortcut": {
+    "message": "Ghi phím tắt",
+    "description": "Văn bản nút để ghi phím tắt"
+  },
+  "customShortcutLabel": {
+    "message": "Phím tắt tùy chỉnh:",
+    "description": "Nhãn cho đầu vào phím tắt tùy chỉnh"
+  },
+  "copyToClipboardLabel": {
+    "message": "Sao chép vào clipboard",
+    "description": "Nhãn hộp kiểm cho tùy chọn sao chép vào clipboard"
+  },
+  "advancedSettingsLabel": {
+    "message": "Cài đặt nâng cao",
+    "description": "Văn bản chuyển đổi cho cài đặt nâng cao"
+  },
+  "ollamaUrlLabel": {
+    "message": "URL Ollama:",
+    "description": "Nhãn cho đầu vào URL Ollama"
+  },
+  "resetOllamaUrl": {
+    "message": "Đặt lại URL Ollama",
+    "description": "Văn bản nút để đặt lại URL Ollama"
+  },
+  "lmstudioUrlLabel": {
+    "message": "URL LM Studio:",
+    "description": "Nhãn cho đầu vào URL LM Studio"
+  },
+  "resetLmstudioUrl": {
+    "message": "Đặt lại URL LM Studio",
+    "description": "Văn bản nút để đặt lại URL LM Studio"
+  },
+  "openAiKeyLabel": {
+    "message": "Khóa API OpenAI:",
+    "description": "Nhãn cho đầu vào khóa API OpenAI"
+  },
+  "anthropicKeyLabel": {
+    "message": "Khóa API Anthropic:",
+    "description": "Nhãn cho đầu vào khóa API Anthropic"
+  },
+  "geminiKeyLabel": {
+    "message": "Khóa API Gemini:",
+    "description": "Nhãn cho đầu vào khóa API Gemini"
+  },
+  "deepseekKeyLabel": {
+    "message": "Khóa API Deepseek:",
+    "description": "Nhãn cho đầu vào khóa API Deepseek"
+  },
+  "mistralKeyLabel": {
+    "message": "Khóa API Mistral:",
+    "description": "Nhãn cho đầu vào khóa API Mistral"
+  },
+  "perplexityKeyLabel": {
+    "message": "Khóa API Perplexity:",
+    "description": "Nhãn cho đầu vào khóa API Perplexity"
+  },
+  "ollamaDocs": {
+    "message": "Tài liệu Ollama",
+    "description": "Văn bản liên kết đến tài liệu Ollama"
+  },
+  "openaiDocs": {
+    "message": "Tài liệu OpenAI",
+    "description": "Văn bản liên kết đến tài liệu OpenAI"
+  },
+  "anthropicDocs": {
+    "message": "Tài liệu Anthropic",
+    "description": "Văn bản liên kết đến tài liệu Anthropic"
+  },
+  "lmstudioDocs": {
+    "message": "Tài liệu LM Studio",
+    "description": "Văn bản liên kết đến tài liệu LM Studio"
+  },
+  "geminiDocs": {
+    "message": "Tài liệu Gemini",
+    "description": "Văn bản liên kết đến tài liệu Gemini"
+  },
+  "chromeDocs": {
+    "message": "Tài liệu Chrome AI",
+    "description": "Văn bản liên kết đến tài liệu Chrome AI"
+  },
+  "deepseekDocs": {
+    "message": "Tài liệu Deepseek",
+    "description": "Văn bản liên kết đến tài liệu Deepseek"
+  },
+  "mistralDocs": {
+    "message": "Tài liệu Mistral",
+    "description": "Văn bản liên kết đến tài liệu Mistral"
+  },
+  "perplexityDocs": {
+    "message": "Tài liệu Perplexity",
+    "description": "Văn bản liên kết đến tài liệu Perplexity"
+  },
+  "chromeAiNote": {
+    "message": "Lưu ý: Chrome AI sử dụng các tính năng thử nghiệm và có thể không khả dụng ở tất cả các khu vực.",
+    "description": "Lưu ý về Chrome AI"
+  },
+    "recordingPlaceholder": {
+    "message": "Đang ghi... Nhấn các phím, kết thúc bằng Enter",
+    "description": "Văn bản giữ chỗ để ghi phím tắt"
+  },
+  "recordingCompletePlaceholder": {
+    "message": "Ghi hoàn tất",
+    "description": "Văn bản giữ chỗ sau khi ghi phím tắt"
+  },
+    "stopRecording": {
+    "message": "Dừng ghi",
+    "description": "Nút để dừng ghi"
+  },
+    "contextMenuSpellcheck": {
+    "message": "Kiểm tra chính tả bằng AI",
+    "description": "Mục menu ngữ cảnh để kiểm tra chính tả"
+  },
+  "contextMenuProofread": {
+    "message": "Hiệu đính bằng AI",
+    "description": "Mục menu ngữ cảnh để hiệu đính"
+  },
+  "contextMenuCustom": {
+    "message": "Viết tùy chỉnh bằng AI",
+    "description": "Mục menu ngữ cảnh cho lời nhắc tùy chỉnh"
+  },
+  "apiKeyRequired": {
+    "message": "Yêu cầu khóa API",
+    "description": "Thông báo lỗi khi thiếu khóa API"
+  },
+  "urlRequired": {
+    "message": "Yêu cầu URL",
+    "description": "Thông báo lỗi khi thiếu URL"
+  },
+  "invalidUrl": {
+    "message": "URL {0} không hợp lệ: {1}",
+    "description": "Thông báo lỗi cho URL không hợp lệ",
+    "placeholders": {
+      "0": {
+        "content": "$1"
+      },
+      "1": {
+        "content": "$2"
+      }
+    }
+  },
+  "ollama403Error": {
+    "message": " - Ollama yêu cầu thêm nguồn gốc truy cập. Xem: https://github.com/ollama/ollama/blob/main/docs/faq.md#how-can-i-allow-additional-web-origins-to-access-ollama",
+    "description": "Thông báo lỗi cho lỗi 403 của Ollama"
+  },
+  "ollamaConnectionError": {
+    "message": " - Máy chủ Ollama không thể truy cập hoặc không chạy",
+    "description": "Thông báo lỗi cho lỗi kết nối Ollama"
+  },
+  "unauthorizedError": {
+    "message": " - Chưa được ủy quyền. Vui lòng kiểm tra khóa API của bạn.",
+    "description": "Thông báo lỗi cho truy cập API trái phép"
+  },
+    "extensionReloadedError": {
+        "message": "Tiện ích mở rộng đã được tải lại hoặc cập nhật. Vui lòng làm mới trang.",
+        "description": "Lỗi tải lại tiện ích mở rộng"
+    },
+    "unknownError": {
+        "message": "Lỗi không xác định",
+        "description": "Lỗi chung"
+    },
+  "aiSpellcheckTitle": {
+    "message": "AI Kiểm tra chính tả & Xử lý văn bản",
+    "description": "Tiêu đề chính của tiện ích mở rộng"
+  },
+  "aboutDocumentation": {
+    "message": "Giới thiệu & Tài liệu ↗",
+    "description": "Liên kết đến tài liệu"
+  },
+  "writingToolsTitle": {
+    "message": "Công cụ viết",
+    "description": "Tiêu đề cho phần công cụ viết"
+  },
+  "spellcheckOption": {
+    "message": "Kiểm tra chính tả",
+    "description": "Tùy chọn cho chế độ kiểm tra chính tả"
+  },
+  "proofreadOption": {
+    "message": "Hiệu đính",
+    "description": "Tùy chọn cho chế độ hiệu đính"
+  },
+  "customAiEditorOption": {
+    "message": "Trình chỉnh sửa AI tùy chỉnh",
+    "description": "Tùy chọn cho chế độ trình chỉnh sửa AI tùy chỉnh"
+  },
+  "doubleCtrlStroke": {
+    "message": "Nhấn đúp phím CTRL",
+    "description": "Nhãn cho phím tắt nhấn đúp phím CTRL"
+  },
+  "tripleCtrlStroke": {
+    "message": "Nhấn ba phím CTRL",
+    "description": "Nhãn cho phím tắt nhấn ba phím CTRL"
+  },
+  "quadrupleCtrlStroke": {
+    "message": "Nhấn bốn phím CTRL",
+    "description": "Nhãn cho phím tắt nhấn bốn phím CTRL"
+  },
+  "customShortcutKey": {
+    "message": "Phím tắt tùy chỉnh",
+    "description": "Nhãn cho tùy chọn phím tắt tùy chỉnh"
+  },
+  "ollamaDocsLink": {
+    "message": "Tài liệu Ollama ↗",
+    "description": "Liên kết đến tài liệu Ollama"
+  },
+  "openaiDocsLink": {
+    "message": "Tài liệu OpenAI ↗",
+    "description": "Liên kết đến tài liệu OpenAI"
+  },
+  "anthropicDocsLink": {
+    "message": "Nhận khóa API Claude ↗",
+    "description": "Liên kết để nhận khóa API Anthropic"
+  },
+  "lmstudioDocsLink": {
+    "message": "Tài liệu LM Studio ↗",
+    "description": "Liên kết đến tài liệu LM Studio"
+  },
+  "geminiDocsLink": {
+    "message": "Nhận khóa Google Gemini API miễn phí của bạn ↗",
+    "description": "Liên kết để nhận khóa API Gemini"
+  },
+  "deepseekDocsLink": {
+    "message": "Nhận khóa API DeepSeek ↗",
+    "description": "Liên kết để nhận khóa API DeepSeek"
+  },
+  "mistralDocsLink": {
+    "message": "Nhận khóa API Mistral ↗",
+    "description": "Liên kết để nhận khóa API Mistral"
+  },
+  "perplexityDocsLink": {
+    "message": "Nhận khóa API Perplexity ↗",
+    "description": "Liên kết để nhận khóa API Perplexity"
+  },
+  "chromeDocsLink": {
+    "message": "Tài liệu Chrome AI ↗",
+    "description": "Liên kết đến tài liệu Chrome AI"
+  },
+  "chromeAiNoteText": {
+    "message": "Lưu ý: Chrome AI là một tính năng xem trước. Để sử dụng nó, bạn cần bật cờ tính năng trong Chrome:",
+    "description": "Lưu ý về tính năng xem trước Chrome AI"
+  },
+  "chromeAiEnableLink": {
+    "message": "Bật cờ tính năng Chrome AI",
+    "description": "Liên kết để bật cờ tính năng Chrome AI"
+  },
+  "openAiKeyPlaceholder": {
+    "message": "Khóa API OpenAI",
+    "description": "Văn bản giữ chỗ cho đầu vào khóa API OpenAI"
+  },
+  "anthropicKeyPlaceholder": {
+    "message": "Khóa API Anthropic",
+    "description": "Văn bản giữ chỗ cho đầu vào khóa API Anthropic"
+  },
+  "geminiKeyPlaceholder": {
+    "message": "Khóa API Google",
+    "description": "Văn bản giữ chỗ cho đầu vào khóa API Gemini"
+  },
+  "deepseekKeyPlaceholder": {
+    "message": "Khóa API DeepSeek",
+    "description": "Văn bản giữ chỗ cho đầu vào khóa API DeepSeek"
+  },
+  "mistralKeyPlaceholder": {
+    "message": "Khóa API Mistral AI",
+    "description": "Văn bản giữ chỗ cho đầu vào khóa API Mistral AI"
+  },
+  "perplexityKeyPlaceholder": {
+    "message": "Khóa API Perplexity AI",
+    "description": "Văn bản giữ chỗ cho đầu vào khóa API Perplexity AI"
+  },
+  "ollamaUrlPlaceholder": {
+    "message": "URL Ollama",
+    "description": "Văn bản giữ chỗ cho đầu vào URL Ollama"
+  },
+  "lmstudioUrlPlaceholder": {
+    "message": "URL LM Studio",
+    "description": "Văn bản giữ chỗ cho đầu vào URL LM Studio"
+  },
+  "modelNamePlaceholder": {
+    "message": "Tên mô hình",
+    "description": "Văn bản giữ chỗ cho đầu vào tên mô hình"
+  },
+  "resetButton": {
+    "message": "Đặt lại",
+    "description": "Văn bản cho các nút đặt lại"
+  },
+  "customShortcutPlaceholder": {
+    "message": "Nhấn 'Ghi' để chụp",
+    "description": "Văn bản giữ chỗ cho đầu vào phím tắt tùy chỉnh"
+  },
+  "systemPromptPlaceholder": {
+    "message": "Lời nhắc hệ thống",
+    "description": "Văn bản giữ chỗ cho đầu vào lời nhắc hệ thống"
+  },
+  "ollamaProvider": {
+    "message": "Ollama",
+    "description": "Tên nhà cung cấp Ollama"
+  },
+  "openaiProvider": {
+    "message": "OpenAI",
+    "description": "Tên nhà cung cấp OpenAI"
+  },
+  "anthropicProvider": {
+    "message": "Anthropic Claude",
+    "description": "Tên nhà cung cấp Anthropic"
+  },
+  "lmstudioProvider": {
+    "message": "LM Studio",
+    "description": "Tên nhà cung cấp LM Studio"
+  },
+  "geminiProvider": {
+    "message": "Google Gemini",
+    "description": "Tên nhà cung cấp Google Gemini"
+  },
+  "deepseekProvider": {
+    "message": "DeepSeek",
+    "description": "Tên nhà cung cấp DeepSeek"
+  },
+  "mistralProvider": {
+    "message": "Mistral AI",
+    "description": "Tên nhà cung cấp Mistral"
+  },
+  "perplexityProvider": {
+    "message": "Perplexity AI",
+    "description": "Tên nhà cung cấp Perplexity"
+  },
+  "chromeProvider": {
+    "message": "Chrome AI (Bản xem trước)",
+    "description": "Tên nhà cung cấp Chrome AI"
+  }
+} 

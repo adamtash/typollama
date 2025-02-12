@@ -1,0 +1,366 @@
+{
+  "extensionName": {
+    "message": "Typollama – AI எழுத்துப்பிழை சரிபார்ப்பு மற்றும் உரை செயலாக்கம்",
+    "description": "நீட்டிப்பின் பெயர்"
+  },
+  "extensionDescription": {
+    "message": "Typollama மூலம் உங்கள் எழுத்தை மேம்படுத்துங்கள் – எழுத்துப்பிழை சரிபார்ப்பு மற்றும் மேம்பட்ட உரை செயலாக்கத்திற்கான AI-இயங்கும் Chrome நீட்டிப்பு.",
+    "description": "நீட்டிப்பின் விளக்கம்"
+  },
+  "providerLabel": {
+    "message": "வழங்குநர்:",
+    "description": "வழங்குநர் தேர்வுக்கான லேபிள்"
+  },
+  "modelNameLabel": {
+    "message": "மாதிரி பெயர்:",
+    "description": "மாதிரி பெயர் உள்ளீட்டிற்கான லேபிள்"
+  },
+    "resetModelName": {
+    "message": "மாதிரி பெயரை மீட்டமைக்கவும்",
+    "description": "மாதிரி பெயரை மீட்டமைக்க பொத்தான் உரை"
+  },
+  "promptTypeLabel": {
+    "message": "தூண்டுதல் வகை:",
+    "description": "தூண்டுதல் வகை தேர்வுக்கான லேபிள்"
+  },
+  "systemPromptLabel": {
+    "message": "முறைமை தூண்டுதல்:",
+    "description": "முறைமை தூண்டுதல் உள்ளீட்டிற்கான லேபிள்"
+  },
+  "resetPrompt": {
+    "message": "தூண்டுதலை மீட்டமைக்கவும்",
+    "description": "தூண்டுதலை மீட்டமைக்க பொத்தான் உரை"
+  },
+  "shortcutModeLabel": {
+    "message": "குறுக்குவழி முறை:",
+    "description": "குறுக்குவழி முறை தேர்வுக்கான லேபிள்"
+  },
+  "recordShortcut": {
+    "message": "குறுக்குவழியைப் பதிவு செய்யவும்",
+    "description": "குறுக்குவழியைப் பதிவு செய்ய பொத்தான் உரை"
+  },
+  "customShortcutLabel": {
+    "message": "தனிப்பயன் குறுக்குவழி:",
+    "description": "தனிப்பயன் குறுக்குவழி உள்ளீட்டிற்கான லேபிள்"
+  },
+  "copyToClipboardLabel": {
+    "message": "கிளிப்போர்டுக்கு நகலெடுக்கவும்",
+    "description": "கிளிப்போர்டுக்கு நகலெடுக்கும் விருப்பத்திற்கான தேர்வுப்பெட்டி லேபிள்"
+  },
+  "advancedSettingsLabel": {
+    "message": "மேம்பட்ட அமைப்புகள்",
+    "description": "மேம்பட்ட அமைப்புகளுக்கான டாக்கில் உரை"
+  },
+  "ollamaUrlLabel": {
+    "message": "Ollama URL:",
+    "description": "Ollama URL உள்ளீட்டிற்கான லேபிள்"
+  },
+  "resetOllamaUrl": {
+    "message": "Ollama URL ஐ மீட்டமைக்கவும்",
+    "description": "Ollama URL ஐ மீட்டமைக்க பொத்தான் உரை"
+  },
+  "lmstudioUrlLabel": {
+    "message": "LM Studio URL:",
+    "description": "LM Studio URL உள்ளீட்டிற்கான லேபிள்"
+  },
+  "resetLmstudioUrl": {
+    "message": "LM Studio URL ஐ மீட்டமைக்கவும்",
+    "description": "LM Studio URL ஐ மீட்டமைக்க பொத்தான் உரை"
+  },
+  "openAiKeyLabel": {
+    "message": "OpenAI API சாவி:",
+    "description": "OpenAI API சாவி உள்ளீட்டிற்கான லேபிள்"
+  },
+  "anthropicKeyLabel": {
+    "message": "Anthropic API சாவி:",
+    "description": "Anthropic API சாவி உள்ளீட்டிற்கான லேபிள்"
+  },
+  "geminiKeyLabel": {
+    "message": "Gemini API சாவி:",
+    "description": "Gemini API சாவி உள்ளீட்டிற்கான லேபிள்"
+  },
+  "deepseekKeyLabel": {
+    "message": "Deepseek API சாவி:",
+    "description": "Deepseek API சாவி உள்ளீட்டிற்கான லேபிள்"
+  },
+  "mistralKeyLabel": {
+    "message": "Mistral API சாவி:",
+    "description": "Mistral API சாவி உள்ளீட்டிற்கான லேபிள்"
+  },
+  "perplexityKeyLabel": {
+    "message": "Perplexity API சாவி:",
+    "description": "Perplexity API சாவி உள்ளீட்டிற்கான லேபிள்"
+  },
+  "ollamaDocs": {
+    "message": "Ollama ஆவணங்கள்",
+    "description": "Ollama ஆவணங்களுக்கான இணைப்பு உரை"
+  },
+  "openaiDocs": {
+    "message": "OpenAI ஆவணங்கள்",
+    "description": "OpenAI ஆவணங்களுக்கான இணைப்பு உரை"
+  },
+  "anthropicDocs": {
+    "message": "Anthropic ஆவணங்கள்",
+    "description": "Anthropic ஆவணங்களுக்கான இணைப்பு உரை"
+  },
+  "lmstudioDocs": {
+    "message": "LM Studio ஆவணங்கள்",
+    "description": "LM Studio ஆவணங்களுக்கான இணைப்பு உரை"
+  },
+  "geminiDocs": {
+    "message": "Gemini ஆவணங்கள்",
+    "description": "Gemini ஆவணங்களுக்கான இணைப்பு உரை"
+  },
+  "chromeDocs": {
+    "message": "Chrome AI ஆவணங்கள்",
+    "description": "Chrome AI ஆவணங்களுக்கான இணைப்பு உரை"
+  },
+  "deepseekDocs": {
+    "message": "Deepseek ஆவணங்கள்",
+    "description": "Deepseek ஆவணங்களுக்கான இணைப்பு உரை"
+  },
+  "mistralDocs": {
+    "message": "Mistral ஆவணங்கள்",
+    "description": "Mistral ஆவணங்களுக்கான இணைப்பு உரை"
+  },
+  "perplexityDocs": {
+    "message": "Perplexity ஆவணங்கள்",
+    "description": "Perplexity ஆவணங்களுக்கான இணைப்பு உரை"
+  },
+  "chromeAiNote": {
+    "message": "குறிப்பு: Chrome AI சோதனை அம்சங்களைப் பயன்படுத்துகிறது மற்றும் இது எல்லா பகுதிகளிலும் கிடைக்காமல் போகலாம்.",
+    "description": "Chrome AI பற்றிய குறிப்பு"
+  },
+    "recordingPlaceholder": {
+    "message": "பதிவு செய்கிறது... விசைகளை அழுத்தவும், Enter உடன் முடிக்கவும்",
+    "description": "குறுக்குவழி பதிவுக்கு ஒதுக்கிட உரை"
+  },
+  "recordingCompletePlaceholder": {
+    "message": "பதிவு முடிந்தது",
+    "description": "குறுக்குவழி பதிவுக்குப் பிறகு ஒதுக்கிட உரை"
+  },
+    "stopRecording": {
+    "message": "பதிவை நிறுத்து",
+    "description": "பதிவை நிறுத்தும் பொத்தான்"
+  },
+    "contextMenuSpellcheck": {
+    "message": "AI உடன் எழுத்துப்பிழை சரிபார்க்கவும்",
+    "description": "எழுத்துப்பிழை சரிபார்ப்புக்கான சூழல் மெனு உருப்படி"
+  },
+  "contextMenuProofread": {
+    "message": "AI உடன் மீண்டும் எழுதவும்",
+    "description": "சரிபார்த்தலுக்கான சூழல் மெனு உருப்படி"
+  },
+  "contextMenuCustom": {
+    "message": "AI உடன் தனிப்பயன் எழுத்து",
+    "description": "தனிப்பயன் தூண்டுதலுக்கான சூழல் மெனு உருப்படி"
+  },
+  "apiKeyRequired": {
+    "message": "API சாவி தேவை",
+    "description": "API சாவி காணாமல் போனால் பிழை செய்தி"
+  },
+  "urlRequired": {
+    "message": "URL தேவை",
+    "description": "URL காணாமல் போனால் பிழை செய்தி"
+  },
+  "invalidUrl": {
+    "message": "செல்லாத {0} URL: {1}",
+    "description": "செல்லாத URL க்கான பிழை செய்தி",
+    "placeholders": {
+      "0": {
+        "content": "$1"
+      },
+      "1": {
+        "content": "$2"
+      }
+    }
+  },
+  "ollama403Error": {
+    "message": " - Ollama க்கு கூடுதல் அணுகல் தோற்றங்கள் தேவை. பார்க்கவும்: https://github.com/ollama/ollama/blob/main/docs/faq.md#how-can-i-allow-additional-web-origins-to-access-ollama",
+    "description": "Ollama 403 பிழைக்கான பிழை செய்தி"
+  },
+  "ollamaConnectionError": {
+    "message": " - Ollama சேவையகம் அடைய முடியாததாக உள்ளது அல்லது இயங்கவில்லை",
+    "description": "Ollama இணைப்பு பிழைக்கான பிழை செய்தி"
+  },
+  "unauthorizedError": {
+    "message": " - அங்கீகரிக்கப்படவில்லை. உங்கள் API சாவியைச் சரிபார்க்கவும்.",
+    "description": "அங்கீகரிக்கப்படாத API அணுகலுக்கான பிழை செய்தி"
+  },
+    "extensionReloadedError": {
+        "message": "நீட்டிப்பு மீண்டும் ஏற்றப்பட்டது அல்லது புதுப்பிக்கப்பட்டது. பக்கத்தைப் புதுப்பிக்கவும்.",
+        "description": "நீட்டிப்பு மீண்டும் ஏற்றுவதற்கான பிழை"
+    },
+    "unknownError": {
+        "message": "தெரியாத பிழை",
+        "description": "பொதுவான பிழை"
+    },
+  "aiSpellcheckTitle": {
+    "message": "AI எழுத்துப்பிழை சரிபார்ப்பு மற்றும் உரை செயலாக்கம்",
+    "description": "நீட்டிப்பின் முக்கிய தலைப்பு"
+  },
+  "aboutDocumentation": {
+    "message": "பற்றி & ஆவணங்கள் ↗",
+    "description": "ஆவணங்களுக்கான இணைப்பு"
+  },
+  "writingToolsTitle": {
+    "message": "எழுதும் கருவிகள்",
+    "description": "எழுதும் கருவிகள் பிரிவின் தலைப்பு"
+  },
+  "spellcheckOption": {
+    "message": "எழுத்துப்பிழை சரிபார்க்கவும்",
+    "description": "எழுத்துப்பிழை சரிபார்ப்பு முறைக்கான விருப்பம்"
+  },
+  "proofreadOption": {
+    "message": "மீண்டும் எழுதவும்",
+    "description": "சரிபார்க்கும் முறைக்கான விருப்பம்"
+  },
+  "customAiEditorOption": {
+    "message": "தனிப்பயன் AI ஆசிரியர்",
+    "description": "தனிப்பயன் AI ஆசிரியர் முறைக்கான விருப்பம்"
+  },
+  "doubleCtrlStroke": {
+    "message": "இரட்டை CTRL ஸ்ட்ரோக்",
+    "description": "இரட்டை CTRL ஸ்ட்ரோக் குறுக்குவழிக்கான லேபிள்"
+  },
+  "tripleCtrlStroke": {
+    "message": "மும்முறை CTRL ஸ்ட்ரோக்",
+    "description": "மும்முறை CTRL ஸ்ட்ரோக் குறுக்குவழிக்கான லேபிள்"
+  },
+  "quadrupleCtrlStroke": {
+    "message": "நான்குமுறை CTRL ஸ்ட்ரோக்",
+    "description": "நான்குமுறை CTRL ஸ்ட்ரோக் குறுக்குவழிக்கான லேபிள்"
+  },
+  "customShortcutKey": {
+    "message": "தனிப்பயன் குறுக்குவழி சாவி",
+    "description": "தனிப்பயன் குறுக்குவழி சாவி விருப்பத்திற்கான லேபிள்"
+  },
+  "ollamaDocsLink": {
+    "message": "Ollama ஆவணங்கள் ↗",
+    "description": "Ollama ஆவணங்களுக்கான இணைப்பு"
+  },
+  "openaiDocsLink": {
+    "message": "OpenAI ஆவணங்கள் ↗",
+    "description": "OpenAI ஆவணங்களுக்கான இணைப்பு"
+  },
+  "anthropicDocsLink": {
+    "message": "Claude API சாவியைப் பெறுங்கள் ↗",
+    "description": "Anthropic API சாவியைப் பெறுவதற்கான இணைப்பு"
+  },
+  "lmstudioDocsLink": {
+    "message": "LM Studio ஆவணங்கள் ↗",
+    "description": "LM Studio ஆவணங்களுக்கான இணைப்பு"
+  },
+  "geminiDocsLink": {
+    "message": "உங்கள் இலவச Google Gemini API சாவியைப் பெறுங்கள் ↗",
+    "description": "Gemini API சாவியைப் பெறுவதற்கான இணைப்பு"
+  },
+  "deepseekDocsLink": {
+    "message": "DeepSeek API சாவியைப் பெறுங்கள் ↗",
+    "description": "DeepSeek API சாவியைப் பெறுவதற்கான இணைப்பு"
+  },
+  "mistralDocsLink": {
+    "message": "Mistral API சாவியைப் பெறுங்கள் ↗",
+    "description": "Mistral API சாவியைப் பெறுவதற்கான இணைப்பு"
+  },
+  "perplexityDocsLink": {
+    "message": "Perplexity API சாவியைப் பெறுங்கள் ↗",
+    "description": "Perplexity API சாவியைப் பெறுவதற்கான இணைப்பு"
+  },
+  "chromeDocsLink": {
+    "message": "Chrome AI ஆவணங்கள் ↗",
+    "description": "Chrome AI ஆவணங்களுக்கான இணைப்பு"
+  },
+  "chromeAiNoteText": {
+    "message": "குறிப்பு: Chrome AI ஒரு முன்னோட்ட அம்சம். இதைப் பயன்படுத்த, Chrome இல் அம்சக் கொடியை இயக்க வேண்டும்:",
+    "description": "Chrome AI முன்னோட்ட அம்சம் பற்றிய குறிப்பு"
+  },
+  "chromeAiEnableLink": {
+    "message": "Chrome AI அம்சக் கொடியை இயக்கவும்",
+    "description": "Chrome AI அம்சக் கொடியை இயக்க இணைப்பு"
+  },
+  "openAiKeyPlaceholder": {
+    "message": "OpenAI API சாவி",
+    "description": "OpenAI API சாவி உள்ளீட்டிற்கான ஒதுக்கிடம்"
+  },
+  "anthropicKeyPlaceholder": {
+    "message": "Anthropic API சாவி",
+    "description": "Anthropic API சாவி உள்ளீட்டிற்கான ஒதுக்கிடம்"
+  },
+  "geminiKeyPlaceholder": {
+    "message": "Google API சாவி",
+    "description": "Gemini API சாவி உள்ளீட்டிற்கான ஒதுக்கிடம்"
+  },
+  "deepseekKeyPlaceholder": {
+    "message": "DeepSeek API சாவி",
+    "description": "DeepSeek API சாவி உள்ளீட்டிற்கான ஒதுக்கிடம்"
+  },
+  "mistralKeyPlaceholder": {
+    "message": "Mistral AI API சாவி",
+    "description": "Mistral AI API சாவி உள்ளீட்டிற்கான ஒதுக்கிடம்"
+  },
+  "perplexityKeyPlaceholder": {
+    "message": "Perplexity AI API சாவி",
+    "description": "Perplexity AI API சாவி உள்ளீட்டிற்கான ஒதுக்கிடம்"
+  },
+  "ollamaUrlPlaceholder": {
+    "message": "Ollama URL",
+    "description": "Ollama URL உள்ளீட்டிற்கான ஒதுக்கிடம்"
+  },
+  "lmstudioUrlPlaceholder": {
+    "message": "LM Studio URL",
+    "description": "LM Studio URL உள்ளீட்டிற்கான ஒதுக்கிடம்"
+  },
+  "modelNamePlaceholder": {
+    "message": "மாதிரி பெயர்",
+    "description": "மாதிரி பெயர் உள்ளீட்டிற்கான ஒதுக்கிடம்"
+  },
+  "resetButton": {
+    "message": "மீட்டமை",
+    "description": "மீட்டமை பொத்தான்களுக்கான உரை"
+  },
+  "customShortcutPlaceholder": {
+    "message": "பிடிக்க 'பதிவு செய்' என்பதை அழுத்தவும்",
+    "description": "தனிப்பயன் குறுக்குவழி உள்ளீட்டிற்கான ஒதுக்கிடம்"
+  },
+  "systemPromptPlaceholder": {
+    "message": "முறைமை தூண்டுதல்",
+    "description": "முறைமை தூண்டுதல் உள்ளீட்டிற்கான ஒதுக்கிடம்"
+  },
+  "ollamaProvider": {
+    "message": "Ollama",
+    "description": "Ollama வழங்குநரின் பெயர்"
+  },
+  "openaiProvider": {
+    "message": "OpenAI",
+    "description": "OpenAI வழங்குநரின் பெயர்"
+  },
+  "anthropicProvider": {
+    "message": "Anthropic Claude",
+    "description": "Anthropic வழங்குநரின் பெயர்"
+  },
+  "lmstudioProvider": {
+    "message": "LM Studio",
+    "description": "LM Studio வழங்குநரின் பெயர்"
+  },
+  "geminiProvider": {
+    "message": "Google Gemini",
+    "description": "Google Gemini வழங்குநரின் பெயர்"
+  },
+  "deepseekProvider": {
+    "message": "DeepSeek",
+    "description": "DeepSeek வழங்குநரின் பெயர்"
+  },
+  "mistralProvider": {
+    "message": "Mistral AI",
+    "description": "Mistral வழங்குநரின் பெயர்"
+  },
+  "perplexityProvider": {
+    "message": "Perplexity AI",
+    "description": "Perplexity வழங்குநரின் பெயர்"
+  },
+  "chromeProvider": {
+    "message": "Chrome AI (முன்னோட்டம்)",
+    "description": "Chrome AI வழங்குநரின் பெயர்"
+  }
+} 

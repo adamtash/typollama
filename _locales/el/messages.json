@@ -1,0 +1,314 @@
+{
+  "extensionName": {
+    "message": "Typollama – Έλεγχος ορθογραφίας AI & Επεξεργασία κειμένου",
+    "description": "Όνομα επέκτασης"
+  },
+  "extensionDescription": {
+    "message": "Βελτιώστε τη γραφή σας με το Typollama – μια επέκταση Chrome που υποστηρίζεται από AI για έλεγχο ορθογραφίας και προηγμένη επεξεργασία κειμένου.",
+    "description": "Περιγραφή επέκτασης"
+  },
+  "providerLabel": {
+    "message": "Πάροχος:",
+    "description": "Ετικέτα για επιλογή παρόχου"
+  },
+  "modelNameLabel": {
+    "message": "Όνομα μοντέλου:",
+    "description": "Ετικέτα για εισαγωγή ονόματος μοντέλου"
+  },
+    "resetModelName": {
+    "message": "Επαναφορά ονόματος μοντέλου",
+    "description": "Κείμενο κουμπιού για επαναφορά ονόματος μοντέλου"
+  },
+  "promptTypeLabel": {
+    "message": "Τύπος προτροπής:",
+    "description": "Ετικέτα για επιλογή τύπου προτροπής"
+  },
+  "systemPromptLabel": {
+    "message": "Προτροπή συστήματος:",
+    "description": "Ετικέτα για εισαγωγή προτροπής συστήματος"
+  },
+  "resetPrompt": {
+    "message": "Επαναφορά προτροπής",
+    "description": "Κείμενο κουμπιού για επαναφορά προτροπής"
+  },
+  "shortcutModeLabel": {
+    "message": "Λειτουργία συντόμευσης:",
+    "description": "Ετικέτα για επιλογή λειτουργίας συντόμευσης"
+  },
+  "recordShortcut": {
+    "message": "Εγγραφή συντόμευσης",
+    "description": "Κείμενο κουμπιού για εγγραφή συντόμευσης"
+  },
+  "customShortcutLabel": {
+    "message": "Προσαρμοσμένη συντόμευση:",
+    "description": "Ετικέτα για εισαγωγή προσαρμοσμένης συντόμευσης"
+  },
+  "copyToClipboardLabel": {
+    "message": "Αντιγραφή στο πρόχειρο",
+    "description": "Ετικέτα πλαισίου ελέγχου για επιλογή αντιγραφής στο πρόχειρο"
+  },
+  "advancedSettingsLabel": {
+    "message": "Προηγμένες ρυθμίσεις",
+    "description": "Ετικέτα ενότητας προηγμένων ρυθμίσεων"
+  },
+  "resetButton": {
+    "message": "Επαναφορά",
+    "description": "Κείμενο για κουμπιά επαναφοράς"
+  },
+  "customShortcutPlaceholder": {
+    "message": "Πατήστε 'Εγγραφή' για λήψη",
+    "description": "Κείμενο κράτησης θέσης για εισαγωγή προσαρμοσμένης συντόμευσης"
+  },
+  "systemPromptPlaceholder": {
+    "message": "Προτροπή συστήματος",
+    "description": "Κείμενο κράτησης θέσης για εισαγωγή προτροπής συστήματος"
+  },
+  "ollamaProvider": {
+    "message": "Ollama",
+    "description": "Όνομα παρόχου Ollama"
+  },
+  "openaiProvider": {
+    "message": "OpenAI",
+    "description": "Όνομα παρόχου OpenAI"
+  },
+  "anthropicProvider": {
+    "message": "Anthropic Claude",
+    "description": "Όνομα παρόχου Anthropic"
+  },
+  "lmstudioProvider": {
+    "message": "LM Studio",
+    "description": "Όνομα παρόχου LM Studio"
+  },
+  "geminiProvider": {
+    "message": "Google Gemini",
+    "description": "Όνομα παρόχου Google Gemini"
+  },
+  "deepseekProvider": {
+    "message": "DeepSeek",
+    "description": "Όνομα παρόχου DeepSeek"
+  },
+  "mistralProvider": {
+    "message": "Mistral AI",
+    "description": "Όνομα παρόχου Mistral"
+  },
+  "perplexityProvider": {
+    "message": "Perplexity AI",
+    "description": "Όνομα παρόχου Perplexity"
+  },
+  "chromeProvider": {
+    "message": "Chrome AI (Προεπισκόπηση)",
+    "description": "Όνομα παρόχου Chrome AI"
+  },
+  "apiKeyLabel": {
+    "message": "Κλειδί API:",
+    "description": "Ετικέτα για εισαγωγή κλειδιού API"
+  },
+  "apiBaseUrlLabel": {
+    "message": "Βασικό URL API:",
+    "description": "Ετικέτα για εισαγωγή βασικού URL API"
+  },
+  "resetApiKey": {
+    "message": "Επαναφορά κλειδιού API",
+    "description": "Κείμενο κουμπιού για επαναφορά κλειδιού API"
+  },
+  "resetApiBaseUrl": {
+    "message": "Επαναφορά βασικού URL API",
+    "description": "Κείμενο κουμπιού για επαναφορά βασικού URL API"
+  },
+  "apiKeyPlaceholder": {
+    "message": "Το κλειδί API σας",
+    "description": "Κείμενο κράτησης θέσης για εισαγωγή κλειδιού API"
+  },
+  "apiBaseUrlPlaceholder": {
+    "message": "Προσαρμοσμένο βασικό URL API",
+    "description": "Κείμενο κράτησης θέσης για εισαγωγή βασικού URL API"
+  },
+  "temperatureLabel": {
+    "message": "Θερμοκρασία:",
+    "description": "Ετικέτα για ρυθμιστικό θερμοκρασίας"
+  },
+  "topPLabel": {
+    "message": "Κορυφή P:",
+    "description": "Ετικέτα για ρυθμιστικό Κορυφή P"
+  },
+  "frequencyPenaltyLabel": {
+    "message": "Ποινή συχνότητας:",
+    "description": "Ετικέτα για ρυθμιστικό Ποινή συχνότητας"
+  },
+  "presencePenaltyLabel": {
+    "message": "Ποινή παρουσίας:",
+    "description": "Ετικέτα για ρυθμιστικό Ποινή παρουσίας"
+  },
+  "temperatureSliderMin": {
+    "message": "0",
+    "description": "Ελάχιστη τιμή ρυθμιστικού θερμοκρασίας"
+  },
+  "temperatureSliderMax": {
+    "message": "2",
+    "description": "Μέγιστη τιμή ρυθμιστικού θερμοκρασίας"
+  },
+  "topPSliderMin": {
+    "message": "0",
+    "description": "Ελάχιστη τιμή ρυθμιστικού Κορυφή P"
+  },
+  "topPSliderMax": {
+    "message": "1",
+    "description": "Μέγιστη τιμή ρυθμιστικού Κορυφή P"
+  },
+  "frequencyPenaltySliderMin": {
+    "message": "-2",
+    "description": "Ελάχιστη τιμή ρυθμιστικού Ποινή συχνότητας"
+  },
+  "frequencyPenaltySliderMax": {
+    "message": "2",
+    "description": "Μέγιστη τιμή ρυθμιστικού Ποινή συχνότητας"
+  },
+  "presencePenaltySliderMin": {
+    "message": "-2",
+    "description": "Ελάχιστη τιμή ρυθμιστικού Ποινή παρουσίας"
+  },
+  "presencePenaltySliderMax": {
+    "message": "2",
+    "description": "Μέγιστη τιμή ρυθμιστικού Ποινή παρουσίας"
+  },
+  "autoDetectProvider": {
+    "message": "Αυτόματη ανίχνευση παρόχου",
+    "description": "Επιλογή για αυτόματη ανίχνευση παρόχου"
+  },
+  "contextMenuLabel": {
+    "message": "Typollama",
+    "description": "Ετικέτα μενού περιβάλλοντος"
+  },
+  "checkSpellingLabel": {
+    "message": "Έλεγχος ορθογραφίας",
+    "description": "Στοιχείο μενού περιβάλλοντος για έλεγχο ορθογραφίας"
+  },
+  "grammarCheckLabel": {
+    "message": "Έλεγχος γραμματικής",
+    "description": "Στοιχείο μενού περιβάλλοντος για έλεγχο γραμματικής"
+  },
+  "improveWritingLabel": {
+    "message": "Βελτίωση γραφής",
+    "description": "Στοιχείο μενού περιβάλλοντος για βελτίωση γραφής"
+  },
+  "loadingText": {
+    "message": "Φόρτωση...",
+    "description": "Κείμενο φόρτωσης"
+  },
+  "errorText": {
+    "message": "Σφάλμα, δοκιμάστε ξανά αργότερα.",
+    "description": "Κείμενο σφάλματος"
+  },
+  "noTextSelected": {
+    "message": "Δεν έχει επιλεγεί κείμενο.",
+    "description": "Κείμενο σφάλματος όταν δεν έχει επιλεγεί κείμενο"
+  },
+  "optionsPageTitle": {
+    "message": "Επιλογές Typollama",
+    "description": "Τίτλος σελίδας επιλογών"
+  },
+  "generalSettingsSection": {
+    "message": "Γενικές ρυθμίσεις",
+    "description": "Επικεφαλίδα ενότητας γενικών ρυθμίσεων"
+  },
+  "providerSettingsSection": {
+    "message": "Ρυθμίσεις παρόχου",
+    "description": "Επικεφαλίδα ενότητας ρυθμίσεων παρόχου"
+  },
+  "shortcutSettingsSection": {
+    "message": "Ρυθμίσεις συντόμευσης",
+    "description": "Επικεφαλίδα ενότητας ρυθμίσεων συντόμευσης"
+  },
+  "languageSettingsSection": {
+    "message": "Ρυθμίσεις γλώσσας",
+    "description": "Επικεφαλίδα ενότητας ρυθμίσεων γλώσσας"
+  },
+  "appearanceSettingsSection": {
+    "message": "Ρυθμίσεις εμφάνισης",
+    "description": "Επικεφαλίδα ενότητας ρυθμίσεων εμφάνισης"
+  },
+  "aboutSection": {
+    "message": "Σχετικά με",
+    "description": "Επικεφαλίδα ενότητας σχετικά με"
+  },
+  "versionLabel": {
+    "message": "Έκδοση:",
+    "description": "Ετικέτα έκδοσης επέκτασης"
+  },
+  "authorLabel": {
+    "message": "Συγγραφέας:",
+    "description": "Ετικέτα συγγραφέα επέκτασης"
+  },
+  "githubLink": {
+    "message": "Σελίδα GitHub",
+    "description": "Κείμενο συνδέσμου GitHub"
+  },
+  "feedbackLink": {
+    "message": "Αποστολή σχολίων",
+    "description": "Κείμενο συνδέσμου σχολίων"
+  },
+  "privacyPolicyLink": {
+    "message": "Πολιτική απορρήτου",
+    "description": "Κείμενο συνδέσμου πολιτικής απορρήτου"
+  },
+  "donateLink": {
+    "message": "Δωρεά",
+    "description": "Κείμενο συνδέσμου δωρεάς"
+  },
+  "modelSettingsLabel": {
+    "message": "Ρυθμίσεις μοντέλου",
+    "description": "Ετικέτα ενότητας ρυθμίσεων μοντέλου"
+  },
+  "parameterSettingsLabel": {
+    "message": "Ρυθμίσεις παραμέτρων",
+    "description": "Ετικέτα ενότητας ρυθμίσεων παραμέτρων"
+  },
+  "advancedProviderSettingsLabel": {
+    "message": "Προηγμένες ρυθμίσεις παρόχου",
+    "description": "Ετικέτα ενότητας προηγμένων ρυθμίσεων παρόχου"
+  },
+  "promptSettingsLabel": {
+    "message": "Ρυθμίσεις προτροπής",
+    "description": "Ετικέτα ενότητας ρυθμίσεων προτροπής"
+  },
+  "shortcutSettingsNote": {
+    "message": "Ορισμένες συντομεύσεις ενδέχεται να είναι δεσμευμένες από το λειτουργικό σας σύστημα και να μην είναι δυνατή η αντικατάστασή τους.",
+    "description": "Σημείωση σχετικά με τις ρυθμίσεις συντόμευσης"
+  },
+  "apiKeySettingsNote": {
+    "message": "Εάν δεν έχει οριστεί κλειδί API, το Typollama θα χρησιμοποιήσει ένα δημόσιο κλειδί API, το οποίο ενδέχεται να έχει όριο ρυθμού.",
+    "description": "Σημείωση σχετικά με τις ρυθμίσεις κλειδιού API"
+  },
+  "apiBaseUrlSettingsNote": {
+    "message": "Αλλάξτε το βασικό URL API για έναν προσαρμοσμένο διακομιστή ή διακομιστή μεσολάβησης API.",
+    "description": "Σημείωση σχετικά με τις ρυθμίσεις βασικού URL API"
+  },
+  "promptTypeNote": {
+    "message": "Επιλέξτε τον τύπο προτροπής για βελτιστοποίηση των αποτελεσμάτων για διαφορετικές εργασίες.",
+    "description": "Σημείωση σχετικά με τον τύπο προτροπής"
+  },
+  "systemPromptNote": {
+    "message": "Η προτροπή συστήματος ορίζει το πλαίσιο και καθοδηγεί τη συμπεριφορά της AI.",
+    "description": "Σημείωση σχετικά με την προτροπή συστήματος"
+  },
+  "shortcutModeNote": {
+    "message": "Επιλέξτε τον τρόπο με τον οποίο η συντόμευση ενεργοποιεί την επέκταση.",
+    "description": "Σημείωση σχετικά με τη λειτουργία συντόμευσης"
+  },
+  "copyToClipboardNote": {
+    "message": "Αντιγράψτε αυτόματα τα αποτελέσματα στο πρόχειρο μετά την επεξεργασία.",
+    "description": "Σημείωση σχετικά με την επιλογή αντιγραφής στο πρόχειρο"
+  },
+  "resetSettingsNote": {
+    "message": "Επαναφέρετε όλες τις ρυθμίσεις του Typollama στις προεπιλογές.",
+    "description": "Σημείωση σχετικά με το κουμπί επαναφοράς ρυθμίσεων"
+  },
+  "resetConfirmation": {
+    "message": "Είστε βέβαιοι ότι θέλετε να επαναφέρετε όλες τις ρυθμίσεις στις προεπιλογές;",
+    "description": "Επιβεβαίωση επαναφοράς ρυθμίσεων"
+  },
+  "resetSettingsButton": {
+    "message": "Επαναφορά ρυθμίσεων",
+    "description": "Κείμενο κουμπιού επαναφοράς ρυθμίσεων"
+  }
+} 
