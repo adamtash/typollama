@@ -1,170 +1,170 @@
 {
     "extensionName": {
-      "message": "{{ Typollama – Pemeriksaan Ejaan & Pemrosesan Teks AI }}",
+      "message": "Typollama – Pemeriksaan Ejaan & Pemrosesan Teks AI",
       "description": "Nama ekstensi"
     },
     "extensionDescription": {
-      "message": "{{ Tingkatkan tulisan Anda dengan Typollama – ekstensi Chrome bertenaga AI untuk pemeriksaan ejaan dan pemrosesan teks tingkat lanjut. }}",
+      "message": "Tingkatkan tulisan Anda dengan Typollama – ekstensi Chrome bertenaga AI untuk pemeriksaan ejaan dan pemrosesan teks tingkat lanjut.",
       "description": "Deskripsi ekstensi"
     },
     "providerLabel": {
-      "message": "{{ Penyedia: }}",
+      "message": "Penyedia:",
       "description": "Label untuk pemilihan penyedia"
     },
     "modelNameLabel": {
-      "message": "{{ Nama Model: }}",
+      "message": "Nama Model:",
       "description": "Label untuk input nama model"
     },
       "resetModelName": {
-      "message": "{{ Setel Ulang Nama Model }}",
+      "message": "Setel Ulang Nama Model",
       "description": "Teks tombol untuk menyetel ulang nama model"
     },
     "promptTypeLabel": {
-      "message": "{{ Jenis Prompt: }}",
+      "message": "Jenis Prompt:",
       "description": "Label untuk pemilihan jenis prompt"
     },
     "systemPromptLabel": {
-      "message": "{{ Prompt Sistem: }}",
+      "message": "Prompt Sistem:",
       "description": "Label untuk input prompt sistem"
     },
     "resetPrompt": {
-      "message": "{{ Setel Ulang Prompt }}",
+      "message": "Setel Ulang Prompt",
       "description": "Teks tombol untuk menyetel ulang prompt"
     },
     "shortcutModeLabel": {
-      "message": "{{ Mode Pintasan: }}",
+      "message": "Mode Pintasan:",
       "description": "Label untuk pemilihan mode pintasan"
     },
     "recordShortcut": {
-      "message": "{{ Rekam Pintasan }}",
+      "message": "Rekam Pintasan",
       "description": "Teks tombol untuk merekam pintasan"
     },
     "customShortcutLabel": {
-      "message": "{{ Pintasan Kustom: }}",
+      "message": "Pintasan Kustom:",
       "description": "Label untuk input pintasan kustom"
     },
     "copyToClipboardLabel": {
-      "message": "{{ Salin ke Papan Klip }}",
+      "message": "Salin ke Papan Klip",
       "description": "Label kotak centang untuk opsi salin ke papan klip"
     },
     "advancedSettingsLabel": {
-      "message": "{{ Pengaturan Lanjutan }}",
+      "message": "Pengaturan Lanjutan",
       "description": "Teks tombol untuk pengaturan lanjutan"
     },
     "ollamaUrlLabel": {
-      "message": "{{ URL Ollama: }}",
+      "message": "URL Ollama:",
       "description": "Label untuk input URL Ollama"
     },
     "resetOllamaUrl": {
-      "message": "{{ Setel Ulang URL Ollama }}",
+      "message": "Setel Ulang URL Ollama",
       "description": "Teks tombol untuk menyetel ulang URL Ollama"
     },
     "lmstudioUrlLabel": {
-      "message": "{{ URL LM Studio: }}",
+      "message": "URL LM Studio:",
       "description": "Label untuk input URL LM Studio"
     },
     "resetLmstudioUrl": {
-      "message": "{{ Setel Ulang URL LM Studio }}",
+      "message": "Setel Ulang URL LM Studio",
       "description": "Teks tombol untuk menyetel ulang URL LM Studio"
     },
     "openAiKeyLabel": {
-      "message": "{{ Kunci API OpenAI: }}",
+      "message": "Kunci API OpenAI:",
       "description": "Label untuk input Kunci API OpenAI"
     },
     "anthropicKeyLabel": {
-      "message": "{{ Kunci API Anthropic: }}",
+      "message": "Kunci API Anthropic:",
       "description": "Label untuk input Kunci API Anthropic"
     },
     "geminiKeyLabel": {
-      "message": "{{ Kunci API Gemini: }}",
+      "message": "Kunci API Gemini:",
       "description": "Label untuk input Kunci API Gemini"
     },
     "deepseekKeyLabel": {
-      "message": "{{ Kunci API Deepseek: }}",
+      "message": "Kunci API Deepseek:",
       "description": "Label untuk input Kunci API Deepseek"
     },
     "mistralKeyLabel": {
-      "message": "{{ Kunci API Mistral: }}",
+      "message": "Kunci API Mistral:",
       "description": "Label untuk input Kunci API Mistral"
     },
     "perplexityKeyLabel": {
-      "message": "{{ Kunci API Perplexity: }}",
+      "message": "Kunci API Perplexity:",
       "description": "Label untuk input Kunci API Perplexity"
     },
     "ollamaDocs": {
-      "message": "{{ Dokumentasi Ollama }}",
+      "message": "Dokumentasi Ollama",
       "description": "Teks tautan untuk dokumentasi Ollama"
     },
     "openaiDocs": {
-      "message": "{{ Dokumentasi OpenAI }}",
+      "message": "Dokumentasi OpenAI",
       "description": "Teks tautan untuk dokumentasi OpenAI"
     },
     "anthropicDocs": {
-      "message": "{{ Dokumentasi Anthropic }}",
+      "message": "Dokumentasi Anthropic",
       "description": "Teks tautan untuk dokumentasi Anthropic"
     },
     "lmstudioDocs": {
-      "message": "{{ Dokumentasi LM Studio }}",
+      "message": "Dokumentasi LM Studio",
       "description": "Teks tautan untuk dokumentasi LM Studio"
     },
     "geminiDocs": {
-      "message": "{{ Dokumentasi Gemini }}",
+      "message": "Dokumentasi Gemini",
       "description": "Teks tautan untuk dokumentasi Gemini"
     },
     "chromeDocs": {
-      "message": "{{ Dokumentasi Chrome AI }}",
+      "message": "Dokumentasi Chrome AI",
       "description": "Teks tautan untuk dokumentasi Chrome AI"
     },
     "deepseekDocs": {
-      "message": "{{ Dokumentasi Deepseek }}",
+      "message": "Dokumentasi Deepseek",
       "description": "Teks tautan untuk dokumentasi Deepseek"
     },
     "mistralDocs": {
-      "message": "{{ Dokumentasi Mistral }}",
+      "message": "Dokumentasi Mistral",
       "description": "Teks tautan untuk dokumentasi Mistral"
     },
     "perplexityDocs": {
-      "message": "{{ Dokumentasi Perplexity }}",
+      "message": "Dokumentasi Perplexity",
       "description": "Teks tautan untuk dokumentasi Perplexity"
     },
     "chromeAiNote": {
-      "message": "{{ Catatan: Chrome AI menggunakan fitur eksperimental dan mungkin tidak tersedia di semua wilayah. }}",
+      "message": "Catatan: Chrome AI menggunakan fitur eksperimental dan mungkin tidak tersedia di semua wilayah.",
       "description": "Catatan tentang Chrome AI"
     },
       "recordingPlaceholder": {
-      "message": "{{ Merekam... tekan tombol, akhiri dengan Enter }}",
+      "message": "Merekam... tekan tombol, akhiri dengan Enter",
       "description": "Teks placeholder untuk perekaman pintasan"
     },
     "recordingCompletePlaceholder": {
-      "message": "{{ Perekaman Selesai }}",
+      "message": "Perekaman Selesai",
       "description": "Teks placeholder setelah perekaman pintasan"
     },
       "stopRecording": {
-      "message": "{{ Hentikan Perekaman }}",
+      "message": "Hentikan Perekaman",
       "description": "Tombol Hentikan Perekaman"
     },
       "contextMenuSpellcheck": {
-      "message": "{{ Pemeriksaan Ejaan dengan AI }}",
+      "message": "Pemeriksaan Ejaan dengan AI",
       "description": "Item menu konteks untuk pemeriksaan ejaan"
     },
     "contextMenuProofread": {
-      "message": "{{ Tulis Ulang dengan AI }}",
+      "message": "Tulis Ulang dengan AI",
       "description": "Item menu konteks untuk proofread"
     },
     "contextMenuCustom": {
-      "message": "{{ Penulisan Kustom dengan AI }}",
+      "message": "Penulisan Kustom dengan AI",
       "description": "Item menu konteks untuk prompt kustom"
     },
     "apiKeyRequired": {
-      "message": "{{ Kunci API diperlukan }}",
+      "message": "Kunci API diperlukan",
       "description": "Pesan kesalahan untuk kunci API yang hilang"
     },
     "urlRequired": {
-      "message": "{{ URL diperlukan }}",
+      "message": "URL diperlukan",
       "description": "Pesan kesalahan untuk URL yang hilang"
     },
     "invalidUrl": {
-      "message": "{{ URL {0} tidak valid: {1} }}",
+      "message": "URL {0} tidak valid: {1}",
       "description": "Pesan kesalahan untuk URL tidak valid",
       "placeholders": {
         "0": {
@@ -176,191 +176,191 @@
       }
     },
     "ollama403Error": {
-      "message": "{{  - Ollama memerlukan asal akses tambahan. Lihat: https://github.com/ollama/ollama/blob/main/docs/faq.md#how-can-i-allow-additional-web-origins-to-access-ollama }}",
+      "message": " - Ollama memerlukan asal akses tambahan. Lihat: https://github.com/ollama/ollama/blob/main/docs/faq.md#how-can-i-allow-additional-web-origins-to-access-ollama",
       "description": "Pesan kesalahan untuk kesalahan Ollama 403"
     },
     "ollamaConnectionError": {
-      "message": "{{  - Server Ollama tidak dapat dijangkau atau tidak berjalan }}",
+      "message": " - Server Ollama tidak dapat dijangkau atau tidak berjalan",
       "description": "Pesan kesalahan untuk kesalahan koneksi Ollama"
     },
     "unauthorizedError": {
-      "message": "{{  - Tidak sah. Silakan periksa kunci API Anda. }}",
+      "message": " - Tidak sah. Silakan periksa kunci API Anda.",
       "description": "Pesan kesalahan untuk akses API tidak sah"
     },
     "extensionReloadedError": {
-      "message": "{{ Ekstensi dimuat ulang atau diperbarui. Silakan segarkan halaman. }}",
+      "message": "Ekstensi dimuat ulang atau diperbarui. Silakan segarkan halaman.",
       "description": "Kesalahan untuk memuat ulang ekstensi"
     },
     "unknownError": {
-      "message": "{{ Kesalahan tidak dikenal }}",
+      "message": "Kesalahan tidak dikenal",
       "description": "Kesalahan generik"
     },
     "aiSpellcheckTitle": {
-      "message": "{{ Pemeriksaan Ejaan & Pemrosesan Teks AI }}",
+      "message": "Pemeriksaan Ejaan & Pemrosesan Teks AI",
       "description": "Judul utama ekstensi"
     },
     "aboutDocumentation": {
-      "message": "{{ Tentang & Dokumentasi ↗ }}",
+      "message": "Tentang & Dokumentasi ↗",
       "description": "Tautan ke dokumentasi"
     },
     "writingToolsTitle": {
-      "message": "{{ Alat Menulis }}",
+      "message": "Alat Menulis",
       "description": "Judul untuk bagian alat menulis"
     },
     "spellcheckOption": {
-      "message": "{{ Pemeriksaan Ejaan }}",
+      "message": "Pemeriksaan Ejaan",
       "description": "Opsi untuk mode pemeriksaan ejaan"
     },
     "proofreadOption": {
-      "message": "{{ Tulis Ulang }}",
+      "message": "Tulis Ulang",
       "description": "Opsi untuk mode proofread"
     },
     "customAiEditorOption": {
-      "message": "{{ Editor AI Kustom }}",
+      "message": "Editor AI Kustom",
       "description": "Opsi untuk mode Editor AI Kustom"
     },
     "doubleCtrlStroke": {
-      "message": "{{ Ketukan CTRL Ganda }}",
+      "message": "Ketukan CTRL Ganda",
       "description": "Label untuk pintasan ketukan CTRL ganda"
     },
     "tripleCtrlStroke": {
-      "message": "{{ Ketukan CTRL Tripel }}",
+      "message": "Ketukan CTRL Tripel",
       "description": "Label untuk pintasan ketukan CTRL tripel"
     },
     "quadrupleCtrlStroke": {
-      "message": "{{ Ketukan CTRL Kuadrupel }}",
+      "message": "Ketukan CTRL Kuadrupel",
       "description": "Label untuk pintasan ketukan CTRL kuadrupel"
     },
     "customShortcutKey": {
-      "message": "{{ Tombol Pintasan Kustom }}",
+      "message": "Tombol Pintasan Kustom",
       "description": "Label untuk opsi tombol pintasan kustom"
     },
     "ollamaDocsLink": {
-      "message": "{{ Dokumentasi Ollama ↗ }}",
+      "message": "Dokumentasi Ollama ↗",
       "description": "Tautan ke dokumentasi Ollama"
     },
     "openaiDocsLink": {
-      "message": "{{ Dokumentasi OpenAI ↗ }}",
+      "message": "Dokumentasi OpenAI ↗",
       "description": "Tautan ke dokumentasi OpenAI"
     },
     "anthropicDocsLink": {
-      "message": "{{ Dapatkan Kunci API Claude ↗ }}",
+      "message": "Dapatkan Kunci API Claude ↗",
       "description": "Tautan untuk mendapatkan kunci API Anthropic"
     },
     "lmstudioDocsLink": {
-      "message": "{{ Dokumentasi LM Studio ↗ }}",
+      "message": "Dokumentasi LM Studio ↗",
       "description": "Tautan ke dokumentasi LM Studio"
     },
     "geminiDocsLink": {
-      "message": "{{ Dapatkan Kunci API Google Gemini GRATIS Anda ↗ }}",
+      "message": "Dapatkan Kunci API Google Gemini GRATIS Anda ↗",
       "description": "Tautan untuk mendapatkan kunci API Gemini"
     },
     "deepseekDocsLink": {
-      "message": "{{ Dapatkan Kunci API DeepSeek ↗ }}",
+      "message": "Dapatkan Kunci API DeepSeek ↗",
       "description": "Tautan untuk mendapatkan kunci API DeepSeek"
     },
     "mistralDocsLink": {
-      "message": "{{ Dapatkan Kunci API Mistral ↗ }}",
+      "message": "Dapatkan Kunci API Mistral ↗",
       "description": "Tautan untuk mendapatkan kunci API Mistral"
     },
     "perplexityDocsLink": {
-      "message": "{{ Dapatkan Kunci API Perplexity ↗ }}",
+      "message": "Dapatkan Kunci API Perplexity ↗",
       "description": "Tautan untuk mendapatkan kunci API Perplexity"
     },
     "chromeDocsLink": {
-      "message": "{{ Dokumentasi Chrome AI ↗ }}",
+      "message": "Dokumentasi Chrome AI ↗",
       "description": "Tautan ke dokumentasi Chrome AI"
     },
     "chromeAiNoteText": {
-      "message": "{{ Catatan: Chrome AI adalah fitur pratinjau. Untuk menggunakannya, Anda perlu mengaktifkan flag fitur di Chrome: }}",
+      "message": "Catatan: Chrome AI adalah fitur pratinjau. Untuk menggunakannya, Anda perlu mengaktifkan flag fitur di Chrome:",
       "description": "Catatan tentang fitur pratinjau Chrome AI"
     },
     "chromeAiEnableLink": {
-      "message": "{{ Aktifkan flag fitur Chrome AI }}",
+      "message": "Aktifkan flag fitur Chrome AI",
       "description": "Tautan untuk mengaktifkan flag fitur Chrome AI"
     },
     "openAiKeyPlaceholder": {
-      "message": "{{ Kunci API OpenAI }}",
+      "message": "Kunci API OpenAI",
       "description": "Placeholder untuk input kunci API OpenAI"
     },
     "anthropicKeyPlaceholder": {
-      "message": "{{ Kunci API Anthropic }}",
+      "message": "Kunci API Anthropic",
       "description": "Placeholder untuk input kunci API Anthropic"
     },
     "geminiKeyPlaceholder": {
-      "message": "{{ Kunci API Google }}",
+      "message": "Kunci API Google",
       "description": "Placeholder untuk input kunci API Gemini"
     },
     "deepseekKeyPlaceholder": {
-      "message": "{{ Kunci API DeepSeek }}",
+      "message": "Kunci API DeepSeek",
       "description": "Placeholder untuk input kunci API DeepSeek"
     },
     "mistralKeyPlaceholder": {
-      "message": "{{ Kunci API Mistral AI }}",
+      "message": "Kunci API Mistral AI",
       "description": "Placeholder untuk input kunci API Mistral AI"
     },
     "perplexityKeyPlaceholder": {
-      "message": "{{ Kunci API Perplexity AI }}",
+      "message": "Kunci API Perplexity AI",
       "description": "Placeholder untuk input kunci API Perplexity AI"
     },
     "ollamaUrlPlaceholder": {
-      "message": "{{ URL Ollama }}",
+      "message": "URL Ollama",
       "description": "Placeholder untuk input URL Ollama"
     },
     "lmstudioUrlPlaceholder": {
-      "message": "{{ URL LM Studio }}",
+      "message": "URL LM Studio",
       "description": "Placeholder untuk input URL LM Studio"
     },
     "modelNamePlaceholder": {
-      "message": "{{ Nama Model }}",
+      "message": "Nama Model",
       "description": "Placeholder untuk input nama model"
     },
     "resetButton": {
-      "message": "{{ Setel Ulang }}",
+      "message": "Setel Ulang",
       "description": "Teks untuk tombol setel ulang"
     },
     "customShortcutPlaceholder": {
-      "message": "{{ Tekan 'Rekam' untuk mengambil }}",
+      "message": "Tekan 'Rekam' untuk mengambil",
       "description": "Placeholder untuk input pintasan kustom"
     },
     "systemPromptPlaceholder": {
-      "message": "{{ Prompt Sistem }}",
+      "message": "Prompt Sistem",
       "description": "Placeholder untuk input prompt sistem"
     },
     "ollamaProvider": {
-      "message": "{{ Ollama }}",
+      "message": "Ollama",
       "description": "Nama penyedia Ollama"
     },
     "openaiProvider": {
-      "message": "{{ OpenAI }}",
+      "message": "OpenAI",
       "description": "Nama penyedia OpenAI"
     },
     "anthropicProvider": {
-      "message": "{{ Anthropic Claude }}",
+      "message": "Anthropic Claude",
       "description": "Nama penyedia Anthropic"
     },
     "lmstudioProvider": {
-      "message": "{{ LM Studio }}",
+      "message": "LM Studio",
       "description": "Nama penyedia LM Studio"
     },
     "geminiProvider": {
-      "message": "{{ Google Gemini }}",
+      "message": "Google Gemini",
       "description": "Nama penyedia Google Gemini"
     },
     "deepseekProvider": {
-      "message": "{{ DeepSeek }}",
+      "message": "DeepSeek",
       "description": "Nama penyedia DeepSeek"
     },
     "mistralProvider": {
-      "message": "{{ Mistral AI }}",
+      "message": "Mistral AI",
       "description": "Nama penyedia Mistral"
     },
     "perplexityProvider": {
-      "message": "{{ Perplexity AI }}",
+      "message": "Perplexity AI",
       "description": "Nama penyedia Perplexity"
     },
     "chromeProvider": {
-      "message": "{{ Chrome AI (Pratinjau) }}",
+      "message": "Chrome AI (Pratinjau)",
       "description": "Nama penyedia Chrome AI"
     }
   }

@@ -1,170 +1,170 @@
 {
     "extensionName": {
-      "message": "{{ Typollama – Verificación ortográfica con IA y procesamiento de texto }}",
+      "message": "Typollama – Corrección ortográfica con IA y procesamiento de texto",
       "description": "Nombre de la extensión"
     },
     "extensionDescription": {
-      "message": "{{ Mejora tu escritura con Typollama: una extensión de Chrome impulsada por IA para la verificación ortográfica y el procesamiento de texto avanzado. }}",
+      "message": "Mejora tu escritura con Typollama: una extensión de Chrome impulsada por IA para la corrección ortográfica y el procesamiento de texto avanzado.",
       "description": "Descripción de la extensión"
     },
     "providerLabel": {
-      "message": "{{ Proveedor: }}",
+      "message": "Proveedor:",
       "description": "Etiqueta para la selección de proveedor"
     },
     "modelNameLabel": {
-      "message": "{{ Nombre del modelo: }}",
+      "message": "Nombre del modelo:",
       "description": "Etiqueta para la entrada del nombre del modelo"
     },
       "resetModelName": {
-      "message": "{{ Restablecer nombre del modelo }}",
+      "message": "Restablecer nombre del modelo",
       "description": "Texto del botón para restablecer el nombre del modelo"
     },
     "promptTypeLabel": {
-      "message": "{{ Tipo de prompt: }}",
+      "message": "Tipo de prompt:",
       "description": "Etiqueta para la selección del tipo de prompt"
     },
     "systemPromptLabel": {
-      "message": "{{ Prompt del sistema: }}",
+      "message": "Prompt del sistema:",
       "description": "Etiqueta para la entrada del prompt del sistema"
     },
     "resetPrompt": {
-      "message": "{{ Restablecer prompt }}",
+      "message": "Restablecer prompt",
       "description": "Texto del botón para restablecer el prompt"
     },
     "shortcutModeLabel": {
-      "message": "{{ Modo de atajo: }}",
+      "message": "Modo de atajo:",
       "description": "Etiqueta para la selección del modo de atajo"
     },
     "recordShortcut": {
-      "message": "{{ Grabar atajo }}",
+      "message": "Grabar atajo",
       "description": "Texto del botón para grabar el atajo"
     },
     "customShortcutLabel": {
-      "message": "{{ Atajo personalizado: }}",
+      "message": "Atajo personalizado:",
       "description": "Etiqueta para la entrada de atajo personalizado"
     },
     "copyToClipboardLabel": {
-      "message": "{{ Copiar al portapapeles }}",
+      "message": "Copiar al portapapeles",
       "description": "Etiqueta de casilla de verificación para la opción de copiar al portapapeles"
     },
     "advancedSettingsLabel": {
-      "message": "{{ Configuración avanzada }}",
+      "message": "Configuración avanzada",
       "description": "Texto de alternancia para la configuración avanzada"
     },
     "ollamaUrlLabel": {
-      "message": "{{ URL de Ollama: }}",
+      "message": "URL de Ollama:",
       "description": "Etiqueta para la entrada de URL de Ollama"
     },
     "resetOllamaUrl": {
-      "message": "{{ Restablecer URL de Ollama }}",
+      "message": "Restablecer URL de Ollama",
       "description": "Texto del botón para restablecer la URL de Ollama"
     },
     "lmstudioUrlLabel": {
-      "message": "{{ URL de LM Studio: }}",
+      "message": "URL de LM Studio:",
       "description": "Etiqueta para la entrada de URL de LM Studio"
     },
     "resetLmstudioUrl": {
-      "message": "{{ Restablecer URL de LM Studio }}",
+      "message": "Restablecer URL de LM Studio",
       "description": "Texto del botón para restablecer la URL de LM Studio"
     },
     "openAiKeyLabel": {
-      "message": "{{ Clave API de OpenAI: }}",
+      "message": "Clave API de OpenAI:",
       "description": "Etiqueta para la entrada de clave API de OpenAI"
     },
     "anthropicKeyLabel": {
-      "message": "{{ Clave API de Anthropic: }}",
+      "message": "Clave API de Anthropic:",
       "description": "Etiqueta para la entrada de clave API de Anthropic"
     },
     "geminiKeyLabel": {
-      "message": "{{ Clave API de Gemini: }}",
+      "message": "Clave API de Gemini:",
       "description": "Etiqueta para la entrada de clave API de Gemini"
     },
     "deepseekKeyLabel": {
-      "message": "{{ Clave API de Deepseek: }}",
+      "message": "Clave API de Deepseek:",
       "description": "Etiqueta para la entrada de clave API de Deepseek"
     },
     "mistralKeyLabel": {
-      "message": "{{ Clave API de Mistral: }}",
+      "message": "Clave API de Mistral:",
       "description": "Etiqueta para la entrada de clave API de Mistral"
     },
     "perplexityKeyLabel": {
-      "message": "{{ Clave API de Perplexity: }}",
+      "message": "Clave API de Perplexity:",
       "description": "Etiqueta para la entrada de clave API de Perplexity"
     },
     "ollamaDocs": {
-      "message": "{{ Documentación de Ollama }}",
+      "message": "Documentación de Ollama",
       "description": "Texto del enlace para la documentación de Ollama"
     },
     "openaiDocs": {
-      "message": "{{ Documentación de OpenAI }}",
+      "message": "Documentación de OpenAI",
       "description": "Texto del enlace para la documentación de OpenAI"
     },
     "anthropicDocs": {
-      "message": "{{ Documentación de Anthropic }}",
+      "message": "Documentación de Anthropic",
       "description": "Texto del enlace para la documentación de Anthropic"
     },
     "lmstudioDocs": {
-      "message": "{{ Documentación de LM Studio }}",
+      "message": "Documentación de LM Studio",
       "description": "Texto del enlace para la documentación de LM Studio"
     },
     "geminiDocs": {
-      "message": "{{ Documentación de Gemini }}",
+      "message": "Documentación de Gemini",
       "description": "Texto del enlace para la documentación de Gemini"
     },
     "chromeDocs": {
-      "message": "{{ Documentación de Chrome AI }}",
+      "message": "Documentación de Chrome AI",
       "description": "Texto del enlace para la documentación de Chrome AI"
     },
     "deepseekDocs": {
-      "message": "{{ Documentación de Deepseek }}",
+      "message": "Documentación de Deepseek",
       "description": "Texto del enlace para la documentación de Deepseek"
     },
     "mistralDocs": {
-      "message": "{{ Documentación de Mistral }}",
+      "message": "Documentación de Mistral",
       "description": "Texto del enlace para la documentación de Mistral"
     },
     "perplexityDocs": {
-      "message": "{{ Documentación de Perplexity }}",
+      "message": "Documentación de Perplexity",
       "description": "Texto del enlace para la documentación de Perplexity"
     },
     "chromeAiNote": {
-      "message": "{{ Nota: Chrome AI utiliza funciones experimentales y puede no estar disponible en todas las regiones. }}",
+      "message": "Nota: Chrome AI utiliza funciones experimentales y puede que no esté disponible en todas las regiones.",
       "description": "Nota sobre Chrome AI"
     },
       "recordingPlaceholder": {
-      "message": "{{ Grabando... pulse las teclas, termine con Enter }}",
+      "message": "Grabando... pulse las teclas, termine con Enter",
       "description": "Texto de marcador de posición para la grabación de atajos"
     },
     "recordingCompletePlaceholder": {
-      "message": "{{ Grabación completa }}",
+      "message": "Grabación completa",
       "description": "Texto de marcador de posición después de la grabación de atajos"
     },
       "stopRecording": {
-      "message": "{{ Detener grabación }}",
+      "message": "Detener grabación",
       "description": "Botón Detener grabación"
     },
       "contextMenuSpellcheck": {
-      "message": "{{ Revisar ortografía con IA }}",
+      "message": "Revisar ortografía con IA",
       "description": "Elemento del menú contextual para la revisión ortográfica"
     },
     "contextMenuProofread": {
-      "message": "{{ Reescribir con IA }}",
+      "message": "Reescribir con IA",
       "description": "Elemento del menú contextual para la corrección"
     },
     "contextMenuCustom": {
-      "message": "{{ Escritura personalizada con IA }}",
+      "message": "Escritura personalizada con IA",
       "description": "Elemento del menú contextual para el prompt personalizado"
     },
     "apiKeyRequired": {
-      "message": "{{ Se requiere clave API }}",
+      "message": "Se requiere clave API",
       "description": "Mensaje de error para la clave API faltante"
     },
     "urlRequired": {
-      "message": "{{ Se requiere URL }}",
+      "message": "Se requiere URL",
       "description": "Mensaje de error para la URL faltante"
     },
     "invalidUrl": {
-      "message": "{{ URL de {0} no válida: {1} }}",
+      "message": "URL de {0} no válida: {1}",
       "description": "Mensaje de error para URL no válida",
       "placeholders": {
         "0": {
@@ -176,191 +176,191 @@
       }
     },
     "ollama403Error": {
-      "message": "{{  - Ollama requiere orígenes de acceso adicionales. Consulte: https://github.com/ollama/ollama/blob/main/docs/faq.md#how-can-i-allow-additional-web-origins-to-access-ollama }}",
+      "message": "- Ollama requiere orígenes de acceso adicionales. Consulte: https://github.com/ollama/ollama/blob/main/docs/faq.md#how-can-i-allow-additional-web-origins-to-access-ollama",
       "description": "Mensaje de error para el error 403 de Ollama"
     },
     "ollamaConnectionError": {
-      "message": "{{  - El servidor de Ollama no está accesible o no se está ejecutando }}",
+      "message": "- El servidor de Ollama no está accesible o no se está ejecutando",
       "description": "Mensaje de error para el error de conexión de Ollama"
     },
     "unauthorizedError": {
-      "message": "{{  - No autorizado. Por favor, compruebe su clave API. }}",
+      "message": "- No autorizado. Por favor, compruebe su clave API.",
       "description": "Mensaje de error para acceso API no autorizado"
     },
       "extensionReloadedError": {
-          "message": "{{ Extensión recargada o actualizada. Por favor, actualice la página. }}",
+          "message": "Extensión recargada o actualizada. Por favor, actualice la página.",
           "description": "Error para la recarga de la extensión"
       },
       "unknownError": {
-          "message": "{{ Error desconocido }}",
+          "message": "Error desconocido",
           "description": "Error genérico"
       },
     "aiSpellcheckTitle": {
-      "message": "{{ Typollama – Verificación ortográfica con IA y procesamiento de texto }}",
+      "message": "Typollama – Corrección ortográfica con IA y procesamiento de texto",
       "description": "Título principal de la extensión"
     },
     "aboutDocumentation": {
-      "message": "{{ Acerca de y documentación ↗ }}",
+      "message": "Acerca de y documentación ↗",
       "description": "Enlace a la documentación"
     },
     "writingToolsTitle": {
-      "message": "{{ Herramientas de escritura }}",
+      "message": "Herramientas de escritura",
       "description": "Título para la sección de herramientas de escritura"
     },
     "spellcheckOption": {
-      "message": "{{ Revisión ortográfica }}",
+      "message": "Corrección ortográfica",
       "description": "Opción para el modo de revisión ortográfica"
     },
     "proofreadOption": {
-      "message": "{{ Reescribir }}",
+      "message": "Reescribir",
       "description": "Opción para el modo de corrección"
     },
     "customAiEditorOption": {
-      "message": "{{ Editor de IA personalizado }}",
+      "message": "Editor de IA personalizado",
       "description": "Opción para el modo de editor de IA personalizado"
     },
     "doubleCtrlStroke": {
-      "message": "{{ Doble pulsación de CTRL }}",
+      "message": "Doble pulsación de CTRL",
       "description": "Etiqueta para el atajo de doble pulsación de CTRL"
     },
     "tripleCtrlStroke": {
-      "message": "{{ Triple pulsación de CTRL }}",
+      "message": "Triple pulsación de CTRL",
       "description": "Etiqueta para el atajo de triple pulsación de CTRL"
     },
     "quadrupleCtrlStroke": {
-      "message": "{{ Cuádruple pulsación de CTRL }}",
+      "message": "Cuádruple pulsación de CTRL",
       "description": "Etiqueta para el atajo de cuádruple pulsación de CTRL"
     },
     "customShortcutKey": {
-      "message": "{{ Tecla de atajo personalizada }}",
+      "message": "Tecla de atajo personalizada",
       "description": "Etiqueta para la opción de tecla de atajo personalizada"
     },
     "ollamaDocsLink": {
-      "message": "{{ Documentación de Ollama ↗ }}",
+      "message": "Documentación de Ollama ↗",
       "description": "Enlace a la documentación de Ollama"
     },
     "openaiDocsLink": {
-      "message": "{{ Documentación de OpenAI ↗ }}",
+      "message": "Documentación de OpenAI ↗",
       "description": "Enlace a la documentación de OpenAI"
     },
     "anthropicDocsLink": {
-      "message": "{{ Obtenga la clave API de Claude ↗ }}",
+      "message": "Obtenga la clave API de Claude ↗",
       "description": "Enlace para obtener la clave API de Anthropic"
     },
     "lmstudioDocsLink": {
-      "message": "{{ Documentación de LM Studio ↗ }}",
+      "message": "Documentación de LM Studio ↗",
       "description": "Enlace a la documentación de LM Studio"
     },
     "geminiDocsLink": {
-      "message": "{{ Obtenga su clave API GRATUITA de Google Gemini ↗ }}",
+      "message": "Obtenga su clave API GRATUITA de Google Gemini ↗",
       "description": "Enlace para obtener la clave API de Gemini"
     },
     "deepseekDocsLink": {
-      "message": "{{ Obtenga la clave API de DeepSeek ↗ }}",
+      "message": "Obtenga la clave API de DeepSeek ↗",
       "description": "Enlace para obtener la clave API de DeepSeek"
     },
     "mistralDocsLink": {
-      "message": "{{ Obtenga la clave API de Mistral ↗ }}",
+      "message": "Obtenga la clave API de Mistral ↗",
       "description": "Enlace para obtener la clave API de Mistral"
     },
     "perplexityDocsLink": {
-      "message": "{{ Obtenga la clave API de Perplexity ↗ }}",
+      "message": "Obtenga la clave API de Perplexity ↗",
       "description": "Enlace para obtener la clave API de Perplexity"
     },
     "chromeDocsLink": {
-      "message": "{{ Documentación de Chrome AI ↗ }}",
+      "message": "Documentación de Chrome AI ↗",
       "description": "Enlace a la documentación de Chrome AI"
     },
     "chromeAiNoteText": {
-      "message": "{{ Nota: Chrome AI es una función de vista previa. Para usarla, necesita habilitar la bandera de función en Chrome: }}",
+      "message": "Nota: Chrome AI es una función de vista previa. Para usarla, necesita habilitar la función experimental en Chrome:",
       "description": "Nota sobre la función de vista previa de Chrome AI"
     },
     "chromeAiEnableLink": {
-      "message": "{{ Habilitar la bandera de función de Chrome AI }}",
-      "description": "Enlace para habilitar la bandera de función de Chrome AI"
+      "message": "Habilitar la función experimental de Chrome AI",
+      "description": "Enlace para habilitar la función de Chrome AI"
     },
     "openAiKeyPlaceholder": {
-      "message": "{{ Clave API de OpenAI }}",
+      "message": "Clave API de OpenAI",
       "description": "Marcador de posición para la entrada de clave API de OpenAI"
     },
     "anthropicKeyPlaceholder": {
-      "message": "{{ Clave API de Anthropic }}",
+      "message": "Clave API de Anthropic",
       "description": "Marcador de posición para la entrada de clave API de Anthropic"
     },
     "geminiKeyPlaceholder": {
-      "message": "{{ Clave API de Google }}",
+      "message": "Clave API de Google",
       "description": "Marcador de posición para la entrada de clave API de Gemini"
     },
     "deepseekKeyPlaceholder": {
-      "message": "{{ Clave API de DeepSeek }}",
+      "message": "Clave API de DeepSeek",
       "description": "Marcador de posición para la entrada de clave API de DeepSeek"
     },
     "mistralKeyPlaceholder": {
-      "message": "{{ Clave API de Mistral AI }}",
+      "message": "Clave API de Mistral AI",
       "description": "Marcador de posición para la entrada de clave API de Mistral AI"
     },
     "perplexityKeyPlaceholder": {
-      "message": "{{ Clave API de Perplexity AI }}",
+      "message": "Clave API de Perplexity AI",
       "description": "Marcador de posición para la entrada de clave API de Perplexity AI"
     },
     "ollamaUrlPlaceholder": {
-      "message": "{{ URL de Ollama }}",
+      "message": "URL de Ollama",
       "description": "Marcador de posición para la entrada de URL de Ollama"
     },
     "lmstudioUrlPlaceholder": {
-      "message": "{{ URL de LM Studio }}",
+      "message": "URL de LM Studio",
       "description": "Marcador de posición para la entrada de URL de LM Studio"
     },
     "modelNamePlaceholder": {
-      "message": "{{ Nombre del modelo }}",
+      "message": "Nombre del modelo",
       "description": "Marcador de posición para la entrada del nombre del modelo"
     },
     "resetButton": {
-      "message": "{{ Restablecer }}",
+      "message": "Restablecer",
       "description": "Texto para los botones de restablecer"
     },
     "customShortcutPlaceholder": {
-      "message": "{{ Pulse 'Grabar' para capturar }}",
+      "message": "Pulse 'Grabar' para capturar",
       "description": "Marcador de posición para la entrada de atajo personalizado"
     },
     "systemPromptPlaceholder": {
-      "message": "{{ Prompt del sistema }}",
+      "message": "Prompt del sistema",
       "description": "Marcador de posición para la entrada del prompt del sistema"
     },
     "ollamaProvider": {
-      "message": "{{ Ollama }}",
+      "message": "Ollama",
       "description": "Nombre del proveedor de Ollama"
     },
     "openaiProvider": {
-      "message": "{{ OpenAI }}",
+      "message": "OpenAI",
       "description": "Nombre del proveedor de OpenAI"
     },
     "anthropicProvider": {
-      "message": "{{ Anthropic Claude }}",
+      "message": "Anthropic Claude",
       "description": "Nombre del proveedor de Anthropic"
     },
     "lmstudioProvider": {
-      "message": "{{ LM Studio }}",
+      "message": "LM Studio",
       "description": "Nombre del proveedor de LM Studio"
     },
     "geminiProvider": {
-      "message": "{{ Google Gemini }}",
+      "message": "Google Gemini",
       "description": "Nombre del proveedor de Google Gemini"
     },
     "deepseekProvider": {
-      "message": "{{ DeepSeek }}",
+      "message": "DeepSeek",
       "description": "Nombre del proveedor de DeepSeek"
     },
     "mistralProvider": {
-      "message": "{{ Mistral AI }}",
+      "message": "Mistral AI",
       "description": "Nombre del proveedor de Mistral"
     },
     "perplexityProvider": {
-      "message": "{{ Perplexity AI }}",
-      "description": "Nombre del proveedor de Perplexity"
+      "message": "Perplexity AI",
+      "description": "Nombre del proveedor de Perplexity AI"
     },
     "chromeProvider": {
-      "message": "{{ Chrome AI (Vista previa) }}",
+      "message": "Chrome AI (Vista previa)",
       "description": "Nombre del proveedor de Chrome AI"
     }
   }

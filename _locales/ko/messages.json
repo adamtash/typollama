@@ -1,170 +1,170 @@
 {
     "extensionName": {
-      "message": "{{ Typollama – AI 맞춤법 검사 및 텍스트 처리 }}",
+      "message": "Typollama – AI 맞춤법 검사 및 텍스트 처리",
       "description": "확장 프로그램 이름"
     },
     "extensionDescription": {
-      "message": "{{ Typollama로 글쓰기 능력을 향상시키세요 – 맞춤법 검사 및 고급 텍스트 처리를 위한 AI 기반 Chrome 확장 프로그램입니다. }}",
+      "message": "Typollama로 글쓰기 능력을 향상시키세요 – 맞춤법 검사 및 고급 텍스트 처리를 위한 AI 기반 Chrome 확장 프로그램입니다.",
       "description": "확장 프로그램 설명"
     },
     "providerLabel": {
-      "message": "{{ 제공자: }}",
+      "message": "제공자:",
       "description": "제공자 선택 레이블"
     },
     "modelNameLabel": {
-      "message": "{{ 모델 이름: }}",
+      "message": "모델 이름:",
       "description": "모델 이름 입력 레이블"
     },
       "resetModelName": {
-      "message": "{{ 모델 이름 재설정 }}",
+      "message": "모델 이름 재설정",
       "description": "모델 이름 재설정 버튼 텍스트"
     },
     "promptTypeLabel": {
-      "message": "{{ 프롬프트 유형: }}",
+      "message": "프롬프트 유형:",
       "description": "프롬프트 유형 선택 레이블"
     },
     "systemPromptLabel": {
-      "message": "{{ 시스템 프롬프트: }}",
+      "message": "시스템 프롬프트:",
       "description": "시스템 프롬프트 입력 레이블"
     },
     "resetPrompt": {
-      "message": "{{ 프롬프트 재설정 }}",
+      "message": "프롬프트 재설정",
       "description": "프롬프트 재설정 버튼 텍스트"
     },
     "shortcutModeLabel": {
-      "message": "{{ 바로 가기 모드: }}",
+      "message": "바로 가기 모드:",
       "description": "바로 가기 모드 선택 레이블"
     },
     "recordShortcut": {
-      "message": "{{ 바로 가기 기록 }}",
+      "message": "바로 가기 기록",
       "description": "바로 가기 기록 버튼 텍스트"
     },
     "customShortcutLabel": {
-      "message": "{{ 사용자 정의 바로 가기: }}",
+      "message": "사용자 정의 바로 가기:",
       "description": "사용자 정의 바로 가기 입력 레이블"
     },
     "copyToClipboardLabel": {
-      "message": "{{ 클립보드에 복사 }}",
+      "message": "클립보드에 복사",
       "description": "클립보드에 복사 옵션 체크박스 레이블"
     },
     "advancedSettingsLabel": {
-      "message": "{{ 고급 설정 }}",
+      "message": "고급 설정",
       "description": "고급 설정 토글 텍스트"
     },
     "ollamaUrlLabel": {
-      "message": "{{ Ollama URL: }}",
+      "message": "Ollama URL:",
       "description": "Ollama URL 입력 레이블"
     },
     "resetOllamaUrl": {
-      "message": "{{ Ollama URL 재설정 }}",
+      "message": "Ollama URL 재설정",
       "description": "Ollama URL 재설정 버튼 텍스트"
     },
     "lmstudioUrlLabel": {
-      "message": "{{ LM Studio URL: }}",
+      "message": "LM Studio URL:",
       "description": "LM Studio URL 입력 레이블"
     },
     "resetLmstudioUrl": {
-      "message": "{{ LM Studio URL 재설정 }}",
+      "message": "LM Studio URL 재설정",
       "description": "LM Studio URL 재설정 버튼 텍스트"
     },
     "openAiKeyLabel": {
-      "message": "{{ OpenAI API 키: }}",
+      "message": "OpenAI API 키:",
       "description": "OpenAI API 키 입력 레이블"
     },
     "anthropicKeyLabel": {
-      "message": "{{ Anthropic API 키: }}",
+      "message": "Anthropic API 키:",
       "description": "Anthropic API 키 입력 레이블"
     },
     "geminiKeyLabel": {
-      "message": "{{ Gemini API 키: }}",
+      "message": "Gemini API 키:",
       "description": "Gemini API 키 입력 레이블"
     },
     "deepseekKeyLabel": {
-      "message": "{{ Deepseek API 키: }}",
+      "message": "Deepseek API 키:",
       "description": "Deepseek API 키 입력 레이블"
     },
     "mistralKeyLabel": {
-      "message": "{{ Mistral API 키: }}",
+      "message": "Mistral API 키:",
       "description": "Mistral API 키 입력 레이블"
     },
     "perplexityKeyLabel": {
-      "message": "{{ Perplexity API 키: }}",
+      "message": "Perplexity API 키:",
       "description": "Perplexity API 키 입력 레이블"
     },
     "ollamaDocs": {
-      "message": "{{ Ollama 문서 }}",
+      "message": "Ollama 문서",
       "description": "Ollama 문서 링크 텍스트"
     },
     "openaiDocs": {
-      "message": "{{ OpenAI 문서 }}",
+      "message": "OpenAI 문서",
       "description": "OpenAI 문서 링크 텍스트"
     },
     "anthropicDocs": {
-      "message": "{{ Anthropic 문서 }}",
+      "message": "Anthropic 문서",
       "description": "Anthropic 문서 링크 텍스트"
     },
     "lmstudioDocs": {
-      "message": "{{ LM Studio 문서 }}",
+      "message": "LM Studio 문서",
       "description": "LM Studio 문서 링크 텍스트"
     },
     "geminiDocs": {
-      "message": "{{ Gemini 문서 }}",
+      "message": "Gemini 문서",
       "description": "Gemini 문서 링크 텍스트"
     },
     "chromeDocs": {
-      "message": "{{ Chrome AI 문서 }}",
+      "message": "Chrome AI 문서",
       "description": "Chrome AI 문서 링크 텍스트"
     },
     "deepseekDocs": {
-      "message": "{{ Deepseek 문서 }}",
+      "message": "Deepseek 문서",
       "description": "Deepseek 문서 링크 텍스트"
     },
     "mistralDocs": {
-      "message": "{{ Mistral 문서 }}",
+      "message": "Mistral 문서",
       "description": "Mistral 문서 링크 텍스트"
     },
     "perplexityDocs": {
-      "message": "{{ Perplexity 문서 }}",
+      "message": "Perplexity 문서",
       "description": "Perplexity 문서 링크 텍스트"
     },
     "chromeAiNote": {
-      "message": "{{ 참고: Chrome AI는 실험적인 기능을 사용하며 일부 지역에서는 사용하지 못할 수 있습니다. }}",
+      "message": "참고: Chrome AI는 실험적인 기능을 사용하며 일부 지역에서는 사용하지 못할 수 있습니다.",
       "description": "Chrome AI에 대한 참고 사항"
     },
       "recordingPlaceholder": {
-      "message": "{{ 녹음 중... 키를 누르고 Enter 키로 완료하세요 }}",
+      "message": "녹음 중... 키를 누르고 Enter 키로 완료하세요",
       "description": "바로 가기 녹음용 자리 표시자 텍스트"
     },
     "recordingCompletePlaceholder": {
-      "message": "{{ 녹음 완료 }}",
+      "message": "녹음 완료",
       "description": "바로 가기 녹음 후 자리 표시자 텍스트"
     },
       "stopRecording": {
-      "message": "{{ 녹음 중지 }}",
+      "message": "녹음 중지",
       "description": "녹음 중지 버튼"
     },
       "contextMenuSpellcheck": {
-      "message": "{{ AI로 맞춤법 검사 }}",
+      "message": "AI로 맞춤법 검사",
       "description": "맞춤법 검사 컨텍스트 메뉴 항목"
     },
     "contextMenuProofread": {
-      "message": "{{ AI로 다시 쓰기 }}",
+      "message": "AI로 다시 쓰기",
       "description": "교정 컨텍스트 메뉴 항목"
     },
     "contextMenuCustom": {
-      "message": "{{ AI로 사용자 정의 쓰기 }}",
+      "message": "AI로 사용자 정의 쓰기",
       "description": "사용자 정의 프롬프트 컨텍스트 메뉴 항목"
     },
     "apiKeyRequired": {
-      "message": "{{ API 키가 필요합니다 }}",
+      "message": "API 키가 필요합니다",
       "description": "API 키 누락 오류 메시지"
     },
     "urlRequired": {
-      "message": "{{ URL이 필요합니다 }}",
+      "message": "URL이 필요합니다",
       "description": "URL 누락 오류 메시지"
     },
     "invalidUrl": {
-      "message": "{{ 잘못된 {0} URL: {1} }}",
+      "message": "잘못된 {0} URL: {1}",
       "description": "잘못된 URL 오류 메시지",
       "placeholders": {
         "0": {
@@ -176,191 +176,191 @@
       }
     },
     "ollama403Error": {
-      "message": "{{  - Ollama는 추가 액세스 출처가 필요합니다. 참조: https://github.com/ollama/ollama/blob/main/docs/faq.md#how-can-i-allow-additional-web-origins-to-access-ollama }}",
+      "message": " - Ollama는 추가 액세스 출처가 필요합니다. 참조: https://github.com/ollama/ollama/blob/main/docs/faq.md#how-can-i-allow-additional-web-origins-to-access-ollama",
       "description": "Ollama 403 오류 오류 메시지"
     },
     "ollamaConnectionError": {
-      "message": "{{  - Ollama 서버에 연결할 수 없거나 실행 중이 아닙니다 }}",
+      "message": " - Ollama 서버에 연결할 수 없거나 실행 중이 아닙니다",
       "description": "Ollama 연결 오류 오류 메시지"
     },
     "unauthorizedError": {
-      "message": "{{  - 권한이 없습니다. API 키를 확인하세요. }}",
+      "message": " - 권한이 없습니다. API 키를 확인하세요.",
       "description": "승인되지 않은 API 액세스 오류 메시지"
     },
       "extensionReloadedError": {
-          "message": "{{ 확장 프로그램이 다시 로드되거나 업데이트되었습니다. 페이지를 새로 고침하세요. }}",
+          "message": "확장 프로그램이 다시 로드되거나 업데이트되었습니다. 페이지를 새로 고침하세요.",
           "description": "확장 프로그램 다시 로드 오류"
       },
       "unknownError": {
-          "message": "{{ 알 수 없는 오류 }}",
+          "message": "알 수 없는 오류",
           "description": "일반 오류"
       },
     "aiSpellcheckTitle": {
-      "message": "{{ AI 맞춤법 검사 및 텍스트 처리 }}",
+      "message": "AI 맞춤법 검사 및 텍스트 처리",
       "description": "확장 프로그램 기본 제목"
     },
     "aboutDocumentation": {
-      "message": "{{ 정보 및 문서 ↗ }}",
+      "message": "정보 및 문서 ↗",
       "description": "문서 링크"
     },
     "writingToolsTitle": {
-      "message": "{{ 쓰기 도구 }}",
+      "message": "쓰기 도구",
       "description": "쓰기 도구 섹션 제목"
     },
     "spellcheckOption": {
-      "message": "{{ 맞춤법 검사 }}",
+      "message": "맞춤법 검사",
       "description": "맞춤법 검사 모드 옵션"
     },
     "proofreadOption": {
-      "message": "{{ 다시 쓰기 }}",
+      "message": "다시 쓰기",
       "description": "교정 모드 옵션"
     },
     "customAiEditorOption": {
-      "message": "{{ 사용자 정의 AI 편집기 }}",
+      "message": "사용자 정의 AI 편집기",
       "description": "사용자 정의 AI 편집기 모드 옵션"
     },
     "doubleCtrlStroke": {
-      "message": "{{ 더블 CTRL 스트로크 }}",
+      "message": "더블 CTRL 스트로크",
       "description": "더블 CTRL 스트로크 바로 가기 레이블"
     },
     "tripleCtrlStroke": {
-      "message": "{{ 트리플 CTRL 스트로크 }}",
+      "message": "트리플 CTRL 스트로크",
       "description": "트리플 CTRL 스트로크 바로 가기 레이블"
     },
     "quadrupleCtrlStroke": {
-      "message": "{{ 쿼드러플 CTRL 스트로크 }}",
+      "message": "쿼드러플 CTRL 스트로크",
       "description": "쿼드러플 CTRL 스트로크 바로 가기 레이블"
     },
     "customShortcutKey": {
-      "message": "{{ 사용자 정의 바로 가기 키 }}",
+      "message": "사용자 정의 바로 가기 키",
       "description": "사용자 정의 바로 가기 키 옵션 레이블"
     },
     "ollamaDocsLink": {
-      "message": "{{ Ollama 문서 ↗ }}",
+      "message": "Ollama 문서 ↗",
       "description": "Ollama 문서 링크"
     },
     "openaiDocsLink": {
-      "message": "{{ OpenAI 문서 ↗ }}",
+      "message": "OpenAI 문서 ↗",
       "description": "OpenAI 문서 링크"
     },
     "anthropicDocsLink": {
-      "message": "{{ Claude API 키 받기 ↗ }}",
+      "message": "Claude API 키 받기 ↗",
       "description": "Anthropic API 키를 받는 링크"
     },
     "lmstudioDocsLink": {
-      "message": "{{ LM Studio 문서 ↗ }}",
+      "message": "LM Studio 문서 ↗",
       "description": "LM Studio 문서 링크"
     },
     "geminiDocsLink": {
-      "message": "{{ 무료 Google Gemini API 키 받기 ↗ }}",
+      "message": "무료 Google Gemini API 키 받기 ↗",
       "description": "Gemini API 키를 받는 링크"
     },
     "deepseekDocsLink": {
-      "message": "{{ DeepSeek API 키 받기 ↗ }}",
+      "message": "DeepSeek API 키 받기 ↗",
       "description": "DeepSeek API 키를 받는 링크"
     },
     "mistralDocsLink": {
-      "message": "{{ Mistral API 키 받기 ↗ }}",
+      "message": "Mistral API 키 받기 ↗",
       "description": "Mistral API 키를 받는 링크"
     },
     "perplexityDocsLink": {
-      "message": "{{ Perplexity API 키 받기 ↗ }}",
+      "message": "Perplexity API 키 받기 ↗",
       "description": "Perplexity API 키를 받는 링크"
     },
     "chromeDocsLink": {
-      "message": "{{ Chrome AI 문서 ↗ }}",
+      "message": "Chrome AI 문서 ↗",
       "description": "Chrome AI 문서 링크"
     },
     "chromeAiNoteText": {
-      "message": "{{ 참고: Chrome AI는 미리 보기 기능입니다. 사용하려면 Chrome에서 기능 플래그를 활성화해야 합니다: }}",
+      "message": "참고: Chrome AI는 미리 보기 기능입니다. 사용하려면 Chrome에서 기능 플래그를 활성화해야 합니다:",
       "description": "Chrome AI 미리 보기 기능에 대한 참고 사항"
     },
     "chromeAiEnableLink": {
-      "message": "{{ Chrome AI 기능 플래그 활성화 }}",
+      "message": "Chrome AI 기능 플래그 활성화",
       "description": "Chrome AI 기능 플래그를 활성화하는 링크"
     },
     "openAiKeyPlaceholder": {
-      "message": "{{ OpenAI API 키 }}",
+      "message": "OpenAI API 키",
       "description": "OpenAI API 키 입력 자리 표시자"
     },
     "anthropicKeyPlaceholder": {
-      "message": "{{ Anthropic API 키 }}",
+      "message": "Anthropic API 키",
       "description": "Anthropic API 키 입력 자리 표시자"
     },
     "geminiKeyPlaceholder": {
-      "message": "{{ Google API 키 }}",
+      "message": "Google API 키",
       "description": "Gemini API 키 입력 자리 표시자"
     },
     "deepseekKeyPlaceholder": {
-      "message": "{{ DeepSeek API 키 }}",
+      "message": "DeepSeek API 키",
       "description": "DeepSeek API 키 입력 자리 표시자"
     },
     "mistralKeyPlaceholder": {
-      "message": "{{ Mistral AI API 키 }}",
+      "message": "Mistral AI API 키",
       "description": "Mistral AI API 키 입력 자리 표시자"
     },
     "perplexityKeyPlaceholder": {
-      "message": "{{ Perplexity AI API 키 }}",
+      "message": "Perplexity AI API 키",
       "description": "Perplexity AI API 키 입력 자리 표시자"
     },
     "ollamaUrlPlaceholder": {
-      "message": "{{ Ollama URL }}",
+      "message": "Ollama URL",
       "description": "Ollama URL 입력 자리 표시자"
     },
     "lmstudioUrlPlaceholder": {
-      "message": "{{ LM Studio URL }}",
+      "message": "LM Studio URL",
       "description": "LM Studio URL 입력 자리 표시자"
     },
     "modelNamePlaceholder": {
-      "message": "{{ 모델 이름 }}",
+      "message": "모델 이름",
       "description": "모델 이름 입력 자리 표시자"
     },
     "resetButton": {
-      "message": "{{ 재설정 }}",
+      "message": "재설정",
       "description": "재설정 버튼 텍스트"
     },
     "customShortcutPlaceholder": {
-      "message": "{{ '기록'을 눌러 캡처 }}",
+      "message": "'기록'을 눌러 캡처",
       "description": "사용자 정의 바로 가기 입력 자리 표시자"
     },
     "systemPromptPlaceholder": {
-      "message": "{{ 시스템 프롬프트 }}",
+      "message": "시스템 프롬프트",
       "description": "시스템 프롬프트 입력 자리 표시자"
     },
     "ollamaProvider": {
-      "message": "{{ Ollama }}",
+      "message": "Ollama",
       "description": "Ollama 제공자 이름"
     },
     "openaiProvider": {
-      "message": "{{ OpenAI }}",
+      "message": "OpenAI",
       "description": "OpenAI 제공자 이름"
     },
     "anthropicProvider": {
-      "message": "{{ Anthropic Claude }}",
+      "message": "Anthropic Claude",
       "description": "Anthropic 제공자 이름"
     },
     "lmstudioProvider": {
-      "message": "{{ LM Studio }}",
+      "message": "LM Studio",
       "description": "LM Studio 제공자 이름"
     },
     "geminiProvider": {
-      "message": "{{ Google Gemini }}",
+      "message": "Google Gemini",
       "description": "Google Gemini 제공자 이름"
     },
     "deepseekProvider": {
-      "message": "{{ DeepSeek }}",
+      "message": "DeepSeek",
       "description": "DeepSeek 제공자 이름"
     },
     "mistralProvider": {
-      "message": "{{ Mistral AI }}",
+      "message": "Mistral AI",
       "description": "Mistral 제공자 이름"
     },
     "perplexityProvider": {
-      "message": "{{ Perplexity AI }}",
+      "message": "Perplexity AI",
       "description": "Perplexity 제공자 이름"
     },
     "chromeProvider": {
-      "message": "{{ Chrome AI (미리 보기) }}",
+      "message": "Chrome AI (미리 보기)",
       "description": "Chrome AI 제공자 이름"
     }
   }

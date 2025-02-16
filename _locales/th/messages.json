@@ -176,15 +176,15 @@
     }
   },
   "ollama403Error": {
-    "message": " - Ollama ต้องการแหล่งที่มาของการเข้าถึงเพิ่มเติม ดู: https://github.com/ollama/ollama/blob/main/docs/faq.md#how-can-i-allow-additional-web-origins-to-access-ollama",
+    "message": "- Ollama ต้องการแหล่งที่มาของการเข้าถึงเพิ่มเติม ดู: https://github.com/ollama/ollama/blob/main/docs/faq.md#how-can-i-allow-additional-web-origins-to-access-ollama",
     "description": "ข้อความแสดงข้อผิดพลาดสำหรับข้อผิดพลาด 403 ของ Ollama"
   },
   "ollamaConnectionError": {
-    "message": " - เซิร์ฟเวอร์ Ollama ไม่สามารถเข้าถึงได้หรือไม่ได้ทำงาน",
+    "message": "- เซิร์ฟเวอร์ Ollama ไม่สามารถเข้าถึงได้หรือไม่ได้ทำงาน",
     "description": "ข้อความแสดงข้อผิดพลาดสำหรับข้อผิดพลาดในการเชื่อมต่อ Ollama"
   },
   "unauthorizedError": {
-    "message": " - ไม่ได้รับอนุญาต โปรดตรวจสอบคีย์ API ของคุณ",
+    "message": "- ไม่ได้รับอนุญาต โปรดตรวจสอบคีย์ API ของคุณ",
     "description": "ข้อความแสดงข้อผิดพลาดสำหรับการเข้าถึง API ที่ไม่ได้รับอนุญาต"
   },
     "extensionReloadedError": {

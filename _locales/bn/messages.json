@@ -176,15 +176,15 @@
     }
   },
   "ollama403Error": {
-    "message": " - Ollama-র অতিরিক্ত অ্যাক্সেস অরিজিন প্রয়োজন। দেখুন: https://github.com/ollama/ollama/blob/main/docs/faq.md#how-can-i-allow-additional-web-origins-to-access-ollama",
+    "message": "- Ollama-র অতিরিক্ত অ্যাক্সেস অরিজিন প্রয়োজন। দেখুন: https://github.com/ollama/ollama/blob/main/docs/faq.md#how-can-i-allow-additional-web-origins-to-access-ollama",
     "description": "Ollama 403 ত্রুটির জন্য ত্রুটি বার্তা"
   },
   "ollamaConnectionError": {
-    "message": " - Ollama সার্ভার নাগালের বাইরে বা চলছে না",
+    "message": "- Ollama সার্ভার নাগালের বাইরে বা চলছে না",
     "description": "Ollama সংযোগ ত্রুটির জন্য ত্রুটি বার্তা"
   },
   "unauthorizedError": {
-    "message": " - অননুমোদিত। অনুগ্রহ করে আপনার API কী পরীক্ষা করুন।",
+    "message": "- অননুমোদিত। অনুগ্রহ করে আপনার API কী পরীক্ষা করুন।",
     "description": "অননুমোদিত API অ্যাক্সেসের জন্য ত্রুটি বার্তা"
   },
     "extensionReloadedError": {

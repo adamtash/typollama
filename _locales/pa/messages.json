@@ -176,15 +176,15 @@
     }
   },
   "ollama403Error": {
-    "message": " - Ollama ਨੂੰ ਵਾਧੂ ਐਕਸੈਸ ਓਰੀਜਿਨਾਂ ਦੀ ਲੋੜ ਹੈ। ਦੇਖੋ: https://github.com/ollama/ollama/blob/main/docs/faq.md#how-can-i-allow-additional-web-origins-to-access-ollama",
+    "message": "- Ollama ਨੂੰ ਵਾਧੂ ਐਕਸੈਸ ਓਰੀਜਿਨਾਂ ਦੀ ਲੋੜ ਹੈ। ਦੇਖੋ: https://github.com/ollama/ollama/blob/main/docs/faq.md#how-can-i-allow-additional-web-origins-to-access-ollama",
     "description": "Ollama 403 ਗਲਤੀ ਲਈ ਗਲਤੀ ਸੁਨੇਹਾ"
   },
   "ollamaConnectionError": {
-    "message": " - Ollama ਸਰਵਰ ਅਪਹੁੰਚ ਹੈ ਜਾਂ ਚੱਲ ਨਹੀਂ ਰਿਹਾ ਹੈ",
+    "message": "- Ollama ਸਰਵਰ ਅਪਹੁੰਚ ਹੈ ਜਾਂ ਚੱਲ ਨਹੀਂ ਰਿਹਾ ਹੈ",
     "description": "Ollama ਕਨੈਕਸ਼ਨ ਗਲਤੀ ਲਈ ਗਲਤੀ ਸੁਨੇਹਾ"
   },
   "unauthorizedError": {
-    "message": " - ਅਣਅਧਿਕਾਰਤ। ਕਿਰਪਾ ਕਰਕੇ ਆਪਣੀ API ਕੁੰਜੀ ਜਾਂਚੋ।",
+    "message": "- ਅਣਅਧਿਕਾਰਤ। ਕਿਰਪਾ ਕਰਕੇ ਆਪਣੀ API ਕੁੰਜੀ ਜਾਂਚੋ।",
     "description": "ਅਣਅਧਿਕਾਰਤ API ਐਕਸੈਸ ਲਈ ਗਲਤੀ ਸੁਨੇਹਾ"
   },
     "extensionReloadedError": {
