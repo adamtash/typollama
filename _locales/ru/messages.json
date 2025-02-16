@@ -1,170 +1,170 @@
 {
     "extensionName": {
-      "message": "{{ Typollama – AI-проверка орфографии и обработка текста }}",
+      "message": "Typollama – AI-проверка орфографии и обработка текста",
       "description": "Название расширения"
     },
     "extensionDescription": {
-      "message": "{{ Улучшите свое письмо с помощью Typollama – расширения Chrome на базе AI для проверки орфографии и расширенной обработки текста. }}",
+      "message": "Улучшите свое письмо с помощью Typollama – расширения Chrome на базе AI для проверки орфографии и расширенной обработки текста.",
       "description": "Описание расширения"
     },
     "providerLabel": {
-      "message": "{{ Провайдер: }}",
+      "message": "Провайдер:",
       "description": "Метка для выбора провайдера"
     },
     "modelNameLabel": {
-      "message": "{{ Название модели: }}",
+      "message": "Название модели:",
       "description": "Метка для ввода названия модели"
     },
       "resetModelName": {
-      "message": "{{ Сбросить название модели }}",
+      "message": "Сбросить название модели",
       "description": "Текст кнопки для сброса названия модели"
     },
     "promptTypeLabel": {
-      "message": "{{ Тип запроса: }}",
+      "message": "Тип запроса:",
       "description": "Метка для выбора типа запроса"
     },
     "systemPromptLabel": {
-      "message": "{{ Системный запрос: }}",
+      "message": "Системный запрос:",
       "description": "Метка для ввода системного запроса"
     },
     "resetPrompt": {
-      "message": "{{ Сбросить запрос }}",
+      "message": "Сбросить запрос",
       "description": "Текст кнопки для сброса запроса"
     },
     "shortcutModeLabel": {
-      "message": "{{ Режим горячих клавиш: }}",
+      "message": "Режим горячих клавиш:",
       "description": "Метка для выбора режима горячих клавиш"
     },
     "recordShortcut": {
-      "message": "{{ Записать горячую клавишу }}",
+      "message": "Записать горячую клавишу",
       "description": "Текст кнопки для записи горячей клавиши"
     },
     "customShortcutLabel": {
-      "message": "{{ Пользовательская горячая клавиша: }}",
+      "message": "Пользовательская горячая клавиша:",
       "description": "Метка для ввода пользовательской горячей клавиши"
     },
     "copyToClipboardLabel": {
-      "message": "{{ Копировать в буфер обмена }}",
+      "message": "Копировать в буфер обмена",
       "description": "Метка флажка для опции копирования в буфер обмена"
     },
     "advancedSettingsLabel": {
-      "message": "{{ Расширенные настройки }}",
+      "message": "Расширенные настройки",
       "description": "Текст переключателя для расширенных настроек"
     },
     "ollamaUrlLabel": {
-      "message": "{{ URL Ollama: }}",
+      "message": "URL Ollama:",
       "description": "Метка для ввода URL Ollama"
     },
     "resetOllamaUrl": {
-      "message": "{{ Сбросить URL Ollama }}",
+      "message": "Сбросить URL Ollama",
       "description": "Текст кнопки для сброса URL Ollama"
     },
     "lmstudioUrlLabel": {
-      "message": "{{ URL LM Studio: }}",
+      "message": "URL LM Studio:",
       "description": "Метка для ввода URL LM Studio"
     },
     "resetLmstudioUrl": {
-      "message": "{{ Сбросить URL LM Studio }}",
+      "message": "Сбросить URL LM Studio",
       "description": "Текст кнопки для сброса URL LM Studio"
     },
     "openAiKeyLabel": {
-      "message": "{{ Ключ API OpenAI: }}",
+      "message": "Ключ API OpenAI:",
       "description": "Метка для ввода ключа API OpenAI"
     },
     "anthropicKeyLabel": {
-      "message": "{{ Ключ API Anthropic: }}",
+      "message": "Ключ API Anthropic:",
       "description": "Метка для ввода ключа API Anthropic"
     },
     "geminiKeyLabel": {
-      "message": "{{ Ключ API Gemini: }}",
+      "message": "Ключ API Gemini:",
       "description": "Метка для ввода ключа API Gemini"
     },
     "deepseekKeyLabel": {
-      "message": "{{ Ключ API Deepseek: }}",
+      "message": "Ключ API Deepseek:",
       "description": "Метка для ввода ключа API Deepseek"
     },
     "mistralKeyLabel": {
-      "message": "{{ Ключ API Mistral: }}",
+      "message": "Ключ API Mistral:",
       "description": "Метка для ввода ключа API Mistral"
     },
     "perplexityKeyLabel": {
-      "message": "{{ Ключ API Perplexity: }}",
+      "message": "Ключ API Perplexity:",
       "description": "Метка для ввода ключа API Perplexity"
     },
     "ollamaDocs": {
-      "message": "{{ Документация Ollama }}",
+      "message": "Документация Ollama",
       "description": "Текст ссылки на документацию Ollama"
     },
     "openaiDocs": {
-      "message": "{{ Документация OpenAI }}",
+      "message": "Документация OpenAI",
       "description": "Текст ссылки на документацию OpenAI"
     },
     "anthropicDocs": {
-      "message": "{{ Документация Anthropic }}",
+      "message": "Документация Anthropic",
       "description": "Текст ссылки на документацию Anthropic"
     },
     "lmstudioDocs": {
-      "message": "{{ Документация LM Studio }}",
+      "message": "Документация LM Studio",
       "description": "Текст ссылки на документацию LM Studio"
     },
     "geminiDocs": {
-      "message": "{{ Документация Gemini }}",
+      "message": "Документация Gemini",
       "description": "Текст ссылки на документацию Gemini"
     },
     "chromeDocs": {
-      "message": "{{ Документация Chrome AI }}",
+      "message": "Документация Chrome AI",
       "description": "Текст ссылки на документацию Chrome AI"
     },
     "deepseekDocs": {
-      "message": "{{ Документация Deepseek }}",
+      "message": "Документация Deepseek",
       "description": "Текст ссылки на документацию Deepseek"
     },
     "mistralDocs": {
-      "message": "{{ Документация Mistral }}",
+      "message": "Документация Mistral",
       "description": "Текст ссылки на документацию Mistral"
     },
     "perplexityDocs": {
-      "message": "{{ Документация Perplexity }}",
+      "message": "Документация Perplexity",
       "description": "Текст ссылки на документацию Perplexity"
     },
     "chromeAiNote": {
-      "message": "{{ Примечание: Chrome AI использует экспериментальные функции и может быть доступен не во всех регионах. }}",
+      "message": "Примечание: Chrome AI использует экспериментальные функции и может быть доступен не во всех регионах.",
       "description": "Примечание о Chrome AI"
     },
       "recordingPlaceholder": {
-      "message": "{{ Запись... нажмите клавиши, завершите Enter }}",
+      "message": "Запись... нажмите клавиши, завершите Enter",
       "description": "Текст-заполнитель для записи горячей клавиши"
     },
     "recordingCompletePlaceholder": {
-      "message": "{{ Запись завершена }}",
+      "message": "Запись завершена",
       "description": "Текст-заполнитель после записи горячей клавиши"
     },
       "stopRecording": {
-      "message": "{{ Остановить запись }}",
+      "message": "Остановить запись",
       "description": "Кнопка «Остановить запись»"
     },
       "contextMenuSpellcheck": {
-      "message": "{{ Проверка орфографии с помощью AI }}",
+      "message": "Проверка орфографии с помощью AI",
       "description": "Пункт контекстного меню для проверки орфографии"
     },
     "contextMenuProofread": {
-      "message": "{{ Переписать с помощью AI }}",
+      "message": "Переписать с помощью AI",
       "description": "Пункт контекстного меню для корректуры"
     },
     "contextMenuCustom": {
-      "message": "{{ Пользовательское письмо с помощью AI }}",
+      "message": "Пользовательское письмо с помощью AI",
       "description": "Пункт контекстного меню для пользовательского запроса"
     },
     "apiKeyRequired": {
-      "message": "{{ Требуется ключ API }}",
+      "message": "Требуется ключ API",
       "description": "Сообщение об ошибке для отсутствующего ключа API"
     },
     "urlRequired": {
-      "message": "{{ Требуется URL }}",
+      "message": "Требуется URL",
       "description": "Сообщение об ошибке для отсутствующего URL"
     },
     "invalidUrl": {
-      "message": "{{ Недействительный URL {0}: {1} }}",
+      "message": "Недействительный URL {0}: {1}",
       "description": "Сообщение об ошибке для недействительного URL",
       "placeholders": {
         "0": {
@@ -176,191 +176,191 @@
       }
     },
     "ollama403Error": {
-      "message": "{{  - Ollama требует дополнительные источники доступа. См.: https://github.com/ollama/ollama/blob/main/docs/faq.md#how-can-i-allow-additional-web-origins-to-access-ollama }}",
+      "message": " - Ollama требует дополнительные источники доступа. См.: https://github.com/ollama/ollama/blob/main/docs/faq.md#how-can-i-allow-additional-web-origins-to-access-ollama",
       "description": "Сообщение об ошибке для ошибки Ollama 403"
     },
     "ollamaConnectionError": {
-      "message": "{{  - Сервер Ollama недоступен или не запущен }}",
+      "message": " - Сервер Ollama недоступен или не запущен",
       "description": "Сообщение об ошибке для ошибки подключения Ollama"
     },
     "unauthorizedError": {
-      "message": "{{  - Не авторизован. Пожалуйста, проверьте свой ключ API. }}",
+      "message": " - Не авторизован. Пожалуйста, проверьте свой ключ API.",
       "description": "Сообщение об ошибке для неавторизованного доступа к API"
     },
       "extensionReloadedError": {
-          "message": "{{ Расширение перезагружено или обновлено. Пожалуйста, обновите страницу. }}",
+          "message": "Расширение перезагружено или обновлено. Пожалуйста, обновите страницу.",
           "description": "Ошибка перезагрузки расширения"
       },
       "unknownError": {
-          "message": "{{ Неизвестная ошибка }}",
+          "message": "Неизвестная ошибка",
           "description": "Общая ошибка"
       },
     "aiSpellcheckTitle": {
-      "message": "{{ AI-проверка орфографии и обработка текста }}",
+      "message": "AI-проверка орфографии и обработка текста",
       "description": "Основной заголовок расширения"
     },
     "aboutDocumentation": {
-      "message": "{{ О программе и документация ↗ }}",
+      "message": "О программе и документация ↗",
       "description": "Ссылка на документацию"
     },
     "writingToolsTitle": {
-      "message": "{{ Инструменты для письма }}",
+      "message": "Инструменты для письма",
       "description": "Заголовок для раздела инструментов для письма"
     },
     "spellcheckOption": {
-      "message": "{{ Проверка орфографии }}",
+      "message": "Проверка орфографии",
       "description": "Опция для режима проверки орфографии"
     },
     "proofreadOption": {
-      "message": "{{ Переписать }}",
+      "message": "Переписать",
       "description": "Опция для режима корректуры"
     },
     "customAiEditorOption": {
-      "message": "{{ Пользовательский AI-редактор }}",
+      "message": "Пользовательский AI-редактор",
       "description": "Опция для режима пользовательского AI-редактора"
     },
     "doubleCtrlStroke": {
-      "message": "{{ Двойное нажатие CTRL }}",
+      "message": "Двойное нажатие CTRL",
       "description": "Метка для горячей клавиши двойного нажатия CTRL"
     },
     "tripleCtrlStroke": {
-      "message": "{{ Тройное нажатие CTRL }}",
+      "message": "Тройное нажатие CTRL",
       "description": "Метка для горячей клавиши тройного нажатия CTRL"
     },
     "quadrupleCtrlStroke": {
-      "message": "{{ Четверное нажатие CTRL }}",
+      "message": "Четверное нажатие CTRL",
       "description": "Метка для горячей клавиши четверного нажатия CTRL"
     },
     "customShortcutKey": {
-      "message": "{{ Пользовательская горячая клавиша }}",
+      "message": "Пользовательская горячая клавиша",
       "description": "Метка для опции пользовательской горячей клавиши"
     },
     "ollamaDocsLink": {
-      "message": "{{ Документация Ollama ↗ }}",
+      "message": "Документация Ollama ↗",
       "description": "Ссылка на документацию Ollama"
     },
     "openaiDocsLink": {
-      "message": "{{ Документация OpenAI ↗ }}",
+      "message": "Документация OpenAI ↗",
       "description": "Ссылка на документацию OpenAI"
     },
     "anthropicDocsLink": {
-      "message": "{{ Получить ключ API Claude ↗ }}",
+      "message": "Получить ключ API Claude ↗",
       "description": "Ссылка для получения ключа API Anthropic"
     },
     "lmstudioDocsLink": {
-      "message": "{{ Документация LM Studio ↗ }}",
+      "message": "Документация LM Studio ↗",
       "description": "Ссылка на документацию LM Studio"
     },
     "geminiDocsLink": {
-      "message": "{{ Получите БЕСПЛАТНЫЙ ключ API Google Gemini ↗ }}",
+      "message": "Получите БЕСПЛАТНЫЙ ключ API Google Gemini ↗",
       "description": "Ссылка для получения ключа API Gemini"
     },
     "deepseekDocsLink": {
-      "message": "{{ Получить ключ API DeepSeek ↗ }}",
+      "message": "Получить ключ API DeepSeek ↗",
       "description": "Ссылка для получения ключа API DeepSeek"
     },
     "mistralDocsLink": {
-      "message": "{{ Получить ключ API Mistral ↗ }}",
+      "message": "Получить ключ API Mistral ↗",
       "description": "Ссылка для получения ключа API Mistral"
     },
     "perplexityDocsLink": {
-      "message": "{{ Получить ключ API Perplexity ↗ }}",
+      "message": "Получить ключ API Perplexity ↗",
       "description": "Ссылка для получения ключа API Perplexity"
     },
     "chromeDocsLink": {
-      "message": "{{ Документация Chrome AI ↗ }}",
+      "message": "Документация Chrome AI ↗",
       "description": "Ссылка на документацию Chrome AI"
     },
     "chromeAiNoteText": {
-      "message": "{{ Примечание: Chrome AI — это функция предварительного просмотра. Чтобы использовать ее, необходимо включить флаг функции в Chrome: }}",
+      "message": "Примечание: Chrome AI — это функция предварительного просмотра. Чтобы использовать ее, необходимо включить флаг функции в Chrome:",
       "description": "Примечание о функции предварительного просмотра Chrome AI"
     },
     "chromeAiEnableLink": {
-      "message": "{{ Включить флаг функции Chrome AI }}",
+      "message": "Включить флаг функции Chrome AI",
       "description": "Ссылка для включения флага функции Chrome AI"
     },
     "openAiKeyPlaceholder": {
-      "message": "{{ Ключ API OpenAI }}",
+      "message": "Ключ API OpenAI",
       "description": "Заполнитель для ввода ключа API OpenAI"
     },
     "anthropicKeyPlaceholder": {
-      "message": "{{ Ключ API Anthropic }}",
+      "message": "Ключ API Anthropic",
       "description": "Заполнитель для ввода ключа API Anthropic"
     },
     "geminiKeyPlaceholder": {
-      "message": "{{ Ключ API Google }}",
+      "message": "Ключ API Google",
       "description": "Заполнитель для ввода ключа API Gemini"
     },
     "deepseekKeyPlaceholder": {
-      "message": "{{ Ключ API DeepSeek }}",
+      "message": "Ключ API DeepSeek",
       "description": "Заполнитель для ввода ключа API DeepSeek"
     },
     "mistralKeyPlaceholder": {
-      "message": "{{ Ключ API Mistral AI }}",
+      "message": "Ключ API Mistral AI",
       "description": "Заполнитель для ввода ключа API Mistral AI"
     },
     "perplexityKeyPlaceholder": {
-      "message": "{{ Ключ API Perplexity AI }}",
+      "message": "Ключ API Perplexity AI",
       "description": "Заполнитель для ввода ключа API Perplexity AI"
     },
     "ollamaUrlPlaceholder": {
-      "message": "{{ URL Ollama }}",
+      "message": "URL Ollama",
       "description": "Заполнитель для ввода URL Ollama"
     },
     "lmstudioUrlPlaceholder": {
-      "message": "{{ URL LM Studio }}",
+      "message": "URL LM Studio",
       "description": "Заполнитель для ввода URL LM Studio"
     },
     "modelNamePlaceholder": {
-      "message": "{{ Название модели }}",
+      "message": "Название модели",
       "description": "Заполнитель для ввода названия модели"
     },
     "resetButton": {
-      "message": "{{ Сбросить }}",
+      "message": "Сбросить",
       "description": "Текст для кнопок сброса"
     },
     "customShortcutPlaceholder": {
-      "message": "{{ Нажмите «Запись», чтобы захватить }}",
+      "message": "Нажмите «Запись», чтобы захватить",
       "description": "Заполнитель для ввода пользовательской горячей клавиши"
     },
     "systemPromptPlaceholder": {
-      "message": "{{ Системный запрос }}",
+      "message": "Системный запрос",
       "description": "Заполнитель для ввода системного запроса"
     },
     "ollamaProvider": {
-      "message": "{{ Ollama }}",
+      "message": "Ollama",
       "description": "Название провайдера Ollama"
     },
     "openaiProvider": {
-      "message": "{{ OpenAI }}",
+      "message": "OpenAI",
       "description": "Название провайдера OpenAI"
     },
     "anthropicProvider": {
-      "message": "{{ Anthropic Claude }}",
+      "message": "Anthropic Claude",
       "description": "Название провайдера Anthropic"
     },
     "lmstudioProvider": {
-      "message": "{{ LM Studio }}",
+      "message": "LM Studio",
       "description": "Название провайдера LM Studio"
     },
     "geminiProvider": {
-      "message": "{{ Google Gemini }}",
+      "message": "Google Gemini",
       "description": "Название провайдера Google Gemini"
     },
     "deepseekProvider": {
-      "message": "{{ DeepSeek }}",
+      "message": "DeepSeek",
       "description": "Название провайдера DeepSeek"
     },
     "mistralProvider": {
-      "message": "{{ Mistral AI }}",
+      "message": "Mistral AI",
       "description": "Название провайдера Mistral"
     },
     "perplexityProvider": {
-      "message": "{{ Perplexity AI }}",
+      "message": "Perplexity AI",
       "description": "Название провайдера Perplexity"
     },
     "chromeProvider": {
-      "message": "{{ Chrome AI (Предварительный просмотр) }}",
+      "message": "Chrome AI (Предварительный просмотр)",
       "description": "Название провайдера Chrome AI"
     }
   }

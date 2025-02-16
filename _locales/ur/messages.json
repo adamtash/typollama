@@ -176,15 +176,15 @@
     }
   },
   "ollama403Error": {
-    "message": " - Ollama کو اضافی رسائی کے ماخذ کی ضرورت ہے۔ دیکھیں: https://github.com/ollama/ollama/blob/main/docs/faq.md#how-can-i-allow-additional-web-origins-to-access-ollama",
+    "message": "- Ollama کو اضافی رسائی کے ماخذ کی ضرورت ہے۔ دیکھیں: https://github.com/ollama/ollama/blob/main/docs/faq.md#how-can-i-allow-additional-web-origins-to-access-ollama",
     "description": "Ollama 403 ایرر کے لیے ایرر میسج"
   },
   "ollamaConnectionError": {
-    "message": " - Ollama سرور ناقابل رسائی ہے یا چل نہیں رہا ہے",
+    "message": "- Ollama سرور ناقابل رسائی ہے یا چل نہیں رہا ہے",
     "description": "Ollama کنکشن ایرر کے لیے ایرر میسج"
   },
   "unauthorizedError": {
-    "message": " - غیر مجاز۔ براہ کرم اپنی API کلید چیک کریں۔",
+    "message": "- غیر مجاز۔ براہ کرم اپنی API کلید چیک کریں۔",
     "description": "غیر مجاز API رسائی کے لیے ایرر میسج"
   },
     "extensionReloadedError": {

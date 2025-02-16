@@ -1,170 +1,170 @@
 {
     "extensionName": {
-      "message": "{{ Typollama – AI Spellcheck & Tekstverwerking }}",
+      "message": "Typollama – AI Spellcheck & Tekstverwerking",
       "description": "Naam van de extensie"
     },
     "extensionDescription": {
-      "message": "{{ Verbeter uw schrijven met Typollama – een AI-aangedreven Chrome-extensie voor spellingscontrole en geavanceerde tekstverwerking. }}",
+      "message": "Verbeter uw schrijven met Typollama – een AI-aangedreven Chrome-extensie voor spellingscontrole en geavanceerde tekstverwerking.",
       "description": "Beschrijving van de extensie"
     },
     "providerLabel": {
-      "message": "{{ Provider: }}",
+      "message": "Provider:",
       "description": "Label voor providerselectie"
     },
     "modelNameLabel": {
-      "message": "{{ Modelnaam: }}",
+      "message": "Modelnaam:",
       "description": "Label voor modelnaam-invoer"
     },
       "resetModelName": {
-      "message": "{{ Modelnaam resetten }}",
+      "message": "Modelnaam resetten",
       "description": "Knoptekst om modelnaam te resetten"
     },
     "promptTypeLabel": {
-      "message": "{{ Prompt Type: }}",
+      "message": "Prompt Type:",
       "description": "Label voor prompt type selectie"
     },
     "systemPromptLabel": {
-      "message": "{{ Systeem Prompt: }}",
+      "message": "Systeem Prompt:",
       "description": "Label voor systeem prompt invoer"
     },
     "resetPrompt": {
-      "message": "{{ Prompt resetten }}",
+      "message": "Prompt resetten",
       "description": "Knoptekst om prompt te resetten"
     },
     "shortcutModeLabel": {
-      "message": "{{ Snelkoppelingsmodus: }}",
+      "message": "Snelkoppelingsmodus:",
       "description": "Label voor snelkoppelingsmodus selectie"
     },
     "recordShortcut": {
-      "message": "{{ Snelkoppeling opnemen }}",
+      "message": "Snelkoppeling opnemen",
       "description": "Knoptekst om snelkoppeling op te nemen"
     },
     "customShortcutLabel": {
-      "message": "{{ Aangepaste Snelkoppeling: }}",
+      "message": "Aangepaste Snelkoppeling:",
       "description": "Label voor aangepaste snelkoppelingsinvoer"
     },
     "copyToClipboardLabel": {
-      "message": "{{ Kopiëren naar Klembord }}",
+      "message": "Kopiëren naar Klembord",
       "description": "Checkbox label voor kopieer naar klembord optie"
     },
     "advancedSettingsLabel": {
-      "message": "{{ Geavanceerde Instellingen }}",
+      "message": "Geavanceerde Instellingen",
       "description": "Schakeltekst voor geavanceerde instellingen"
     },
     "ollamaUrlLabel": {
-      "message": "{{ Ollama URL: }}",
+      "message": "Ollama URL:",
       "description": "Label voor Ollama URL-invoer"
     },
     "resetOllamaUrl": {
-      "message": "{{ Ollama URL resetten }}",
+      "message": "Ollama URL resetten",
       "description": "Knoptekst om Ollama URL te resetten"
     },
     "lmstudioUrlLabel": {
-      "message": "{{ LM Studio URL: }}",
+      "message": "LM Studio URL:",
       "description": "Label voor LM Studio URL-invoer"
     },
     "resetLmstudioUrl": {
-      "message": "{{ LM Studio URL resetten }}",
+      "message": "LM Studio URL resetten",
       "description": "Knoptekst om LM Studio URL te resetten"
     },
     "openAiKeyLabel": {
-      "message": "{{ OpenAI API Sleutel: }}",
+      "message": "OpenAI API Sleutel:",
       "description": "Label voor OpenAI API Sleutel-invoer"
     },
     "anthropicKeyLabel": {
-      "message": "{{ Anthropic API Sleutel: }}",
+      "message": "Anthropic API Sleutel:",
       "description": "Label voor Anthropic API Sleutel-invoer"
     },
     "geminiKeyLabel": {
-      "message": "{{ Gemini API Sleutel: }}",
+      "message": "Gemini API Sleutel:",
       "description": "Label voor Gemini API Sleutel-invoer"
     },
     "deepseekKeyLabel": {
-      "message": "{{ Deepseek API Sleutel: }}",
+      "message": "Deepseek API Sleutel:",
       "description": "Label voor Deepseek API Sleutel-invoer"
     },
     "mistralKeyLabel": {
-      "message": "{{ Mistral API Sleutel: }}",
+      "message": "Mistral API Sleutel:",
       "description": "Label voor Mistral API Sleutel-invoer"
     },
     "perplexityKeyLabel": {
-      "message": "{{ Perplexity API Sleutel: }}",
+      "message": "Perplexity API Sleutel:",
       "description": "Label voor Perplexity API Sleutel-invoer"
     },
     "ollamaDocs": {
-      "message": "{{ Ollama Documentatie }}",
+      "message": "Ollama Documentatie",
       "description": "Link tekst voor Ollama documentatie"
     },
     "openaiDocs": {
-      "message": "{{ OpenAI Documentatie }}",
+      "message": "OpenAI Documentatie",
       "description": "Link tekst voor OpenAI documentatie"
     },
     "anthropicDocs": {
-      "message": "{{ Anthropic Documentatie }}",
+      "message": "Anthropic Documentatie",
       "description": "Link tekst voor Anthropic documentatie"
     },
     "lmstudioDocs": {
-      "message": "{{ LM Studio Documentatie }}",
+      "message": "LM Studio Documentatie",
       "description": "Link tekst voor LM Studio documentatie"
     },
     "geminiDocs": {
-      "message": "{{ Gemini Documentatie }}",
+      "message": "Gemini Documentatie",
       "description": "Link tekst voor Gemini documentatie"
     },
     "chromeDocs": {
-      "message": "{{ Chrome AI Documentatie }}",
+      "message": "Chrome AI Documentatie",
       "description": "Link tekst voor Chrome AI documentatie"
     },
     "deepseekDocs": {
-      "message": "{{ Deepseek Documentatie }}",
+      "message": "Deepseek Documentatie",
       "description": "Link tekst voor Deepseek documentatie"
     },
     "mistralDocs": {
-      "message": "{{ Mistral Documentatie }}",
+      "message": "Mistral Documentatie",
       "description": "Link tekst voor Mistral documentatie"
     },
     "perplexityDocs": {
-      "message": "{{ Perplexity Documentatie }}",
+      "message": "Perplexity Documentatie",
       "description": "Link tekst voor Perplexity documentatie"
     },
     "chromeAiNote": {
-      "message": "{{ Opmerking: Chrome AI gebruikt experimentele functies en is mogelijk niet in alle regio's beschikbaar. }}",
+      "message": "Opmerking: Chrome AI gebruikt experimentele functies en is mogelijk niet in alle regio's beschikbaar.",
       "description": "Opmerking over Chrome AI"
     },
       "recordingPlaceholder": {
-      "message": "{{ Opnemen... druk op toetsen, eindig met Enter }}",
+      "message": "Opnemen... druk op toetsen, eindig met Enter",
       "description": "Plaatshouder tekst voor snelkoppelingsopname"
     },
     "recordingCompletePlaceholder": {
-      "message": "{{ Opname voltooid }}",
+      "message": "Opname voltooid",
       "description": "Plaatshouder tekst na snelkoppelingsopname"
     },
       "stopRecording": {
-      "message": "{{ Opname stoppen }}",
+      "message": "Opname stoppen",
       "description": "Knop Opname stoppen"
     },
       "contextMenuSpellcheck": {
-      "message": "{{ Spellingscontrole met AI }}",
+      "message": "Spellingscontrole met AI",
       "description": "Contextmenu-item voor spellingscontrole"
     },
     "contextMenuProofread": {
-      "message": "{{ Herschrijven met AI }}",
+      "message": "Herschrijven met AI",
       "description": "Contextmenu-item voor proeflezen"
     },
     "contextMenuCustom": {
-      "message": "{{ Aangepast schrijven met AI }}",
+      "message": "Aangepast schrijven met AI",
       "description": "Contextmenu-item voor aangepaste prompt"
     },
     "apiKeyRequired": {
-      "message": "{{ API-sleutel is vereist }}",
+      "message": "API-sleutel is vereist",
       "description": "Foutmelding voor ontbrekende API-sleutel"
     },
     "urlRequired": {
-      "message": "{{ URL is vereist }}",
+      "message": "URL is vereist",
       "description": "Foutmelding voor ontbrekende URL"
     },
     "invalidUrl": {
-      "message": "{{ Ongeldige {0} URL: {1} }}",
+      "message": "Ongeldige {0} URL: {1}",
       "description": "Foutmelding voor ongeldige URL",
       "placeholders": {
         "0": {
@@ -176,191 +176,191 @@
       }
     },
     "ollama403Error": {
-      "message": "{{  - Ollama vereist aanvullende toegangs origins. Zie: https://github.com/ollama/ollama/blob/main/docs/faq.md#how-can-i-allow-additional-web-origins-to-access-ollama }}",
+      "message": " - Ollama vereist aanvullende toegangs origins. Zie: https://github.com/ollama/ollama/blob/main/docs/faq.md#how-can-i-allow-additional-web-origins-to-access-ollama",
       "description": "Foutmelding voor Ollama 403-fout"
     },
     "ollamaConnectionError": {
-      "message": "{{  - Ollama-server is onbereikbaar of niet actief }}",
+      "message": " - Ollama-server is onbereikbaar of niet actief",
       "description": "Foutmelding voor Ollama-verbindingsfout"
     },
     "unauthorizedError": {
-      "message": "{{  - Niet geautoriseerd. Controleer uw API-sleutel. }}",
+      "message": " - Niet geautoriseerd. Controleer uw API-sleutel.",
       "description": "Foutmelding voor ongeautoriseerde API-toegang"
     },
     "extensionReloadedError": {
-      "message": "{{ Extensie opnieuw geladen of bijgewerkt. Vernieuw de pagina. }}",
+      "message": "Extensie opnieuw geladen of bijgewerkt. Vernieuw de pagina.",
       "description": "Fout voor het opnieuw laden van de extensie"
     },
     "unknownError": {
-      "message": "{{ Onbekende fout }}",
+      "message": "Onbekende fout",
       "description": "Generieke fout"
     },
     "aiSpellcheckTitle": {
-      "message": "{{ AI Spell-Check & Tekstverwerking }}",
+      "message": "AI Spell-Check & Tekstverwerking",
       "description": "Hoofdtitel van de extensie"
     },
     "aboutDocumentation": {
-      "message": "{{ Over & Documentatie ↗ }}",
+      "message": "Over & Documentatie ↗",
       "description": "Link naar documentatie"
     },
     "writingToolsTitle": {
-      "message": "{{ Schrijfhulpmiddelen }}",
+      "message": "Schrijfhulpmiddelen",
       "description": "Titel voor de sectie schrijfhulpmiddelen"
     },
     "spellcheckOption": {
-      "message": "{{ Spellingcontrole }}",
+      "message": "Spellingcontrole",
       "description": "Optie voor spellingcontrolemodus"
     },
     "proofreadOption": {
-      "message": "{{ Herschrijven }}",
+      "message": "Herschrijven",
       "description": "Optie voor proefleesmodus"
     },
     "customAiEditorOption": {
-      "message": "{{ Aangepaste AI Editor }}",
+      "message": "Aangepaste AI Editor",
       "description": "Optie voor aangepaste AI Editor-modus"
     },
     "doubleCtrlStroke": {
-      "message": "{{ Dubbele CTRL-aanslag }}",
+      "message": "Dubbele CTRL-aanslag",
       "description": "Label voor dubbele CTRL-aanslag snelkoppeling"
     },
     "tripleCtrlStroke": {
-      "message": "{{ Drievoudige CTRL-aanslag }}",
+      "message": "Drievoudige CTRL-aanslag",
       "description": "Label voor drievoudige CTRL-aanslag snelkoppeling"
     },
     "quadrupleCtrlStroke": {
-      "message": "{{ Viervoudige CTRL-aanslag }}",
+      "message": "Viervoudige CTRL-aanslag",
       "description": "Label voor viervoudige CTRL-aanslag snelkoppeling"
     },
     "customShortcutKey": {
-      "message": "{{ Aangepaste Sneltoets }}",
+      "message": "Aangepaste Sneltoets",
       "description": "Label voor aangepaste sneltoetsoptie"
     },
     "ollamaDocsLink": {
-      "message": "{{ Ollama Documentatie ↗ }}",
+      "message": "Ollama Documentatie ↗",
       "description": "Link naar Ollama documentatie"
     },
     "openaiDocsLink": {
-      "message": "{{ OpenAI Documentatie ↗ }}",
+      "message": "OpenAI Documentatie ↗",
       "description": "Link naar OpenAI documentatie"
     },
     "anthropicDocsLink": {
-      "message": "{{ Claude API Sleutel verkrijgen ↗ }}",
+      "message": "Claude API Sleutel verkrijgen ↗",
       "description": "Link om Anthropic API sleutel te verkrijgen"
     },
     "lmstudioDocsLink": {
-      "message": "{{ LM Studio Documentatie ↗ }}",
+      "message": "LM Studio Documentatie ↗",
       "description": "Link naar LM Studio documentatie"
     },
     "geminiDocsLink": {
-      "message": "{{ Verkrijg uw GRATIS Google Gemini API Sleutel ↗ }}",
+      "message": "Verkrijg uw GRATIS Google Gemini API Sleutel ↗",
       "description": "Link om Gemini API sleutel te verkrijgen"
     },
     "deepseekDocsLink": {
-      "message": "{{ DeepSeek API Sleutel verkrijgen ↗ }}",
+      "message": "DeepSeek API Sleutel verkrijgen ↗",
       "description": "Link om DeepSeek API sleutel te verkrijgen"
     },
     "mistralDocsLink": {
-      "message": "{{ Mistral API Sleutel verkrijgen ↗ }}",
+      "message": "Mistral API Sleutel verkrijgen ↗",
       "description": "Link om Mistral API sleutel te verkrijgen"
     },
     "perplexityDocsLink": {
-      "message": "{{ Perplexity API Sleutel verkrijgen ↗ }}",
+      "message": "Perplexity API Sleutel verkrijgen ↗",
       "description": "Link om Perplexity API sleutel te verkrijgen"
     },
     "chromeDocsLink": {
-      "message": "{{ Chrome AI Documentatie ↗ }}",
+      "message": "Chrome AI Documentatie ↗",
       "description": "Link naar Chrome AI documentatie"
     },
     "chromeAiNoteText": {
-      "message": "{{ Opmerking: Chrome AI is een preview-functie. Om het te gebruiken, moet u de functie-flag in Chrome inschakelen: }}",
+      "message": "Opmerking: Chrome AI is een preview-functie. Om het te gebruiken, moet u de functie-flag in Chrome inschakelen:",
       "description": "Opmerking over Chrome AI preview-functie"
     },
     "chromeAiEnableLink": {
-      "message": "{{ Chrome AI functie-flag inschakelen }}",
+      "message": "Chrome AI functie-flag inschakelen",
       "description": "Link om Chrome AI functie-flag in te schakelen"
     },
     "openAiKeyPlaceholder": {
-      "message": "{{ OpenAI API Sleutel }}",
+      "message": "OpenAI API Sleutel",
       "description": "Plaatshouder voor OpenAI API sleutel-invoer"
     },
     "anthropicKeyPlaceholder": {
-      "message": "{{ Anthropic API Sleutel }}",
+      "message": "Anthropic API Sleutel",
       "description": "Plaatshouder voor Anthropic API sleutel-invoer"
     },
     "geminiKeyPlaceholder": {
-      "message": "{{ Google API Sleutel }}",
+      "message": "Google API Sleutel",
       "description": "Plaatshouder voor Gemini API sleutel-invoer"
     },
     "deepseekKeyPlaceholder": {
-      "message": "{{ DeepSeek API Sleutel }}",
+      "message": "DeepSeek API Sleutel",
       "description": "Plaatshouder voor DeepSeek API sleutel-invoer"
     },
     "mistralKeyPlaceholder": {
-      "message": "{{ Mistral AI API Sleutel }}",
+      "message": "Mistral AI API Sleutel",
       "description": "Plaatshouder voor Mistral AI API sleutel-invoer"
     },
     "perplexityKeyPlaceholder": {
-      "message": "{{ Perplexity AI API Sleutel }}",
+      "message": "Perplexity AI API Sleutel",
       "description": "Plaatshouder voor Perplexity AI API sleutel-invoer"
     },
     "ollamaUrlPlaceholder": {
-      "message": "{{ Ollama URL }}",
+      "message": "Ollama URL",
       "description": "Plaatshouder voor Ollama URL-invoer"
     },
     "lmstudioUrlPlaceholder": {
-      "message": "{{ LM Studio URL }}",
+      "message": "LM Studio URL",
       "description": "Plaatshouder voor LM Studio URL-invoer"
     },
     "modelNamePlaceholder": {
-      "message": "{{ Modelnaam }}",
+      "message": "Modelnaam",
       "description": "Plaatshouder voor modelnaam-invoer"
     },
     "resetButton": {
-      "message": "{{ Resetten }}",
+      "message": "Resetten",
       "description": "Tekst voor reset-knoppen"
     },
     "customShortcutPlaceholder": {
-      "message": "{{ Druk op 'Opnemen' om vast te leggen }}",
+      "message": "Druk op 'Opnemen' om vast te leggen",
       "description": "Plaatshouder voor aangepaste snelkoppelingsinvoer"
     },
     "systemPromptPlaceholder": {
-      "message": "{{ Systeem Prompt }}",
+      "message": "Systeem Prompt",
       "description": "Plaatshouder voor systeem prompt invoer"
     },
     "ollamaProvider": {
-      "message": "{{ Ollama }}",
+      "message": "Ollama",
       "description": "Naam van Ollama provider"
     },
     "openaiProvider": {
-      "message": "{{ OpenAI }}",
+      "message": "OpenAI",
       "description": "Naam van OpenAI provider"
     },
     "anthropicProvider": {
-      "message": "{{ Anthropic Claude }}",
+      "message": "Anthropic Claude",
       "description": "Naam van Anthropic provider"
     },
     "lmstudioProvider": {
-      "message": "{{ LM Studio }}",
+      "message": "LM Studio",
       "description": "Naam van LM Studio provider"
     },
     "geminiProvider": {
-      "message": "{{ Google Gemini }}",
+      "message": "Google Gemini",
       "description": "Naam van Google Gemini provider"
     },
     "deepseekProvider": {
-      "message": "{{ DeepSeek }}",
+      "message": "DeepSeek",
       "description": "Naam van DeepSeek provider"
     },
     "mistralProvider": {
-      "message": "{{ Mistral AI }}",
+      "message": "Mistral AI",
       "description": "Naam van Mistral provider"
     },
     "perplexityProvider": {
-      "message": "{{ Perplexity AI }}",
+      "message": "Perplexity AI",
       "description": "Naam van Perplexity provider"
     },
     "chromeProvider": {
-      "message": "{{ Chrome AI (Preview) }}",
+      "message": "Chrome AI (Preview)",
       "description": "Naam van Chrome AI provider"
     }
   }

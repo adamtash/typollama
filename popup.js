@@ -180,13 +180,20 @@ function setI18nAttributes() {
 
 function showError(message) {
   const errorContainer = el("errorContainer");
+  if (!errorContainer) return; 
+  
   errorContainer.textContent = message;
   errorContainer.style.display = "block";
+  
+  errorContainer.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
 }
 
 function hideError() {
-  el("errorContainer").style.display = "none";
-  chrome.storage.local.remove("popupError");
+  const errorContainer = el("errorContainer");
+  if (!errorContainer) return; 
+  
+  errorContainer.style.display = "none";
+  errorContainer.textContent = '';
 }
 
 function showProviderDoc(newProvider) {
@@ -546,8 +553,10 @@ function setupShortcutRecording() {
   });
 }
 
-chrome.runtime.onMessage.addListener((request) => {
-  if (request.type === 'showError') showError(request.error);
+chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
+  if (request.type === "showError" && request.error) {
+    showError(request.error);
+  }
 });
 
 function updateCustomShortcutVisibility(shortcutMode) {

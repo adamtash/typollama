@@ -74,12 +74,18 @@ h2 {
 }
 
 .error-message {
-  color: #d32f2f;
-  background: #ffebee;
-  padding: 12px;
+  color: #721c24;
+  background-color: #f8d7da;
+  border: 1px solid #f5c6cb;
   border-radius: 4px;
-  margin-bottom: 20px;
-  text-align: center;
+  padding: 10px;
+  margin: 10px 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.error-message:empty {
+  display: none;
 }
 
 .card {

@@ -1,170 +1,170 @@
 {
     "extensionName": {
-      "message": "{{ Typollama – KI-Rechtschreibprüfung & Textverarbeitung }}",
+      "message": "Typollama – KI-Rechtschreibprüfung & Textverarbeitung",
       "description": "Name der Erweiterung"
     },
     "extensionDescription": {
-      "message": "{{ Verbessern Sie Ihr Schreiben mit Typollama – einer KI-gestützten Chrome-Erweiterung für Rechtschreibprüfung und erweiterte Textverarbeitung. }}",
+      "message": "Verbessern Sie Ihr Schreiben mit Typollama – einer KI-gestützten Chrome-Erweiterung für Rechtschreibprüfung und erweiterte Textverarbeitung.",
       "description": "Beschreibung der Erweiterung"
     },
     "providerLabel": {
-      "message": "{{ Anbieter: }}",
+      "message": "Anbieter:",
       "description": "Bezeichnung für die Anbieterauswahl"
     },
     "modelNameLabel": {
-      "message": "{{ Modellname: }}",
+      "message": "Modellname:",
       "description": "Bezeichnung für die Modellnameneingabe"
     },
       "resetModelName": {
-      "message": "{{ Modellnamen zurücksetzen }}",
+      "message": "Modellnamen zurücksetzen",
       "description": "Schaltflächentext zum Zurücksetzen des Modellnamens"
     },
     "promptTypeLabel": {
-      "message": "{{ Prompt-Typ: }}",
+      "message": "Prompt-Typ:",
       "description": "Bezeichnung für die Prompt-Typauswahl"
     },
     "systemPromptLabel": {
-      "message": "{{ System-Prompt: }}",
+      "message": "System-Prompt:",
       "description": "Bezeichnung für die System-Prompt-Eingabe"
     },
     "resetPrompt": {
-      "message": "{{ Prompt zurücksetzen }}",
+      "message": "Prompt zurücksetzen",
       "description": "Schaltflächentext zum Zurücksetzen des Prompts"
     },
     "shortcutModeLabel": {
-      "message": "{{ Shortcut-Modus: }}",
+      "message": "Shortcut-Modus:",
       "description": "Bezeichnung für die Shortcut-Modusauswahl"
     },
     "recordShortcut": {
-      "message": "{{ Shortcut aufzeichnen }}",
+      "message": "Shortcut aufzeichnen",
       "description": "Schaltflächentext zum Aufzeichnen des Shortcuts"
     },
     "customShortcutLabel": {
-      "message": "{{ Benutzerdefinierter Shortcut: }}",
+      "message": "Benutzerdefinierter Shortcut:",
       "description": "Bezeichnung für die benutzerdefinierte Shortcut-Eingabe"
     },
     "copyToClipboardLabel": {
-      "message": "{{ In die Zwischenablage kopieren }}",
+      "message": "In die Zwischenablage kopieren",
       "description": "Checkbox-Bezeichnung für die Option zum Kopieren in die Zwischenablage"
     },
     "advancedSettingsLabel": {
-      "message": "{{ Erweiterte Einstellungen }}",
+      "message": "Erweiterte Einstellungen",
       "description": "Umschalttext für erweiterte Einstellungen"
     },
     "ollamaUrlLabel": {
-      "message": "{{ Ollama-URL: }}",
+      "message": "Ollama-URL:",
       "description": "Bezeichnung für die Ollama-URL-Eingabe"
     },
     "resetOllamaUrl": {
-      "message": "{{ Ollama-URL zurücksetzen }}",
+      "message": "Ollama-URL zurücksetzen",
       "description": "Schaltflächentext zum Zurücksetzen der Ollama-URL"
     },
     "lmstudioUrlLabel": {
-      "message": "{{ LM Studio-URL: }}",
+      "message": "LM Studio-URL:",
       "description": "Bezeichnung für die LM Studio-URL-Eingabe"
     },
     "resetLmstudioUrl": {
-      "message": "{{ LM Studio-URL zurücksetzen }}",
+      "message": "LM Studio-URL zurücksetzen",
       "description": "Schaltflächentext zum Zurücksetzen der LM Studio-URL"
     },
     "openAiKeyLabel": {
-      "message": "{{ OpenAI-API-Schlüssel: }}",
+      "message": "OpenAI-API-Schlüssel:",
       "description": "Bezeichnung für die OpenAI-API-Schlüssel-Eingabe"
     },
     "anthropicKeyLabel": {
-      "message": "{{ Anthropic-API-Schlüssel: }}",
+      "message": "Anthropic-API-Schlüssel:",
       "description": "Bezeichnung für die Anthropic-API-Schlüssel-Eingabe"
     },
     "geminiKeyLabel": {
-      "message": "{{ Gemini-API-Schlüssel: }}",
+      "message": "Gemini-API-Schlüssel:",
       "description": "Bezeichnung für die Gemini-API-Schlüssel-Eingabe"
     },
     "deepseekKeyLabel": {
-      "message": "{{ Deepseek-API-Schlüssel: }}",
+      "message": "Deepseek-API-Schlüssel:",
       "description": "Bezeichnung für die Deepseek-API-Schlüssel-Eingabe"
     },
     "mistralKeyLabel": {
-      "message": "{{ Mistral-API-Schlüssel: }}",
+      "message": "Mistral-API-Schlüssel:",
       "description": "Bezeichnung für die Mistral-API-Schlüssel-Eingabe"
     },
     "perplexityKeyLabel": {
-      "message": "{{ Perplexity-API-Schlüssel: }}",
+      "message": "Perplexity-API-Schlüssel:",
       "description": "Bezeichnung für die Perplexity-API-Schlüssel-Eingabe"
     },
     "ollamaDocs": {
-      "message": "{{ Ollama-Dokumentation }}",
+      "message": "Ollama-Dokumentation",
       "description": "Linktext für die Ollama-Dokumentation"
     },
     "openaiDocs": {
-      "message": "{{ OpenAI-Dokumentation }}",
+      "message": "OpenAI-Dokumentation",
       "description": "Linktext für die OpenAI-Dokumentation"
     },
     "anthropicDocs": {
-      "message": "{{ Anthropic-Dokumentation }}",
+      "message": "Anthropic-Dokumentation",
       "description": "Linktext für die Anthropic-Dokumentation"
     },
     "lmstudioDocs": {
-      "message": "{{ LM Studio-Dokumentation }}",
+      "message": "LM Studio-Dokumentation",
       "description": "Linktext für die LM Studio-Dokumentation"
     },
     "geminiDocs": {
-      "message": "{{ Gemini-Dokumentation }}",
+      "message": "Gemini-Dokumentation",
       "description": "Linktext für die Gemini-Dokumentation"
     },
     "chromeDocs": {
-      "message": "{{ Chrome AI-Dokumentation }}",
+      "message": "Chrome AI-Dokumentation",
       "description": "Linktext für die Chrome AI-Dokumentation"
     },
     "deepseekDocs": {
-      "message": "{{ Deepseek-Dokumentation }}",
+      "message": "Deepseek-Dokumentation",
       "description": "Linktext für die Deepseek-Dokumentation"
     },
     "mistralDocs": {
-      "message": "{{ Mistral-Dokumentation }}",
+      "message": "Mistral-Dokumentation",
       "description": "Linktext für die Mistral-Dokumentation"
     },
     "perplexityDocs": {
-      "message": "{{ Perplexity-Dokumentation }}",
+      "message": "Perplexity-Dokumentation",
       "description": "Linktext für die Perplexity-Dokumentation"
     },
     "chromeAiNote": {
-      "message": "{{ Hinweis: Chrome AI verwendet experimentelle Funktionen und ist möglicherweise nicht in allen Regionen verfügbar. }}",
+      "message": "Hinweis: Chrome AI verwendet experimentelle Funktionen und ist möglicherweise nicht in allen Regionen verfügbar.",
       "description": "Hinweis zu Chrome AI"
     },
       "recordingPlaceholder": {
-      "message": "{{ Aufzeichnung... Tasten drücken, mit Eingabe beenden }}",
+      "message": "Aufzeichnung... Tasten drücken, mit Eingabe beenden",
       "description": "Platzhaltertext für die Shortcut-Aufzeichnung"
     },
     "recordingCompletePlaceholder": {
-      "message": "{{ Aufzeichnung abgeschlossen }}",
+      "message": "Aufzeichnung abgeschlossen",
       "description": "Platzhaltertext nach der Shortcut-Aufzeichnung"
     },
       "stopRecording": {
-      "message": "{{ Aufzeichnung stoppen }}",
+      "message": "Aufzeichnung stoppen",
       "description": "Schaltfläche zum Stoppen der Aufzeichnung"
     },
       "contextMenuSpellcheck": {
-      "message": "{{ Rechtschreibprüfung mit KI }}",
+      "message": "Rechtschreibprüfung mit KI",
       "description": "Kontextmenüelement für die Rechtschreibprüfung"
     },
     "contextMenuProofread": {
-      "message": "{{ Umschreiben mit KI }}",
+      "message": "Umschreiben mit KI",
       "description": "Kontextmenüelement für das Korrekturlesen"
     },
     "contextMenuCustom": {
-      "message": "{{ Benutzerdefiniertes Schreiben mit KI }}",
+      "message": "Benutzerdefiniertes Schreiben mit KI",
       "description": "Kontextmenüelement für den benutzerdefinierten Prompt"
     },
     "apiKeyRequired": {
-      "message": "{{ API-Schlüssel ist erforderlich }}",
+      "message": "API-Schlüssel ist erforderlich",
       "description": "Fehlermeldung für fehlenden API-Schlüssel"
     },
     "urlRequired": {
-      "message": "{{ URL ist erforderlich }}",
+      "message": "URL ist erforderlich",
       "description": "Fehlermeldung für fehlende URL"
     },
     "invalidUrl": {
-      "message": "{{ Ungültige {0}-URL: {1} }}",
+      "message": "Ungültige {0}-URL: {1}",
       "description": "Fehlermeldung für ungültige URL",
       "placeholders": {
         "0": {
@@ -176,191 +176,191 @@
       }
     },
     "ollama403Error": {
-      "message": "{{  - Ollama erfordert zusätzliche Zugriffsorigin. Siehe: https://github.com/ollama/ollama/blob/main/docs/faq.md#how-can-i-allow-additional-web-origins-to-access-ollama }}",
+      "message": " - Ollama erfordert zusätzliche Zugriffsorigin. Siehe: https://github.com/ollama/ollama/blob/main/docs/faq.md#how-can-i-allow-additional-web-origins-to-access-ollama",
       "description": "Fehlermeldung für Ollama 403-Fehler"
     },
     "ollamaConnectionError": {
-      "message": "{{  - Ollama-Server ist nicht erreichbar oder läuft nicht }}",
+      "message": " - Ollama-Server ist nicht erreichbar oder läuft nicht",
       "description": "Fehlermeldung für Ollama-Verbindungsfehler"
     },
     "unauthorizedError": {
-      "message": "{{  - Nicht autorisiert. Bitte überprüfen Sie Ihren API-Schlüssel. }}",
+      "message": " - Nicht autorisiert. Bitte überprüfen Sie Ihren API-Schlüssel.",
       "description": "Fehlermeldung für unautorisierten API-Zugriff"
     },
       "extensionReloadedError": {
-          "message": "{{ Erweiterung neu geladen oder aktualisiert. Bitte Seite neu laden. }}",
+          "message": "Erweiterung neu geladen oder aktualisiert. Bitte Seite neu laden.",
           "description": "Fehler für Erweiterungsneuladen"
       },
       "unknownError": {
-          "message": "{{ Unbekannter Fehler }}",
+          "message": "Unbekannter Fehler",
           "description": "Generischer Fehler"
       },
     "aiSpellcheckTitle": {
-      "message": "{{ KI-Rechtschreibprüfung & Textverarbeitung }}",
+      "message": "KI-Rechtschreibprüfung & Textverarbeitung",
       "description": "Haupttitel der Erweiterung"
     },
     "aboutDocumentation": {
-      "message": "{{ Über & Dokumentation ↗ }}",
+      "message": "Über & Dokumentation ↗",
       "description": "Link zur Dokumentation"
     },
     "writingToolsTitle": {
-      "message": "{{ Schreibwerkzeuge }}",
+      "message": "Schreibwerkzeuge",
       "description": "Titel für den Abschnitt Schreibwerkzeuge"
     },
     "spellcheckOption": {
-      "message": "{{ Rechtschreibprüfung }}",
+      "message": "Rechtschreibprüfung",
       "description": "Option für den Rechtschreibprüfungsmodus"
     },
     "proofreadOption": {
-      "message": "{{ Korrekturlesen }}",
+      "message": "Korrekturlesen",
       "description": "Option für den Korrekturlesemodus"
     },
     "customAiEditorOption": {
-      "message": "{{ Benutzerdefinierter KI-Editor }}",
+      "message": "Benutzerdefinierter KI-Editor",
       "description": "Option für den benutzerdefinierten KI-Editor-Modus"
     },
     "doubleCtrlStroke": {
-      "message": "{{ Doppelter CTRL-Anschlag }}",
+      "message": "Doppelter CTRL-Anschlag",
       "description": "Bezeichnung für den doppelten CTRL-Anschlag-Shortcut"
     },
     "tripleCtrlStroke": {
-      "message": "{{ Dreifacher CTRL-Anschlag }}",
+      "message": "Dreifacher CTRL-Anschlag",
       "description": "Bezeichnung für den dreifachen CTRL-Anschlag-Shortcut"
     },
     "quadrupleCtrlStroke": {
-      "message": "{{ Vierfacher CTRL-Anschlag }}",
+      "message": "Vierfacher CTRL-Anschlag",
       "description": "Bezeichnung für den vierfachen CTRL-Anschlag-Shortcut"
     },
     "customShortcutKey": {
-      "message": "{{ Benutzerdefinierte Shortcut-Taste }}",
+      "message": "Benutzerdefinierte Shortcut-Taste",
       "description": "Bezeichnung für die Option der benutzerdefinierten Shortcut-Taste"
     },
     "ollamaDocsLink": {
-      "message": "{{ Ollama-Dokumentation ↗ }}",
+      "message": "Ollama-Dokumentation ↗",
       "description": "Link zur Ollama-Dokumentation"
     },
     "openaiDocsLink": {
-      "message": "{{ OpenAI-Dokumentation ↗ }}",
+      "message": "OpenAI-Dokumentation ↗",
       "description": "Link zur OpenAI-Dokumentation"
     },
     "anthropicDocsLink": {
-      "message": "{{ Claude-API-Schlüssel erhalten ↗ }}",
+      "message": "Claude-API-Schlüssel erhalten ↗",
       "description": "Link zum Erhalten des Anthropic-API-Schlüssels"
     },
     "lmstudioDocsLink": {
-      "message": "{{ LM Studio-Dokumentation ↗ }}",
+      "message": "LM Studio-Dokumentation ↗",
       "description": "Link zur LM Studio-Dokumentation"
     },
     "geminiDocsLink": {
-      "message": "{{ Holen Sie sich Ihren KOSTENLOSEN Google Gemini-API-Schlüssel ↗ }}",
+      "message": "Holen Sie sich Ihren KOSTENLOSEN Google Gemini-API-Schlüssel ↗",
       "description": "Link zum Erhalten des Gemini-API-Schlüssels"
     },
     "deepseekDocsLink": {
-      "message": "{{ DeepSeek-API-Schlüssel erhalten ↗ }}",
+      "message": "DeepSeek-API-Schlüssel erhalten ↗",
       "description": "Link zum Erhalten des DeepSeek-API-Schlüssels"
     },
     "mistralDocsLink": {
-      "message": "{{ Mistral-API-Schlüssel erhalten ↗ }}",
+      "message": "Mistral-API-Schlüssel erhalten ↗",
       "description": "Link zum Erhalten des Mistral-API-Schlüssels"
     },
     "perplexityDocsLink": {
-      "message": "{{ Perplexity-API-Schlüssel erhalten ↗ }}",
+      "message": "Perplexity-API-Schlüssel erhalten ↗",
       "description": "Link zum Erhalten des Perplexity-API-Schlüssels"
     },
     "chromeDocsLink": {
-      "message": "{{ Chrome AI-Dokumentation ↗ }}",
+      "message": "Chrome AI-Dokumentation ↗",
       "description": "Link zur Chrome AI-Dokumentation"
     },
     "chromeAiNoteText": {
-      "message": "{{ Hinweis: Chrome AI ist eine Vorschaufunktion. Um sie zu nutzen, müssen Sie das Feature-Flag in Chrome aktivieren: }}",
+      "message": "Hinweis: Chrome AI ist eine Vorschaufunktion. Um sie zu nutzen, müssen Sie das Feature-Flag in Chrome aktivieren:",
       "description": "Hinweis zur Chrome AI-Vorschaufunktion"
     },
     "chromeAiEnableLink": {
-      "message": "{{ Chrome AI-Feature-Flag aktivieren }}",
+      "message": "Chrome AI-Feature-Flag aktivieren",
       "description": "Link zum Aktivieren des Chrome AI-Feature-Flags"
     },
     "openAiKeyPlaceholder": {
-      "message": "{{ OpenAI-API-Schlüssel }}",
+      "message": "OpenAI-API-Schlüssel",
       "description": "Platzhalter für die OpenAI-API-Schlüssel-Eingabe"
     },
     "anthropicKeyPlaceholder": {
-      "message": "{{ Anthropic-API-Schlüssel }}",
+      "message": "Anthropic-API-Schlüssel",
       "description": "Platzhalter für die Anthropic-API-Schlüssel-Eingabe"
     },
     "geminiKeyPlaceholder": {
-      "message": "{{ Google-API-Schlüssel }}",
+      "message": "Google-API-Schlüssel",
       "description": "Platzhalter für die Gemini-API-Schlüssel-Eingabe"
     },
     "deepseekKeyPlaceholder": {
-      "message": "{{ DeepSeek-API-Schlüssel }}",
+      "message": "DeepSeek-API-Schlüssel",
       "description": "Platzhalter für die DeepSeek-API-Schlüssel-Eingabe"
     },
     "mistralKeyPlaceholder": {
-      "message": "{{ Mistral AI-API-Schlüssel }}",
+      "message": "Mistral AI-API-Schlüssel",
       "description": "Platzhalter für die Mistral AI-API-Schlüssel-Eingabe"
     },
     "perplexityKeyPlaceholder": {
-      "message": "{{ Perplexity AI-API-Schlüssel }}",
+      "message": "Perplexity AI-API-Schlüssel",
       "description": "Platzhalter für die Perplexity AI-API-Schlüssel-Eingabe"
     },
     "ollamaUrlPlaceholder": {
-      "message": "{{ Ollama-URL }}",
+      "message": "Ollama-URL",
       "description": "Platzhalter für die Ollama-URL-Eingabe"
     },
     "lmstudioUrlPlaceholder": {
-      "message": "{{ LM Studio-URL }}",
+      "message": "LM Studio-URL",
       "description": "Platzhalter für die LM Studio-URL-Eingabe"
     },
     "modelNamePlaceholder": {
-      "message": "{{ Modellname }}",
+      "message": "Modellname",
       "description": "Platzhalter für die Modellnameneingabe"
     },
     "resetButton": {
-      "message": "{{ Zurücksetzen }}",
+      "message": "Zurücksetzen",
       "description": "Text für Zurücksetzen-Schaltflächen"
     },
     "customShortcutPlaceholder": {
-      "message": "{{ Zum Erfassen 'Aufzeichnen' drücken }}",
+      "message": "Zum Erfassen 'Aufzeichnen' drücken",
       "description": "Platzhalter für die benutzerdefinierte Shortcut-Eingabe"
     },
     "systemPromptPlaceholder": {
-      "message": "{{ System-Prompt }}",
+      "message": "System-Prompt",
       "description": "Platzhalter für die System-Prompt-Eingabe"
     },
     "ollamaProvider": {
-      "message": "{{ Ollama }}",
+      "message": "Ollama",
       "description": "Name des Ollama-Anbieters"
     },
     "openaiProvider": {
-      "message": "{{ OpenAI }}",
+      "message": "OpenAI",
       "description": "Name des OpenAI-Anbieters"
     },
     "anthropicProvider": {
-      "message": "{{ Anthropic Claude }}",
+      "message": "Anthropic Claude",
       "description": "Name des Anthropic-Anbieters"
     },
     "lmstudioProvider": {
-      "message": "{{ LM Studio }}",
+      "message": "LM Studio",
       "description": "Name des LM Studio-Anbieters"
     },
     "geminiProvider": {
-      "message": "{{ Google Gemini }}",
+      "message": "Google Gemini",
       "description": "Name des Google Gemini-Anbieters"
     },
     "deepseekProvider": {
-      "message": "{{ DeepSeek }}",
+      "message": "DeepSeek",
       "description": "Name des DeepSeek-Anbieters"
     },
     "mistralProvider": {
-      "message": "{{ Mistral AI }}",
+      "message": "Mistral AI",
       "description": "Name des Mistral-Anbieters"
     },
     "perplexityProvider": {
-      "message": "{{ Perplexity AI }}",
+      "message": "Perplexity AI",
       "description": "Name des Perplexity-Anbieters"
     },
     "chromeProvider": {
-      "message": "{{ Chrome AI (Vorschau) }}",
+      "message": "Chrome AI (Vorschau)",
       "description": "Name des Chrome AI-Anbieters"
     }
   }

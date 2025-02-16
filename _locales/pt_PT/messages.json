@@ -1,0 +1,366 @@
+{
+    "extensionName": {
+      "message": "Typollama – Verificação ortográfica com IA e processamento de texto",
+      "description": "Nome da extensão"
+    },
+    "extensionDescription": {
+      "message": "Melhore a sua escrita com o Typollama – uma extensão do Chrome com tecnologia de IA para verificação ortográfica e processamento de texto avançado.",
+      "description": "Descrição da extensão"
+    },
+    "providerLabel": {
+      "message": "Fornecedor:",
+      "description": "Etiqueta para seleção de fornecedor"
+    },
+    "modelNameLabel": {
+      "message": "Nome do modelo:",
+      "description": "Etiqueta para entrada de nome do modelo"
+    },
+      "resetModelName": {
+      "message": "Repor nome do modelo",
+      "description": "Texto do botão para repor o nome do modelo"
+    },
+    "promptTypeLabel": {
+      "message": "Tipo de prompt:",
+      "description": "Etiqueta para seleção de tipo de prompt"
+    },
+    "systemPromptLabel": {
+      "message": "Prompt do sistema:",
+      "description": "Etiqueta para entrada de prompt do sistema"
+    },
+    "resetPrompt": {
+      "message": "Repor prompt",
+      "description": "Texto do botão para repor o prompt"
+    },
+    "shortcutModeLabel": {
+      "message": "Modo de atalho:",
+      "description": "Etiqueta para seleção de modo de atalho"
+    },
+    "recordShortcut": {
+      "message": "Gravar atalho",
+      "description": "Texto do botão para gravar atalho"
+    },
+    "customShortcutLabel": {
+      "message": "Atalho personalizado:",
+      "description": "Etiqueta para entrada de atalho personalizado"
+    },
+    "copyToClipboardLabel": {
+      "message": "Copiar para a área de transferência",
+      "description": "Etiqueta de caixa de verificação para opção de copiar para a área de transferência"
+    },
+    "advancedSettingsLabel": {
+      "message": "Definições avançadas",
+      "description": "Texto de alternância para definições avançadas"
+    },
+    "ollamaUrlLabel": {
+      "message": "URL do Ollama:",
+      "description": "Etiqueta para entrada de URL do Ollama"
+    },
+    "resetOllamaUrl": {
+      "message": "Repor URL do Ollama",
+      "description": "Texto do botão para repor o URL do Ollama"
+    },
+    "lmstudioUrlLabel": {
+      "message": "URL do LM Studio:",
+      "description": "Etiqueta para entrada de URL do LM Studio"
+    },
+    "resetLmstudioUrl": {
+      "message": "Repor URL do LM Studio",
+      "description": "Texto do botão para repor o URL do LM Studio"
+    },
+    "openAiKeyLabel": {
+      "message": "Chave API da OpenAI:",
+      "description": "Etiqueta para entrada de chave API da OpenAI"
+    },
+    "anthropicKeyLabel": {
+      "message": "Chave API da Anthropic:",
+      "description": "Etiqueta para entrada de chave API da Anthropic"
+    },
+    "geminiKeyLabel": {
+      "message": "Chave API da Gemini:",
+      "description": "Etiqueta para entrada de chave API da Gemini"
+    },
+    "deepseekKeyLabel": {
+      "message": "Chave API da Deepseek:",
+      "description": "Etiqueta para entrada de chave API da Deepseek"
+    },
+    "mistralKeyLabel": {
+      "message": "Chave API da Mistral:",
+      "description": "Etiqueta para entrada de chave API da Mistral"
+    },
+    "perplexityKeyLabel": {
+      "message": "Chave API da Perplexity:",
+      "description": "Etiqueta para entrada de chave API da Perplexity"
+    },
+    "ollamaDocs": {
+      "message": "Documentação do Ollama",
+      "description": "Texto do link para a documentação do Ollama"
+    },
+    "openaiDocs": {
+      "message": "Documentação da OpenAI",
+      "description": "Texto do link para a documentação da OpenAI"
+    },
+    "anthropicDocs": {
+      "message": "Documentação da Anthropic",
+      "description": "Texto do link para a documentação da Anthropic"
+    },
+    "lmstudioDocs": {
+      "message": "Documentação do LM Studio",
+      "description": "Texto do link para a documentação do LM Studio"
+    },
+    "geminiDocs": {
+      "message": "Documentação da Gemini",
+      "description": "Texto do link para a documentação da Gemini"
+    },
+    "chromeDocs": {
+      "message": "Documentação do Chrome AI",
+      "description": "Texto do link para a documentação do Chrome AI"
+    },
+    "deepseekDocs": {
+      "message": "Documentação do Deepseek",
+      "description": "Texto do link para a documentação do Deepseek"
+    },
+    "mistralDocs": {
+      "message": "Documentação do Mistral",
+      "description": "Texto do link para a documentação do Mistral"
+    },
+    "perplexityDocs": {
+      "message": "Documentação do Perplexity",
+      "description": "Texto do link para a documentação do Perplexity"
+    },
+    "chromeAiNote": {
+      "message": "Nota: O Chrome AI usa funcionalidades experimentais e pode não estar disponível em todas as regiões.",
+      "description": "Nota sobre o Chrome AI"
+    },
+      "recordingPlaceholder": {
+      "message": "A gravar... pressione as teclas, termine com Enter",
+      "description": "Texto de espaço reservado para gravação de atalho"
+    },
+    "recordingCompletePlaceholder": {
+      "message": "Gravação concluída",
+      "description": "Texto de espaço reservado após a gravação de atalho"
+    },
+      "stopRecording": {
+      "message": "Parar gravação",
+      "description": "Botão Parar gravação"
+    },
+      "contextMenuSpellcheck": {
+      "message": "Verificar ortografia com IA",
+      "description": "Item de menu de contexto para verificação ortográfica"
+    },
+    "contextMenuProofread": {
+      "message": "Reescrever com IA",
+      "description": "Item de menu de contexto para revisão"
+    },
+    "contextMenuCustom": {
+      "message": "Escrita personalizada com IA",
+      "description": "Item de menu de contexto para prompt personalizado"
+    },
+    "apiKeyRequired": {
+      "message": "Chave API necessária",
+      "description": "Mensagem de erro para chave API em falta"
+    },
+    "urlRequired": {
+      "message": "URL necessária",
+      "description": "Mensagem de erro para URL em falta"
+    },
+    "invalidUrl": {
+      "message": "URL {0} inválido: {1}",
+      "description": "Mensagem de erro para URL inválido",
+      "placeholders": {
+        "0": {
+          "content": "$1"
+        },
+        "1": {
+          "content": "$2"
+        }
+      }
+    },
+    "ollama403Error": {
+      "message": " - O Ollama requer origens de acesso adicionais. Consulte: https://github.com/ollama/ollama/blob/main/docs/faq.md#how-can-i-allow-additional-web-origins-to-access-ollama",
+      "description": "Mensagem de erro para erro 403 do Ollama"
+    },
+    "ollamaConnectionError": {
+      "message": " - Servidor Ollama inacessível ou não está em execução",
+      "description": "Mensagem de erro para erro de ligação Ollama"
+    },
+    "unauthorizedError": {
+      "message": " - Não autorizado. Verifique a sua chave API.",
+      "description": "Mensagem de erro para acesso API não autorizado"
+    },
+      "extensionReloadedError": {
+          "message": "Extensão recarregada ou atualizada. Por favor, atualize a página.",
+          "description": "Erro para recarregamento da extensão"
+      },
+      "unknownError": {
+          "message": "Erro desconhecido",
+          "description": "Erro genérico"
+      },
+    "aiSpellcheckTitle": {
+      "message": "Verificação ortográfica com IA e processamento de texto",
+      "description": "Título principal da extensão"
+    },
+    "aboutDocumentation": {
+      "message": "Sobre e documentação ↗",
+      "description": "Link para a documentação"
+    },
+    "writingToolsTitle": {
+      "message": "Ferramentas de escrita",
+      "description": "Título para a seção de ferramentas de escrita"
+    },
+    "spellcheckOption": {
+      "message": "Verificação ortográfica",
+      "description": "Opção para modo de verificação ortográfica"
+    },
+    "proofreadOption": {
+      "message": "Reescrever",
+      "description": "Opção para modo de revisão"
+    },
+    "customAiEditorOption": {
+      "message": "Editor de IA personalizado",
+      "description": "Opção para modo de editor de IA personalizado"
+    },
+    "doubleCtrlStroke": {
+      "message": "Traço duplo de CTRL",
+      "description": "Etiqueta para atalho de traço duplo de CTRL"
+    },
+    "tripleCtrlStroke": {
+      "message": "Traço triplo de CTRL",
+      "description": "Etiqueta para atalho de traço triplo de CTRL"
+    },
+    "quadrupleCtrlStroke": {
+      "message": "Traço quádruplo de CTRL",
+      "description": "Etiqueta para atalho de traço quádruplo de CTRL"
+    },
+    "customShortcutKey": {
+      "message": "Tecla de atalho personalizada",
+      "description": "Etiqueta para opção de tecla de atalho personalizada"
+    },
+    "ollamaDocsLink": {
+      "message": "Documentação do Ollama ↗",
+      "description": "Link para a documentação do Ollama"
+    },
+    "openaiDocsLink": {
+      "message": "Documentação da OpenAI ↗",
+      "description": "Link para a documentação da OpenAI"
+    },
+    "anthropicDocsLink": {
+      "message": "Obtenha a chave API da Claude ↗",
+      "description": "Link para obter a chave API da Anthropic"
+    },
+    "lmstudioDocsLink": {
+      "message": "Documentação do LM Studio ↗",
+      "description": "Link para a documentação do LM Studio"
+    },
+    "geminiDocsLink": {
+      "message": "Obtenha a sua chave API GRATUITA do Google Gemini ↗",
+      "description": "Link para obter a chave API da Gemini"
+    },
+    "deepseekDocsLink": {
+      "message": "Obtenha a chave API da DeepSeek ↗",
+      "description": "Link para obter a chave API da DeepSeek"
+    },
+    "mistralDocsLink": {
+      "message": "Obtenha a chave API da Mistral ↗",
+      "description": "Link para obter a chave API da Mistral"
+    },
+    "perplexityDocsLink": {
+      "message": "Obtenha a chave API da Perplexity ↗",
+      "description": "Link para obter a chave API da Perplexity"
+    },
+    "chromeDocsLink": {
+      "message": "Documentação do Chrome AI ↗",
+      "description": "Link para a documentação do Chrome AI"
+    },
+    "chromeAiNoteText": {
+      "message": "Nota: O Chrome AI é uma funcionalidade de pré-visualização. Para usá-lo, precisa de ativar o sinalizador de funcionalidade no Chrome:",
+      "description": "Nota sobre a funcionalidade de pré-visualização do Chrome AI"
+    },
+    "chromeAiEnableLink": {
+      "message": "Ativar sinalizador de funcionalidade do Chrome AI",
+      "description": "Link para ativar o sinalizador de funcionalidade do Chrome AI"
+    },
+    "openAiKeyPlaceholder": {
+      "message": "Chave API da OpenAI",
+      "description": "Espaço reservado para entrada de chave API da OpenAI"
+    },
+    "anthropicKeyPlaceholder": {
+      "message": "Chave API da Anthropic",
+      "description": "Espaço reservado para entrada de chave API da Anthropic"
+    },
+    "geminiKeyPlaceholder": {
+      "message": "Chave API da Google",
+      "description": "Espaço reservado para entrada de chave API da Gemini"
+    },
+    "deepseekKeyPlaceholder": {
+      "message": "Chave API da DeepSeek",
+      "description": "Espaço reservado para entrada de chave API da DeepSeek"
+    },
+    "mistralKeyPlaceholder": {
+      "message": "Chave API da Mistral AI",
+      "description": "Espaço reservado para entrada de chave API da Mistral AI"
+    },
+    "perplexityKeyPlaceholder": {
+      "message": "Chave API da Perplexity AI",
+      "description": "Espaço reservado para entrada de chave API da Perplexity AI"
+    },
+    "ollamaUrlPlaceholder": {
+      "message": "URL do Ollama",
+      "description": "Espaço reservado para entrada de URL do Ollama"
+    },
+    "lmstudioUrlPlaceholder": {
+      "message": "URL do LM Studio",
+      "description": "Espaço reservado para entrada de URL do LM Studio"
+    },
+    "modelNamePlaceholder": {
+      "message": "Nome do modelo",
+      "description": "Espaço reservado para entrada de nome do modelo"
+    },
+    "resetButton": {
+      "message": "Repor",
+      "description": "Texto para botões de repor"
+    },
+    "customShortcutPlaceholder": {
+      "message": "Pressione 'Gravar' para capturar",
+      "description": "Espaço reservado para entrada de atalho personalizado"
+    },
+    "systemPromptPlaceholder": {
+      "message": "Prompt do sistema",
+      "description": "Espaço reservado para entrada de prompt do sistema"
+    },
+    "ollamaProvider": {
+      "message": "Ollama",
+      "description": "Nome do fornecedor Ollama"
+    },
+    "openaiProvider": {
+      "message": "OpenAI",
+      "description": "Nome do fornecedor OpenAI"
+    },
+    "anthropicProvider": {
+      "message": "Anthropic Claude",
+      "description": "Nome do fornecedor Anthropic"
+    },
+    "lmstudioProvider": {
+      "message": "LM Studio",
+      "description": "Nome do fornecedor LM Studio"
+    },
+    "geminiProvider": {
+      "message": "Google Gemini",
+      "description": "Nome do fornecedor Google Gemini"
+    },
+    "deepseekProvider": {
+      "message": "DeepSeek",
+      "description": "Nome do fornecedor DeepSeek"
+    },
+    "mistralProvider": {
+      "message": "Mistral AI",
+      "description": "Nome do fornecedor Mistral"
+    },
+    "perplexityProvider": {
+      "message": "Perplexity AI",
+      "description": "Nome do fornecedor Perplexity"
+    },
+    "chromeProvider": {
+      "message": "Chrome AI (Pré-visualização)",
+      "description": "Nome do fornecedor Chrome AI"
+    }
+  }

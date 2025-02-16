@@ -176,15 +176,15 @@
     }
   },
   "ollama403Error": {
-    "message": " - Ollama को अतिरिक्त एक्सेस ऑरिजिन्स की आवश्यकता है। देखें: https://github.com/ollama/ollama/blob/main/docs/faq.md#how-can-i-allow-additional-web-origins-to-access-ollama",
+    "message": "- Ollama को अतिरिक्त एक्सेस ऑरिजिन्स की आवश्यकता है। देखें: https://github.com/ollama/ollama/blob/main/docs/faq.md#how-can-i-allow-additional-web-origins-to-access-ollama",
     "description": "Ollama 403 त्रुटि के लिए त्रुटि संदेश"
   },
   "ollamaConnectionError": {
-    "message": " - Ollama सर्वर अप्राप्य है या चल नहीं रहा है",
+    "message": "- Ollama सर्वर अप्राप्य है या चल नहीं रहा है",
     "description": "Ollama कनेक्शन त्रुटि के लिए त्रुटि संदेश"
   },
   "unauthorizedError": {
-    "message": " - अनधिकृत। कृपया अपनी API कुंजी जांचें।",
+    "message": "- अनधिकृत। कृपया अपनी API कुंजी जांचें।",
     "description": "अनधिकृत API एक्सेस के लिए त्रुटि संदेश"
   },
     "extensionReloadedError": {

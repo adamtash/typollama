@@ -176,15 +176,15 @@
     }
   },
   "ollama403Error": {
-    "message": " - Ollama wymaga dodatkowych źródeł dostępu. Zobacz: https://github.com/ollama/ollama/blob/main/docs/faq.md#how-can-i-allow-additional-web-origins-to-access-ollama",
+    "message": "- Ollama wymaga dodatkowych źródeł dostępu. Zobacz: https://github.com/ollama/ollama/blob/main/docs/faq.md#how-can-i-allow-additional-web-origins-to-access-ollama",
     "description": "Komunikat o błędzie dla błędu 403 Ollama"
   },
   "ollamaConnectionError": {
-    "message": " - Serwer Ollama jest niedostępny lub nie działa",
+    "message": "- Serwer Ollama jest niedostępny lub nie działa",
     "description": "Komunikat o błędzie dla błędu połączenia Ollama"
   },
   "unauthorizedError": {
-    "message": " - Nieautoryzowany. Sprawdź swój klucz API.",
+    "message": "- Nieautoryzowany. Sprawdź swój klucz API.",
     "description": "Komunikat o błędzie dla nieautoryzowanego dostępu do API"
   },
     "extensionReloadedError": {

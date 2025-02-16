@@ -176,15 +176,15 @@
     }
   },
   "ollama403Error": {
-    "message": " - Ollama requires additional access origins. See: https://github.com/ollama/ollama/blob/main/docs/faq.md#how-can-i-allow-additional-web-origins-to-access-ollama",
+    "message": "- Ollama requires additional access origins. See: https://github.com/ollama/ollama/blob/main/docs/faq.md#how-can-i-allow-additional-web-origins-to-access-ollama",
     "description": "Error message for Ollama 403 error"
   },
   "ollamaConnectionError": {
-    "message": " - Ollama server is unreachable or not running",
+    "message": "- Ollama server is unreachable or not running",
     "description": "Error message for Ollama connection error"
   },
   "unauthorizedError": {
-    "message": " - Unauthorized. Please check your API key.",
+    "message": "- Unauthorized. Please check your API key.",
     "description": "Error message for unauthorized API access"
   },
     "extensionReloadedError": {

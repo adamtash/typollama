@@ -176,15 +176,15 @@
     }
   },
   "ollama403Error": {
-    "message": " - Ollama yêu cầu thêm nguồn gốc truy cập. Xem: https://github.com/ollama/ollama/blob/main/docs/faq.md#how-can-i-allow-additional-web-origins-to-access-ollama",
+    "message": "- Ollama yêu cầu thêm nguồn gốc truy cập. Xem: https://github.com/ollama/ollama/blob/main/docs/faq.md#how-can-i-allow-additional-web-origins-to-access-ollama",
     "description": "Thông báo lỗi cho lỗi 403 của Ollama"
   },
   "ollamaConnectionError": {
-    "message": " - Máy chủ Ollama không thể truy cập hoặc không chạy",
+    "message": "- Máy chủ Ollama không thể truy cập hoặc không chạy",
     "description": "Thông báo lỗi cho lỗi kết nối Ollama"
   },
   "unauthorizedError": {
-    "message": " - Chưa được ủy quyền. Vui lòng kiểm tra khóa API của bạn.",
+    "message": "- Chưa được ủy quyền. Vui lòng kiểm tra khóa API của bạn.",
     "description": "Thông báo lỗi cho truy cập API trái phép"
   },
     "extensionReloadedError": {

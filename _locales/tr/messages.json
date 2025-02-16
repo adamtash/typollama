@@ -176,15 +176,15 @@
     }
   },
   "ollama403Error": {
-    "message": " - Ollama ek erişim kaynakları gerektirir.  Bakınız: https://github.com/ollama/ollama/blob/main/docs/faq.md#how-can-i-allow-additional-web-origins-to-access-ollama",
+    "message": "- Ollama ek erişim kaynakları gerektirir.  Bakınız: https://github.com/ollama/ollama/blob/main/docs/faq.md#how-can-i-allow-additional-web-origins-to-access-ollama",
     "description": "Ollama 403 hatası için hata mesajı"
   },
   "ollamaConnectionError": {
-    "message": " - Ollama sunucusuna ulaşılamıyor veya çalışmıyor",
+    "message": "- Ollama sunucusuna ulaşılamıyor veya çalışmıyor",
     "description": "Ollama bağlantı hatası için hata mesajı"
   },
   "unauthorizedError": {
-    "message": " - Yetkisiz. Lütfen API anahtarınızı kontrol edin.",
+    "message": "- Yetkisiz. Lütfen API anahtarınızı kontrol edin.",
     "description": "Yetkisiz API erişimi için hata mesajı"
   },
     "extensionReloadedError": {

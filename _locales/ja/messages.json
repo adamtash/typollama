@@ -1,170 +1,170 @@
 {
     "extensionName": {
-      "message": "{{ Typollama – AI スペルチェック＆テキスト処理 }}",
+      "message": "Typollama – AI スペルチェック＆テキスト処理",
       "description": "拡張機能の名前"
     },
     "extensionDescription": {
-      "message": "{{ Typollama で文章作成を強化 – スペルチェックと高度なテキスト処理のための AI 搭載 Chrome 拡張機能。 }}",
+      "message": "Typollama で文章作成を強化 – スペルチェックと高度なテキスト処理のための AI 搭載 Chrome 拡張機能。",
       "description": "拡張機能の説明"
     },
     "providerLabel": {
-      "message": "{{ プロバイダー: }}",
+      "message": "プロバイダー:",
       "description": "プロバイダー選択のラベル"
     },
     "modelNameLabel": {
-      "message": "{{ モデル名: }}",
+      "message": "モデル名:",
       "description": "モデル名入力のラベル"
     },
       "resetModelName": {
-      "message": "{{ モデル名をリセット }}",
+      "message": "モデル名をリセット",
       "description": "モデル名をリセットするボタンのテキスト"
     },
     "promptTypeLabel": {
-      "message": "{{ プロンプトタイプ: }}",
+      "message": "プロンプトタイプ:",
       "description": "プロンプトタイプ選択のラベル"
     },
     "systemPromptLabel": {
-      "message": "{{ システムプロンプト: }}",
+      "message": "システムプロンプト:",
       "description": "システムプロンプト入力のラベル"
     },
     "resetPrompt": {
-      "message": "{{ プロンプトをリセット }}",
+      "message": "プロンプトをリセット",
       "description": "プロンプトをリセットするボタンのテキスト"
     },
     "shortcutModeLabel": {
-      "message": "{{ ショートカットモード: }}",
+      "message": "ショートカットモード:",
       "description": "ショートカットモード選択のラベル"
     },
     "recordShortcut": {
-      "message": "{{ ショートカットを記録 }}",
+      "message": "ショートカットを記録",
       "description": "ショートカットを記録するボタンのテキスト"
     },
     "customShortcutLabel": {
-      "message": "{{ カスタムショートカット: }}",
+      "message": "カスタムショートカット:",
       "description": "カスタムショートカット入力のラベル"
     },
     "copyToClipboardLabel": {
-      "message": "{{ クリップボードにコピー }}",
+      "message": "クリップボードにコピー",
       "description": "クリップボードにコピーオプションのチェックボックスラベル"
     },
     "advancedSettingsLabel": {
-      "message": "{{ 詳細設定 }}",
+      "message": "詳細設定",
       "description": "詳細設定の切り替えテキスト"
     },
     "ollamaUrlLabel": {
-      "message": "{{ Ollama URL: }}",
+      "message": "Ollama URL:",
       "description": "Ollama URL 入力のラベル"
     },
     "resetOllamaUrl": {
-      "message": "{{ Ollama URL をリセット }}",
+      "message": "Ollama URL をリセット",
       "description": "Ollama URL をリセットするボタンのテキスト"
     },
     "lmstudioUrlLabel": {
-      "message": "{{ LM Studio URL: }}",
+      "message": "LM Studio URL:",
       "description": "LM Studio URL 入力のラベル"
     },
     "resetLmstudioUrl": {
-      "message": "{{ LM Studio URL をリセット }}",
+      "message": "LM Studio URL をリセット",
       "description": "LM Studio URL をリセットするボタンのテキスト"
     },
     "openAiKeyLabel": {
-      "message": "{{ OpenAI API キー: }}",
+      "message": "OpenAI API キー:",
       "description": "OpenAI API キー入力のラベル"
     },
     "anthropicKeyLabel": {
-      "message": "{{ Anthropic API キー: }}",
+      "message": "Anthropic API キー:",
       "description": "Anthropic API キー入力のラベル"
     },
     "geminiKeyLabel": {
-      "message": "{{ Gemini API キー: }}",
+      "message": "Gemini API キー:",
       "description": "Gemini API キー入力のラベル"
     },
     "deepseekKeyLabel": {
-      "message": "{{ Deepseek API キー: }}",
+      "message": "Deepseek API キー:",
       "description": "Deepseek API キー入力のラベル"
     },
     "mistralKeyLabel": {
-      "message": "{{ Mistral API キー: }}",
+      "message": "Mistral API キー:",
       "description": "Mistral API キー入力のラベル"
     },
     "perplexityKeyLabel": {
-      "message": "{{ Perplexity API キー: }}",
+      "message": "Perplexity API キー:",
       "description": "Perplexity API キー入力のラベル"
     },
     "ollamaDocs": {
-      "message": "{{ Ollama ドキュメント }}",
+      "message": "Ollama ドキュメント",
       "description": "Ollama ドキュメントへのリンクテキスト"
     },
     "openaiDocs": {
-      "message": "{{ OpenAI ドキュメント }}",
+      "message": "OpenAI ドキュメント",
       "description": "OpenAI ドキュメントへのリンクテキスト"
     },
     "anthropicDocs": {
-      "message": "{{ Anthropic ドキュメント }}",
+      "message": "Anthropic ドキュメント",
       "description": "Anthropic ドキュメントへのリンクテキスト"
     },
     "lmstudioDocs": {
-      "message": "{{ LM Studio ドキュメント }}",
+      "message": "LM Studio ドキュメント",
       "description": "LM Studio ドキュメントへのリンクテキスト"
     },
     "geminiDocs": {
-      "message": "{{ Gemini ドキュメント }}",
+      "message": "Gemini ドキュメント",
       "description": "Gemini ドキュメントへのリンクテキスト"
     },
     "chromeDocs": {
-      "message": "{{ Chrome AI ドキュメント }}",
+      "message": "Chrome AI ドキュメント",
       "description": "Chrome AI ドキュメントへのリンクテキスト"
     },
     "deepseekDocs": {
-      "message": "{{ Deepseek ドキュメント }}",
+      "message": "Deepseek ドキュメント",
       "description": "Deepseek ドキュメントへのリンクテキスト"
     },
     "mistralDocs": {
-      "message": "{{ Mistral ドキュメント }}",
+      "message": "Mistral ドキュメント",
       "description": "Mistral ドキュメントへのリンクテキスト"
     },
     "perplexityDocs": {
-      "message": "{{ Perplexity ドキュメント }}",
+      "message": "Perplexity ドキュメント",
       "description": "Perplexity ドキュメントへのリンクテキスト"
     },
     "chromeAiNote": {
-      "message": "{{ 注: Chrome AI は実験的な機能を使用しており、一部の地域では利用できない場合があります。 }}",
+      "message": "注: Chrome AI は実験的な機能を使用しており、一部の地域では利用できない場合があります。",
       "description": "Chrome AI に関する注意"
     },
       "recordingPlaceholder": {
-      "message": "{{ 録音中... キーを押して、Enter キーで終了 }}",
+      "message": "録音中... キーを押して、Enter キーで終了",
       "description": "ショートカット記録のプレースホルダーテキスト"
     },
     "recordingCompletePlaceholder": {
-      "message": "{{ 録音完了 }}",
+      "message": "録音完了",
       "description": "ショートカット記録後のプレースホルダーテキスト"
     },
       "stopRecording": {
-      "message": "{{ 録音を停止 }}",
+      "message": "録音を停止",
       "description": "録音停止ボタン"
     },
       "contextMenuSpellcheck": {
-      "message": "{{ AI でスペルチェック }}",
+      "message": "AI でスペルチェック",
       "description": "スペルチェックのコンテキストメニュー項目"
     },
     "contextMenuProofread": {
-      "message": "{{ AI で書き換え }}",
+      "message": "AI で書き換え",
       "description": "校正のコンテキストメニュー項目"
     },
     "contextMenuCustom": {
-      "message": "{{ AI でカスタムライティング }}",
+      "message": "AI でカスタムライティング",
       "description": "カスタムプロンプトのコンテキストメニュー項目"
     },
     "apiKeyRequired": {
-      "message": "{{ API キーが必要です }}",
+      "message": "API キーが必要です",
       "description": "API キーがない場合のエラーメッセージ"
     },
     "urlRequired": {
-      "message": "{{ URL が必要です }}",
+      "message": "URL が必要です",
       "description": "URL がない場合のエラーメッセージ"
     },
     "invalidUrl": {
-      "message": "{{ 無効な {0} URL: {1} }}",
+      "message": "無効な {0} URL: {1}",
       "description": "無効な URL のエラーメッセージ",
       "placeholders": {
         "0": {
@@ -176,191 +176,191 @@
       }
     },
     "ollama403Error": {
-      "message": "{{  - Ollama には追加のアクセス元が必要です。参照: https://github.com/ollama/ollama/blob/main/docs/faq.md#how-can-i-allow-additional-web-origins-to-access-ollama }}",
+      "message": " - Ollama には追加のアクセス元が必要です。参照: https://github.com/ollama/ollama/blob/main/docs/faq.md#how-can-i-allow-additional-web-origins-to-access-ollama",
       "description": "Ollama 403 エラーのエラーメッセージ"
     },
     "ollamaConnectionError": {
-      "message": "{{  - Ollama サーバーに到達できないか、実行されていません }}",
+      "message": " - Ollama サーバーに到達できないか、実行されていません",
       "description": "Ollama 接続エラーのエラーメッセージ"
     },
     "unauthorizedError": {
-      "message": "{{  - 認証されていません。API キーを確認してください。 }}",
+      "message": " - 認証されていません。API キーを確認してください。",
       "description": "認証されていない API アクセスのエラーメッセージ"
     },
       "extensionReloadedError": {
-          "message": "{{ 拡張機能がリロードまたは更新されました。ページを更新してください。 }}",
+          "message": "拡張機能がリロードまたは更新されました。ページを更新してください。",
           "description": "拡張機能のリロードのエラー"
       },
       "unknownError": {
-          "message": "{{ 不明なエラー }}",
+          "message": "不明なエラー",
           "description": "一般的なエラー"
       },
     "aiSpellcheckTitle": {
-      "message": "{{ AI スペルチェック＆テキスト処理 }}",
+      "message": "AI スペルチェック＆テキスト処理",
       "description": "拡張機能のメインタイトル"
     },
     "aboutDocumentation": {
-      "message": "{{ バージョン情報とドキュメント ↗ }}",
+      "message": "バージョン情報とドキュメント ↗",
       "description": "ドキュメントへのリンク"
     },
     "writingToolsTitle": {
-      "message": "{{ ライティングツール }}",
+      "message": "ライティングツール",
       "description": "ライティングツールセクションのタイトル"
     },
     "spellcheckOption": {
-      "message": "{{ スペルチェック }}",
+      "message": "スペルチェック",
       "description": "スペルチェックモードのオプション"
     },
     "proofreadOption": {
-      "message": "{{ 書き換え }}",
+      "message": "書き換え",
       "description": "校正モードのオプション"
     },
     "customAiEditorOption": {
-      "message": "{{ カスタム AI エディター }}",
+      "message": "カスタム AI エディター",
       "description": "カスタム AI エディターモードのオプション"
     },
     "doubleCtrlStroke": {
-      "message": "{{ ダブル CTRL ストローク }}",
+      "message": "ダブル CTRL ストローク",
       "description": "ダブル CTRL ストロークショートカットのラベル"
     },
     "tripleCtrlStroke": {
-      "message": "{{ トリプル CTRL ストローク }}",
+      "message": "トリプル CTRL ストローク",
       "description": "トリプル CTRL ストロークショートカットのラベル"
     },
     "quadrupleCtrlStroke": {
-      "message": "{{ クアドラプル CTRL ストローク }}",
+      "message": "クアドラプル CTRL ストローク",
       "description": "クアドラプル CTRL ストロークショートカットのラベル"
     },
     "customShortcutKey": {
-      "message": "{{ カスタムショートカットキー }}",
+      "message": "カスタムショートカットキー",
       "description": "カスタムショートカットキーオプションのラベル"
     },
     "ollamaDocsLink": {
-      "message": "{{ Ollama ドキュメント ↗ }}",
+      "message": "Ollama ドキュメント ↗",
       "description": "Ollama ドキュメントへのリンク"
     },
     "openaiDocsLink": {
-      "message": "{{ OpenAI ドキュメント ↗ }}",
+      "message": "OpenAI ドキュメント ↗",
       "description": "OpenAI ドキュメントへのリンク"
     },
     "anthropicDocsLink": {
-      "message": "{{ Claude API キーを取得 ↗ }}",
+      "message": "Claude API キーを取得 ↗",
       "description": "Anthropic API キーを取得するためのリンク"
     },
     "lmstudioDocsLink": {
-      "message": "{{ LM Studio ドキュメント ↗ }}",
+      "message": "LM Studio ドキュメント ↗",
       "description": "LM Studio ドキュメントへのリンク"
     },
     "geminiDocsLink": {
-      "message": "{{ 無料の Google Gemini API キーを入手 ↗ }}",
+      "message": "無料の Google Gemini API キーを入手 ↗",
       "description": "Gemini API キーを取得するためのリンク"
     },
     "deepseekDocsLink": {
-      "message": "{{ DeepSeek API キーを取得 ↗ }}",
+      "message": "DeepSeek API キーを取得 ↗",
       "description": "DeepSeek API キーを取得するためのリンク"
     },
     "mistralDocsLink": {
-      "message": "{{ Mistral API キーを取得 ↗ }}",
+      "message": "Mistral API キーを取得 ↗",
       "description": "Mistral API キーを取得するためのリンク"
     },
     "perplexityDocsLink": {
-      "message": "{{ Perplexity API キーを取得 ↗ }}",
+      "message": "Perplexity API キーを取得 ↗",
       "description": "Perplexity API キーを取得するためのリンク"
     },
     "chromeDocsLink": {
-      "message": "{{ Chrome AI ドキュメント ↗ }}",
+      "message": "Chrome AI ドキュメント ↗",
       "description": "Chrome AI ドキュメントへのリンク"
     },
     "chromeAiNoteText": {
-      "message": "{{ 注: Chrome AI はプレビュー機能です。使用するには、Chrome で機能フラグを有効にする必要があります: }}",
+      "message": "注: Chrome AI はプレビュー機能です。使用するには、Chrome で機能フラグを有効にする必要があります:",
       "description": "Chrome AI プレビュー機能に関する注意"
     },
     "chromeAiEnableLink": {
-      "message": "{{ Chrome AI 機能フラグを有効にする }}",
+      "message": "Chrome AI 機能フラグを有効にする",
       "description": "Chrome AI 機能フラグを有効にするためのリンク"
     },
     "openAiKeyPlaceholder": {
-      "message": "{{ OpenAI API キー }}",
+      "message": "OpenAI API キー",
       "description": "OpenAI API キー入力のプレースホルダー"
     },
     "anthropicKeyPlaceholder": {
-      "message": "{{ Anthropic API キー }}",
+      "message": "Anthropic API キー",
       "description": "Anthropic API キー入力のプレースホルダー"
     },
     "geminiKeyPlaceholder": {
-      "message": "{{ Google API キー }}",
+      "message": "Google API キー",
       "description": "Gemini API キー入力のプレースホルダー"
     },
     "deepseekKeyPlaceholder": {
-      "message": "{{ DeepSeek API キー }}",
+      "message": "DeepSeek API キー",
       "description": "DeepSeek API キー入力のプレースホルダー"
     },
     "mistralKeyPlaceholder": {
-      "message": "{{ Mistral AI API キー }}",
+      "message": "Mistral AI API キー",
       "description": "Mistral AI API キー入力のプレースホルダー"
     },
     "perplexityKeyPlaceholder": {
-      "message": "{{ Perplexity AI API キー }}",
+      "message": "Perplexity AI API キー",
       "description": "Perplexity AI API キー入力のプレースホルダー"
     },
     "ollamaUrlPlaceholder": {
-      "message": "{{ Ollama URL }}",
+      "message": "Ollama URL",
       "description": "Ollama URL 入力のプレースホルダー"
     },
     "lmstudioUrlPlaceholder": {
-      "message": "{{ LM Studio URL }}",
+      "message": "LM Studio URL",
       "description": "LM Studio URL 入力のプレースホルダー"
     },
     "modelNamePlaceholder": {
-      "message": "{{ モデル名 }}",
+      "message": "モデル名",
       "description": "モデル名入力のプレースホルダー"
     },
     "resetButton": {
-      "message": "{{ リセット }}",
+      "message": "リセット",
       "description": "リセットボタンのテキスト"
     },
     "customShortcutPlaceholder": {
-      "message": "{{ 「記録」を押してキャプチャ }}",
+      "message": "「記録」を押してキャプチャ",
       "description": "カスタムショートカット入力のプレースホルダー"
     },
     "systemPromptPlaceholder": {
-      "message": "{{ システムプロンプト }}",
+      "message": "システムプロンプト",
       "description": "システムプロンプト入力のプレースホルダー"
     },
     "ollamaProvider": {
-      "message": "{{ Ollama }}",
+      "message": "Ollama",
       "description": "Ollama プロバイダーの名前"
     },
     "openaiProvider": {
-      "message": "{{ OpenAI }}",
+      "message": "OpenAI",
       "description": "OpenAI プロバイダーの名前"
     },
     "anthropicProvider": {
-      "message": "{{ Anthropic Claude }}",
+      "message": "Anthropic Claude",
       "description": "Anthropic プロバイダーの名前"
     },
     "lmstudioProvider": {
-      "message": "{{ LM Studio }}",
+      "message": "LM Studio",
       "description": "LM Studio プロバイダーの名前"
     },
     "geminiProvider": {
-      "message": "{{ Google Gemini }}",
+      "message": "Google Gemini",
       "description": "Google Gemini プロバイダーの名前"
     },
     "deepseekProvider": {
-      "message": "{{ DeepSeek }}",
+      "message": "DeepSeek",
       "description": "DeepSeek プロバイダーの名前"
     },
     "mistralProvider": {
-      "message": "{{ Mistral AI }}",
+      "message": "Mistral AI",
       "description": "Mistral プロバイダーの名前"
     },
     "perplexityProvider": {
-      "message": "{{ Perplexity AI }}",
+      "message": "Perplexity AI",
       "description": "Perplexity プロバイダーの名前"
     },
     "chromeProvider": {
-      "message": "{{ Chrome AI (プレビュー) }}",
+      "message": "Chrome AI (プレビュー)",
       "description": "Chrome AI プロバイダーの名前"
     }
   }

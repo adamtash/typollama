@@ -176,15 +176,15 @@
     }
   },
   "ollama403Error": {
-    "message": " - Ollama вимагає додаткових джерел доступу. Див.: https://github.com/ollama/ollama/blob/main/docs/faq.md#how-can-i-allow-additional-web-origins-to-access-ollama",
+    "message": "- Ollama вимагає додаткових джерел доступу. Див.: https://github.com/ollama/ollama/blob/main/docs/faq.md#how-can-i-allow-additional-web-origins-to-access-ollama",
     "description": "Повідомлення про помилку для помилки 403 Ollama"
   },
   "ollamaConnectionError": {
-    "message": " - Сервер Ollama недоступний або не працює",
+    "message": "- Сервер Ollama недоступний або не працює",
     "description": "Повідомлення про помилку для помилки з'єднання Ollama"
   },
   "unauthorizedError": {
-    "message": " - Не авторизовано. Перевірте свій ключ API.",
+    "message": "- Не авторизовано. Перевірте свій ключ API.",
     "description": "Повідомлення про помилку для неавторизованого доступу до API"
   },
     "extensionReloadedError": {

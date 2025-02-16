@@ -176,15 +176,15 @@
     }
   },
   "ollama403Error": {
-    "message": " - يتطلب Ollama أصول وصول إضافية. راجع: https://github.com/ollama/ollama/blob/main/docs/faq.md#how-can-i-allow-additional-web-origins-to-access-ollama",
+    "message": "- يتطلب Ollama أصول وصول إضافية. راجع: https://github.com/ollama/ollama/blob/main/docs/faq.md#how-can-i-allow-additional-web-origins-to-access-ollama",
     "description": "رسالة خطأ لخطأ Ollama 403"
   },
   "ollamaConnectionError": {
-    "message": " - خادم Ollama غير قابل للوصول أو غير قيد التشغيل",
+    "message": "- خادم Ollama غير قابل للوصول أو غير قيد التشغيل",
     "description": "رسالة خطأ لخطأ اتصال Ollama"
   },
   "unauthorizedError": {
-    "message": " - غير مصرح به. يرجى التحقق من مفتاح API الخاص بك.",
+    "message": "- غير مصرح به. يرجى التحقق من مفتاح API الخاص بك.",
     "description": "رسالة خطأ للوصول غير المصرح به إلى API"
   },
   "extensionReloadedError": {

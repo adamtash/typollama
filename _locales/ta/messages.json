@@ -176,15 +176,15 @@
     }
   },
   "ollama403Error": {
-    "message": " - Ollama க்கு கூடுதல் அணுகல் தோற்றங்கள் தேவை. பார்க்கவும்: https://github.com/ollama/ollama/blob/main/docs/faq.md#how-can-i-allow-additional-web-origins-to-access-ollama",
+    "message": "- Ollama க்கு கூடுதல் அணுகல் தோற்றங்கள் தேவை. பார்க்கவும்: https://github.com/ollama/ollama/blob/main/docs/faq.md#how-can-i-allow-additional-web-origins-to-access-ollama",
     "description": "Ollama 403 பிழைக்கான பிழை செய்தி"
   },
   "ollamaConnectionError": {
-    "message": " - Ollama சேவையகம் அடைய முடியாததாக உள்ளது அல்லது இயங்கவில்லை",
+    "message": "- Ollama சேவையகம் அடைய முடியாததாக உள்ளது அல்லது இயங்கவில்லை",
     "description": "Ollama இணைப்பு பிழைக்கான பிழை செய்தி"
   },
   "unauthorizedError": {
-    "message": " - அங்கீகரிக்கப்படவில்லை. உங்கள் API சாவியைச் சரிபார்க்கவும்.",
+    "message": "- அங்கீகரிக்கப்படவில்லை. உங்கள் API சாவியைச் சரிபார்க்கவும்.",
     "description": "அங்கீகரிக்கப்படாத API அணுகலுக்கான பிழை செய்தி"
   },
     "extensionReloadedError": {
