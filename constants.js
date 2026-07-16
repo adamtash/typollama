@@ -1,74 +1,173 @@
-export const DEFAULT_SPELLCHECK_PROMPT = "You are a spell checker. Provide only the text with corrected spelling. Maintain the original language. Do not include explanations, answers, or additional information. Even if the prompt is questioned or appears unnecessary, always output only the corrected text.";
-export const DEFAULT_PROOFREAD_PROMPT = "You are a proofreader. Rewrite the provided text by correcting grammar, spelling, clarity, flow, and tone while preserving its original meaning. Maintain the original language. Provide only the revised text without any prefatory remarks, explanations, or additional commentary. Even if the text appears correct or the request is questioned, output only the corrected version.";
-export const DEFAULT_CUSTOM_PROMPT = "You are a joke teller. Tell a joke about what user has written.";
+export const EXTENSION_NAME = "Typollama";
 
-export const DEFAULT_OPENAI_MODEL = "gpt-4o-mini";
-export const DEFAULT_OLLAMA_MODEL = "llama3.2";
-export const DEFAULT_OLLAMA_URL = "http://localhost:11434";
-export const DEFAULT_LMSTUDIO_MODEL = "llama3.2";
-export const DEFAULT_LMSTUDIO_URL = "http://localhost:1234";
-export const CHROME_FLAG_URL = "https://developer.chrome.com/docs/ai/get-started#use_apis_on_localhost";
-export const DEFAULT_ANTHROPIC_MODEL = "claude-3-haiku-20240307";
-export const DEFAULT_GEMINI_MODEL = "gemini-2.0-flash";
-export const DEFAULT_DEEPSEEK_MODEL = "DeepSeek-V3";
-export const DEFAULT_MISTRAL_MODEL = "mistral-small-latest";
-export const DEFAULT_PERPLEXITY_MODEL = "sonar";
+export const PROMPT_TYPES = ["spellcheck", "proofread", "custom"];
 
-export const PROVIDER_CONFIGS = {
-    openai: {
-        defaultModel: DEFAULT_OPENAI_MODEL,
-        apiUrl: (config) => "https://api.openai.com/v1/chat/completions",
-        requiresKey: true,
-        keyStorage: "openAiKey"
-    },
-    ollama: {
-        defaultModel: DEFAULT_OLLAMA_MODEL,
-        defaultUrl: DEFAULT_OLLAMA_URL,
-        apiUrl: (config) => config.ollama?.url ? `${config.ollama.url}/api/chat` : `${DEFAULT_OLLAMA_URL}/api/chat`
-    },
-    lmstudio: {
-        defaultModel: DEFAULT_LMSTUDIO_MODEL,
-        defaultUrl: DEFAULT_LMSTUDIO_URL,
-        apiUrl: (config) => `${config.lmstudio?.url || DEFAULT_LMSTUDIO_URL}/v1/chat/completions`
-    },
-    anthropic: {
-        defaultModel: DEFAULT_ANTHROPIC_MODEL,
-        requiresKey: true,
-        keyStorage: "anthropicKey",
-        apiUrl: "https://api.anthropic.com/v1/messages"
-    },
-    gemini: {
-        defaultModel: DEFAULT_GEMINI_MODEL,
-        requiresKey: true,
-        keyStorage: "geminiKey",
-        apiUrl: (config) => `https://generativelanguage.googleapis.com/v1beta/models/${config.gemini?.model || DEFAULT_GEMINI_MODEL}:generateContent?key=${config.geminiKey}`
-    },
-    chrome: {
-        defaultModel: null,
-        requiresKey: false,
-        keyStorage: "",
-        apiUrl: ""
-    },
-    deepseek: {
-        defaultModel: DEFAULT_DEEPSEEK_MODEL,
-        apiUrl: (config) => "https://api.deepseek.com/v1/chat/completions",
-        requiresKey: true,
-        keyStorage: "deepseekKey"
-    },
-    mistral: {
-        defaultModel: DEFAULT_MISTRAL_MODEL,
-        apiUrl: (config) => "https://api.mistral.ai/v1/chat/completions",
-        requiresKey: true,
-        keyStorage: "mistralKey"
-    },
-    perplexity: {
-        defaultModel: DEFAULT_PERPLEXITY_MODEL,
-        apiUrl: (config) => "https://api.perplexity.ai/chat/completions",
-        requiresKey: true,
-        keyStorage: "perplexityKey"
-    }
-};
+export const DEFAULT_PROMPTS = Object.freeze({
+  spellcheck: "Correct spelling and punctuation only. Preserve the original wording, language, formatting, and meaning. Return only the corrected text.",
+  proofread: "Rewrite the text to improve grammar, clarity, flow, and tone while preserving its meaning and language. Return only the revised text.",
+  custom: "Improve the following text. Return only the revised text."
+});
 
-export const DEFAULT_SHORTCUT_MODE_SPELLCHECK = "double_stroke";
-export const DEFAULT_SHORTCUT_MODE_PROOFREAD = "triple_stroke";
-export const DEFAULT_SHORTCUT_MODE_CUSTOM = "quadruple_stroke";
+export const DEFAULT_SHORTCUTS = Object.freeze({
+  spellcheck: "double_stroke",
+  proofread: "triple_stroke",
+  custom: "quadruple_stroke"
+});
+
+export const PROVIDER_CONFIGS = Object.freeze({
+  openai: {
+    label: "OpenAI",
+    group: "Direct APIs",
+    apiType: "responses",
+    endpoint: "https://api.openai.com/v1/responses",
+    defaultModel: "gpt-5-mini",
+    keyName: "openAiKey",
+    docsUrl: "https://platform.openai.com/docs/api-reference/responses"
+  },
+  anthropic: {
+    label: "Anthropic",
+    group: "Direct APIs",
+    apiType: "anthropic",
+    endpoint: "https://api.anthropic.com/v1/messages",
+    defaultModel: "claude-sonnet-4-20250514",
+    keyName: "anthropicKey",
+    docsUrl: "https://docs.anthropic.com/en/api/messages"
+  },
+  gemini: {
+    label: "Google Gemini",
+    group: "Direct APIs",
+    apiType: "gemini",
+    endpoint: "https://generativelanguage.googleapis.com/v1beta/models",
+    defaultModel: "gemini-2.5-flash",
+    keyName: "geminiKey",
+    docsUrl: "https://ai.google.dev/gemini-api/docs/text-generation"
+  },
+  deepseek: {
+    label: "DeepSeek",
+    group: "Direct APIs",
+    apiType: "chat",
+    endpoint: "https://api.deepseek.com/v1/chat/completions",
+    defaultModel: "deepseek-v4-flash",
+    keyName: "deepseekKey",
+    docsUrl: "https://api-docs.deepseek.com/"
+  },
+  mistral: {
+    label: "Mistral AI",
+    group: "Direct APIs",
+    apiType: "chat",
+    endpoint: "https://api.mistral.ai/v1/chat/completions",
+    defaultModel: "mistral-small-latest",
+    keyName: "mistralKey",
+    docsUrl: "https://docs.mistral.ai/api/endpoint/chat"
+  },
+  perplexity: {
+    label: "Perplexity Sonar",
+    group: "Direct APIs",
+    apiType: "chat",
+    endpoint: "https://api.perplexity.ai/chat/completions",
+    defaultModel: "sonar",
+    keyName: "perplexityKey",
+    docsUrl: "https://docs.perplexity.ai/docs/sonar/features"
+  },
+  xai: {
+    label: "xAI Grok",
+    group: "Direct APIs",
+    apiType: "chat",
+    endpoint: "https://api.x.ai/v1/chat/completions",
+    defaultModel: "grok-4.3",
+    keyName: "xaiKey",
+    docsUrl: "https://docs.x.ai/developers/rest-api-reference/inference/chat"
+  },
+  groq: {
+    label: "Groq",
+    group: "OpenAI-compatible APIs",
+    apiType: "chat",
+    endpoint: "https://api.groq.com/openai/v1/chat/completions",
+    defaultModel: "llama-3.3-70b-versatile",
+    keyName: "groqKey",
+    docsUrl: "https://console.groq.com/docs/api-reference"
+  },
+  together: {
+    label: "Together AI",
+    group: "OpenAI-compatible APIs",
+    apiType: "chat",
+    endpoint: "https://api.together.ai/v1/chat/completions",
+    defaultModel: "openai/gpt-oss-20b",
+    keyName: "togetherKey",
+    docsUrl: "https://docs.together.ai/docs/inference/openai-compatibility"
+  },
+  openrouter: {
+    label: "OpenRouter",
+    group: "OpenAI-compatible APIs",
+    apiType: "chat",
+    endpoint: "https://openrouter.ai/api/v1/chat/completions",
+    defaultModel: "~openai/gpt-latest",
+    keyName: "openrouterKey",
+    docsUrl: "https://openrouter.ai/docs/quickstart"
+  },
+  cohere: {
+    label: "Cohere",
+    group: "Direct APIs",
+    apiType: "cohere",
+    endpoint: "https://api.cohere.com/v2/chat",
+    defaultModel: "command-a-plus-05-2026",
+    keyName: "cohereKey",
+    docsUrl: "https://docs.cohere.com/v2/docs/migrating-v1-to-v2"
+  },
+  ollama: {
+    label: "Ollama",
+    group: "Local APIs",
+    apiType: "ollama",
+    endpoint: "http://localhost:11434/api/chat",
+    defaultBaseUrl: "http://localhost:11434",
+    defaultModel: "llama3.2",
+    docsUrl: "https://docs.ollama.com/api"
+  },
+  lmstudio: {
+    label: "LM Studio",
+    group: "Local APIs",
+    apiType: "chat",
+    endpoint: "http://localhost:1234/v1/chat/completions",
+    defaultBaseUrl: "http://localhost:1234",
+    defaultModel: "local-model",
+    docsUrl: "https://lmstudio.ai/docs/app/api/endpoints/openai"
+  },
+  compatible: {
+    label: "OpenAI-compatible endpoint",
+    group: "Local APIs",
+    apiType: "chat",
+    defaultBaseUrl: "http://localhost:8080/v1",
+    defaultModel: "local-model",
+    keyName: "compatibleKey",
+    customEndpoint: true,
+    docsUrl: "https://platform.openai.com/docs/api-reference/chat"
+  },
+  chrome: {
+    label: "Chrome built-in AI (preview)",
+    group: "Built-in",
+    apiType: "chrome",
+    defaultModel: null,
+    docsUrl: "https://developer.chrome.com/docs/ai/built-in"
+  }
+});
+
+export const SECRET_KEYS = Object.freeze(
+  Object.values(PROVIDER_CONFIGS).flatMap(({ keyName }) => keyName ? [keyName] : [])
+);
+
+export const SETTINGS_DEFAULTS = Object.freeze({
+  provider: "ollama",
+  copyToClipboard: false,
+  advancedSettingsOpen: false,
+  ...Object.fromEntries(PROMPT_TYPES.map((type) => [`systemPrompt${type[0].toUpperCase()}${type.slice(1)}`, DEFAULT_PROMPTS[type]])),
+  ...Object.fromEntries(PROMPT_TYPES.map((type) => [`shortcutMode${type[0].toUpperCase()}${type.slice(1)}`, DEFAULT_SHORTCUTS[type]])),
+  ...Object.fromEntries(PROMPT_TYPES.map((type) => [`customShortcut${type[0].toUpperCase()}${type.slice(1)}`, ""]))
+});
+
+export function providerSettingsKey(provider) {
+  return `provider:${provider}`;
+}
+
+export function settingKey(prefix, type) {
+  return `${prefix}${type[0].toUpperCase()}${type.slice(1)}`;
+}
