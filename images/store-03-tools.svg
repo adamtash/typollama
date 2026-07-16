@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="800" viewBox="0 0 1280 800">
+  <rect width="1280" height="800" fill="#f4f7fb"/>
+  <rect x="90" y="70" width="1100" height="660" rx="28" fill="#fff" stroke="#d9e3f0" stroke-width="2"/>
+  <text x="146" y="144" font-family="Arial, sans-serif" font-size="38" font-weight="700" fill="#17233a">Make every edit feel intentional</text>
+  <text x="146" y="181" font-family="Arial, sans-serif" font-size="19" fill="#617084">Choose a task, tune its instruction, and trigger it with a shortcut.</text>
+  <rect x="146" y="230" width="544" height="428" rx="18" fill="#f9fbfe" stroke="#c9d3e1"/>
+  <text x="178" y="278" font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#43516a">WRITING TOOL</text>
+  <rect x="178" y="296" width="480" height="52" rx="9" fill="#fff" stroke="#1767d6" stroke-width="2"/>
+  <text x="198" y="329" font-family="Arial, sans-serif" font-size="17" fill="#17233a">Proofread &amp; rewrite</text>
+  <path d="M625 315l8 8 8-8" fill="none" stroke="#43516a" stroke-width="2"/>
+  <text x="178" y="394" font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#43516a">INSTRUCTION</text>
+  <rect x="178" y="412" width="480" height="154" rx="9" fill="#fff" stroke="#c9d3e1"/>
+  <text x="198" y="444" font-family="Arial, sans-serif" font-size="16" fill="#34435a">Improve grammar, clarity, flow, and tone</text>
+  <text x="198" y="472" font-family="Arial, sans-serif" font-size="16" fill="#34435a">while preserving meaning and language.</text>
+  <text x="198" y="500" font-family="Arial, sans-serif" font-size="16" fill="#34435a">Return only the revised text.</text>
+  <text x="178" y="614" font-family="Arial, sans-serif" font-size="15" fill="#1767d6">Restore default instruction</text>
+  <rect x="734" y="230" width="400" height="428" rx="18" fill="#17233a"/>
+  <text x="770" y="282" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#9ec4ff">SHORTCUTS</text>
+  <text x="770" y="328" font-family="Arial, sans-serif" font-size="23" font-weight="700" fill="#fff">Fast when you need it.</text>
+  <rect x="770" y="366" width="328" height="58" rx="12" fill="#23334f"/>
+  <text x="794" y="402" font-family="Arial, sans-serif" font-size="16" fill="#fff">Ctrl twice</text>
+  <text x="1002" y="402" font-family="Arial, sans-serif" font-size="15" fill="#9ec4ff">Spellcheck</text>
+  <rect x="770" y="440" width="328" height="58" rx="12" fill="#23334f"/>
+  <text x="794" y="476" font-family="Arial, sans-serif" font-size="16" fill="#fff">Ctrl three times</text>
+  <text x="1002" y="476" font-family="Arial, sans-serif" font-size="15" fill="#9ec4ff">Proofread</text>
+  <rect x="770" y="514" width="328" height="58" rx="12" fill="#23334f"/>
+  <text x="794" y="550" font-family="Arial, sans-serif" font-size="16" fill="#fff">Ctrl four times</text>
+  <text x="1002" y="550" font-family="Arial, sans-serif" font-size="15" fill="#9ec4ff">Custom</text>
+  <text x="770" y="620" font-family="Arial, sans-serif" font-size="15" fill="#bcd5fa">Or record a shortcut of your own.</text>
+</svg>
