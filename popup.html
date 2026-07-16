@@ -1,155 +1,73 @@
-<!DOCTYPE html>
-<html>
-
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title data-i18n="extensionName"></title>
-  <link rel="stylesheet" href="styles.css">
-</head>
-
-<body>
-  <div class="card">
-    <div class="container">
-      <header class="header">
-        <img src="images/icon.png" alt="Typollama Icon" class="icon">
-        <h1 class="title">Typollama</h1>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Typollama settings</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <main class="panel">
+      <header class="hero">
+        <img src="icons/icon48.png" alt="" width="36" height="36">
+        <div><h1>Typollama</h1><p>Rewrite, proofread, and spellcheck on any page.</p></div>
       </header>
-      <h3 class="subheading" data-i18n="aiSpellcheckTitle">AI Spell-Check & Text Processing</h3>
-      <a href="https://github.com/adamtash/typollama" target="_blank" class="github-link" data-i18n="aboutDocumentation">About & Documentation ↗</a>
-      <div id="errorContainer" class="error-message" style="display: none;">
-      </div>
-      <div class="provider-select-wrapper">
-        <label for="providerSelect" data-i18n="providerLabel"></label>
-        <select id="providerSelect">
-          <option value="ollama" data-i18n="ollamaProvider">Ollama</option>
-          <option value="openai" data-i18n="openaiProvider">OpenAI</option>
-          <option value="anthropic" data-i18n="anthropicProvider">Anthropic Claude</option>
-          <option value="lmstudio" data-i18n="lmstudioProvider">LM Studio</option>
-          <option value="gemini" data-i18n="geminiProvider">Google Gemini</option>
-          <option value="deepseek" data-i18n="deepseekProvider">DeepSeek</option>
-          <option value="mistral" data-i18n="mistralProvider">Mistral AI</option>
-          <option value="perplexity" data-i18n="perplexityProvider">Perplexity AI</option>
-          <option value="chrome" data-i18n="chromeProvider">Chrome AI (Preview)</option>
-        </select>
-      </div>
-      <div id="providerDocs">
-        <div id="ollamaDocs" style="display:none;">
-          <a href="https://github.com/ollama/ollama" target="_blank" data-i18n="ollamaDocsLink">Ollama Documentation ↗</a>
-        </div>
-        <div id="openaiDocs" style="display:none;">
-          <a href="https://platform.openai.com/docs" target="_blank" data-i18n="openaiDocsLink">OpenAI Documentation ↗</a>
-        </div>
-        <div id="anthropicDocs" style="display:none;">
-          <a href="https://console.anthropic.com/settings/keys" target="_blank" data-i18n="anthropicDocsLink">Get Claude API Key ↗</a>
-        </div>
-        <div id="lmstudioDocs" style="display:none;">
-          <a href="https://lmstudio.ai/docs" target="_blank" data-i18n="lmstudioDocsLink">LM Studio Documentation ↗</a>
-        </div>
-        <div id="geminiDocs" style="display:none;">
-          <a href="https://aistudio.google.com/app/apikey" target="_blank" data-i18n="geminiDocsLink">Get your FREE Google Gemini API Key ↗</a>
-        </div>
-        <div id="deepseekDocs" style="display:none;">
-          <a href="https://platform.deepseek.com/api_keys" target="_blank" data-i18n="deepseekDocsLink">Get DeepSeek API Key ↗</a>
-        </div>
-        <div id="mistralDocs" style="display:none;">
-          <a href="https://console.mistral.ai/api-keys/" target="_blank" data-i18n="mistralDocsLink">Get Mistral API Key ↗</a>
-        </div>
-        <div id="perplexityDocs" style="display:none;">
-          <a href="https://www.perplexity.ai/settings/api" target="_blank" data-i18n="perplexityDocsLink">Get Perplexity API Key ↗</a>
-        </div>
-        <div id="chromeDocs" style="display:none;">
-          <a href="https://developer.chrome.com/docs/ai/get-started" target="_blank" data-i18n="chromeDocsLink">Chrome AI Documentation ↗</a>
-        </div>
-      </div>
-      <div id="chromeAiNote" style="display:none; font-size: 0.8rem; margin-top: 5px;">
-        <i data-i18n="chromeAiNoteText">Note: Chrome AI is a preview feature. To use it, you need to enable the feature flag in Chrome:</i>
-        <br>
-        <a href="chrome://flags/#prompt-api-for-gemini-nano" target="_blank" data-i18n="chromeAiEnableLink">Enable Chrome AI feature flag</a>
-      </div>
-      <div class="provider-group">
-        <input id="openAiKeyInput" type="password" placeholder="OpenAI API Key" style="display: none;" data-i18n-placeholder="openAiKeyPlaceholder" />
-        <input id="anthropicKeyInput" type="password" placeholder="Anthropic API Key" style="display: none;" data-i18n-placeholder="anthropicKeyPlaceholder" />
-        <input id="geminiKeyInput" type="password" placeholder="Google API Key" style="display: none;" data-i18n-placeholder="geminiKeyPlaceholder" />
-        <input id="deepseekKeyInput" type="password" placeholder="DeepSeek API Key" style="display: none;" data-i18n-placeholder="deepseekKeyPlaceholder" />
-        <input id="mistralKeyInput" type="password" placeholder="Mistral AI API Key" style="display: none;" data-i18n-placeholder="mistralKeyPlaceholder" />
-        <input id="perplexityKeyInput" type="password" placeholder="Perplexity AI API Key" style="display: none;" data-i18n-placeholder="perplexityKeyPlaceholder" />
-        <div class="url-input-container">
-          <div class="input-with-reset">
-            <input id="ollamaUrlInput" type="text" placeholder="Ollama URL" data-i18n-placeholder="ollamaUrlPlaceholder" />
-            <button id="resetOllamaUrl" class="reset-button" type="button" style="display: none;" data-i18n="resetButton">Reset</button>
+
+      <p id="status" class="status" role="status" aria-live="polite" hidden></p>
+
+      <form id="settingsForm">
+        <label for="provider">Provider</label>
+        <select id="provider" name="provider"></select>
+        <a id="providerDocs" class="docs" target="_blank" rel="noreferrer">Provider documentation ↗</a>
+
+        <section id="connectionFields" class="connection-fields">
+          <label id="apiKeyLabel" for="apiKey">API key</label>
+          <div id="apiKeyRow" class="input-row">
+            <input id="apiKey" name="apiKey" type="password" autocomplete="off" spellcheck="false">
+            <button id="clearKey" type="button" class="subtle" hidden>Clear</button>
           </div>
-          <div class="input-with-reset" style="display: none;">
-            <input id="lmstudioUrlInput" type="text" placeholder="LM Studio URL" data-i18n-placeholder="lmstudioUrlPlaceholder" />
-            <button id="resetLmstudioUrl" class="reset-button" type="button" style="display: none;" data-i18n="resetButton">Reset</button>
-          </div>
-        </div>
-        <label id="modelNameLabel" for="modelNameInput" data-i18n="modelNameLabel">Model Name:</label>
-        <div>
-          <div class="input-with-reset">
-            <input id="modelNameInput" type="text" placeholder="Model Name" data-i18n-placeholder="modelNamePlaceholder" />
-            <button id="resetModelName" class="reset-button" type="button" style="display: none;" data-i18n="resetButton">Reset</button>
-          </div>
-        </div>
-      </div>
-      <div class="advanced-settings">
-        <button type="button" class="advanced-toggle collapsed" id="advancedToggle" data-i18n="advancedSettingsLabel">
-          Advanced Settings
-        </button>
-        <div class="advanced-content collapsed" id="advancedContent">
-          <div class="prompt-settings-group">
-            <h3 data-i18n="writingToolsTitle">Writing Tools</h3>
-            <div>
-              <select id="promptTypeSelect">
-                <option value="spellcheck" data-i18n="spellcheckOption">Spellcheck</option>
-                <option value="proofread" data-i18n="proofreadOption">Rewrite</option>
-                <option value="custom" data-i18n="customAiEditorOption">Custom AI Editor</option>
-              </select>
+
+          <label id="baseUrlLabel" for="baseUrl">Server URL</label>
+          <input id="baseUrl" name="baseUrl" type="url" inputmode="url" spellcheck="false">
+
+          <label for="model">Model</label>
+          <input id="model" name="model" type="text" spellcheck="false" required>
+        </section>
+
+        <button class="primary" type="submit">Save settings</button>
+
+        <details id="advanced">
+          <summary>Writing tools & shortcuts</summary>
+          <div class="advanced-content">
+            <label for="promptType">Writing tool</label>
+            <select id="promptType">
+              <option value="spellcheck">Spellcheck</option>
+              <option value="proofread">Proofread & rewrite</option>
+              <option value="custom">Custom prompt</option>
+            </select>
+
+            <label for="systemPrompt">Instruction</label>
+            <textarea id="systemPrompt" rows="5"></textarea>
+            <button id="resetPrompt" type="button" class="link-button">Restore default instruction</button>
+
+            <label for="shortcutMode">Shortcut</label>
+            <select id="shortcutMode">
+              <option value="double_stroke">Press Ctrl twice — spellcheck</option>
+              <option value="triple_stroke">Press Ctrl three times — proofread</option>
+              <option value="quadruple_stroke">Press Ctrl four times — custom</option>
+              <option value="custom">Custom shortcut</option>
+            </select>
+            <div id="customShortcutRow" class="input-row" hidden>
+              <input id="customShortcut" type="text" readonly placeholder="Record a shortcut">
+              <button id="recordShortcut" type="button" class="subtle">Record</button>
             </div>
 
-            <div>
-              <textarea id="systemPromptInput" rows="8" placeholder="System Prompt"
-                style="width: 100%; resize: vertical;"></textarea>
-              <button id="resetPrompt" class="reset-button" type="button" data-i18n="resetButton" style="display: none;">Reset</button>
-            </div>
-
-            <fieldset id="shortcutModeFieldset">
-              <legend data-i18n="shortcutModeLabel">Shortcut Mode</legend>
-              <div class="shortcut-radio-group">
-                <label>
-                  <input type="radio" name="shortcutMode" value="double_stroke" data-prompt-type="spellcheck" />
-                  <span data-i18n="doubleCtrlStroke">Double CTRL Stroke</span>
-                </label>
-                <label>
-                  <input type="radio" name="shortcutMode" value="triple_stroke" data-prompt-type="proofread" />
-                  <span data-i18n="tripleCtrlStroke">Triple CTRL Stroke</span>
-                </label>
-                <label>
-                  <input type="radio" name="shortcutMode" value="quadruple_stroke" data-prompt-type="custom" />
-                  <span data-i18n="quadrupleCtrlStroke">Quadruple CTRL Stroke</span>
-                </label>
-                <label>
-                  <input type="radio" name="shortcutMode" value="custom" data-prompt-type="spellcheck" />
-                  <span data-i18n="customShortcutKey">Custom Shortcut Key</span>
-                </label>
-              </div>
-            </fieldset>
-            <label id="customShortcutLabel" style="display:none;">
-              Custom Shortcut:
-              <input id="customShortcutInput" type="text" readonly placeholder="Press 'Record' to capture"
-                style="width:100%;" />
-              <button id="recordShortcut" type="button" style="width: auto;">Record Shortcut</button>
-            </label>
+            <label class="checkbox"><input id="copyToClipboard" type="checkbox"> Copy the result instead of replacing text</label>
           </div>
-          <label>
-            <input id="copyToClipboard" type="checkbox" />
-            <span data-i18n="copyToClipboardLabel">Copy result to clipboard only (no in-place edit)</span>
-          </label>
-        </div>
-      </div>
-    </div>
-  </div>
-  <script type="module" src="popup.js"></script>
-</body>
-
+        </details>
+      </form>
+      <footer><a href="https://github.com/adamtash/typollama" target="_blank" rel="noreferrer">Documentation & source ↗</a></footer>
+    </main>
+    <script type="module" src="popup.js"></script>
+  </body>
 </html>

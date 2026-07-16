@@ -1,0 +1,12 @@
+{
+  "name": "typollama",
+  "description": "A Chrome extension for user-invoked AI spellcheck, proofreading, rewriting, and custom edits.",
+  "private": true,
+  "version": "2.0.1",
+  "type": "module",
+  "scripts": {
+    "test": "node --test",
+    "check": "node --check background.js && node --check content.js && node --check popup.js && node --check provider-adapters.js && node --check secure-storage.js && node --input-type=module -e \"import { readdirSync, readFileSync } from 'node:fs'; JSON.parse(readFileSync('manifest.json', 'utf8')); for (const entry of readdirSync('_locales', { withFileTypes: true })) if (entry.isDirectory()) JSON.parse(readFileSync('_locales/' + entry.name + '/messages.json', 'utf8'));\"",
+    "package": "npm run check && npm test && mkdir -p dist && zip -qrFS dist/typollama-$npm_package_version.zip _locales icons background.js constants.js content.js manifest.json popup.html popup.js provider-adapters.js secure-storage.js styles.css -x '*/.DS_Store'"
+  }
+}

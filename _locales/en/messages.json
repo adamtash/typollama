@@ -1,10 +1,10 @@
 {
   "extensionName": {
-    "message": "Typollama – AI Spell-Check & Text Processing",
+    "message": "Typollama – AI Writing Assistant",
     "description": "Name of the extension"
   },
   "extensionDescription": {
-    "message": "Enhance your writing with Typollama – an AI-powered Chrome extension for spell-checking and advanced text processing.",
+    "message": "Spellcheck, proofread, rewrite, and transform text on any webpage with your chosen AI provider.",
     "description": "Description of the extension"
   },
   "providerLabel": {
@@ -363,4 +363,4 @@
     "message": "Chrome AI (Preview)",
     "description": "Name of Chrome AI provider"
   }
-} 
+}

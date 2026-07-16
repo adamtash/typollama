@@ -1,48 +1,39 @@
 {
-    "manifest_version": 3,
-    "name": "__MSG_extensionName__",
-    "version": "1.4",
-    "description": "__MSG_extensionDescription__",
-    "permissions": [
-        "storage",
-        "contextMenus"
-    ],
-    "optional_permissions": [
-        "clipboardWrite"
-    ],
-    "background": {
-        "service_worker": "background.js",
-        "type": "module"
-    },
-    "content_scripts": [
-      {
-        "matches": ["<all_urls>"],
-        "js": ["content.js"],
-        "run_at": "document_end",
-        "all_frames": true
-      }
-    ],
-    "host_permissions": [
-      "https://api.openai.com/v1/*",
-      "https://api.anthropic.com/*",
-      "https://generativelanguage.googleapis.com/*",
-      "http://localhost:11434/*",
-      "http://localhost:1234/*",
-      "https://api.deepseek.com/*",
-      "https://api.mistral.ai/*",
-      "https://api.perplexity.ai/*"
-    ],
-    "content_security_policy": {
-        "extension_pages": "script-src 'self'; object-src 'self'"
-    },
-    "action": {
-      "default_popup": "popup.html"
-    },
-    "icons": {
-      "16": "icons/icon16.png",
-      "32": "icons/icon32.png",
-      "48": "icons/icon48.png",
-      "128": "icons/icon128.png"
-    },
-    "default_locale": "en"
-  }
+  "manifest_version": 3,
+  "name": "__MSG_extensionName__",
+  "version": "2.0.1",
+  "description": "__MSG_extensionDescription__",
+  "permissions": ["storage", "contextMenus", "clipboardWrite"],
+  "optional_host_permissions": ["http://*/*", "https://*/*"],
+  "background": { "service_worker": "background.js", "type": "module" },
+  "content_scripts": [{
+    "matches": ["<all_urls>"],
+    "js": ["content.js"],
+    "run_at": "document_end",
+    "all_frames": true
+  }],
+  "host_permissions": [
+    "https://api.openai.com/*",
+    "https://api.anthropic.com/*",
+    "https://generativelanguage.googleapis.com/*",
+    "https://api.deepseek.com/*",
+    "https://api.mistral.ai/*",
+    "https://api.perplexity.ai/*",
+    "https://api.x.ai/*",
+    "https://api.groq.com/*",
+    "https://api.together.ai/*",
+    "https://openrouter.ai/*",
+    "https://api.cohere.com/*",
+    "http://localhost/*",
+    "http://127.0.0.1/*"
+  ],
+  "content_security_policy": { "extension_pages": "script-src 'self'; object-src 'self'" },
+  "action": { "default_popup": "popup.html" },
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "default_locale": "en"
+}

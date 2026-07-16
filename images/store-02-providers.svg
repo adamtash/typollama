@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="800" viewBox="0 0 1280 800">
+  <rect width="1280" height="800" fill="#f4f7fb"/>
+  <text x="92" y="126" font-family="Arial, sans-serif" font-size="42" font-weight="700" fill="#17233a">Bring your own AI provider</text>
+  <text x="92" y="166" font-family="Arial, sans-serif" font-size="20" fill="#617084">Choose a hosted API, local server, or Chrome's built-in preview.</text>
+  <rect x="92" y="214" width="456" height="506" rx="24" fill="#fff" stroke="#d9e3f0" stroke-width="2"/>
+  <rect x="122" y="246" width="40" height="40" rx="11" fill="#eaf3ff"/>
+  <path d="M134 266h16M142 258v16" stroke="#1767d6" stroke-width="3" stroke-linecap="round"/>
+  <text x="178" y="270" font-family="Arial, sans-serif" font-size="23" font-weight="700" fill="#17233a">Typollama</text>
+  <text x="122" y="330" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#43516a">PROVIDER</text>
+  <rect x="122" y="348" width="396" height="54" rx="9" fill="#fff" stroke="#1767d6" stroke-width="2"/>
+  <text x="141" y="382" font-family="Arial, sans-serif" font-size="17" fill="#17233a">Google Gemini</text>
+  <path d="M484 367l8 8 8-8" fill="none" stroke="#43516a" stroke-width="2"/>
+  <text x="122" y="448" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#43516a">API KEY</text>
+  <rect x="122" y="466" width="396" height="52" rx="9" fill="#f7faff" stroke="#c9d3e1"/>
+  <text x="142" y="499" font-family="Arial, sans-serif" font-size="17" fill="#617084">Saved locally — enter a new key</text>
+  <text x="122" y="564" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#43516a">MODEL</text>
+  <rect x="122" y="582" width="396" height="52" rx="9" fill="#fff" stroke="#c9d3e1"/>
+  <text x="142" y="615" font-family="Arial, sans-serif" font-size="17" fill="#17233a">gemini-2.5-flash</text>
+  <rect x="122" y="662" width="396" height="38" rx="9" fill="#1767d6"/>
+  <text x="255" y="687" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#fff">Save settings</text>
+  <rect x="612" y="214" width="576" height="506" rx="24" fill="#17233a"/>
+  <text x="654" y="270" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#8fb8f7">ONE POPUP. MANY OPTIONS.</text>
+  <text x="654" y="322" font-family="Arial, sans-serif" font-size="27" font-weight="700" fill="#fff">Use the provider you trust.</text>
+  <rect x="654" y="364" width="216" height="128" rx="16" fill="#23334f"/>
+  <text x="676" y="396" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#9ec4ff">HOSTED APIs</text>
+  <text x="676" y="428" font-family="Arial, sans-serif" font-size="15" fill="#fff">OpenAI · Anthropic</text>
+  <text x="676" y="454" font-family="Arial, sans-serif" font-size="15" fill="#fff">Gemini · Mistral · more</text>
+  <rect x="900" y="364" width="246" height="128" rx="16" fill="#23334f"/>
+  <text x="922" y="396" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#9ec4ff">LOCAL APIs</text>
+  <text x="922" y="428" font-family="Arial, sans-serif" font-size="15" fill="#fff">Ollama · LM Studio</text>
+  <text x="922" y="454" font-family="Arial, sans-serif" font-size="15" fill="#fff">Compatible endpoint</text>
+  <rect x="654" y="524" width="492" height="128" rx="16" fill="#eaf3ff"/>
+  <text x="680" y="558" font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#1767d6">PRIVATE BY DESIGN</text>
+  <text x="680" y="590" font-family="Arial, sans-serif" font-size="16" fill="#365778">API keys are encrypted before local storage.</text>
+  <text x="680" y="618" font-family="Arial, sans-serif" font-size="16" fill="#365778">Text goes only to the provider you select.</text>
+</svg>

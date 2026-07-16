@@ -1,173 +1,74 @@
-<div align="center">
-  <img src="images/icon.png" alt="Typollama Chrome Extension Icon" width="128" height="128">
-  <h1>Typollama</h1>
-  <p><strong>AI-Powered Writing Assistant for Chrome</strong></p>
-  <p><i>Enhance text in any input field on any website</i></p>
-  <a href="https://chrome.google.com/webstore/detail/Typollama%E2%80%93AI-Spell-Check-%26-Text-Processing/bpfbfpkchkmgladnfmgmhapainhcokel" style="text-decoration:none; color:inherit;">
-    <img src="https://fonts.gstatic.com/s/i/productlogos/chrome_store/v7/192px.svg" alt="Chrome Web Store" style="width:32px;">
-    <div style="font-size:0.9rem; margin-top:5px;">Get it on the Chrome Web Store</div>
-  </a>
-  <p>
-    <a href="#features-anchor">Features</a> •
-    <a href="#installation-anchor">Installation</a> •
-    <a href="#usage-anchor">Usage</a> •
-    <a href="#troubleshooting-anchor">Troubleshooting</a> •
-    <a href="#legal-anchor">Legal</a>
-  </p>
-</div>
+# Typollama
 
-## 🚀 AI-Powered Writing Assistance
+Typollama is a privacy-conscious Chrome extension that improves text directly where you write. Select text—or place the cursor in a text field—then spellcheck, proofread, rewrite, or run a custom writing instruction with the AI provider you choose.
 
-Typollama is a Chrome extension that provides real-time text enhancements in any input field. Choose from multiple AI models, including local and cloud-based providers.
+> Your text is processed only after you explicitly invoke a writing tool. Typollama has no account, analytics, or developer-operated text-processing server.
 
-### Key Benefits
+![Typollama corrects text in place](images/store-01-writing.png)
 
-- ✅ **Instant Spellcheck & Proofreading** – Improve text effortlessly
-- 🔄 **Multiple AI Providers** – Supports OpenAI, Gemini, Claude, DeepSeek, Mistral AI, Perplexity AI, Ollama, LM Studio, and Chrome AI
-- ⚡ **Quick & Easy Activation** – Use keyboard shortcuts or right-click menus
-- 🔒 **Privacy-Focused** – Local processing available with Ollama, LM Studio, or Chrome AI
+## What it does
 
-## ✨ Features
-<a name="features-anchor"></a>
+- **Spellcheck** fixes spelling and punctuation while preserving wording and formatting.
+- **Proofread & rewrite** improves grammar, clarity, flow, and tone while preserving meaning.
+- **Custom prompt** lets you define your own editing instruction.
+- **Use it your way** with the context menu, Ctrl pressed twice/three/four times, or a recorded shortcut.
+- **Protect fragile editors**: when a site cannot safely accept an in-place update, Typollama copies the result so you can paste it yourself.
+- **Keep data close** by using Ollama or LM Studio, or choose a hosted provider that you already trust.
 
-### Writing Tools
+![Typollama provider settings](images/store-02-providers.png)
 
-- **Spellcheck** – Quick grammar and spelling fixes
-- **Proofread** – Rewrite text while preserving meaning
-- **Custom Tool** – Define AI-powered enhancements tailored to your needs
+## Providers
 
-### Smart Text Processing
+Typollama uses provider-specific request formats instead of treating every API as interchangeable. Model names remain editable because availability depends on your account and provider.
 
-- **Process Full Text or Selection** – Works on any text box
-- **Context Menu Integration** – Right-click for easy access
-- **Keyboard Shortcuts** –
-  - Double CTRL – Spellcheck
-  - Triple CTRL – Proofread
-  - Quadruple CTRL – Custom Tool
-  - Custom key bindings supported
+| Type | Supported providers |
+| --- | --- |
+| Hosted APIs | OpenAI, Anthropic, Google Gemini, DeepSeek, Mistral AI, Perplexity Sonar, xAI Grok, Cohere |
+| OpenAI-compatible APIs | Groq, Together AI, OpenRouter, a user-supplied compatible endpoint |
+| Local APIs | Ollama, LM Studio |
+| Browser feature | Chrome built-in AI (preview, when available) |
 
-### Flexible AI Integration
+Only the provider you select receives text for that request. A custom compatible endpoint asks for access to that specific origin when you save it.
 
-- **Local Processing**
-  - Ollama ([Docs](https://github.com/ollama/ollama))
-  - LM Studio ([Docs](https://lmstudio.ai/docs))
-  - Chrome AI ([Docs](https://developer.chrome.com/docs/ai/get-started#use_apis_on_localhost))
-- **Cloud Services**
-  - OpenAI ([Docs](https://platform.openai.com/docs))
-  - Google Gemini ([Docs](https://aistudio.google.com/app/apikey))
-  - Anthropic Claude ([Docs](https://console.anthropic.com/settings/keys))
-  - DeepSeek ([Docs](https://platform.deepseek.com/api_keys))
-  - Mistral AI ([Docs](https://console.mistral.ai/api-keys/))
-  - Perplexity AI ([Docs](https://www.perplexity.ai/settings/api))
+![Typollama writing tools and shortcuts](images/store-03-tools.png)
 
-### Customization
+## Install from source
 
-- **Per-Tool System Prompts** – Define custom instructions for different writing tools, including:
-  - Writing Style
-  - Tone
-  - Formatting
-  - Language Preferences
+1. Clone or download this repository.
+2. In Chrome, open `chrome://extensions`.
+3. Turn on **Developer mode**.
+4. Select **Load unpacked** and choose this project folder.
+5. Open Typollama, select a provider, add its API key or local server URL, then select **Save settings**.
 
-## 📸 Screenshots & Demo
+For hosted providers, create and manage API keys in the provider's own dashboard. For a local setup, start Ollama or LM Studio before invoking a writing tool.
 
-<div align="center">
-  <img src="images/p1.png" alt="Typollama Settings Panel" width="400">
-  <img src="images/p2.png" alt="Typollama Settings Panel" width="400">
-  <img src="images/p3.png" alt="Typollama Settings Panel" width="400">
-</div>
+## Use Typollama
 
-### Live Demo
+1. Click in a text field, or select the portion of an editable message that you want to improve.
+2. Choose **Spellcheck with AI**, **Proofread & rewrite with AI**, or **Custom writing tool** from the right-click menu; alternatively, use the configured shortcut.
+3. Wait for Typollama to finish streaming the result. It replaces the target text once, after the response is complete.
 
-<div align="center">
-  <img src="images/text-correction-demo.gif" alt="Typollama Text Correction Demo" width="1200">
-</div>
+Some rich-text editors deliberately block programmatic edits. On those sites, Typollama never mutates the editor's DOM; it copies the finished result and tells you to paste it. You can also enable **Copy the result instead of replacing text** globally.
 
-## 🛒 Install on Chrome
-<a name="installation-anchor"></a>
+## Privacy and security
 
-[Get Typollama on the Chrome Web Store](https://chromewebstore.google.com/detail/Typollama%20%E2%80%93%20AI%20Spell-Check%20%26%20Text%20Processing/bpfbfpkchkmgladnfmgmhapainhcokel?hl=en-US&utm_source=ext_sidebar).
+- Text is read only from the editor you explicitly target and is used only for the selected writing request.
+- With a hosted provider, that text and the request instruction are sent to the provider you selected. With Ollama or LM Studio, requests go to the local server URL you configure.
+- Settings are stored in Chrome Sync. API keys are stored in the extension's trusted local storage and encrypted with AES-GCM before storage.
+- Typollama does not run analytics, sell data, or send text to a Typollama-operated backend.
 
-## 📥 Local Installation
+Read the full [Privacy Policy](PRIVACY.md) and [Terms of Service](TERMS.md).
 
-1. Clone the repository:
+## Development
 
-   ```bash
-   git clone https://github.com/adamtash/typollama.git
-   ```
+```bash
+npm test
+npm run check
+npm run package
+```
 
-2. Load in Chrome:
-   - Open `chrome://extensions`
-   - Enable Developer Mode
-   - Click **Load unpacked**
-   - Select the `typollama` folder
+`npm run package` validates the project and produces a Chrome Web Store upload archive in `dist/`. See [CHROME_WEB_STORE.md](CHROME_WEB_STORE.md) for exact listing copy, privacy disclosures, screenshots, and the final release checklist.
 
-3. Configure settings in the extension menu:
-   - Choose your AI provider and enter the required API key or URL
-  - **Chrome AI**: Enable feature flag at `chrome://flags/#prompt-api-for-gemini-nano` ([Docs](https://developer.chrome.com/docs/ai/get-started#use_apis_on_localhost))
-  - **OpenAI**: Enter your API key ([Docs](https://platform.openai.com/docs))
-  - **Gemini**: Enter your Google API key ([Docs](https://aistudio.google.com/app/apikey))
-  - **Claude**: Enter your Anthropic API key ([Docs](https://console.anthropic.com/settings/keys))
-  - **Ollama** (Local/Remote): `http://localhost:11434` ([Docs](https://github.com/ollama/ollama))
-  - **LM Studio** (Local/Remote): `http://localhost:1234` ([Docs](https://lmstudio.ai/docs))
-  - **DeepSeek**: Enter your DeepSeek API key ([Docs](https://platform.deepseek.com/api_keys))
-  - **Mistral AI**: Enter your Mistral AI API key ([Docs](https://console.mistral.ai/api-keys/))
-  - **Perplexity AI**: Enter your Perplexity API key ([Docs](https://www.perplexity.ai/settings/api))
-## 💡 Usage
-<a name="usage-anchor"></a>
+## License
 
-1. Select text in any input field
-2. Trigger Typollama using:
-   - Double-tap CTRL (default)
-   - Right-click menu
-   - Custom keyboard shortcuts
-3. Text is instantly processed and enhanced
-
-### Advanced Options
-
-- **Custom Shortcuts** – Set personalized keybindings
-- **Clipboard Mode** – Copy results instead of inline replacement
-- **AI Behavior Customization** – Define system prompts for different tools
-
-## 🔧 Troubleshooting
-<a name="troubleshooting-anchor"></a>
-
-### Common Issues & Fixes
-
-#### Connection Issues
-- Ensure your AI provider settings are correctly configured
-- Verify your API key is valid
-
-#### API Key Errors
-- Check that the key is correctly entered and has the necessary permissions
-
-#### Ollama 403 Error (Access Denied)
-
-- **MacOS**:
-  ```bash
-  launchctl setenv OLLAMA_ORIGINS "*"
-  ```
-- **Windows**:
-  ```powershell
-  $env:OLLAMA_ORIGINS="*"
-  ```
-- **Linux**:
-  ```bash
-  export OLLAMA_ORIGINS="*"
-  ```
-- Restart your system or terminal after applying the fix
-
-## 📜 Legal
-<a name="legal-anchor"></a>
-
-- [Privacy Policy](PRIVACY.md)
-- [Terms of Service](TERMS.md)
-- [License](LICENSE.md) – MIT
-
-## 🔍 Keywords
-
-AI writing assistant, Chrome extension, text enhancement, grammar checker, spell checker, proofreading tool, local AI processing, OpenAI, Google Gemini, Claude AI, Mistral AI, DeepSeek, Perplexity AI, Ollama, LM Studio, productivity tool
-
----
-
-<sub>*This README and the source code was partially generated with AI assistance.*</sub>
-
+[MIT](LICENSE.md)

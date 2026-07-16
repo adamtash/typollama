@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="800" viewBox="0 0 1280 800">
+  <rect width="1280" height="800" fill="#f4f7fb"/>
+  <rect x="64" y="60" width="1152" height="680" rx="26" fill="#fff" stroke="#dbe5f1" stroke-width="2"/>
+  <rect x="64" y="60" width="1152" height="64" rx="26" fill="#17233a"/>
+  <rect x="64" y="98" width="1152" height="26" fill="#17233a"/>
+  <circle cx="102" cy="92" r="8" fill="#fb7185"/><circle cx="128" cy="92" r="8" fill="#fbbf24"/><circle cx="154" cy="92" r="8" fill="#4ade80"/>
+  <text x="192" y="98" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#dce8f8">New message</text>
+  <text x="122" y="180" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#17233a">Draft</text>
+  <text x="122" y="220" font-family="Arial, sans-serif" font-size="18" fill="#34435a">Hi Marta,</text>
+  <text x="122" y="262" font-family="Arial, sans-serif" font-size="18" fill="#34435a">I wanted to follow up on our meeting. The proposal is ready for your review</text>
+  <rect x="114" y="280" width="471" height="38" rx="8" fill="#fff0f2"/>
+  <text x="122" y="306" font-family="Arial, sans-serif" font-size="18" fill="#34435a">and I think it will help us move faster.</text>
+  <path d="M122 313H577" stroke="#ef476f" stroke-width="2" stroke-dasharray="4 5"/>
+  <text x="122" y="362" font-family="Arial, sans-serif" font-size="18" fill="#34435a">Please let me know if you have any questions.</text>
+  <rect x="122" y="430" width="496" height="112" rx="18" fill="#eff6ff" stroke="#b8d5ff"/>
+  <rect x="150" y="458" width="16" height="16" rx="4" fill="#1767d6"/>
+  <text x="184" y="473" font-family="Arial, sans-serif" font-size="17" font-weight="700" fill="#143d72">Typollama is working</text>
+  <text x="184" y="505" font-family="Arial, sans-serif" font-size="16" fill="#365778">Spellcheck fixes errors without changing your voice.</text>
+  <circle cx="535" cy="475" r="6" fill="#1767d6"/><circle cx="558" cy="475" r="6" fill="#65a5ff"/><circle cx="581" cy="475" r="6" fill="#b6d5ff"/>
+  <rect x="734" y="166" width="398" height="510" rx="22" fill="#fff" stroke="#c9d3e1" stroke-width="2"/>
+  <rect x="764" y="198" width="44" height="44" rx="12" fill="#eaf3ff"/>
+  <path d="M778 221h16M786 213v16" stroke="#1767d6" stroke-width="3" stroke-linecap="round"/>
+  <text x="826" y="219" font-family="Arial, sans-serif" font-size="23" font-weight="700" fill="#17233a">Typollama</text>
+  <text x="826" y="242" font-family="Arial, sans-serif" font-size="13" fill="#617084">AI writing assistance, on demand.</text>
+  <text x="764" y="302" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#43516a">WRITING TOOL</text>
+  <rect x="764" y="320" width="338" height="48" rx="9" fill="#f7faff" stroke="#c9d3e1"/>
+  <text x="782" y="351" font-family="Arial, sans-serif" font-size="17" fill="#17233a">Spellcheck</text>
+  <path d="M1073 339l8 8 8-8" fill="none" stroke="#43516a" stroke-width="2"/>
+  <text x="764" y="418" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#43516a">HOW TO RUN IT</text>
+  <text x="764" y="452" font-family="Arial, sans-serif" font-size="16" fill="#34435a">Right-click selected text</text>
+  <text x="764" y="482" font-family="Arial, sans-serif" font-size="16" fill="#34435a">or press Ctrl twice.</text>
+  <rect x="764" y="532" width="338" height="64" rx="12" fill="#f1f7ff"/>
+  <text x="784" y="558" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#1767d6">RESULTS ARRIVE SAFELY</text>
+  <text x="784" y="580" font-family="Arial, sans-serif" font-size="13" fill="#365778">Fragile editors fall back to copy &amp; paste.</text>
+  <text x="82" y="778" font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#617084">Improve text where you already write</text>
+</svg>

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="560" viewBox="0 0 1400 560">
+  <rect width="1400" height="560" fill="#17233a"/>
+  <circle cx="1280" cy="50" r="340" fill="#215aa7" opacity=".55"/><circle cx="80" cy="600" r="330" fill="#0f83b6" opacity=".35"/>
+  <text x="118" y="170" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#9ec4ff">TYPOllama · AI WRITING ASSISTANT</text>
+  <text x="118" y="250" font-family="Arial, sans-serif" font-size="62" font-weight="700" fill="#fff">Better text, where you write.</text>
+  <text x="118" y="304" font-family="Arial, sans-serif" font-size="25" fill="#d9e6f7">Spellcheck, proofread, rewrite, and custom edits—on demand.</text>
+  <rect x="118" y="374" width="438" height="64" rx="16" fill="#fff"/>
+  <text x="148" y="414" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#1767d6">Choose your provider. Keep control.</text>
+  <rect x="925" y="104" width="320" height="350" rx="24" fill="#fff" opacity=".97"/>
+  <text x="963" y="158" font-family="Arial, sans-serif" font-size="21" font-weight="700" fill="#17233a">Typollama</text>
+  <text x="963" y="190" font-family="Arial, sans-serif" font-size="14" fill="#617084">Writing assistance on demand</text>
+  <rect x="963" y="232" width="244" height="46" rx="8" fill="#f7faff" stroke="#c9d3e1"/>
+  <text x="981" y="262" font-family="Arial, sans-serif" font-size="16" fill="#17233a">Proofread &amp; rewrite</text>
+  <rect x="963" y="302" width="244" height="46" rx="8" fill="#f7faff" stroke="#c9d3e1"/>
+  <text x="981" y="332" font-family="Arial, sans-serif" font-size="16" fill="#17233a">Your chosen provider</text>
+  <rect x="963" y="372" width="244" height="46" rx="8" fill="#1767d6"/>
+  <text x="1035" y="401" font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#fff">Save settings</text>
+</svg>

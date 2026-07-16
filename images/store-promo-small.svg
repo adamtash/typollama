@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="280" viewBox="0 0 440 280">
+  <rect width="440" height="280" rx="0" fill="#17233a"/>
+  <circle cx="395" cy="32" r="110" fill="#215aa7" opacity=".55"/><circle cx="10" cy="292" r="120" fill="#0f83b6" opacity=".35"/>
+  <text x="36" y="76" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#9ec4ff">AI WRITING ASSISTANT</text>
+  <text x="36" y="126" font-family="Arial, sans-serif" font-size="34" font-weight="700" fill="#fff">Typollama</text>
+  <text x="36" y="162" font-family="Arial, sans-serif" font-size="17" fill="#d9e6f7">Better text, where you write.</text>
+  <rect x="36" y="196" width="172" height="42" rx="12" fill="#fff"/>
+  <text x="54" y="222" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#1767d6">Spellcheck · Rewrite</text>
+</svg>

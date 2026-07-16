@@ -1,63 +1,33 @@
-# Terms of Service
+# Typollama Terms of Service
 
-Last updated: 2025-02-11
+Last updated: July 16, 2026
 
-## 1. Acceptance of Terms
+## 1. The extension
 
-By using Typollama ("the Extension"), you agree to these Terms of Service. If you disagree with any part of the terms, you may not use the Extension.
+Typollama is a Chrome extension that helps you spellcheck, proofread, rewrite, and transform text through the AI provider you choose. It is not a standalone AI service and does not provide provider accounts, models, or API credits.
 
-## 2. Description of Service
+## 2. Your responsibilities
 
-Typollama is a Chrome extension that provides AI-powered spell-checking and text processing capabilities using various AI providers (Ollama, OpenAI, LM Studio, DeepSeek, Mistral, Perplexity, Google's Generative Language API, Anthropic's Claude API).
+You are responsible for the text you submit, the instructions you use, and the provider account or local service you configure. Before sending text to a hosted provider, make sure you have the right to do so and that the provider's terms, privacy policy, and data-handling options meet your needs.
 
-## 3. Privacy & Data Collection
+You are also responsible for reviewing generated text before relying on or publishing it. AI output can be inaccurate, incomplete, or unsuitable for your context.
 
-### 3.1 Data Processing
-- The Extension processes text only when explicitly activated by the user
-- Text is processed locally when using Ollama/LM Studio
-- Text is sent to OpenAI servers when using OpenAI integration
+## 3. Third-party providers
 
-### 3.2 Data Storage
-- The Extension stores only configuration settings locally
-- No user content or processed text is permanently stored
-- API keys are stored securely in Chrome's protected storage
+Hosted requests are made directly to the provider you select. Your use of OpenAI, Anthropic, Google Gemini, DeepSeek, Mistral AI, Perplexity, xAI, Cohere, Groq, Together AI, OpenRouter, or a compatible endpoint is governed by that provider's own terms and pricing. Ollama, LM Studio, and Chrome built-in AI are subject to their respective software and platform terms.
 
-## 4. User Responsibilities
+## 4. Privacy
 
-Users are responsible for:
-- Maintaining the security of their API keys
-- Ensuring they have proper rights to process any text
-- Complying with AI providers' terms of service
-- Using the Extension in accordance with applicable laws
+Typollama handles text only to provide the writing action you request. See the [Privacy Policy](PRIVACY.md) for details on local storage, provider transmission, and your controls.
 
-## 5. Third-Party Services
+## 5. Availability and changes
 
-The Extension integrates with third-party AI providers:
-- OpenAI API
-- Ollama
-- LM Studio
-- DeepSeek
-- Mistral
-- Perplexity
-- Google's Generative Language API
-- Anthropic's Claude API
+The extension is provided on an "as is" and "as available" basis. Features may change as browsers and AI providers evolve. We may modify or discontinue the extension, provided that this does not limit any rights you have under applicable law.
 
-These services are used to process text based on user settings.
+## 6. Disclaimer and limitation of liability
 
-Users must comply with these services' respective terms of use.
+To the maximum extent permitted by law, Typollama is provided without warranties of any kind, whether express, implied, or statutory. The creator is not liable for indirect, incidental, special, consequential, or punitive damages arising from use of the extension or third-party provider services.
 
-## 6. Disclaimer of Warranties
+## 7. Contact
 
-THE EXTENSION IS PROVIDED "AS IS" WITHOUT WARRANTIES OF ANY KIND, EITHER EXPRESS OR IMPLIED.
-
-## 7. Limitation of Liability
-
-IN NO EVENT SHALL THE CREATORS BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL OR PUNITIVE DAMAGES.
-
-## 8. Changes to Terms
-
-We reserve the right to modify these terms at any time. Users will be notified of significant changes.
-
-## 9. Contact
-
-For questions about these Terms, contact: adem@adamtash.com
+Questions about these terms can be sent to adem@adamtash.com.
