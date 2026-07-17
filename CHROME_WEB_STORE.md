@@ -16,9 +16,9 @@ AI writing help for any text field: spellcheck, proofread, rewrite, and custom e
 
 Typollama brings AI-powered writing assistance to the text fields you already use. Select text or focus an editable field, then spellcheck, proofread and rewrite, or run a custom writing instruction from the context menu or a shortcut.
 
-Choose the AI setup that fits your workflow: OpenAI, Anthropic, Gemini, DeepSeek, Mistral, Perplexity, xAI, Cohere, Groq, Together AI, OpenRouter, Ollama, LM Studio, Chrome built-in AI (preview), or your own OpenAI-compatible endpoint. Model names are editable, and custom endpoint access is requested only for the endpoint you save.
+Choose the AI setup that fits your workflow: a supported hosted service, a local AI server, Chrome built-in AI (preview), or a compatible endpoint you control. Model names are editable, and custom endpoint access is requested only for the endpoint you save.
 
-Typollama processes text only when you invoke a writing tool. It has no account, analytics, advertising, or Typollama-operated processing server. Hosted requests go directly to the provider you choose; use Ollama or LM Studio for a local-server workflow. Some rich-text editors block safe programmatic updates; on those sites Typollama copies the completed result for you to paste instead.
+Typollama processes text only when you invoke a writing tool. It has no account, analytics, advertising, or Typollama-operated processing server. Hosted requests go directly to the service you choose; local requests go to the server you configure. Some rich-text editors block safe programmatic updates; on those sites Typollama copies the completed result for you to paste instead.
 
 ## Upload assets
 
