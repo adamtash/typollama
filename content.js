@@ -122,6 +122,29 @@
     return element.contains(range.commonAncestorContainer) || range.commonAncestorContainer === element;
   }
 
+  function rangeForOffsets(element, start, end) {
+    const range = document.createRange();
+    const walker = document.createTreeWalker(element, NodeFilter.SHOW_TEXT);
+    let pos = 0;
+    let startNode;
+    let startOffset;
+    let endNode;
+    let endOffset;
+    for (let node = walker.nextNode(); node; node = walker.nextNode()) {
+      const len = node.textContent.length;
+      if (startNode === undefined && pos + len >= start) { startNode = node; startOffset = start - pos; }
+      if (endNode === undefined && pos + len >= end) { endNode = node; endOffset = end - pos; }
+      pos += len;
+    }
+    if (startNode && endNode) {
+      range.setStart(startNode, startOffset);
+      range.setEnd(endNode, endOffset);
+    } else {
+      range.selectNodeContents(element);
+    }
+    return range;
+  }
+
   function snapshotFor(element) {
     if (element.matches("textarea, input")) {
       const value = element.value || "";
@@ -129,7 +152,8 @@
       const end = element.selectionEnd ?? start;
       return {
         kind: "input", element, before: value.slice(0, start), after: value.slice(end),
-        text: start !== end ? value.slice(start, end) : value, selectionStart: start
+        text: start !== end ? value.slice(start, end) : value, selectionStart: start,
+        hadSelection: start !== end
       };
     }
     const selection = window.getSelection();
@@ -137,10 +161,11 @@
       const range = selection.getRangeAt(0);
       const selected = range.toString();
       if (selected.trim() && isRangeInside(range, element)) {
-        return { kind: "editable", element, range: range.cloneRange(), text: selected };
+        return { kind: "editable", element, range: range.cloneRange(), text: selected, hadSelection: true };
       }
     }
-    return { kind: "editable", element, range: null, text: element.innerText || element.textContent || "" };
+    const text = element.innerText || element.textContent || "";
+    return { kind: "editable", element, range: rangeForOffsets(element, 0, text.length), text, hadSelection: false };
   }
 
   function dispatchInput(element, text) {
@@ -157,9 +182,32 @@
     if (setter) setter.call(element, value); else element.value = value;
   }
 
+  function insertTextOverRange(element, selection, targetRange, text) {
+    selection.removeAllRanges();
+    selection.addRange(targetRange);
+    try {
+      element.dispatchEvent(new InputEvent("beforeinput", { bubbles: true, cancelable: true, inputType: "insertText", data: text }));
+    } catch { /* older pages can still use the fallback below */ }
+    if (document.execCommand("insertText", false, text)) return;
+    targetRange.deleteContents();
+    const node = document.createTextNode(text);
+    targetRange.insertNode(node);
+    targetRange.setStartAfter(node);
+    targetRange.collapse(true);
+    selection.removeAllRanges();
+    selection.addRange(targetRange);
+    dispatchInput(element, text);
+  }
+
   async function replaceEditable(snapshot, replacement) {
-    const { element, range } = snapshot;
+    const { element, range, hadSelection } = snapshot;
     element.focus();
+    // A provider request takes long enough for the tab to go to the background, where
+    // requestAnimationFrame (and with it, a framework's own pending re-render) is paused.
+    // Waiting a frame here lets that catch up before we touch the DOM ourselves, instead
+    // of racing it.
+    await new Promise(requestAnimationFrame);
+    await new Promise(requestAnimationFrame);
     const isSlateEditor = element.hasAttribute("data-slate-editor");
     if (isSlateEditor) {
       try {
@@ -170,27 +218,29 @@
       showStatus("Discord protects this editor. The result is copied—paste it with Ctrl/Cmd+V.");
       return "copied";
     }
-    if (!range) {
-      element.textContent = replacement;
+    const selection = window.getSelection();
+    if (hadSelection) {
+      insertTextOverRange(element, selection, range, replacement);
       dispatchInput(element, replacement);
       return;
     }
-    const selection = window.getSelection();
-    selection.removeAllRanges();
-    selection.addRange(range);
-    try {
-      element.dispatchEvent(new InputEvent("beforeinput", { bubbles: true, cancelable: true, inputType: "insertText", data: replacement }));
-    } catch { /* older pages can still use the fallback below */ }
-    if (!document.execCommand("insertText", false, replacement)) {
-      range.deleteContents();
-      const node = document.createTextNode(replacement);
-      range.insertNode(node);
-      range.setStartAfter(node);
-      range.collapse(true);
+    // Whole-field replace (nothing was selected): some rich editors (e.g. X's Draft.js)
+    // desync their internal block model if every original character is removed in one
+    // edit. Leaving the last original character in place, then trimming it separately,
+    // keeps the editor's own reconciliation intact. Re-measure the field now rather than
+    // trusting the snapshot's length, since real provider requests take long enough for
+    // the editor's own idle/blur handling to shift the DOM out from under a stale offset.
+    const originalLength = (element.innerText || element.textContent || "").replace(/\n$/, "").length;
+    const keepRange = rangeForOffsets(element, 0, Math.max(0, originalLength - 1));
+    insertTextOverRange(element, selection, keepRange, replacement);
+    if (originalLength > 0) {
+      const trailingRange = rangeForOffsets(element, replacement.length, replacement.length + 1);
       selection.removeAllRanges();
-      selection.addRange(range);
+      selection.addRange(trailingRange);
+      if (!document.execCommand("delete")) {
+        trailingRange.deleteContents();
+      }
     }
-    dispatchInput(element, replacement);
   }
 
   async function applyResult(snapshot, result) {
@@ -200,11 +250,17 @@
       return;
     }
     if (snapshot.kind === "input") {
-      const value = `${snapshot.before}${result}${snapshot.after}`;
-      setNativeValue(snapshot.element, value);
-      const cursor = snapshot.selectionStart + result.length;
-      snapshot.element.setSelectionRange(cursor, cursor);
-      dispatchInput(snapshot.element, result);
+      const { element } = snapshot;
+      element.focus();
+      const value = snapshot.hadSelection ? `${snapshot.before}${result}${snapshot.after}` : result;
+      setNativeValue(element, value);
+      const cursor = snapshot.hadSelection ? snapshot.selectionStart + result.length : result.length;
+      try {
+        element.setSelectionRange(cursor, cursor);
+      } catch {
+        /* some input types (email, number) don't support selection */
+      }
+      dispatchInput(element, result);
     } else {
       const outcome = await replaceEditable(snapshot, result);
       if (outcome === "copied") return;
